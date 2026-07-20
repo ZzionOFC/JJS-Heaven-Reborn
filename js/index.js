@@ -314,3 +314,44 @@ if ("serviceWorker" in navigator) {
       .catch((err) => console.log("SW falhou:", err));
   });
 }
+
+let deferredPrompt;
+const installPopup = document.getElementById('installPopupOverlay');
+const btnInstalarPopup = document.getElementById('btnInstalarPopup');
+const btnFecharPopup = document.getElementById('btnFecharPopup');
+
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  
+  e.preventDefault();
+  
+  
+  deferredPrompt = e;
+  
+  
+  if (installPopup) {
+    installPopup.style.display = 'flex';
+  }
+});
+
+
+if (btnInstalarPopup) {
+  btnInstalarPopup.addEventListener('click', async () => {
+    installPopup.style.display = 'none';
+    
+    if (deferredPrompt) {
+      
+      deferredPrompt.prompt();
+      
+      const { outcome } = await deferredPrompt.userChoice;
+      
+      deferredPrompt = null;
+    }
+  });
+}
+
+if (btnFecharPopup) {
+  btnFecharPopup.addEventListener('click', () => {
+    installPopup.style.display = 'none';
+  });
+}

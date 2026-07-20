@@ -51,8 +51,8 @@ function renderizarColorPicker(btn) {
             <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px;"></div>
             
             <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:30px;">
-                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
-                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box; border-radius: 4px;">
+                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box; border-radius: 4px;">
             </div>
         </div>`;
 
@@ -280,78 +280,66 @@ window.addEventListener("keydown", (e) => {
 
 window.onload = () =>
   carregarDados("json/dados.json", document.querySelector("nav button"));
+
 // --- LÓGICA DE TRANSFORMAR EM APP (PWA) ---
-let promptDeInstalacao;
-const btnInstall = document.getElementById("btnInstall");
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  // Evita que o navegador mostre o aviso padrão sozinho
-  e.preventDefault();
-  // Salva o evento para usarmos no botão
-  promptDeInstalacao = e;
-  // O navegador detectou que pode instalar, então mostramos o botão
-  btnInstall.style.display = "block";
-});
-
-btnInstall.addEventListener("click", async () => {
-  if (promptDeInstalacao) {
-    // Mostra a janelinha do sistema perguntando "Deseja instalar?"
-    promptDeInstalacao.prompt();
-    const { outcome } = await promptDeInstalacao.userChoice;
-    if (outcome === "accepted") {
-      console.log("App JJS Heaven instalado!");
-    }
-    promptDeInstalacao = null;
-    btnInstall.style.display = "none";
-  }
-});
-
-// Registra o Service Worker necessário para o site virar App
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("sw.js")
-      .catch((err) => console.log("SW falhou:", err));
-  });
-}
-
 let deferredPrompt;
+const btnInstall = document.getElementById("btnInstall");
 const installPopup = document.getElementById('installPopupOverlay');
 const btnInstalarPopup = document.getElementById('btnInstalarPopup');
 const btnFecharPopup = document.getElementById('btnFecharPopup');
 
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  
+// Single beforeinstallprompt listener
+window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
-  
-  
   deferredPrompt = e;
   
+  // Show the install button
+  btnInstall.style.display = "block";
   
+  // Optionally show the popup
   if (installPopup) {
     installPopup.style.display = 'flex';
   }
 });
 
+// Handle install button click
+btnInstall.addEventListener("click", async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === "accepted") {
+      console.log("App JJS Heaven instalado!");
+    }
+    deferredPrompt = null;
+    btnInstall.style.display = "none";
+  }
+});
 
+// Handle popup install button
 if (btnInstalarPopup) {
   btnInstalarPopup.addEventListener('click', async () => {
     installPopup.style.display = 'none';
     
     if (deferredPrompt) {
-      
       deferredPrompt.prompt();
-      
       const { outcome } = await deferredPrompt.userChoice;
-      
       deferredPrompt = null;
     }
   });
 }
 
+// Handle popup close button
 if (btnFecharPopup) {
   btnFecharPopup.addEventListener('click', () => {
     installPopup.style.display = 'none';
+  });
+}
+
+// Register the Service Worker
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("sw.js")
+      .catch((err) => console.log("SW falhou:", err));
   });
 }

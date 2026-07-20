@@ -1,0 +1,35 @@
+||*rgb,255,255,0 1.0*||
+
+**Core Architecture:** Initial site framework with sticky header and sidebar.
+**Data Fetching:** Dynamic JSON loading system for Data, Decals, Audios, Meshes, and Codes.
+**Search Engine:** Real-time filtering system for instant item discovery.
+
+~~1.0.1~~
+
+~~**UX Fixes:** Implemented visual feedback for copied items.~~
+~~**Responsive Design:** CSS Grid/Flexbox adjustments for mobile compatibility.~~
+~~**Formatting:** Added regex-based text parsing for faded/highlighted text.~~
+~~~~
+|1.1.0|
+
+**Theming:** Full implementation of Light Mode with automated CSS re-calculation.
+**Performance:** Forced 'transition: none !important' across all elements to eliminate delay.
+**Bug Fix:** Removed hover transform/shadow animations for instant UX response.
+
+||*rgb,255,255,0 2.0.0*||
+
+**Navigation:** Added collapsible menu system for better content organization.
+**Smart UI:** Scroll-to-Top helper button enabled for long-form content.
+**Information:** Dynamic category headers with automated item counter.
+
+2.5.0
+
+**Major Addition:** Integrated color picker. (bcs skill builder color picking sucks)
+**Smart Copy:** One-click copy for both HEX and RGB formats.
+**clipboard:** Advanced reset timers for 'Copied!' feedback state.
+
+~~2.5.1~~
+
+~~**History System:** Added last copied bar to track the last 3 user copied ids.~~
+~~**Clipboard Engine:** Cross-reference logic added to differentiate code/ID copying.~~
+~~**Updates:** Overall refinement of stick~~

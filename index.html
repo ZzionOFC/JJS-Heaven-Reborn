@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JJS Heaven</title>
+    <!-- Link para o Manifest do App -->
+    <link rel="manifest" href="manifest.json" />
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <button class="theme-toggle" id="btnTema">☀️</button>
+    <button class="top-toggle" id="btnTop" onclick="window.scrollTo(0, 0)">
+      ↑
+    </button>
+    <button
+      class="bottom-toggle"
+      id="btnBottom"
+      onclick="window.scrollTo(0, document.body.scrollHeight)"
+    >
+      ↓
+    </button>
+
+    <div class="container">
+      <div class="sticky-area">
+        <!-- Os botões novos foram agrupados aqui com o MENU -->
+        <div class="top-controls">
+          <button class="toggle-btn" id="btnToggle">MENU ≡</button>
+          <button
+            class="action-btn"
+            id="btnInstall"
+            title="Instalar App"
+            style="display: none"
+          >
+            ⬇️ App
+          </button>
+        </div>
+
+        <nav id="menu" class="hidden">
+          <button
+            onclick="carregarDados('json/dados.json', this)"
+            class="ativo"
+          >
+            Data
+          </button>
+          <button onclick="carregarDados('json/decals.json', this)">
+            Decals
+          </button>
+          <button onclick="carregarDados('json/audios.json', this)">
+            Audios
+          </button>
+          <button onclick="carregarDados('json/mesh.json', this)">Mesh</button>
+          <button onclick="carregarDados('json/codes.json', this)">
+            Codes
+          </button>
+          <button onclick="carregarLogs('json/log.txt', this)">Logs</button>
+          <button onclick="renderizarColorPicker(this)">Colors</button>
+        </nav>
+        <input
+          type="text"
+          id="campoPesquisa"
+          class="search-input"
+          placeholder="Search..."
+        />
+        <div id="history-bar">Recent: None</div>
+      </div>
+
+      <main id="conteudo"></main>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

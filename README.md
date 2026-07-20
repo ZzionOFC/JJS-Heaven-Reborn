@@ -1,2 +1,3 @@
-# new-acode-
-JJS Heaven Reborn
+# JJS HEAVEN
+A cool skill building site for cool skill building people.
+Cick [**aqui**](https://zzionofc.github.io/JJS-Heaven-Reborn/).

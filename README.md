@@ -1,3 +1,3 @@
 # JJS HEAVEN
 A cool skill building site for cool skill building people.
-Cick [**aqui**](https://zzionofc.github.io/JJS-Heaven-Reborn/).
+Click [**HERE**](https://zzionofc.github.io/JJS-Heaven-Reborn/).

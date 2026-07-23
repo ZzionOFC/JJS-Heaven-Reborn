@@ -8,6 +8,7 @@ let dadosAtuais = [],
   history = [];
 let linkOriginalAtual = "";
 let logsAtuais = [];
+let presetsAtuais = [];
 
 btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
@@ -51,8 +52,8 @@ function renderizarColorPicker(btn) {
             <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px;"></div>
             
             <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:30px;">
-                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box; border-radius: 4px;">
-                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box; border-radius: 4px;">
+                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
             </div>
         </div>`;
 
@@ -91,6 +92,66 @@ function renderizarColorPicker(btn) {
         }, 500);
       }),
   );
+}
+
+function carregarPresets(url, btn) {
+  document.body.classList.remove("focus-mode-active");
+  linkOriginalAtual = url;
+  document
+    .querySelectorAll("nav button")
+    .forEach((b) => b.classList.remove("ativo"));
+  if (btn) btn.classList.add("ativo");
+  conteudo.innerHTML = '<div class="status-msg">Loading presets...</div>';
+
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+      presetsAtuais = data;
+      renderizarPresets(presetsAtuais, "");
+    })
+    .catch((err) => {
+      console.error(err);
+      conteudo.innerHTML =
+        '<div class="status-msg" style="color:red; text-decoration: none;">Error loading colors.json. Make sure the file exists in the json folder.</div>';
+    });
+}
+
+function renderizarPresets(data, termo) {
+  conteudo.innerHTML = "";
+  const h2 = document.createElement("h2");
+  h2.textContent = "JJS Buildings Colors";
+  conteudo.appendChild(h2);
+
+  const grid = document.createElement("div");
+  grid.className = "presets-grid";
+
+  data.forEach((item) => {
+    // Suporta formato de objeto ({ rgb: "rgb(...)", name: "..." }) ou string direta ("rgb(...)")
+    const rgbVal = item.rgb || item.color || item;
+    const nameVal = item.name || rgbVal;
+
+    if (
+      nameVal.toLowerCase().includes(termo.toLowerCase()) ||
+      rgbVal.toLowerCase().includes(termo.toLowerCase())
+    ) {
+      const card = document.createElement("div");
+      card.className = "preset-card";
+      card.style.backgroundColor = rgbVal;
+      card.textContent = nameVal;
+
+      card.onclick = async () => {
+        await navigator.clipboard.writeText(rgbVal);
+        updateHistory(rgbVal);
+        const originalText = card.textContent;
+        card.textContent = "Copied!";
+        setTimeout(() => {
+          card.textContent = originalText;
+        }, 1000);
+      };
+      grid.appendChild(card);
+    }
+  });
+  conteudo.appendChild(grid);
 }
 
 function carregarDados(url, btn) {
@@ -246,10 +307,12 @@ function dispararPesquisaAtual(valor) {
   const abaAtivaElement = document.querySelector("nav button.ativo");
   const abaAtiva = abaAtivaElement ? abaAtivaElement.textContent : "";
 
-  if (abaAtiva !== "Colors" && abaAtiva !== "Logs") {
+  if (abaAtiva !== "Colors" && abaAtiva !== "Logs" && abaAtiva !== "Presets") {
     renderizarItens(dadosAtuais, isCodesAtual, valor);
   } else if (abaAtiva === "Logs") {
     renderizarLogs(logsAtuais, valor);
+  } else if (abaAtiva === "Presets") {
+    renderizarPresets(presetsAtuais, valor);
   }
 }
 
@@ -280,62 +343,33 @@ window.addEventListener("keydown", (e) => {
 
 window.onload = () =>
   carregarDados("json/dados.json", document.querySelector("nav button"));
-
 // --- LÓGICA DE TRANSFORMAR EM APP (PWA) ---
-let deferredPrompt;
+let promptDeInstalacao;
 const btnInstall = document.getElementById("btnInstall");
-const installPopup = document.getElementById('installPopupOverlay');
-const btnInstalarPopup = document.getElementById('btnInstalarPopup');
-const btnFecharPopup = document.getElementById('btnFecharPopup');
 
-// Single beforeinstallprompt listener
 window.addEventListener("beforeinstallprompt", (e) => {
+  // Evita que o navegador mostre o aviso padrão sozinho
   e.preventDefault();
-  deferredPrompt = e;
-  
-  // Show the install button
+  // Salva o evento para usarmos no botão
+  promptDeInstalacao = e;
+  // O navegador detectou que pode instalar, então mostramos o botão
   btnInstall.style.display = "block";
-  
-  // Optionally show the popup
-  if (installPopup) {
-    installPopup.style.display = 'flex';
-  }
 });
 
-// Handle install button click
 btnInstall.addEventListener("click", async () => {
-  if (deferredPrompt) {
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
+  if (promptDeInstalacao) {
+    // Mostra a janelinha do sistema perguntando "Deseja instalar?"
+    promptDeInstalacao.prompt();
+    const { outcome } = await promptDeInstalacao.userChoice;
     if (outcome === "accepted") {
       console.log("App JJS Heaven instalado!");
     }
-    deferredPrompt = null;
+    promptDeInstalacao = null;
     btnInstall.style.display = "none";
   }
 });
 
-// Handle popup install button
-if (btnInstalarPopup) {
-  btnInstalarPopup.addEventListener('click', async () => {
-    installPopup.style.display = 'none';
-    
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const { outcome } = await deferredPrompt.userChoice;
-      deferredPrompt = null;
-    }
-  });
-}
-
-// Handle popup close button
-if (btnFecharPopup) {
-  btnFecharPopup.addEventListener('click', () => {
-    installPopup.style.display = 'none';
-  });
-}
-
-// Register the Service Worker
+// Registra o Service Worker necessário para o site virar App
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker

@@ -56,6 +56,7 @@
           </button>
           <button onclick="carregarLogs('json/log.txt', this)">Logs</button>
           <button onclick="renderizarColorPicker(this)">Colors</button>
+          <button onclick="carregarPresets('json/colors.json', this)">Presets</button>
         </nav>
         <input
           type="text"
@@ -68,6 +69,8 @@
 
       <main id="conteudo"></main>
     </div>
+
+    <!-- POPUP DE INSTALAÇÃO (Sem CSS ou JS inline) -->
     <div id="installPopupOverlay" class="popup-overlay" style="display: none;">
       <div class="popup-content">
         <h3>Instalar App</h3>

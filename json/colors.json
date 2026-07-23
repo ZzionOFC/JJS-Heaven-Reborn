@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Glass",
+    "rgb": "rgb(175, 221, 255)"
+  },
+  {
+    "name": "Towers",
+    "rgb": "rgb(159, 173, 192)"
+  },
+  {
+    "name": "Yellow",
+    "rgb": "rgb(248, 241, 132)"
+  },
+  {
+    "name": "Orange",
+    "rgb": "rgb(255, 170, 127)"
+  },
+  {
+    "name": "Green",
+    "rgb": "rgb(168, 189, 153)"
+  },
+  {
+    "name": "Red",
+    "rgb": "rgb(189, 133, 133)"
+  },
+  {
+    "name": "Pink",
+    "rgb": "rgb(153, 133, 255)"
+  },
+  {
+    "name": "Purple",
+    "rgb": "rgb(85, 85, 127)"
+  },
+  {
+    "name": "Light Pink",
+    "rgb": "rgb(210, 189, 255)"
+  },
+  {
+    "name": "Rooftop Gray",
+    "rgb": "rgb(91, 93, 105)"
+  },
+  {
+    "name": "Tze's Restaurant Red",
+    "rgb": "rgb(136, 62, 62)"
+  },
+  {
+    "name": "Tze's Rest. Gray (Metal)",
+    "rgb": "rgb(199, 199, 199)"
+  },
+  {
+    "name": "Cafe Dark Gray",
+    "rgb": "rgb(62, 62, 63)"
+  }
+]

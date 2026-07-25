@@ -52,8 +52,8 @@ function renderizarColorPicker(btn) {
             <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px;"></div>
             
             <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:30px;">
-                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
-                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-b[...]
+                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-b[...]
             </div>
         </div>`;
 
@@ -126,7 +126,6 @@ function renderizarPresets(data, termo) {
   grid.className = "presets-grid";
 
   data.forEach((item) => {
-    // Suporta formato de objeto ({ rgb: "rgb(...)", name: "..." }) ou string direta ("rgb(...)")
     const rgbVal = item.rgb || item.color || item;
     const nameVal = item.name || rgbVal;
 
@@ -176,7 +175,8 @@ function renderizarItens(data, isCodes, termo) {
   conteudo.innerHTML = "";
   data.forEach((cat) => {
     const itens = cat.items.filter((i) =>
-      i.name.toLowerCase().includes(termo.toLowerCase()),
+      i.name.toLowerCase().includes(termo.toLowerCase()) ||
+      i.id.toString().toLowerCase().includes(termo.toLowerCase()),
     );
     if (itens.length > 0) {
       const h2 = document.createElement("h2");
@@ -326,7 +326,6 @@ document.getElementById("btnTema").addEventListener("click", () => {
     document.body.classList.contains("light-mode") ? "🌙" : "☀️";
 });
 
-// Atalhos de Teclado (Power User)
 window.addEventListener("keydown", (e) => {
   if (e.key === "/") {
     if (document.activeElement !== campoPesquisa) {
@@ -343,22 +342,18 @@ window.addEventListener("keydown", (e) => {
 
 window.onload = () =>
   carregarDados("json/dados.json", document.querySelector("nav button"));
-// --- LÓGICA DE TRANSFORMAR EM APP (PWA) ---
+
 let promptDeInstalacao;
 const btnInstall = document.getElementById("btnInstall");
 
 window.addEventListener("beforeinstallprompt", (e) => {
-  // Evita que o navegador mostre o aviso padrão sozinho
   e.preventDefault();
-  // Salva o evento para usarmos no botão
   promptDeInstalacao = e;
-  // O navegador detectou que pode instalar, então mostramos o botão
   btnInstall.style.display = "block";
 });
 
 btnInstall.addEventListener("click", async () => {
   if (promptDeInstalacao) {
-    // Mostra a janelinha do sistema perguntando "Deseja instalar?"
     promptDeInstalacao.prompt();
     const { outcome } = await promptDeInstalacao.userChoice;
     if (outcome === "accepted") {
@@ -369,7 +364,6 @@ btnInstall.addEventListener("click", async () => {
   }
 });
 
-// Registra o Service Worker necessário para o site virar App
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker

@@ -14,14 +14,9 @@ btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
 window.onscroll = () => {
   if (document.body.classList.contains("focus-mode-active")) return;
-  document.getElementById("btnTop").style.display =
-    window.scrollY > 300 ? "flex" : "none";
-
-  const bateuNoFundo =
-    window.innerHeight + window.scrollY >= document.body.scrollHeight - 50;
-  document.getElementById("btnBottom").style.display = bateuNoFundo
-    ? "none"
-    : "flex";
+  document.getElementById("btnTop").style.display = window.scrollY > 300 ? "flex" : "none";
+  const bateuNoFundo = window.innerHeight + window.scrollY >= document.body.scrollHeight - 50;
+  document.getElementById("btnBottom").style.display = bateuNoFundo ? "none" : "flex";
 };
 
 function updateHistory(val) {
@@ -29,77 +24,166 @@ function updateHistory(val) {
     history.unshift(val);
     if (history.length > 3) history.pop();
   }
-  historyBar.innerHTML =
-    "Recent: " +
-    history
-      .map(
-        (h) =>
-          `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="navigator.clipboard.writeText('${h}')">${h}</span>`,
-      )
-      .join("|");
+  historyBar.innerHTML = "Recent: " + history.map((h) => `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="navigator.clipboard.writeText('${h}')">${h}</span>`).join("|");
 }
 
 function renderizarColorPicker(btn) {
   document.body.classList.remove("focus-mode-active");
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   btn.classList.add("ativo");
+
+  let savedColors = JSON.parse(localStorage.getItem('jjs_saved_colors') || '[]');
 
   conteudo.innerHTML = `
         <div style="text-align:center; padding:20px; display:flex; flex-direction:column; align-items:center;">
             <h2>Color Picker</h2>
             <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px;"></div>
             
-            <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:30px;">
-                <input type="text" id="hex" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
-                <input type="text" id="rgb" readonly style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+            <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:15px;">
+                <input type="text" id="hex" style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+                <input type="text" id="rgb" style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
             </div>
+
+            <button id="btnSaveColor" class="action-btn" style="width:100%; max-width:400px; margin-bottom:30px;">
+                Salvar Cor Atual
+            </button>
+
+            <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 10px;">
+                <h2 style="border: none; margin: 0; padding: 0;">Saved Colors</h2>
+                <button id="btnClearColors" style="background: transparent; border: 1px solid #555; color: #aaa; cursor: pointer; padding: 5px 10px; font-size: 12px; border-radius: 2px;">Limpar Tudo</button>
+            </div>
+            <p style="font-size: 11px; color: #888; margin-top: 5px; width: 100%; text-align: left;">
+                Dê <b>duplo clique</b> nos campos de texto para copiar. Clique com botão direito (ou segure no celular) nos cards para apagar uma cor.
+            </p>
+            
+            <div id="saved-colors-grid" class="presets-grid" style="width: 100%;"></div>
         </div>`;
 
   const hex = document.getElementById("hex"),
-    rgb = document.getElementById("rgb");
+    rgb = document.getElementById("rgb"),
+    btnSaveColor = document.getElementById("btnSaveColor"),
+    btnClearColors = document.getElementById("btnClearColors"),
+    savedColorsGrid = document.getElementById("saved-colors-grid");
 
   const colorPicker = new iro.ColorPicker("#color-picker-container", {
     width: 180,
     color: "#ffffff",
   });
 
-  colorPicker.on("color:change", function (color) {
+  const updateInputs = (color) => {
     const hVal = color.hexString.toUpperCase();
-    const rVal = color.rgbString;
-    hex.value = hVal;
-    rgb.value = rVal;
-
+    const rVal = `${color.rgb.r},${color.rgb.g},${color.rgb.b}`;
+    
+    if (document.activeElement !== hex) {
+      hex.value = hVal;
+    }
+    if (document.activeElement !== rgb) {
+      rgb.value = rVal;
+    }
+    
     hex.style.color = hVal;
     rgb.style.color = hVal;
+  };
+
+  updateInputs(colorPicker.color);
+
+  colorPicker.on("color:change", updateInputs);
+
+  hex.addEventListener("input", (e) => {
+    let val = e.target.value.trim();
+    if (val && !val.startsWith("#")) val = "#" + val;
+    if (/^#([0-9A-F]{3}){1,2}$/i.test(val)) {
+      colorPicker.color.set(val);
+    }
+  });
+
+  rgb.addEventListener("input", (e) => {
+    let val = e.target.value.trim();
+    let parts = val.split(",").map(n => parseInt(n.trim()));
+    if (parts.length === 3 && parts.every(n => !isNaN(n) && n >= 0 && n <= 255)) {
+      colorPicker.color.set({r: parts[0], g: parts[1], b: parts[2]});
+    }
   });
 
   [hex, rgb].forEach(
     (el) =>
-      (el.onclick = () => {
+      (el.ondblclick = () => {
+        el.select();
         navigator.clipboard.writeText(el.value);
         updateHistory(el.value);
         const bgOriginal = el.style.background;
         const corOriginal = el.style.color;
-
         el.style.background = "#2e7d32";
         el.style.color = "#ffffff";
-
         setTimeout(() => {
           el.style.background = bgOriginal;
           el.style.color = corOriginal;
         }, 500);
       }),
   );
+
+  function renderizarFavoritos() {
+    savedColorsGrid.innerHTML = "";
+    if (savedColors.length === 0) {
+        savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:14px; text-align:left;'>Nenhuma cor salva ainda.</p>";
+        return;
+    }
+
+    savedColors.forEach((cor, index) => {
+        const card = document.createElement("div");
+        card.className = "preset-card";
+        card.style.backgroundColor = cor.includes(',') ? `rgb(${cor})` : cor;
+        card.textContent = cor;
+
+        card.onclick = async () => {
+            await navigator.clipboard.writeText(cor);
+            updateHistory(cor);
+            const originalText = card.textContent;
+            card.textContent = "Copied!";
+            setTimeout(() => {
+                card.textContent = originalText;
+            }, 1000);
+        };
+
+        card.oncontextmenu = (e) => {
+            e.preventDefault(); 
+            savedColors.splice(index, 1);
+            localStorage.setItem('jjs_saved_colors', JSON.stringify(savedColors));
+            renderizarFavoritos();
+        };
+
+        savedColorsGrid.appendChild(card);
+    });
+  }
+
+  renderizarFavoritos();
+
+  btnSaveColor.onclick = () => {
+      const currentColor = rgb.value;
+      if (!savedColors.includes(currentColor)) {
+          savedColors.push(currentColor);
+          localStorage.setItem('jjs_saved_colors', JSON.stringify(savedColors));
+          renderizarFavoritos();
+          
+          const textoOriginal = btnSaveColor.textContent;
+          btnSaveColor.textContent = "Cor Salva!";
+          setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
+      }
+  };
+
+  btnClearColors.onclick = () => {
+      if (confirm("Tem certeza que deseja apagar todas as cores salvas?")) {
+          savedColors = [];
+          localStorage.removeItem('jjs_saved_colors');
+          renderizarFavoritos();
+      }
+  };
 }
 
 function carregarPresets(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading presets...</div>';
 
@@ -111,8 +195,7 @@ function carregarPresets(url, btn) {
     })
     .catch((err) => {
       console.error(err);
-      conteudo.innerHTML =
-        '<div class="status-msg" style="color:red; text-decoration: none;">Error loading colors.json. Make sure the file exists in the json folder.</div>';
+      conteudo.innerHTML = '<div class="status-msg" style="color:red; text-decoration: none;">Error loading colors.json. Make sure the file exists in the json folder.</div>';
     });
 }
 
@@ -126,17 +209,13 @@ function renderizarPresets(data, termo) {
   grid.className = "presets-grid";
 
   data.forEach((item) => {
-    // Suporta formato de objeto ({ rgb: "rgb(...)", name: "..." }) ou string direta ("rgb(...)")
     const rgbVal = item.rgb || item.color || item;
     const nameVal = item.name || rgbVal;
 
-    if (
-      nameVal.toLowerCase().includes(termo.toLowerCase()) ||
-      rgbVal.toLowerCase().includes(termo.toLowerCase())
-    ) {
+    if (nameVal.toLowerCase().includes(termo.toLowerCase()) || rgbVal.toLowerCase().includes(termo.toLowerCase())) {
       const card = document.createElement("div");
       card.className = "preset-card";
-      card.style.backgroundColor = rgbVal;
+      card.style.backgroundColor = rgbVal.includes(',') && !rgbVal.startsWith('rgb') ? `rgb(${rgbVal})` : rgbVal;
       card.textContent = nameVal;
 
       card.onclick = async () => {
@@ -157,12 +236,9 @@ function renderizarPresets(data, termo) {
 function carregarDados(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   if (btn) btn.classList.add("ativo");
-  conteudo.innerHTML =
-    '<div class="status-msg">Stuck? If this screen persists, I might be updating the site, your connection could be slow, or the page hasnt been added yet.</div>';
+  conteudo.innerHTML = '<div class="status-msg">Stuck? If this screen persists, I might be updating the site, your connection could be slow, or the page hasnt been added yet.</div>';
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -178,12 +254,12 @@ function renderizarItens(data, isCodes, termo) {
 
   data.forEach((cat) => {
     const categoriaBate = cat.category ? cat.category.toLowerCase().includes(termoBusca) : false;
+
     const itens = cat.items.filter((i) => {
       if (categoriaBate) return true;
       const nomeMatch = i.name ? i.name.toLowerCase().includes(termoBusca) : false;
       const idMatch = i.id ? i.id.toString().toLowerCase().includes(termoBusca) : false;
       const codeMatch = i.code ? i.code.toString().toLowerCase().includes(termoBusca) : false;
-      
       return nomeMatch || idMatch || codeMatch;
     });
 
@@ -201,7 +277,6 @@ function renderizarItens(data, isCodes, termo) {
 
         el.onclick = async () => {
           const val = isCodes ? i.code : i.id;
-          
           if (val) {
             await navigator.clipboard.writeText(val);
             updateHistory(val);
@@ -220,80 +295,51 @@ function renderizarItens(data, isCodes, termo) {
   });
 }
 
-
 function carregarLogs(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading logs...</div>';
 
   fetch(url)
     .then((res) => res.text())
     .then((text) => {
-      logsAtuais = text
-        .split(/\r?\n/)
-        .map((linha) => linha.trim())
-        .filter((linha) => linha.length > 0);
+      logsAtuais = text.split(/\r?\n/).map((linha) => linha.trim()).filter((linha) => linha.length > 0);
       renderizarLogs(logsAtuais, "");
     })
     .catch((err) => {
       console.error(err);
-      conteudo.innerHTML =
-        '<div class="status-msg" style="color:red; text-decoration: none;">Error loading log.txt. Make sure the file exists in the json folder.</div>';
+      conteudo.innerHTML = '<div class="status-msg" style="color:red; text-decoration: none;">Error loading log.txt. Make sure the file exists in the json folder.</div>';
     });
 }
 
 function formatarTextoLog(texto) {
   let resultado = texto;
   resultado = resultado.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  resultado = resultado.replace(
-    /\~\~(.*?)\~\~/g,
-    '<span class="log-small">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\*rgb,(\d{1,3}),(\d{1,3}),(\d{1,3})\s(.*?)\*/g,
-    '<span style="color: rgb($1,$2,$3);">$4</span>',
-  );
-  resultado = resultado.replace(
-    /\|\|(.*?)\|\|/g,
-    '<span class="log-header">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\|(.*?)\|/g,
-    '<span style="font-size: 24px; display: inline-block; margin: 5px 0;">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\$(.*?)\$/g,
-    '<span style="text-decoration: underline;">$1</span>',
-  );
+  resultado = resultado.replace(/\~\~(.*?)\~\~/g, '<span class="log-small">$1</span>');
+  resultado = resultado.replace(/\*rgb,(\d{1,3}),(\d{1,3}),(\d{1,3})\s(.*?)\*/g, '<span style="color: rgb($1,$2,$3);">$4</span>');
+  resultado = resultado.replace(/\|\|(.*?)\|\|/g, '<span class="log-header">$1</span>');
+  resultado = resultado.replace(/\|(.*?)\|/g, '<span style="font-size: 24px; display: inline-block; margin: 5px 0;">$1</span>');
+  resultado = resultado.replace(/\$(.*?)\$/g, '<span style="text-decoration: underline;">$1</span>');
   return resultado;
 }
 
 function renderizarLogs(logs, termo) {
   conteudo.innerHTML = "";
-
   const logHeaderWrapper = document.createElement("div");
-  logHeaderWrapper.style.cssText =
-    "display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px;";
+  logHeaderWrapper.style.cssText = "display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px;";
 
   const h2 = document.createElement("h2");
   h2.textContent = "System Logs";
   h2.style.cssText = "margin: 0; border: none; padding: 0;";
 
   const focusBtn = document.createElement("button");
-  focusBtn.textContent = document.body.classList.contains("focus-mode-active")
-    ? "Exit Focus Mode"
-    : "Toggle Focus Mode";
-  focusBtn.style.cssText =
-    "background: #1e1e1e; color: #fff; border: 1px solid #333; padding: 8px 16px; font-weight: bold; cursor: pointer; border-radius: 2px; font-size: 12px;";
+  focusBtn.textContent = document.body.classList.contains("focus-mode-active") ? "Exit Focus Mode" : "Toggle Focus Mode";
+  focusBtn.style.cssText = "background: #1e1e1e; color: #fff; border: 1px solid #333; padding: 8px 16px; font-weight: bold; cursor: pointer; border-radius: 2px; font-size: 12px;";
   focusBtn.onclick = () => {
     document.body.classList.toggle("focus-mode-active");
-    focusBtn.textContent = document.body.classList.contains("focus-mode-active")
-      ? "Exit Focus Mode"
-      : "Toggle Focus Mode";
+    focusBtn.textContent = document.body.classList.contains("focus-mode-active") ? "Exit Focus Mode" : "Toggle Focus Mode";
   };
 
   logHeaderWrapper.appendChild(h2);
@@ -301,14 +347,12 @@ function renderizarLogs(logs, termo) {
   conteudo.appendChild(logHeaderWrapper);
 
   const wrapper = document.createElement("div");
-  wrapper.style.cssText =
-    "display: flex; flex-direction: column; gap: 2px; padding: 10px 0; text-align: left;";
+  wrapper.style.cssText = "display: flex; flex-direction: column; gap: 2px; padding: 10px 0; text-align: left;";
 
   logs.forEach((textoBruto) => {
     if (textoBruto.toLowerCase().includes(termo.toLowerCase())) {
       const p = document.createElement("p");
-      p.style.cssText =
-        "margin: 0; padding: 0; line-height: 1; font-size: 15px; word-break: break-word;";
+      p.style.cssText = "margin: 0; padding: 0; line-height: 1; font-size: 15px; word-break: break-word;";
       p.innerHTML = formatarTextoLog(textoBruto);
       wrapper.appendChild(p);
     }
@@ -335,11 +379,9 @@ campoPesquisa.addEventListener("input", (e) => {
 
 document.getElementById("btnTema").addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
-  document.getElementById("btnTema").textContent =
-    document.body.classList.contains("light-mode") ? "🌙" : "☀️";
+  document.getElementById("btnTema").textContent = document.body.classList.contains("light-mode") ? "🌙" : "☀️";
 });
 
-// Atalhos de Teclado (Power User)
 window.addEventListener("keydown", (e) => {
   if (e.key === "/") {
     if (document.activeElement !== campoPesquisa) {
@@ -354,24 +396,19 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-window.onload = () =>
-  carregarDados("json/dados.json", document.querySelector("nav button"));
-// --- LÓGICA DE TRANSFORMAR EM APP (PWA) ---
+window.onload = () => carregarDados("json/dados.json", document.querySelector("nav button"));
+
 let promptDeInstalacao;
 const btnInstall = document.getElementById("btnInstall");
 
 window.addEventListener("beforeinstallprompt", (e) => {
-  // Evita que o navegador mostre o aviso padrão sozinho
   e.preventDefault();
-  // Salva o evento para usarmos no botão
   promptDeInstalacao = e;
-  // O navegador detectou que pode instalar, então mostramos o botão
   btnInstall.style.display = "block";
 });
 
 btnInstall.addEventListener("click", async () => {
   if (promptDeInstalacao) {
-    // Mostra a janelinha do sistema perguntando "Deseja instalar?"
     promptDeInstalacao.prompt();
     const { outcome } = await promptDeInstalacao.userChoice;
     if (outcome === "accepted") {
@@ -382,11 +419,8 @@ btnInstall.addEventListener("click", async () => {
   }
 });
 
-// Registra o Service Worker necessário para o site virar App
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("sw.js")
-      .catch((err) => console.log("SW falhou:", err));
+    navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
 }

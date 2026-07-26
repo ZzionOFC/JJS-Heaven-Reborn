@@ -283,3 +283,46 @@ body.light-mode .action-btn:hover {
   transform: scale(1.05);
   border-color: #fff;
 }
+.tags-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.tag-pill {
+  background: #1e1e1e;
+  color: #aaa;
+  border: 1px solid #333;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tag-pill:hover {
+  background: #333;
+}
+
+.tag-pill.ativa {
+  background: #2e7d32;
+  color: #fff;
+  border-color: #4caf50;
+}
+
+/* Modo Claro para as Tags */
+body.light-mode .tag-pill {
+  background: #fff;
+  border-color: #ccc;
+  color: #555;
+}
+body.light-mode .tag-pill:hover {
+  background: #eee;
+}
+body.light-mode .tag-pill.ativa {
+  background: #2e7d32;
+  color: #fff;
+  border-color: #4caf50;
+}

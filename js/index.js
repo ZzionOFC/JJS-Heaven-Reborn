@@ -1,14 +1,119 @@
+let audioCtx = null;
+
+// INICIO: tocarSomClique
+function tocarSomClique() {
+  try {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+
+    const osc = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+
+    osc.type = 'square';
+
+    osc.frequency.setValueAtTime(350, audioCtx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(80, audioCtx.currentTime + 0.03);
+
+    gainNode.gain.setValueAtTime(0.08, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.03);
+
+    osc.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    osc.start();
+    osc.stop(audioCtx.currentTime + 0.03);
+  } catch (e) {}
+}
+// FIM: tocarSomClique
 const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
   btnToggle = document.getElementById("btnToggle"),
   menu = document.getElementById("menu"),
-  historyBar = document.getElementById("history-bar");
+  historyBar = document.getElementById("history-bar"),
+  tagsContainer = document.getElementById("tagsContainer");
+
 let dadosAtuais = [],
   isCodesAtual = false,
   history = [];
 let linkOriginalAtual = "";
 let logsAtuais = [];
 let presetsAtuais = [];
+
+let modoAdminAtivo = false;
+const SENHA_ADMIN = "admin123";
+
+let tagsMap = {};
+let listaTags = [];
+let tagAtiva = "";
+
+// INICIO: carregarTags
+async function carregarTags() {
+  try {
+    const res = await fetch("json/tags.json");
+    const data = await res.json();
+    processarTags(data);
+    renderizarPopupTags();
+  } catch (e) {}
+}
+// FIM: carregarTags
+
+// INICIO: processarTags
+function processarTags(data) {
+  tagsMap = {};
+  listaTags = Object.keys(data);
+  
+  for (let tag in data) {
+    let ranges = data[tag];
+    ranges.forEach(range => {
+      if (/^\d+-\d+$/.test(range)) {
+        let [inicio, fim] = range.split("-").map(Number);
+        for (let i = inicio; i <= fim; i++) {
+          let idStr = String(i).padStart(4, '0');
+          if (!tagsMap[idStr]) tagsMap[idStr] = [];
+          tagsMap[idStr].push(tag);
+        }
+      } else {
+        if (!tagsMap[range]) tagsMap[range] = [];
+        tagsMap[range].push(tag);
+      }
+    });
+  }
+}
+// FIM: processarTags
+
+// INICIO: renderizarPopupTags
+function renderizarPopupTags() {
+  if (listaTags.length === 0) return;
+  tagsContainer.classList.remove("hidden");
+  tagsContainer.innerHTML = `<span style="color:#888; font-size:12px; margin-right:5px;">Tags:</span>`;
+  
+  let btnTodas = document.createElement("button");
+  btnTodas.className = `tag-pill ${tagAtiva === "" ? "ativa" : ""}`;
+  btnTodas.textContent = "Todas";
+  btnTodas.onclick = () => { 
+    tagAtiva = ""; 
+    renderizarPopupTags(); 
+    dispararPesquisaAtual(campoPesquisa.value); 
+  };
+  tagsContainer.appendChild(btnTodas);
+
+  listaTags.forEach(tag => {
+    let btn = document.createElement("button");
+    btn.className = `tag-pill ${tagAtiva === tag ? "ativa" : ""}`;
+    btn.textContent = tag;
+    btn.onclick = () => { 
+      tagAtiva = tag; 
+      renderizarPopupTags(); 
+      dispararPesquisaAtual(campoPesquisa.value); 
+    };
+    tagsContainer.appendChild(btn);
+  });
+}
+// FIM: renderizarPopupTags
 
 btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
@@ -19,14 +124,27 @@ window.onscroll = () => {
   document.getElementById("btnBottom").style.display = bateuNoFundo ? "none" : "flex";
 };
 
+// INICIO: renderizarHistorico
+function renderizarHistorico() {
+  if (history.length === 0) {
+    historyBar.innerHTML = "Recent: None";
+  } else {
+    historyBar.innerHTML = "Recent: " + history.map((h) => `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="navigator.clipboard.writeText('${h}'); tocarSomClique();">${h}</span>`).join("|");
+  }
+}
+// FIM: renderizarHistorico
+
+// INICIO: updateHistory
 function updateHistory(val) {
   if (!history.includes(val)) {
     history.unshift(val);
     if (history.length > 3) history.pop();
   }
-  historyBar.innerHTML = "Recent: " + history.map((h) => `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="navigator.clipboard.writeText('${h}')">${h}</span>`).join("|");
+  renderizarHistorico();
 }
+// FIM: updateHistory
 
+// INICIO: renderizarColorPicker
 function renderizarColorPicker(btn) {
   document.body.classList.remove("focus-mode-active");
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
@@ -52,9 +170,6 @@ function renderizarColorPicker(btn) {
                 <h2 style="border: none; margin: 0; padding: 0;">Saved Colors</h2>
                 <button id="btnClearColors" style="background: transparent; border: 1px solid #555; color: #aaa; cursor: pointer; padding: 5px 10px; font-size: 12px; border-radius: 2px;">Limpar Tudo</button>
             </div>
-            <p style="font-size: 11px; color: #888; margin-top: 5px; width: 100%; text-align: left;">
-                Dê <b>duplo clique</b> nos campos de texto para copiar. Clique com botão direito (ou segure no celular) nos cards para apagar uma cor.
-            </p>
             
             <div id="saved-colors-grid" class="presets-grid" style="width: 100%;"></div>
         </div>`;
@@ -86,7 +201,6 @@ function renderizarColorPicker(btn) {
   };
 
   updateInputs(colorPicker.color);
-
   colorPicker.on("color:change", updateInputs);
 
   hex.addEventListener("input", (e) => {
@@ -110,6 +224,7 @@ function renderizarColorPicker(btn) {
       (el.ondblclick = () => {
         el.select();
         navigator.clipboard.writeText(el.value);
+        tocarSomClique();
         updateHistory(el.value);
         const bgOriginal = el.style.background;
         const corOriginal = el.style.color;
@@ -137,6 +252,7 @@ function renderizarColorPicker(btn) {
 
         card.onclick = async () => {
             await navigator.clipboard.writeText(cor);
+            tocarSomClique();
             updateHistory(cor);
             const originalText = card.textContent;
             card.textContent = "Copied!";
@@ -179,7 +295,9 @@ function renderizarColorPicker(btn) {
       }
   };
 }
+// FIM: renderizarColorPicker
 
+// INICIO: carregarPresets
 function carregarPresets(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
@@ -194,11 +312,12 @@ function carregarPresets(url, btn) {
       renderizarPresets(presetsAtuais, "");
     })
     .catch((err) => {
-      console.error(err);
-      conteudo.innerHTML = '<div class="status-msg" style="color:red; text-decoration: none;">Error loading colors.json. Make sure the file exists in the json folder.</div>';
+      conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading presets.</div>';
     });
 }
+// FIM: carregarPresets
 
+// INICIO: renderizarPresets
 function renderizarPresets(data, termo) {
   conteudo.innerHTML = "";
   const h2 = document.createElement("h2");
@@ -220,6 +339,7 @@ function renderizarPresets(data, termo) {
 
       card.onclick = async () => {
         await navigator.clipboard.writeText(rgbVal);
+        tocarSomClique();
         updateHistory(rgbVal);
         const originalText = card.textContent;
         card.textContent = "Copied!";
@@ -232,40 +352,102 @@ function renderizarPresets(data, termo) {
   });
   conteudo.appendChild(grid);
 }
+// FIM: renderizarPresets
 
+// INICIO: carregarDados
 function carregarDados(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   if (btn) btn.classList.add("ativo");
-  conteudo.innerHTML = '<div class="status-msg">Stuck? If this screen persists, I might be updating the site, your connection could be slow, or the page hasnt been added yet.</div>';
+  conteudo.innerHTML = '<div class="status-msg">Carregando dados...</div>';
+  
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      dadosAtuais = data;
+      let contadorGlobal = 1;
+      let contadorCategoria = 1;
+      let categoriaAnterior = null;
+      let dadosProcessados = []; 
+      
+      data.forEach((cat) => {
+        cat.catId = "C" + String(contadorCategoria).padStart(4, '0');
+        contadorCategoria++;
+
+        let itensMapeados = []; 
+
+        cat.items.forEach((item) => {
+          item.autoId = String(contadorGlobal).padStart(4, '0');
+          contadorGlobal++;
+
+          if (!item.name || item.name.trim() === "") {
+            let novoNome = cat.category || "";
+            if (!novoNome.endsWith(':')) {
+              novoNome += ':';
+            }
+            item.name = novoNome;
+
+            if (categoriaAnterior) {
+              categoriaAnterior.items.push(item);
+            } else {
+              itensMapeados.push(item);
+            }
+          } else {
+            itensMapeados.push(item);
+          }
+        });
+
+        cat.items = itensMapeados;
+        
+        if (cat.items.length > 0) {
+          dadosProcessados.push(cat);
+          categoriaAnterior = cat;
+        }
+      });
+
+      dadosAtuais = dadosProcessados;
       isCodesAtual = url.includes("codes.json");
-      renderizarItens(dadosAtuais, isCodesAtual, "");
+      renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
     });
 }
+// FIM: carregarDados
 
+// INICIO: renderizarItens
 function renderizarItens(data, isCodes, termo) {
   conteudo.innerHTML = "";
   const termoBusca = termo.toLowerCase(); 
 
   data.forEach((cat) => {
     const categoriaBate = cat.category ? cat.category.toLowerCase().includes(termoBusca) : false;
+    const catIdBate = modoAdminAtivo && cat.catId ? cat.catId.toLowerCase().includes(termoBusca) : false;
 
     const itens = cat.items.filter((i) => {
-      if (categoriaBate) return true;
+      if (tagAtiva !== "") {
+        let tagsDesteItem = tagsMap[i.autoId] || [];
+        let tagsDestaCategoria = tagsMap[cat.catId] || []; 
+        if (!tagsDesteItem.includes(tagAtiva) && !tagsDestaCategoria.includes(tagAtiva)) return false; 
+      }
+
+      if (categoriaBate || catIdBate) return true;
       const nomeMatch = i.name ? i.name.toLowerCase().includes(termoBusca) : false;
       const idMatch = i.id ? i.id.toString().toLowerCase().includes(termoBusca) : false;
       const codeMatch = i.code ? i.code.toString().toLowerCase().includes(termoBusca) : false;
-      return nomeMatch || idMatch || codeMatch;
+      const autoIdMatch = modoAdminAtivo && i.autoId ? i.autoId.toString().includes(termoBusca) : false;
+
+      return nomeMatch || idMatch || codeMatch || autoIdMatch;
     });
 
-    if (itens.length > 0) {
+    if (itens.length > 0 || modoAdminAtivo) {
       const h2 = document.createElement("h2");
-      h2.textContent = cat.category;
+      if (modoAdminAtivo) {
+        h2.innerHTML = `${cat.category} 
+          <span style="color:#ff9800; font-size:14px; font-weight:normal; float:right; display:flex; align-items:center;">
+            [Admin Cat: ${cat.catId}]
+            <button class="admin-btn-small" onclick="abrirModalEdicao(null, '${cat.catId}')">➕ Add Item</button>
+          </span>`;
+      } else {
+        h2.textContent = cat.category;
+      }
       conteudo.appendChild(h2);
       
       itens.forEach((i) => {
@@ -273,19 +455,46 @@ function renderizarItens(data, isCodes, termo) {
         el.className = "code-btn";
         
         const nomeParaExibir = i.name ? i.name.replace(/:$/, "") : "Sem Nome";
-        el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+        
+        if (modoAdminAtivo) {
+          el.innerHTML = `${nomeParaExibir} 
+            <span style="color:#ff9800; float:right; display:flex; align-items:center;">
+              [Admin ID: ${i.autoId}]
+              <button class="admin-btn-small edit-btn" data-autoid="${i.autoId}" data-catid="${cat.catId}">✏️ Edit</button>
+            </span>`;
+          el.style.borderLeftColor = "#ff9800";
+        } else {
+          el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+          el.style.borderLeftColor = "#555";
+        }
 
-        el.onclick = async () => {
-          const val = isCodes ? i.code : i.id;
+        el.onclick = async (e) => {
+          if (e.target.classList.contains('edit-btn')) {
+            e.stopPropagation();
+            abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
+            return;
+          }
+
+          const val = modoAdminAtivo ? i.autoId : (isCodes ? i.code : i.id);
+          
           if (val) {
             await navigator.clipboard.writeText(val);
+            tocarSomClique();
             updateHistory(val);
             el.classList.add("btnClicado");
             el.textContent = "Copied!";
             
             setTimeout(() => {
               el.classList.remove("btnClicado");
-              el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+              if (modoAdminAtivo) {
+                 el.innerHTML = `${nomeParaExibir} 
+                   <span style="color:#ff9800; float:right; display:flex; align-items:center;">
+                     [Admin ID: ${i.autoId}]
+                     <button class="admin-btn-small edit-btn" data-autoid="${i.autoId}" data-catid="${cat.catId}">✏️ Edit</button>
+                   </span>`;
+              } else {
+                 el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+              }
             }, 1000);
           }
         };
@@ -294,7 +503,9 @@ function renderizarItens(data, isCodes, termo) {
     }
   });
 }
+// FIM: renderizarItens
 
+// INICIO: carregarLogs
 function carregarLogs(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
@@ -309,11 +520,12 @@ function carregarLogs(url, btn) {
       renderizarLogs(logsAtuais, "");
     })
     .catch((err) => {
-      console.error(err);
-      conteudo.innerHTML = '<div class="status-msg" style="color:red; text-decoration: none;">Error loading log.txt. Make sure the file exists in the json folder.</div>';
+      conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading log.txt.</div>';
     });
 }
+// FIM: carregarLogs
 
+// INICIO: formatarTextoLog
 function formatarTextoLog(texto) {
   let resultado = texto;
   resultado = resultado.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -324,7 +536,9 @@ function formatarTextoLog(texto) {
   resultado = resultado.replace(/\$(.*?)\$/g, '<span style="text-decoration: underline;">$1</span>');
   return resultado;
 }
+// FIM: formatarTextoLog
 
+// INICIO: renderizarLogs
 function renderizarLogs(logs, termo) {
   conteudo.innerHTML = "";
   const logHeaderWrapper = document.createElement("div");
@@ -359,7 +573,9 @@ function renderizarLogs(logs, termo) {
   });
   conteudo.appendChild(wrapper);
 }
+// FIM: renderizarLogs
 
+// INICIO: dispararPesquisaAtual
 function dispararPesquisaAtual(valor) {
   const abaAtivaElement = document.querySelector("nav button.ativo");
   const abaAtiva = abaAtivaElement ? abaAtivaElement.textContent : "";
@@ -372,9 +588,28 @@ function dispararPesquisaAtual(valor) {
     renderizarPresets(presetsAtuais, valor);
   }
 }
+// FIM: dispararPesquisaAtual
 
 campoPesquisa.addEventListener("input", (e) => {
-  dispararPesquisaAtual(e.target.value);
+  const val = e.target.value.trim();
+
+  if (val === SENHA_ADMIN) {
+    modoAdminAtivo = !modoAdminAtivo;
+    campoPesquisa.value = "";
+    
+    document.getElementById("btnExportJSON").style.display = modoAdminAtivo ? "block" : "none";
+    
+    historyBar.innerHTML = `<span style="color: #ff9800; font-weight: bold;">[!] MODO ADMIN/EDITOR ${modoAdminAtivo ? 'ATIVADO' : 'DESATIVADO'}</span>`;
+    
+    setTimeout(() => {
+      renderizarHistorico();
+    }, 2500);
+    
+    dispararPesquisaAtual(""); 
+    return;
+  }
+
+  dispararPesquisaAtual(val);
 });
 
 document.getElementById("btnTema").addEventListener("click", () => {
@@ -391,30 +626,32 @@ window.addEventListener("keydown", (e) => {
   } else if (e.key === "Escape") {
     campoPesquisa.value = "";
     menu.classList.add("hidden");
+    tagAtiva = ""; 
+    renderizarPopupTags();
     dispararPesquisaAtual("");
     campoPesquisa.blur();
   }
 });
 
-window.onload = () => carregarDados("json/dados.json", document.querySelector("nav button"));
+window.onload = () => {
+  carregarTags();
+  carregarDados("json/dados.json", document.querySelector("nav button"));
+};
 
-let promptDeInstalacao;
+let promptDeInstalação;
 const btnInstall = document.getElementById("btnInstall");
 
 window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
-  promptDeInstalacao = e;
+  promptDeInstalação = e;
   btnInstall.style.display = "block";
 });
 
 btnInstall.addEventListener("click", async () => {
-  if (promptDeInstalacao) {
-    promptDeInstalacao.prompt();
-    const { outcome } = await promptDeInstalacao.userChoice;
-    if (outcome === "accepted") {
-      console.log("App JJS Heaven instalado!");
-    }
-    promptDeInstalacao = null;
+  if (promptDeInstalação) {
+    promptDeInstalação.prompt();
+    const { outcome } = await promptDeInstalação.userChoice;
+    promptDeInstalação = null;
     btnInstall.style.display = "none";
   }
 });
@@ -424,3 +661,127 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
 }
+
+let catEditandoId = null;
+let itemEditandoId = null;
+
+// INICIO: abrirModalEdicao
+function abrirModalEdicao(autoId, catId) {
+  catEditandoId = catId;
+  itemEditandoId = autoId;
+  
+  const modal = document.getElementById("editorModal");
+  const inpName = document.getElementById("editName");
+  const inpId = document.getElementById("editId");
+  const inpCode = document.getElementById("editCode");
+  const modalTitle = document.getElementById("modalTitle");
+
+  if (autoId) {
+    const cat = dadosAtuais.find(c => c.catId === catId);
+    const item = cat.items.find(i => i.autoId === autoId);
+    inpName.value = item.name ? item.name.replace(/:$/, "") : "";
+    inpId.value = item.id || "";
+    inpCode.value = item.code || "";
+    modalTitle.textContent = "✏️ Editar Item";
+  } else {
+    inpName.value = "";
+    inpId.value = "";
+    inpCode.value = "";
+    modalTitle.textContent = "➕ Novo Item";
+  }
+  
+  modal.classList.remove("hidden");
+}
+// FIM: abrirModalEdicao
+
+// INICIO: fecharModalEdicao
+function fecharModalEdicao() {
+  document.getElementById("editorModal").classList.add("hidden");
+}
+// FIM: fecharModalEdicao
+
+// INICIO: salvarItemEdicao
+function salvarItemEdicao() {
+  const inpName = document.getElementById("editName").value.trim();
+  const inpId = document.getElementById("editId").value.trim();
+  const inpCode = document.getElementById("editCode").value.trim();
+  
+  if (!inpName) {
+    alert("O nome do item é obrigatório!");
+    return;
+  }
+
+  const cat = dadosAtuais.find(c => c.catId === catEditandoId);
+  
+  if (itemEditandoId) {
+    const item = cat.items.find(i => i.autoId === itemEditandoId);
+    item.name = inpName;
+    if (inpId) item.id = inpId; else delete item.id;
+    if (inpCode) item.code = inpCode; else delete item.code;
+  } else {
+    const newItem = {
+      name: inpName,
+      autoId: "NEW-" + Date.now()
+    };
+    if (inpId) newItem.id = inpId;
+    if (inpCode) newItem.code = inpCode;
+    cat.items.push(newItem);
+  }
+  
+  fecharModalEdicao();
+  renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Alteração salva em memória. Lembre-se de Exportar!</span>`;
+}
+// FIM: salvarItemEdicao
+
+document.getElementById("btnExportJSON").addEventListener("click", () => {
+  const exportData = dadosAtuais.map(cat => {
+    const cleanCat = { ...cat };
+    delete cleanCat.catId; 
+    
+    cleanCat.items = cat.items.map(i => {
+      const cleanItem = { ...i };
+      delete cleanItem.autoId; 
+      return cleanItem;
+    });
+    
+    return cleanCat;
+  });
+
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
+  const downloadAnchorNode = document.createElement('a');
+  downloadAnchorNode.setAttribute("href", dataStr);
+  
+  const fileName = linkOriginalAtual.split('/').pop() || "dados_atualizados.json";
+  downloadAnchorNode.setAttribute("download", fileName);
+  
+  document.body.appendChild(downloadAnchorNode);
+  downloadAnchorNode.click();
+  downloadAnchorNode.remove();
+  
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Arquivo ${fileName} exportado com sucesso!</span>`;
+});
+
+const btnFullscreen = document.getElementById("btnFullscreen");
+
+btnFullscreen.addEventListener("click", () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch((err) => {
+      console.log(`Erro ao tentar entrar em tela cheia: ${err.message}`);
+    });
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+});
+
+document.addEventListener("fullscreenchange", () => {
+  if (document.fullscreenElement) {
+    btnFullscreen.textContent = "🗗";
+    btnFullscreen.title = "Sair da Tela Cheia";
+  } else {
+    btnFullscreen.textContent = "⛶";
+    btnFullscreen.title = "Tela Cheia";
+  }
+});

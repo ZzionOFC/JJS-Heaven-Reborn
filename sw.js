@@ -1,69 +1,68 @@
 const CACHE_NAME = 'jjs-heaven-v1';
-const urlsToCache = [
+const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './css/index.css',
   './js/index.js',
-  './manifest.json'
+  './manifest.json',
+  './json/dados.json',
+  './json/decals.json',
+  './json/audios.json',
+  './json/mesh.json',
+  './json/codes.json',
+  './json/log.txt',
+  './json/colors.json',
+  './json/tags.json',
+  './json/particles.json'
 ];
 
-// Install event
+// Instalação do Service Worker e cache inicial
 self.addEventListener('install', (e) => {
-  console.log('[Service Worker] Installing...');
+  console.log('[Service Worker] Instalado');
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('[Service Worker] Caching app shell');
-      return cache.addAll(urlsToCache).catch(() => {
-        console.log('[Service Worker] Some assets could not be cached, continuing...');
-      });
+      return cache.addAll(ASSETS_TO_CACHE);
     })
   );
-  self.skipWaiting();
 });
 
-// Activate event
+// Ativação e limpeza de caches antigos
 self.addEventListener('activate', (e) => {
-  console.log('[Service Worker] Activating...');
   e.waitUntil(
-    caches.keys().then((cacheNames) => {
+    caches.keys().then((keys) => {
       return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('[Service Worker] Deleting old cache:', cacheName);
-            return caches.delete(cacheName);
+        keys.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
           }
         })
       );
     })
   );
-  self.clients.claim();
 });
 
-// Fetch event
+// Intercepta requisições e serve do cache com estratégia Stale-While-Revalidate
 self.addEventListener('fetch', (e) => {
-  // Skip non-GET requests
-  if (e.request.method !== 'GET') return;
-
   e.respondWith(
-    caches.match(e.request).then((response) => {
-      if (response) {
-        return response;
-      }
-      return fetch(e.request).then((response) => {
-        // Don't cache if not a successful response
-        if (!response || response.status !== 200 || response.type === 'error') {
-          return response;
+    caches.match(e.request).then((cachedResponse) => {
+      const fetchPromise = fetch(e.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(e.request, responseToCache);
+          });
         }
-        // Clone the response
-        const responseToCache = response.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(e.request, responseToCache);
-        });
-        return response;
-      }).catch(() => {
-        // Return cached version if fetch fails
-        return caches.match(e.request);
-      });
+        return networkResponse;
+      }).catch(() => cachedResponse);
+
+      return cachedResponse || fetchPromise;
     })
   );
+});
+
+// Mensagem para ativar a nova versão imediatamente
+self.addEventListener('message', (e) => {
+  if (e.data && e.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });

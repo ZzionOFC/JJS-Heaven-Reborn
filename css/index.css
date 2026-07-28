@@ -80,7 +80,6 @@ h2 {
   margin-top: 30px;
 }
 
-/* Barrinhas com linha vertical cinza e degradê de fundo com efeito blend */
 .code-btn {
   display: block;
   width: 100%;
@@ -197,7 +196,6 @@ body.light-mode .log-container {
   border-color: #ccc;
 }
 
-/* Estilos customizados para elementos internos do Log */
 .log-header {
   font-size: 24px;
   font-weight: bold;
@@ -217,7 +215,6 @@ body.light-mode .log-header {
   opacity: 0.6;
 }
 
-/* Regras estruturais para o Modo Tela Cheia nos Logs (Focus Mode) */
 .focus-mode-active .sticky-area,
 .focus-mode-active .theme-toggle,
 .focus-mode-active .top-toggle,
@@ -257,7 +254,7 @@ body.light-mode .action-btn:hover {
   background-color: #eee;
 }
 
-/* Estilo para a grade de Presets (Cores) */
+/* Grade de Presets */
 .presets-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -277,18 +274,31 @@ body.light-mode .action-btn:hover {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
   box-sizing: border-box;
-  transition: transform 0.1s ease, border-color 0.1s ease;
 }
 .preset-card:hover {
   transform: scale(1.05);
   border-color: #fff;
 }
+
+/* Tags Container */
 .tags-container {
   display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-top: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 6px;
+  margin-top: 5px;
+  padding-bottom: 5px;
   align-items: center;
+  scrollbar-width: thin;
+}
+
+.tags-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tags-container::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
 }
 
 .tag-pill {
@@ -300,6 +310,8 @@ body.light-mode .action-btn:hover {
   cursor: pointer;
   font-size: 12px;
   font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .tag-pill:hover {
@@ -312,7 +324,6 @@ body.light-mode .action-btn:hover {
   border-color: #4caf50;
 }
 
-/* Modo Claro para as Tags */
 body.light-mode .tag-pill {
   background: #fff;
   border-color: #ccc;
@@ -325,4 +336,69 @@ body.light-mode .tag-pill.ativa {
   background: #2e7d32;
   color: #fff;
   border-color: #4caf50;
+}
+
+/* Botão pequeno no Modo Admin */
+.admin-btn-small {
+  background: #333;
+  color: #ff9800;
+  border: 1px solid #ff9800;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+.admin-btn-small:hover {
+  background: #ff9800;
+  color: #000;
+}
+
+/* Estilos do Modal (Admin) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+.modal-content {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 4px;
+  color: #fff;
+}
+body.light-mode .modal-content {
+  background: #fff;
+  color: #222;
+  border-color: #ccc;
+}
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  background: #121212;
+  border: 1px solid #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+body.light-mode .modal-input {
+  background: #f4f4f9;
+  color: #222;
+  border-color: #ccc;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
 }

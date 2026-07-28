@@ -29,6 +29,7 @@ function tocarSomClique() {
   } catch (e) {}
 }
 // FIM: tocarSomClique
+
 const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
   btnToggle = document.getElementById("btnToggle"),
@@ -656,10 +657,43 @@ btnInstall.addEventListener("click", async () => {
   }
 });
 
+// Registro do Service Worker com detecção de atualização em segundo plano
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
+    navigator.serviceWorker.register("sw.js").then((registration) => {
+      if (registration.waiting) {
+        mostrarAvisoAtualizacao(registration);
+        return;
+      }
+
+      registration.onupdatefound = () => {
+        const installingWorker = registration.installing;
+        installingWorker.onstatechange = () => {
+          if (installingWorker.state === "installed") {
+            if (navigator.serviceWorker.controller) {
+              mostrarAvisoAtualizacao(registration);
+            }
+          }
+        };
+      };
+    }).catch((err) => console.log("SW Erro:", err));
   });
+}
+
+function mostrarAvisoAtualizacao(registration) {
+  if (historyBar) {
+    historyBar.innerHTML = `
+      <span style="color: #4caf50; font-weight: bold;">[!] Nova versão disponível!</span> 
+      <button id="btnReloadApp" style="background: #2e7d32; color: #fff; border: none; padding: 2px 8px; cursor: pointer; border-radius: 2px; margin-left: 5px; font-weight: bold;">Atualizar agora</button>
+    `;
+
+    document.getElementById("btnReloadApp").onclick = () => {
+      if (registration.waiting) {
+        registration.waiting.postMessage({ type: "SKIP_WAITING" });
+      }
+      window.location.reload();
+    };
+  }
 }
 
 let catEditandoId = null;

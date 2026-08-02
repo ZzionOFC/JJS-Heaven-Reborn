@@ -30,6 +30,16 @@ function tocarSomClique() {
 }
 // FIM: tocarSomClique
 
+// INICIO: visibilityOptimization
+document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+        if (audioCtx && audioCtx.state === 'running') {
+            audioCtx.suspend();
+        }
+    }
+});
+// FIM: visibilityOptimization
+
 const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
   btnToggle = document.getElementById("btnToggle"),
@@ -55,6 +65,7 @@ let tagAtiva = "";
 async function carregarTags() {
   try {
     const res = await fetch("json/tags.json");
+    if(!res.ok) return;
     const data = await res.json();
     processarTags(data);
     renderizarPopupTags();
@@ -94,7 +105,7 @@ function renderizarPopupTags() {
   
   let btnTodas = document.createElement("button");
   btnTodas.className = `tag-pill ${tagAtiva === "" ? "ativa" : ""}`;
-  btnTodas.textContent = "Todas";
+  btnTodas.textContent = "All";
   btnTodas.onclick = () => { 
     tagAtiva = ""; 
     renderizarPopupTags(); 
@@ -120,10 +131,27 @@ btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
 window.onscroll = () => {
   if (document.body.classList.contains("focus-mode-active")) return;
-  document.getElementById("btnTop").style.display = window.scrollY > 300 ? "flex" : "none";
+  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrollPercent = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0; 
+  const btnTop = document.getElementById("btnTop");
+  const isLightMode = document.body.classList.contains("light-mode");
+  const corFundoBarra = isLightMode ? "rgba(204,204,204,0.9)" : "rgba(51,51,51,0.85)";
+  
+  // Mostrar o botão apenas se o usuário desceu mais de 300px
+  if (scrollTop > 300) {
+    btnTop.style.display = "flex";
+    // Atualiza o background para preencher o anel de verde (#4caf50) dinamicamente
+    btnTop.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
+  } else {
+    btnTop.style.display = "none";
+  }
+  
+  // Lógica do botão de ir para o fundo
   const bateuNoFundo = window.innerHeight + window.scrollY >= document.body.scrollHeight - 50;
   document.getElementById("btnBottom").style.display = bateuNoFundo ? "none" : "flex";
 };
+
 
 // INICIO: renderizarHistorico
 function renderizarHistorico() {
@@ -163,13 +191,34 @@ function renderizarColorPicker(btn) {
                 <input type="text" id="rgb" style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
             </div>
 
-            <button id="btnSaveColor" class="action-btn" style="width:100%; max-width:400px; margin-bottom:30px;">
-                Salvar Cor Atual
+            <button id="btnSaveColor" class="action-btn" style="width:100%; max-width:400px; margin-bottom:10px;">
+                Save Current Color
             </button>
+
+            <div style="width:100%; max-width:400px; padding:15px; border:1px solid #333; background:#1a1a1a; border-radius:2px; margin-bottom:15px; box-sizing:border-box;">
+                <h3 style="margin-top:0; font-size:14px; border:none;">Color Palette Generator</h3>
+                <div style="display:flex; gap:8px; margin-bottom:10px;">
+                    <button id="btnHarmComp" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Complementary</button>
+                    <button id="btnHarmAnalog" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Analogs</button>
+                    <button id="btnHarmTriad" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Triad</button>
+                </div>
+                <div id="harmoniousGrid" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:6px; margin-top:0;"></div>
+            </div>
+
+            <div style="width:100%; max-width:400px; padding:15px; border:1px dashed #555; background:#1e1e1e; border-radius:2px; margin-bottom:30px; box-sizing:border-box;">
+                <h3 style="margin-top:0; font-size:14px; border:none;">📷 Extract from Image</h3>
+                <p style="font-size:12px; color:#aaa; margin-bottom:10px;">Paste an image (Ctrl+V) or select:</p>
+                <input type="file" id="imageInput" accept="image/*" style="width:100%; font-size:12px; margin-bottom:10px; color:#ccc;">
+                <div id="imgCanvasWrapper" style="position:relative; width:100%; display:none; touch-action:none; overflow:hidden; border:1px solid #333; border-radius:2px;">
+                    <canvas id="imgCanvas" style="width:100%; height:auto; display:block; cursor:crosshair;"></canvas>
+                    <div id="pickerDot" style="position:absolute; width:12px; height:12px; border:2px solid #fff; border-radius:50%; box-shadow:0 0 4px #000; pointer-events:none; transform:translate(-50%, -50%); display:none;"></div>
+                </div>
+                <div id="extractedColorDisplay" style="margin-top:10px; padding:8px; font-size:12px; font-weight:bold; border-radius:2px; display:none; text-align:center; text-shadow:0 1px 2px rgba(0,0,0,0.8);"></div>
+            </div>
 
             <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 10px;">
                 <h2 style="border: none; margin: 0; padding: 0;">Saved Colors</h2>
-                <button id="btnClearColors" style="background: transparent; border: 1px solid #555; color: #aaa; cursor: pointer; padding: 5px 10px; font-size: 12px; border-radius: 2px;">Limpar Tudo</button>
+                <button id="btnClearColors" style="background: transparent; border: 1px solid #555; color: #aaa; cursor: pointer; padding: 5px 10px; font-size: 12px; border-radius: 2px;">Clear All</button>
             </div>
             
             <div id="saved-colors-grid" class="presets-grid" style="width: 100%;"></div>
@@ -203,6 +252,101 @@ function renderizarColorPicker(btn) {
 
   updateInputs(colorPicker.color);
   colorPicker.on("color:change", updateInputs);
+
+  // INICIO: geradorPaletasHarmoniosas
+  function rgbToHsl(r, g, b) {
+    r /= 255; g /= 255; b /= 255;
+    let max = Math.max(r, g, b), min = Math.min(r, g, b);
+    let h, s, l = (max + min) / 2;
+    if (max === min) {
+      h = s = 0;
+    } else {
+      let d = max - min;
+      s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+      switch (max) {
+        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+        case g: h = (b - r) / d + 2; break;
+        case b: h = (r - g) / d + 4; break;
+      }
+      h /= 6;
+    }
+    return [h * 360, s * 100, l * 100];
+  }
+
+  function hslToRgb(h, s, l) {
+    h /= 360; s /= 100; l /= 100;
+    let r, g, b;
+    if (s === 0) {
+      r = g = b = l;
+    } else {
+      let hue2rgb = (p, q, t) => {
+        if (t < 0) t += 1;
+        if (t > 1) t -= 1;
+        if (t < 1/6) return p + (q - p) * 6 * t;
+        if (t < 1/2) return q;
+        if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+        return p;
+      };
+      let q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+      let p = 2 * l - q;
+      r = hue2rgb(p, q, h + 1/3);
+      g = hue2rgb(p, q, h);
+      b = hue2rgb(p, q, h - 1/3);
+    }
+    return `${Math.round(r * 255)},${Math.round(g * 255)},${Math.round(b * 255)}`;
+  }
+
+  function gerarHarmonias(tipo) {
+    const grid = document.getElementById("harmoniousGrid");
+    grid.innerHTML = "";
+    const curRgb = colorPicker.color.rgb;
+    let [h, s, l] = rgbToHsl(curRgb.r, curRgb.g, curRgb.b);
+    let cores = [];
+
+    if (tipo === 'comp') {
+      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
+      cores.push(hslToRgb((h + 180) % 360, s, l));
+    } else if (tipo === 'analog') {
+      cores.push(hslToRgb((h - 30 + 360) % 360, s, l));
+      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
+      cores.push(hslToRgb((h + 30) % 360, s, l));
+    } else if (tipo === 'triad') {
+      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
+      cores.push(hslToRgb((h + 120) % 360, s, l));
+      cores.push(hslToRgb((h + 240) % 360, s, l));
+    }
+
+    cores.forEach(c => {
+      const card = document.createElement("div");
+      card.style.aspectRatio = "2.5";
+      card.style.borderRadius = "2px";
+      card.style.border = "1px solid #333";
+      card.style.cursor = "pointer";
+      card.style.display = "flex";
+      card.style.alignItems = "flex-end";
+      card.style.padding = "4px";
+      card.style.fontSize = "10px";
+      card.style.fontWeight = "bold";
+      card.style.color = "#fff";
+      card.style.textShadow = "0 1px 2px rgba(0,0,0,0.9)";
+      card.style.backgroundColor = `rgb(${c})`;
+      card.textContent = c;
+      card.onclick = async () => {
+        await navigator.clipboard.writeText(c);
+        tocarSomClique();
+        updateHistory(c);
+        card.textContent = "Copied!";
+        setTimeout(() => { card.textContent = c; }, 1000);
+      };
+      grid.appendChild(card);
+    });
+  }
+
+  document.getElementById("btnHarmComp").onclick = () => gerarHarmonias('comp');
+  document.getElementById("btnHarmAnalog").onclick = () => gerarHarmonias('analog');
+  document.getElementById("btnHarmTriad").onclick = () => gerarHarmonias('triad');
+  gerarHarmonias('comp');
+  // FIM: geradorPaletasHarmoniosas
 
   hex.addEventListener("input", (e) => {
     let val = e.target.value.trim();
@@ -241,7 +385,7 @@ function renderizarColorPicker(btn) {
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
     if (savedColors.length === 0) {
-        savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:14px; text-align:left;'>Nenhuma cor salva ainda.</p>";
+        savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:14px; text-align:left;'>No colors saved yet.</p>";
         return;
     }
 
@@ -283,18 +427,102 @@ function renderizarColorPicker(btn) {
           renderizarFavoritos();
           
           const textoOriginal = btnSaveColor.textContent;
-          btnSaveColor.textContent = "Cor Salva!";
+          btnSaveColor.textContent = "Color Saved!";
           setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
       }
   };
 
   btnClearColors.onclick = () => {
-      if (confirm("Tem certeza que deseja apagar todas as cores salvas?")) {
+      if (confirm("Are you sure you want to delete all saved colors?")) {
           savedColors = [];
           localStorage.removeItem('jjs_saved_colors');
           renderizarFavoritos();
       }
   };
+
+  const imageInput = document.getElementById("imageInput");
+  const imgCanvasWrapper = document.getElementById("imgCanvasWrapper");
+  const imgCanvas = document.getElementById("imgCanvas");
+  const pickerDot = document.getElementById("pickerDot");
+  const extractedColorDisplay = document.getElementById("extractedColorDisplay");
+  const ctx = imgCanvas.getContext("2d");
+  let canvasImage = new Image();
+
+  const lidarComCola = (e) => {
+      if (!document.getElementById("imgCanvas")) {
+          window.removeEventListener("paste", lidarComCola);
+          return;
+      }
+      const itens = (e.clipboardData || e.originalEvent.clipboardData).items;
+      for (let index in itens) {
+          let item = itens[index];
+          if (item.kind === 'file' && item.type.includes('image')) {
+              let blob = item.getAsFile();
+              carregarImagemNaCanvas(blob);
+              break;
+          }
+      }
+  };
+  window.addEventListener("paste", lidarComCola);
+
+  imageInput.addEventListener("change", (e) => {
+      if (e.target.files && e.target.files[0]) {
+          carregarImagemNaCanvas(e.target.files[0]);
+      }
+  });
+
+  function carregarImagemNaCanvas(file) {
+      const url = URL.createObjectURL(file);
+      canvasImage.onload = () => {
+          imgCanvasWrapper.style.display = "block";
+          extractedColorDisplay.style.display = "block";
+          imgCanvas.width = canvasImage.width;
+          imgCanvas.height = canvasImage.height;
+          ctx.drawImage(canvasImage, 0, 0);
+          URL.revokeObjectURL(url);
+      };
+      canvasImage.src = url;
+  }
+
+  let isDraggingCanvas = false;
+
+  const extrairCorDaCanvas = (e) => {
+      const rect = imgCanvas.getBoundingClientRect();
+      let xVisivel = e.clientX - rect.left;
+      let yVisivel = e.clientY - rect.top;
+
+      xVisivel = Math.max(0, Math.min(xVisivel, rect.width - 1));
+      yVisivel = Math.max(0, Math.min(yVisivel, rect.height - 1));
+
+      pickerDot.style.display = "block";
+      pickerDot.style.left = xVisivel + "px";
+      pickerDot.style.top = yVisivel + "px";
+
+      const scaleX = imgCanvas.width / rect.width;
+      const scaleY = imgCanvas.height / rect.height;
+      const xInterno = Math.floor(xVisivel * scaleX);
+      const yInterno = Math.floor(yVisivel * scaleY);
+
+      const pixel = ctx.getImageData(xInterno, yInterno, 1, 1).data;
+      colorPicker.color.set({r: pixel[0], g: pixel[1], b: pixel[2]});
+
+      const rgbStr = `${pixel[0]},${pixel[1]},${pixel[2]}`;
+      extractedColorDisplay.style.backgroundColor = `rgb(${rgbStr})`;
+      extractedColorDisplay.textContent = `Selected: ${rgbStr}`;
+  };
+
+  imgCanvas.addEventListener("pointerdown", (e) => {
+      isDraggingCanvas = true;
+      imgCanvas.setPointerCapture(e.pointerId);
+      extrairCorDaCanvas(e);
+  });
+  imgCanvas.addEventListener("pointermove", (e) => {
+      if (isDraggingCanvas) extrairCorDaCanvas(e);
+  });
+  imgCanvas.addEventListener("pointerup", (e) => {
+      isDraggingCanvas = false;
+      imgCanvas.releasePointerCapture(e.pointerId);
+  });
 }
 // FIM: renderizarColorPicker
 
@@ -307,7 +535,7 @@ function carregarPresets(url, btn) {
   conteudo.innerHTML = '<div class="status-msg">Loading presets...</div>';
 
   fetch(url)
-    .then((res) => res.json())
+    .then((res) => { if (!res.ok) throw new Error("404"); return res.json(); })
     .then((data) => {
       presetsAtuais = data;
       renderizarPresets(presetsAtuais, "");
@@ -321,37 +549,106 @@ function carregarPresets(url, btn) {
 // INICIO: renderizarPresets
 function renderizarPresets(data, termo) {
   conteudo.innerHTML = "";
-  const h2 = document.createElement("h2");
-  h2.textContent = "JJS Buildings Colors";
-  conteudo.appendChild(h2);
-
-  const grid = document.createElement("div");
-  grid.className = "presets-grid";
+  
+  let grupos = [];
+  let grupoAtual = { cat: "JJS Buildings Colors", color: null, items: [] };
+  let primeiraCategoriaEncontrada = false;
 
   data.forEach((item) => {
-    const rgbVal = item.rgb || item.color || item;
-    const nameVal = item.name || rgbVal;
-
-    if (nameVal.toLowerCase().includes(termo.toLowerCase()) || rgbVal.toLowerCase().includes(termo.toLowerCase())) {
-      const card = document.createElement("div");
-      card.className = "preset-card";
-      card.style.backgroundColor = rgbVal.includes(',') && !rgbVal.startsWith('rgb') ? `rgb(${rgbVal})` : rgbVal;
-      card.textContent = nameVal;
-
-      card.onclick = async () => {
-        await navigator.clipboard.writeText(rgbVal);
-        tocarSomClique();
-        updateHistory(rgbVal);
-        const originalText = card.textContent;
-        card.textContent = "Copied!";
-        setTimeout(() => {
-          card.textContent = originalText;
-        }, 1000);
-      };
-      grid.appendChild(card);
+    if (item.cat) {
+      if (!primeiraCategoriaEncontrada && grupoAtual.items.length === 0) {
+        grupoAtual.cat = item.cat;
+        grupoAtual.color = item.color || item.rgb || null;
+      } else {
+        grupos.push(grupoAtual);
+        grupoAtual = { cat: item.cat, color: item.color || item.rgb || null, items: [] };
+      }
+      primeiraCategoriaEncontrada = true;
+    } else {
+      grupoAtual.items.push(item);
     }
   });
-  conteudo.appendChild(grid);
+  grupos.push(grupoAtual);
+
+  const termoBusca = termo.toLowerCase();
+
+  grupos.forEach((grupo) => {
+    const itensFiltrados = grupo.items.filter((item) => {
+      const rgbVal = item.rgb || item.color || item;
+      const nameVal = item.name || (typeof rgbVal === 'string' ? rgbVal : "Unnamed");
+
+      let copyText = rgbVal;
+      if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
+        let cor1 = item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rgbVal);
+        let cor2 = item.rgb2 || (Array.isArray(item.colors) ? item.colors[1] : rgbVal);
+        copyText = `${cor1} ALT ${cor2}`;
+      }
+
+      return nameVal.toLowerCase().includes(termoBusca) || copyText.toString().toLowerCase().includes(termoBusca);
+    });
+
+    if (itensFiltrados.length > 0) {
+      const h2 = document.createElement("h2");
+      h2.textContent = grupo.cat;
+      
+      let catColor = "";
+      if (grupo.color) {
+        catColor = Array.isArray(grupo.color) ? grupo.color[0] : grupo.color;
+      }
+      if (catColor) {
+        const corFormatada = catColor.includes(',') && !catColor.startsWith('rgb') && !catColor.startsWith('#') ? `rgb(${catColor})` : catColor;
+        h2.style.color = corFormatada;
+        h2.style.borderBottomColor = corFormatada;
+      }
+      
+      conteudo.appendChild(h2);
+
+      const grid = document.createElement("div");
+      grid.className = "presets-grid";
+
+      itensFiltrados.forEach((item) => {
+        const rgbVal = item.rgb || item.color || item;
+        const nameVal = item.name || (typeof rgbVal === 'string' ? rgbVal : "Unnamed");
+
+        let copyText = rgbVal;
+        if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
+          let cor1 = item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rgbVal);
+          let cor2 = item.rgb2 || (Array.isArray(item.colors) ? item.colors[1] : rgbVal);
+          copyText = `${cor1} ALT ${cor2}`;
+        }
+
+        const card = document.createElement("div");
+        card.className = "preset-card";
+        
+        // INICIO: gradientePresetCard
+        if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
+          let cor1 = item.rgb1 || item.colors[0];
+          let cor2 = item.rgb2 || item.colors[1];
+          let c1 = cor1.includes(',') && !cor1.startsWith('rgb') ? `rgb(${cor1})` : cor1;
+          let c2 = cor2.includes(',') && !cor2.startsWith('rgb') ? `rgb(${cor2})` : cor2;
+          card.style.background = `linear-gradient(90deg, ${c1}, ${c2})`;
+        } else {
+          card.style.backgroundColor = rgbVal.includes(',') && !rgbVal.startsWith('rgb') ? `rgb(${rgbVal})` : rgbVal;
+        }
+        // FIM: gradientePresetCard
+
+        card.textContent = nameVal;
+
+        card.onclick = async () => {
+          await navigator.clipboard.writeText(copyText); 
+          tocarSomClique();
+          updateHistory(copyText); 
+          const originalText = card.textContent;
+          card.textContent = "Copied!";
+          setTimeout(() => {
+            card.textContent = originalText;
+          }, 1000);
+        };
+        grid.appendChild(card);
+      });
+      conteudo.appendChild(grid);
+    }
+  });
 }
 // FIM: renderizarPresets
 
@@ -361,10 +658,10 @@ function carregarDados(url, btn) {
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   if (btn) btn.classList.add("ativo");
-  conteudo.innerHTML = '<div class="status-msg">Carregando dados...</div>';
+  conteudo.innerHTML = '<div class="status-msg">Loading data...</div>';
   
   fetch(url)
-    .then((res) => res.json())
+    .then((res) => { if (!res.ok) throw new Error("404"); return res.json(); })
     .then((data) => {
       let contadorGlobal = 1;
       let contadorCategoria = 1;
@@ -409,6 +706,9 @@ function carregarDados(url, btn) {
       dadosAtuais = dadosProcessados;
       isCodesAtual = url.includes("codes.json");
       renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
+    })
+    .catch((err) => {
+      conteudo.innerHTML = `<div class="status-msg" style="color:red;">Error loading ${url}.</div>`;
     });
 }
 // FIM: carregarDados
@@ -455,7 +755,7 @@ function renderizarItens(data, isCodes, termo) {
         const el = document.createElement("button");
         el.className = "code-btn";
         
-        const nomeParaExibir = i.name ? i.name.replace(/:$/, "") : "Sem Nome";
+        const nomeParaExibir = i.name ? i.name.replace(/:$/, "") : "Unnamed";
         
         if (modoAdminAtivo) {
           el.innerHTML = `${nomeParaExibir} 
@@ -465,7 +765,7 @@ function renderizarItens(data, isCodes, termo) {
             </span>`;
           el.style.borderLeftColor = "#ff9800";
         } else {
-          el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+          el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "No ID"}`;
           el.style.borderLeftColor = "#555";
         }
 
@@ -494,7 +794,7 @@ function renderizarItens(data, isCodes, termo) {
                      <button class="admin-btn-small edit-btn" data-autoid="${i.autoId}" data-catid="${cat.catId}">✏️ Edit</button>
                    </span>`;
               } else {
-                 el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "Sem ID"}`;
+                 el.textContent = isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "No ID"}`;
               }
             }, 1000);
           }
@@ -515,7 +815,7 @@ function carregarLogs(url, btn) {
   conteudo.innerHTML = '<div class="status-msg">Loading logs...</div>';
 
   fetch(url)
-    .then((res) => res.text())
+    .then((res) => { if (!res.ok) throw new Error("404"); return res.text(); })
     .then((text) => {
       logsAtuais = text.split(/\r?\n/).map((linha) => linha.trim()).filter((linha) => linha.length > 0);
       renderizarLogs(logsAtuais, "");
@@ -546,7 +846,7 @@ function renderizarLogs(logs, termo) {
   logHeaderWrapper.style.cssText = "display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px;";
 
   const h2 = document.createElement("h2");
-  h2.textContent = "System Logs";
+  h2.textContent = "ABOUT ME:";
   h2.style.cssText = "margin: 0; border: none; padding: 0;";
 
   const focusBtn = document.createElement("button");
@@ -600,7 +900,7 @@ campoPesquisa.addEventListener("input", (e) => {
     
     document.getElementById("btnExportJSON").style.display = modoAdminAtivo ? "block" : "none";
     
-    historyBar.innerHTML = `<span style="color: #ff9800; font-weight: bold;">[!] MODO ADMIN/EDITOR ${modoAdminAtivo ? 'ATIVADO' : 'DESATIVADO'}</span>`;
+    historyBar.innerHTML = `<span style="color: #ff9800; font-weight: bold;">[!] ADMIN/EDITOR MODE ${modoAdminAtivo ? 'ENABLED' : 'DISABLED'}</span>`;
     
     setTimeout(() => {
       renderizarHistorico();
@@ -619,24 +919,95 @@ document.getElementById("btnTema").addEventListener("click", () => {
 });
 
 window.addEventListener("keydown", (e) => {
-  if (e.key === "/") {
-    if (document.activeElement !== campoPesquisa) {
-      e.preventDefault();
-      campoPesquisa.focus();
-    }
-  } else if (e.key === "Escape") {
+  // 1. Atalho Global que fecha tudo (Esc)
+  if (e.key === "Escape") {
     campoPesquisa.value = "";
     menu.classList.add("hidden");
     tagAtiva = ""; 
     renderizarPopupTags();
     dispararPesquisaAtual("");
     campoPesquisa.blur();
+    
+    // Fecha os modais se estiverem abertos
+    if (typeof fecharModalEdicao === 'function') fecharModalEdicao();
+    if (typeof fecharNotepad === 'function') fecharNotepad();
+    const cheatSheet = document.getElementById("cheatSheetModal");
+    if (cheatSheet) cheatSheet.classList.add("hidden");
+    return;
+  }
+
+  // Verifica se o usuário está focado em um input/textarea para não disparar atalhos enquanto digita
+  const isInputFocused = document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA';
+
+  // 2. Atalho: / (Foca na pesquisa)
+  if (e.key === "/") {
+    if (!isInputFocused) {
+      e.preventDefault(); // Impede de digitar a "/" na barra
+      campoPesquisa.focus();
+    }
+    return;
+  }
+
+  // Se estiver focado na barra de pesquisa ou em modais de texto, bloqueia os atalhos abaixo
+  if (isInputFocused) return;
+
+  const keyLower = e.key.toLowerCase();
+
+  // 3. Sistema de Cheat Sheet e Navegação Rápida
+  if (keyLower === "[") {
+    const cheatSheet = document.getElementById("cheatSheetModal");
+    if (cheatSheet) cheatSheet.classList.toggle("hidden");
+  } 
+  // Ir para a aba Anterior (-)
+  else if (keyLower === "-" || keyLower === "_") {
+    const navButtons = Array.from(document.querySelectorAll("nav button"));
+    const currentIndex = navButtons.findIndex(btn => btn.classList.contains("ativo"));
+    if (currentIndex > 0) navButtons[currentIndex - 1].click();
+  } 
+  // Ir para a aba Próxima (+ ou =)
+  else if (keyLower === "=" || keyLower === "+") {
+    const navButtons = Array.from(document.querySelectorAll("nav button"));
+    const currentIndex = navButtons.findIndex(btn => btn.classList.contains("ativo"));
+    if (currentIndex < navButtons.length - 1 && currentIndex !== -1) {
+      navButtons[currentIndex + 1].click();
+    }
+  } 
+  // Alternar Tema (T)
+  else if (keyLower === "t") {
+    document.getElementById("btnTema").click();
+  } 
+  // Alternar Menu (M)
+  else if (keyLower === "m") {
+    document.getElementById("btnToggle").click();
+  } 
+  // Alternar Tela Cheia (F)
+  else if (keyLower === "f") {
+    document.getElementById("btnFullscreen").click();
+  }
+  // Descer pro fundo (J)
+  else if (keyLower === "j") {
+    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+  }
+  // Subir pro topo (K)
+  else if (keyLower === "k") {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+    
+  // Abrir o Bloco de Notas (N)
+  else if (keyLower === "n") {
+    e.preventDefault();
+    abrirNotepad();
   }
 });
+
 
 window.onload = () => {
   carregarTags();
   carregarDados("json/dados.json", document.querySelector("nav button"));
+  
+  // Carregar conteúdo do Notepad, se houver
+  const noteContent = localStorage.getItem('jjs_notepad_data');
+  if(noteContent) document.getElementById('notepadText').value = noteContent;
 };
 
 let promptDeInstalação;
@@ -657,43 +1028,10 @@ btnInstall.addEventListener("click", async () => {
   }
 });
 
-// Registro do Service Worker com detecção de atualização em segundo plano
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").then((registration) => {
-      if (registration.waiting) {
-        mostrarAvisoAtualizacao(registration);
-        return;
-      }
-
-      registration.onupdatefound = () => {
-        const installingWorker = registration.installing;
-        installingWorker.onstatechange = () => {
-          if (installingWorker.state === "installed") {
-            if (navigator.serviceWorker.controller) {
-              mostrarAvisoAtualizacao(registration);
-            }
-          }
-        };
-      };
-    }).catch((err) => console.log("SW Erro:", err));
+    navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
-}
-
-function mostrarAvisoAtualizacao(registration) {
-  if (historyBar) {
-    historyBar.innerHTML = `
-      <span style="color: #4caf50; font-weight: bold;">[!] Nova versão disponível!</span> 
-      <button id="btnReloadApp" style="background: #2e7d32; color: #fff; border: none; padding: 2px 8px; cursor: pointer; border-radius: 2px; margin-left: 5px; font-weight: bold;">Atualizar agora</button>
-    `;
-
-    document.getElementById("btnReloadApp").onclick = () => {
-      if (registration.waiting) {
-        registration.waiting.postMessage({ type: "SKIP_WAITING" });
-      }
-      window.location.reload();
-    };
-  }
 }
 
 let catEditandoId = null;
@@ -716,12 +1054,12 @@ function abrirModalEdicao(autoId, catId) {
     inpName.value = item.name ? item.name.replace(/:$/, "") : "";
     inpId.value = item.id || "";
     inpCode.value = item.code || "";
-    modalTitle.textContent = "✏️ Editar Item";
+    modalTitle.textContent = "✏️ Edit Item";
   } else {
     inpName.value = "";
     inpId.value = "";
     inpCode.value = "";
-    modalTitle.textContent = "➕ Novo Item";
+    modalTitle.textContent = "➕ New Item";
   }
   
   modal.classList.remove("hidden");
@@ -741,7 +1079,7 @@ function salvarItemEdicao() {
   const inpCode = document.getElementById("editCode").value.trim();
   
   if (!inpName) {
-    alert("O nome do item é obrigatório!");
+    alert("Item name is required!");
     return;
   }
 
@@ -764,9 +1102,35 @@ function salvarItemEdicao() {
   
   fecharModalEdicao();
   renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Alteração salva em memória. Lembre-se de Exportar!</span>`;
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Changes saved in memory. Remember to Export!</span>`;
 }
 // FIM: salvarItemEdicao
+
+// INICIO: Funções do Notepad
+function abrirNotepad() {
+  document.getElementById("notepadModal").classList.remove("hidden");
+  document.getElementById("notepadText").focus();
+}
+
+function fecharNotepad() {
+  salvarNotepadSilencioso();
+  document.getElementById("notepadModal").classList.add("hidden");
+}
+
+function salvarNotepad() {
+  salvarNotepadSilencioso();
+  fecharNotepad();
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Note saved successfully!</span>`;
+  setTimeout(() => renderizarHistorico(), 2000);
+}
+
+function salvarNotepadSilencioso() {
+  const val = document.getElementById("notepadText").value;
+  localStorage.setItem('jjs_notepad_data', val);
+}
+// Para salvar a nota automaticamente enquanto a pessoa digita:
+document.getElementById("notepadText").addEventListener("input", salvarNotepadSilencioso);
+// FIM: Funções do Notepad
 
 document.getElementById("btnExportJSON").addEventListener("click", () => {
   const exportData = dadosAtuais.map(cat => {
@@ -786,14 +1150,14 @@ document.getElementById("btnExportJSON").addEventListener("click", () => {
   const downloadAnchorNode = document.createElement('a');
   downloadAnchorNode.setAttribute("href", dataStr);
   
-  const fileName = linkOriginalAtual.split('/').pop() || "dados_atualizados.json";
+  const fileName = linkOriginalAtual.split('/').pop() || "updated_data.json";
   downloadAnchorNode.setAttribute("download", fileName);
   
   document.body.appendChild(downloadAnchorNode);
   downloadAnchorNode.click();
   downloadAnchorNode.remove();
   
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Arquivo ${fileName} exportado com sucesso!</span>`;
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] File ${fileName} exported successfully!</span>`;
 });
 
 const btnFullscreen = document.getElementById("btnFullscreen");
@@ -801,7 +1165,7 @@ const btnFullscreen = document.getElementById("btnFullscreen");
 btnFullscreen.addEventListener("click", () => {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen().catch((err) => {
-      console.log(`Erro ao tentar entrar em tela cheia: ${err.message}`);
+      console.log(`Error attempting to enter full screen: ${err.message}`);
     });
   } else {
     if (document.exitFullscreen) {
@@ -813,9 +1177,9 @@ btnFullscreen.addEventListener("click", () => {
 document.addEventListener("fullscreenchange", () => {
   if (document.fullscreenElement) {
     btnFullscreen.textContent = "🗗";
-    btnFullscreen.title = "Sair da Tela Cheia";
+    btnFullscreen.title = "Exit Full Screen";
   } else {
     btnFullscreen.textContent = "⛶";
-    btnFullscreen.title = "Tela Cheia";
+    btnFullscreen.title = "Full Screen";
   }
 });

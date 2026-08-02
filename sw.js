@@ -6,14 +6,13 @@ const ASSETS_TO_CACHE = [
   './js/index.js',
   './manifest.json',
   './json/dados.json',
-  './json/decals.json',
   './json/audios.json',
   './json/mesh.json',
   './json/codes.json',
   './json/log.txt',
   './json/colors.json',
   './json/tags.json',
-  './json/particles.json'
+  './json/part.json'
 ];
 
 // Instalação do Service Worker e cache inicial

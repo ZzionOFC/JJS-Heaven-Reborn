@@ -1,58 +1,20 @@
 [
-  {
-    "name": "Glass",
-    "rgb": "rgb(175, 221, 255)"
-  },
-  {
-    "name": "Towers",
-    "rgb": "rgb(159, 173, 192)"
-  },
-  {
-    "name": "Yellow",
-    "rgb": "rgb(248, 241, 132)"
-  },
-  {
-    "name": "Orange",
-    "rgb": "rgb(255, 170, 127)"
-  },
-  {
-    "name": "Green",
-    "rgb": "rgb(168, 189, 153)"
-  },
-  {
-    "name": "Red",
-    "rgb": "rgb(189, 133, 133)"
-  },
-  {
-    "name": "Pink",
-    "rgb": "rgb(153, 133, 255)"
-  },
-  {
-    "name": "Purple",
-    "rgb": "rgb(85, 85, 127)"
-  },
-  {
-    "name": "Light Pink",
-    "rgb": "rgb(210, 189, 255)"
-  },
-  {
-    "name": "Rooftop Gray",
-    "rgb": "rgb(91, 93, 105)"
-  },
-  {
-    "name": "Tze's Restaurant Red",
-    "rgb": "rgb(136, 62, 62)"
-  },
-  {
-    "name": "Tze's Rest. Gray (Metal)",
-    "rgb": "rgb(199, 199, 199)"
-  },
-  {
-    "name": "Cafe Dark Gray",
-    "rgb": "rgb(62, 62, 63)"
-  },
-  {
-    "name": "Sky Blue",
-    "rgb": "rgb(195, 243, 245)"
-  }
+  { "name": "Glass", "rgb": "rgb(175, 221, 255)" },
+  { "name": "Towers", "rgb": "rgb(159, 173, 192)" },
+  { "name": "Yellow", "rgb": "rgb(248, 241, 132)" },
+  { "name": "Orange", "rgb": "rgb(255, 170, 127)" },
+  { "name": "Green", "rgb": "rgb(168, 189, 153)" },
+  { "name": "Red", "rgb": "rgb(189, 133, 133)" },
+  { "name": "Pink", "rgb": "rgb(153, 133, 255)" },
+  { "name": "Purple", "rgb": "rgb(85, 85, 127)" },
+  { "name": "Light Pink", "rgb": "rgb(210, 189, 255)" },
+  { "name": "Rooftop Gray", "rgb": "rgb(91, 93, 105)" },
+  { "name": "Tze's Restaurant Red", "rgb": "rgb(136, 62, 62)" },
+  { "name": "Tze's Rest. Gray (Metal)", "rgb": "rgb(199, 199, 199)" },
+  { "name": "Cafe Dark Gray", "rgb": "rgb(62, 62, 63)" },
+  { "cat": "JJS CE Colors:", "color": ["null"] },
+  { "name": "JJS YUJI CE", "colors": ["154,207,237", "0,125,255"] },
+  { "name": "JJS HEIAN CE", "colors": ["255,105,105", "255,105,105"] },
+  { "name": "JJS YUTA CE", "colors": ["255,89,239", "255,89,239"] },
+  { "name": "JJS MAHITO CE", "colors": ["147,100,217", "137,77,227"] }
 ]

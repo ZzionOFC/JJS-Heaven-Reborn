@@ -1,5 +1,6 @@
-* {
-  transition: none !important;
+/* INICIO: Reset e Estilos Globais */
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: #121212;
@@ -29,6 +30,8 @@ body {
 .hidden {
   display: none !important;
 }
+
+/* INICIO: Controles e Navegação */
 .toggle-btn {
   width: 100%;
   padding: 12px;
@@ -40,28 +43,42 @@ body {
   font-weight: bold;
 }
 nav {
-  display: flex;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 8px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 100%;
 }
 nav button {
   background-color: #1e1e1e;
   color: #fff;
   border: 1px solid #333;
-  padding: 12px 24px;
-  font-size: 14px;
+  padding: 10px 4px;
+  font-size: clamp(10px, 1.5vw, 13px);
+  line-height: 1.1;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
   border-radius: 2px;
-  flex: 1 1 auto;
-  max-width: 150px;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+  word-wrap: break-word;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+nav button:hover {
+  background-color: #333;
+  transform: scale(1.02);
 }
 nav button.ativo {
-  background-color: #333;
-  border-color: #555;
+  background-color: #4caf50;
+  border-color: #388e3c;
+  color: #fff;
 }
 .search-input {
   width: 100%;
@@ -72,14 +89,16 @@ nav button.ativo {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+/* INICIO: Tipografia e Botões */
 h2 {
   color: #ffff7e;
   font-size: 20px;
   border-bottom: 2px solid #333;
   padding-bottom: 10px;
   margin-top: 30px;
+  scroll-margin-top: 160px; /* Ajuda no atalho L */
 }
-
 .code-btn {
   display: block;
   width: 100%;
@@ -97,6 +116,10 @@ h2 {
   margin: 10px 0;
   border-radius: 2px;
   box-sizing: border-box;
+  transition: transform 0.1s;
+}
+.code-btn:active {
+  transform: scale(0.99);
 }
 .btnClicado {
   background: #2e7d32 !important;
@@ -107,15 +130,13 @@ h2 {
   font-weight: bold;
 }
 
-/* Botões de Navegação Flutuantes */
-.theme-toggle,
-.top-toggle,
-.bottom-toggle {
+/* INICIO: Botões Flutuantes (Melhorados) */
+.floating-btn {
   position: fixed;
   bottom: 15px;
-  background-color: #1e1e1e;
+  background-color: rgba(30, 30, 30, 0.85);
   color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #444;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -125,6 +146,18 @@ h2 {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  backdrop-filter: blur(5px);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.floating-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  background-color: #333;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  border-color: #666;
 }
 .theme-toggle {
   right: 15px;
@@ -137,7 +170,30 @@ h2 {
   display: none;
 }
 
-/* Modos (Light Mode) */
+#btnTop {
+  border: none !important;
+  color: transparent !important;
+  position: relative;
+  background: conic-gradient(#4caf50 0%, rgba(51, 51, 51, 0.85) 0%);
+}
+#btnTop::after {
+  content: "↑";
+  position: absolute;
+  inset: 4px;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  transition: background 0.2s ease;
+}
+#btnTop:hover::after {
+  background-color: #333;
+}
+
+/* INICIO: Modo Claro */
 body.light-mode {
   background-color: #f4f4f9;
   color: #222;
@@ -145,7 +201,19 @@ body.light-mode {
 body.light-mode .sticky-area {
   background-color: #f4f4f9;
 }
-body.light-mode nav button,
+body.light-mode nav button {
+  background-color: #fff;
+  color: #333;
+  border-color: #ccc;
+}
+body.light-mode nav button:hover {
+  background-color: #eee;
+}
+body.light-mode nav button.ativo {
+  background-color: #4caf50;
+  border-color: #388e3c;
+  color: #fff;
+}
 body.light-mode .toggle-btn,
 body.light-mode .search-input {
   background-color: #fff;
@@ -166,8 +234,35 @@ body.light-mode h2 {
   color: #111;
   border-bottom-color: #bbb;
 }
+body.light-mode .floating-btn {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-color: #bbb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body.light-mode .floating-btn:hover {
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+body.light-mode #btnTop {
+  background: conic-gradient(#4caf50 0%, rgba(204, 204, 204, 0.9) 0%);
+}
+body.light-mode #btnTop::after {
+  background-color: #fff;
+  color: #333;
+}
 
-/* Histórico */
+/* Inclusões do Notepad para Light Mode */
+body.light-mode #notepadText {
+  background: #f4f4f9 !important;
+  color: #222 !important;
+  border-color: #bbb !important;
+}
+body.light-mode .modal-content h3 button {
+  color: #333 !important;
+}
+
+/* INICIO: Utilitários */
 #history-bar {
   font-size: 12px;
   color: #ffff7e;
@@ -177,11 +272,9 @@ body.light-mode h2 {
   border-radius: 4px;
 }
 .status-msg {
-  color: rgba(255,255,126,0.7);
+  color: rgba(255, 255, 126, 0.7);
   text-decoration: underline;
 }
-
-/* Container de Logs */
 .log-container {
   padding: 15px 20px;
   background-color: #1a1a1a;
@@ -195,7 +288,6 @@ body.light-mode .log-container {
   background-color: #fff;
   border-color: #ccc;
 }
-
 .log-header {
   font-size: 24px;
   font-weight: bold;
@@ -209,12 +301,10 @@ body.light-mode .log-container {
 body.light-mode .log-header {
   border-bottom-color: #bbb;
 }
-
 .log-small {
   font-size: 11px;
   opacity: 0.6;
 }
-
 .focus-mode-active .sticky-area,
 .focus-mode-active .theme-toggle,
 .focus-mode-active .top-toggle,
@@ -244,7 +334,6 @@ body.light-mode .log-header {
 .action-btn:hover {
   background-color: #333;
 }
-
 body.light-mode .action-btn {
   background-color: #fff;
   color: #333;
@@ -254,7 +343,7 @@ body.light-mode .action-btn:hover {
   background-color: #eee;
 }
 
-/* Grade de Presets */
+/* Componentes Visuais */
 .presets-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -274,33 +363,21 @@ body.light-mode .action-btn:hover {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
   box-sizing: border-box;
+  transition:
+    transform 0.1s ease,
+    border-color 0.1s ease;
 }
 .preset-card:hover {
   transform: scale(1.05);
   border-color: #fff;
 }
-
-/* Tags Container */
 .tags-container {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 6px;
-  margin-top: 5px;
-  padding-bottom: 5px;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
   align-items: center;
-  scrollbar-width: thin;
 }
-
-.tags-container::-webkit-scrollbar {
-  height: 4px;
-}
-
-.tags-container::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 2px;
-}
-
 .tag-pill {
   background: #1e1e1e;
   color: #aaa;
@@ -310,20 +387,15 @@ body.light-mode .action-btn:hover {
   cursor: pointer;
   font-size: 12px;
   font-weight: bold;
-  white-space: nowrap;
-  flex-shrink: 0;
 }
-
 .tag-pill:hover {
   background: #333;
 }
-
 .tag-pill.ativa {
   background: #2e7d32;
   color: #fff;
   border-color: #4caf50;
 }
-
 body.light-mode .tag-pill {
   background: #fff;
   border-color: #ccc;
@@ -337,68 +409,78 @@ body.light-mode .tag-pill.ativa {
   color: #fff;
   border-color: #4caf50;
 }
-
-/* Botão pequeno no Modo Admin */
 .admin-btn-small {
-  background: #333;
+  background: #1e1e1e;
   color: #ff9800;
-  border: 1px solid #ff9800;
-  padding: 2px 8px;
+  border: 1px solid #333;
+  padding: 4px 8px;
   font-size: 11px;
   cursor: pointer;
   border-radius: 2px;
-  margin-left: 8px;
+  margin-left: 10px;
   font-weight: bold;
 }
 .admin-btn-small:hover {
-  background: #ff9800;
-  color: #000;
+  background: #333;
 }
 
-/* Estilos do Modal (Admin) */
+/* Modais */
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   z-index: 10000;
 }
 .modal-content {
   background: #1a1a1a;
+  padding: 25px;
+  border-radius: 4px;
   border: 1px solid #333;
-  padding: 20px;
   width: 90%;
   max-width: 400px;
-  border-radius: 4px;
-  color: #fff;
+  color: #e0e0e0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 body.light-mode .modal-content {
   background: #fff;
   color: #222;
   border-color: #ccc;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 .modal-input {
   width: 100%;
   padding: 10px;
-  margin: 5px 0 15px 0;
+  margin-bottom: 10px;
+  margin-top: 5px;
   background: #121212;
   border: 1px solid #333;
   color: #fff;
   box-sizing: border-box;
+  border-radius: 2px;
 }
 body.light-mode .modal-input {
   background: #f4f4f9;
   color: #222;
-  border-color: #ccc;
+  border-color: #bbb;
 }
-.modal-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-top: 10px;
+.shortcut-key {
+  color: #ff9800;
+  background: #121212;
+  border: 1px solid #333;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  min-width: 15px;
+  text-align: center;
+}
+body.light-mode .shortcut-key {
+  background: #eee;
+  border-color: #ccc;
+  color: #e65100;
 }

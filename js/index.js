@@ -127,6 +127,7 @@ function renderizarPopupTags() {
 }
 // FIM: renderizarPopupTags
 
+// INICIO: eventosIniciais
 btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
 window.onscroll = () => {
@@ -138,20 +139,17 @@ window.onscroll = () => {
   const isLightMode = document.body.classList.contains("light-mode");
   const corFundoBarra = isLightMode ? "rgba(204,204,204,0.9)" : "rgba(51,51,51,0.85)";
   
-  // Mostrar o botão apenas se o usuário desceu mais de 300px
   if (scrollTop > 300) {
     btnTop.style.display = "flex";
-    // Atualiza o background para preencher o anel de verde (#4caf50) dinamicamente
     btnTop.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
   } else {
     btnTop.style.display = "none";
   }
   
-  // Lógica do botão de ir para o fundo
   const bateuNoFundo = window.innerHeight + window.scrollY >= document.body.scrollHeight - 50;
   document.getElementById("btnBottom").style.display = bateuNoFundo ? "none" : "flex";
 };
-
+// FIM: eventosIniciais
 
 // INICIO: renderizarHistorico
 function renderizarHistorico() {
@@ -182,43 +180,40 @@ function renderizarColorPicker(btn) {
   let savedColors = JSON.parse(localStorage.getItem('jjs_saved_colors') || '[]');
 
   conteudo.innerHTML = `
-        <div style="text-align:center; padding:20px; display:flex; flex-direction:column; align-items:center;">
-            <h2>Color Picker</h2>
-            <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px;"></div>
+        <div style="text-align:center; padding:15px; display:flex; flex-direction:column; align-items:center; max-width: 480px; margin: 0 auto;">
+            <h2 style="margin-bottom: 20px; font-size: 20px; letter-spacing: 1px;">Color Studio & Picker</h2>
             
-            <div style="display:flex; gap:10px; width:100%; max-width:400px; justify-content:center; margin-bottom:15px;">
-                <input type="text" id="hex" style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
-                <input type="text" id="rgb" style="flex:1; padding:12px; background:#1a1a1a; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; box-sizing:border-box;">
+            <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);"></div>
+            
+            <div style="display:flex; gap:10px; width:100%; justify-content:center; margin-bottom:15px;">
+                <input type="text" id="hex" placeholder="HEX" style="flex:1; padding:10px; background:#141414; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; border-radius: 4px; box-sizing:border-box;">
+                <input type="text" id="rgb" placeholder="RGB" style="flex:1; padding:10px; background:#141414; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; border-radius: 4px; box-sizing:border-box;">
             </div>
 
-            <button id="btnSaveColor" class="action-btn" style="width:100%; max-width:400px; margin-bottom:10px;">
-                Save Current Color
-            </button>
-
-            <div style="width:100%; max-width:400px; padding:15px; border:1px solid #333; background:#1a1a1a; border-radius:2px; margin-bottom:15px; box-sizing:border-box;">
-                <h3 style="margin-top:0; font-size:14px; border:none;">Color Palette Generator</h3>
-                <div style="display:flex; gap:8px; margin-bottom:10px;">
-                    <button id="btnHarmComp" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Complementary</button>
-                    <button id="btnHarmAnalog" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Analogs</button>
-                    <button id="btnHarmTriad" class="action-btn" style="flex:1; font-size:11px; padding:8px;">Triad</button>
-                </div>
-                <div id="harmoniousGrid" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:6px; margin-top:0;"></div>
+            <div style="display:flex; gap:10px; width:100%; margin-bottom:15px;">
+                <input type="text" id="colorNameInput" placeholder="Custom color name (optional)..." style="flex:1; padding:10px; background:#141414; color:#ffffff; border:1px solid #333; text-align:center; font-weight:bold; border-radius: 4px; box-sizing:border-box;">
+                <button id="btnSaveColor" class="action-btn" style="padding: 0 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">Save Color</button>
             </div>
-
-            <div style="width:100%; max-width:400px; padding:15px; border:1px dashed #555; background:#1e1e1e; border-radius:2px; margin-bottom:30px; box-sizing:border-box;">
-                <h3 style="margin-top:0; font-size:14px; border:none;">📷 Extract from Image</h3>
-                <p style="font-size:12px; color:#aaa; margin-bottom:10px;">Paste an image (Ctrl+V) or select:</p>
-                <input type="file" id="imageInput" accept="image/*" style="width:100%; font-size:12px; margin-bottom:10px; color:#ccc;">
-                <div id="imgCanvasWrapper" style="position:relative; width:100%; display:none; touch-action:none; overflow:hidden; border:1px solid #333; border-radius:2px;">
+            
+            <div style="width:100%; padding:15px; border:1px dashed rgba(255,255,255,0.15); background:#161616; border-radius:6px; margin-bottom:15px; box-sizing:border-box;">
+                <h3 style="margin-top:0; font-size:13px; text-transform: uppercase; letter-spacing: 1px; color: #aaa; margin-bottom: 6px; border:none;">📷 Extract from Image</h3>
+                <p style="font-size:11px; color:#888; margin-bottom:12px;">Paste an image anywhere (Ctrl+V) or upload below:</p>
+                <input type="file" id="imageInput" accept="image/*" style="width:100%; font-size:11px; margin-bottom:10px; color:#aaa; padding: 6px; background: #111; border: 1px solid #333; border-radius: 4px;">
+                <div id="imgCanvasWrapper" style="position:relative; width:100%; display:none; touch-action:none; overflow:hidden; border:1px solid #333; border-radius:4px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);">
                     <canvas id="imgCanvas" style="width:100%; height:auto; display:block; cursor:crosshair;"></canvas>
-                    <div id="pickerDot" style="position:absolute; width:12px; height:12px; border:2px solid #fff; border-radius:50%; box-shadow:0 0 4px #000; pointer-events:none; transform:translate(-50%, -50%); display:none;"></div>
+                    <div id="pickerDot" style="position:absolute; width:14px; height:14px; border:2px solid #fff; border-radius:50%; box-shadow:0 0 6px #000; pointer-events:none; transform:translate(-50%, -50%); display:none;"></div>
                 </div>
-                <div id="extractedColorDisplay" style="margin-top:10px; padding:8px; font-size:12px; font-weight:bold; border-radius:2px; display:none; text-align:center; text-shadow:0 1px 2px rgba(0,0,0,0.8);"></div>
+                <div id="extractedColorDisplay" style="margin-top:10px; padding:8px; font-size:11px; font-weight:bold; border-radius:4px; display:none; text-align:center; text-shadow:0 1px 2px rgba(0,0,0,0.8);"></div>
             </div>
 
-            <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 10px;">
-                <h2 style="border: none; margin: 0; padding: 0;">Saved Colors</h2>
-                <button id="btnClearColors" style="background: transparent; border: 1px solid #555; color: #aaa; cursor: pointer; padding: 5px 10px; font-size: 12px; border-radius: 2px;">Clear All</button>
+            <div style="width:100%; padding:12px; border:1px solid rgba(255,255,255,0.08); background:#161616; border-radius:6px; margin-bottom:25px; box-sizing:border-box; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                <h3 style="margin-top:0; font-size:12px; text-transform: uppercase; letter-spacing: 1px; color: #aaa; margin-bottom: 10px; border:none; text-align: left;">✨ Color Suggestions</h3>
+                <div id="suggestionsGrid" style="display:grid; grid-template-columns: repeat(4, 1fr); gap:6px; margin-top:0;"></div>
+            </div>
+
+            <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; margin-bottom: 15px;">
+                <h2 style="border: none; margin: 0; padding: 0; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: #ccc;">Saved Colors</h2>
+                <button id="btnClearColors" style="background: transparent; border: 1px solid #444; color: #aaa; cursor: pointer; padding: 4px 10px; font-size: 11px; border-radius: 4px; transition: all 0.2s;">Clear All</button>
             </div>
             
             <div id="saved-colors-grid" class="presets-grid" style="width: 100%;"></div>
@@ -226,13 +221,16 @@ function renderizarColorPicker(btn) {
 
   const hex = document.getElementById("hex"),
     rgb = document.getElementById("rgb"),
+    colorNameInput = document.getElementById("colorNameInput"), 
     btnSaveColor = document.getElementById("btnSaveColor"),
     btnClearColors = document.getElementById("btnClearColors"),
     savedColorsGrid = document.getElementById("saved-colors-grid");
 
   const colorPicker = new iro.ColorPicker("#color-picker-container", {
-    width: 180,
+    width: 190,
     color: "#ffffff",
+    borderWidth: 1,
+    borderColor: "#333",
   });
 
   const updateInputs = (color) => {
@@ -248,12 +246,13 @@ function renderizarColorPicker(btn) {
     
     hex.style.color = hVal;
     rgb.style.color = hVal;
+    gerarSugestoesDeCores(color.rgb);
   };
 
   updateInputs(colorPicker.color);
   colorPicker.on("color:change", updateInputs);
 
-  // INICIO: geradorPaletasHarmoniosas
+  // INICIO: rgbToHsl
   function rgbToHsl(r, g, b) {
     r /= 255; g /= 255; b /= 255;
     let max = Math.max(r, g, b), min = Math.min(r, g, b);
@@ -272,8 +271,13 @@ function renderizarColorPicker(btn) {
     }
     return [h * 360, s * 100, l * 100];
   }
+  // FIM: rgbToHsl
 
+  // INICIO: hslToRgb
   function hslToRgb(h, s, l) {
+    h = ((h % 360) + 360) % 360;
+    s = Math.max(0, Math.min(100, s));
+    l = Math.max(0, Math.min(100, l));
     h /= 360; s /= 100; l /= 100;
     let r, g, b;
     if (s === 0) {
@@ -295,58 +299,56 @@ function renderizarColorPicker(btn) {
     }
     return `${Math.round(r * 255)},${Math.round(g * 255)},${Math.round(b * 255)}`;
   }
+  // FIM: hslToRgb
 
-  function gerarHarmonias(tipo) {
-    const grid = document.getElementById("harmoniousGrid");
+  // INICIO: gerarSugestoesDeCores
+  function gerarSugestoesDeCores(curRgb) {
+    const grid = document.getElementById("suggestionsGrid");
+    if (!grid) return;
     grid.innerHTML = "";
-    const curRgb = colorPicker.color.rgb;
+
     let [h, s, l] = rgbToHsl(curRgb.r, curRgb.g, curRgb.b);
-    let cores = [];
 
-    if (tipo === 'comp') {
-      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
-      cores.push(hslToRgb((h + 180) % 360, s, l));
-    } else if (tipo === 'analog') {
-      cores.push(hslToRgb((h - 30 + 360) % 360, s, l));
-      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
-      cores.push(hslToRgb((h + 30) % 360, s, l));
-    } else if (tipo === 'triad') {
-      cores.push(`${curRgb.r},${curRgb.g},${curRgb.b}`);
-      cores.push(hslToRgb((h + 120) % 360, s, l));
-      cores.push(hslToRgb((h + 240) % 360, s, l));
-    }
+    const sugestoes = [
+      { nome: "Neon", rgb: hslToRgb(h, 100, 50) },
+      { nome: "Vibrant", rgb: hslToRgb(h, Math.min(100, s + 35), Math.max(30, Math.min(70, l))) },
+      { nome: "Pastel", rgb: hslToRgb(h, Math.max(20, s - 10), Math.min(90, Math.max(75, l + 15))) },
+      { nome: "Grayish", rgb: hslToRgb(h, Math.max(0, s - 50), l) },
+      { nome: "Darker", rgb: hslToRgb(h, s, Math.max(10, l - 25)) },
+      { nome: "Lighter", rgb: hslToRgb(h, s, Math.min(95, l + 25)) },
+      { nome: "Complement", rgb: hslToRgb((h + 180) % 360, s, l) },
+      { nome: "Analogous", rgb: hslToRgb((h + 30) % 360, s, l) }
+    ];
 
-    cores.forEach(c => {
+    sugestoes.forEach(item => {
       const card = document.createElement("div");
-      card.style.aspectRatio = "2.5";
-      card.style.borderRadius = "2px";
-      card.style.border = "1px solid #333";
+      card.style.aspectRatio = "2.2";
+      card.style.borderRadius = "4px";
+      card.style.border = "1px solid rgba(255,255,255,0.15)";
       card.style.cursor = "pointer";
       card.style.display = "flex";
-      card.style.alignItems = "flex-end";
+      card.style.flexDirection = "column";
+      card.style.justifyContent = "center";
+      card.style.alignItems = "center";
       card.style.padding = "4px";
-      card.style.fontSize = "10px";
-      card.style.fontWeight = "bold";
       card.style.color = "#fff";
       card.style.textShadow = "0 1px 2px rgba(0,0,0,0.9)";
-      card.style.backgroundColor = `rgb(${c})`;
-      card.textContent = c;
+      card.style.backgroundColor = `rgb(${item.rgb})`;
+      card.innerHTML = `<span style="font-size:10px; font-weight:bold; opacity:0.95;">${item.nome}</span>
+                        <span style="font-size:8px; font-family:monospace; margin-top:2px; opacity:0.8;">${item.rgb}</span>`;
+      
       card.onclick = async () => {
-        await navigator.clipboard.writeText(c);
+        await navigator.clipboard.writeText(item.rgb);
         tocarSomClique();
-        updateHistory(c);
-        card.textContent = "Copied!";
-        setTimeout(() => { card.textContent = c; }, 1000);
+        updateHistory(item.rgb);
+        colorPicker.color.set(`rgb(${item.rgb})`);
+        card.style.borderColor = "#4caf50";
+        setTimeout(() => { card.style.borderColor = "rgba(255,255,255,0.15)"; }, 600);
       };
       grid.appendChild(card);
     });
   }
-
-  document.getElementById("btnHarmComp").onclick = () => gerarHarmonias('comp');
-  document.getElementById("btnHarmAnalog").onclick = () => gerarHarmonias('analog');
-  document.getElementById("btnHarmTriad").onclick = () => gerarHarmonias('triad');
-  gerarHarmonias('comp');
-  // FIM: geradorPaletasHarmoniosas
+  // FIM: gerarSugestoesDeCores
 
   hex.addEventListener("input", (e) => {
     let val = e.target.value.trim();
@@ -382,23 +384,29 @@ function renderizarColorPicker(btn) {
       }),
   );
 
+  // INICIO: renderizarFavoritos
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
     if (savedColors.length === 0) {
-        savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:14px; text-align:left;'>No colors saved yet.</p>";
+        savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:13px; text-align:left;'>No colors saved yet.</p>";
         return;
     }
 
     savedColors.forEach((cor, index) => {
+        const corValue = typeof cor === 'string' ? cor : cor.value;
+        const corName = typeof cor === 'string' ? cor : cor.name;
+
         const card = document.createElement("div");
         card.className = "preset-card";
-        card.style.backgroundColor = cor.includes(',') ? `rgb(${cor})` : cor;
-        card.textContent = cor;
+        card.style.backgroundColor = corValue.includes(',') && !corValue.startsWith('rgb') && !corValue.startsWith('#') ? `rgb(${corValue})` : corValue;
+        card.style.borderRadius = "4px";
+        
+        card.textContent = corName;
 
         card.onclick = async () => {
-            await navigator.clipboard.writeText(cor);
+            await navigator.clipboard.writeText(corValue);
             tocarSomClique();
-            updateHistory(cor);
+            updateHistory(corValue);
             const originalText = card.textContent;
             card.textContent = "Copied!";
             setTimeout(() => {
@@ -416,18 +424,33 @@ function renderizarColorPicker(btn) {
         savedColorsGrid.appendChild(card);
     });
   }
+  // FIM: renderizarFavoritos
 
   renderizarFavoritos();
 
   btnSaveColor.onclick = () => {
       const currentColor = rgb.value;
-      if (!savedColors.includes(currentColor)) {
-          savedColors.push(currentColor);
+      const customName = colorNameInput.value.trim() || currentColor; 
+      
+      const isDuplicate = savedColors.some(c => {
+          const cVal = typeof c === 'string' ? c : c.value;
+          const cName = typeof c === 'string' ? c : c.name;
+          return cVal === currentColor && cName === customName;
+      });
+
+      if (!isDuplicate) {
+          savedColors.push({ value: currentColor, name: customName });
           localStorage.setItem('jjs_saved_colors', JSON.stringify(savedColors));
           renderizarFavoritos();
           
+          colorNameInput.value = "";
+
           const textoOriginal = btnSaveColor.textContent;
-          btnSaveColor.textContent = "Color Saved!";
+          btnSaveColor.textContent = "Saved!";
+          setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
+      } else {
+          const textoOriginal = btnSaveColor.textContent;
+          btnSaveColor.textContent = "Exists!";
           setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
       }
   };
@@ -471,6 +494,7 @@ function renderizarColorPicker(btn) {
       }
   });
 
+  // INICIO: carregarImagemNaCanvas
   function carregarImagemNaCanvas(file) {
       const url = URL.createObjectURL(file);
       canvasImage.onload = () => {
@@ -483,9 +507,11 @@ function renderizarColorPicker(btn) {
       };
       canvasImage.src = url;
   }
+  // FIM: carregarImagemNaCanvas
 
   let isDraggingCanvas = false;
 
+  // INICIO: extrairCorDaCanvas
   const extrairCorDaCanvas = (e) => {
       const rect = imgCanvas.getBoundingClientRect();
       let xVisivel = e.clientX - rect.left;
@@ -510,6 +536,7 @@ function renderizarColorPicker(btn) {
       extractedColorDisplay.style.backgroundColor = `rgb(${rgbStr})`;
       extractedColorDisplay.textContent = `Selected: ${rgbStr}`;
   };
+  // FIM: extrairCorDaCanvas
 
   imgCanvas.addEventListener("pointerdown", (e) => {
       isDraggingCanvas = true;
@@ -546,6 +573,15 @@ function carregarPresets(url, btn) {
 }
 // FIM: carregarPresets
 
+// INICIO: extrairNumerosRGB
+function extrairNumerosRGB(val) {
+  if (!val) return "";
+  let str = Array.isArray(val) ? val[0] : val;
+  if (typeof str !== "string") str = String(str);
+  return str.replace(/rgba?\((.*?)\)/gi, '$1').trim();
+}
+// FIM: extrairNumerosRGB
+
 // INICIO: renderizarPresets
 function renderizarPresets(data, termo) {
   conteudo.innerHTML = "";
@@ -553,6 +589,8 @@ function renderizarPresets(data, termo) {
   let grupos = [];
   let grupoAtual = { cat: "JJS Buildings Colors", color: null, items: [] };
   let primeiraCategoriaEncontrada = false;
+  let mcatAtual = "_default_"; 
+  let mcatColors = {};
 
   data.forEach((item) => {
     if (item.cat) {
@@ -564,8 +602,20 @@ function renderizarPresets(data, termo) {
         grupoAtual = { cat: item.cat, color: item.color || item.rgb || null, items: [] };
       }
       primeiraCategoriaEncontrada = true;
+      mcatAtual = "_default_"; 
     } else {
-      grupoAtual.items.push(item);
+      if (item.mcat !== undefined) {
+        mcatAtual = item.mcat || "_default_";
+        if (item.color || item.rgb) {
+          mcatColors[mcatAtual] = item.color || item.rgb;
+        }
+        if (!item.name && !item.rgb && !item.colors) {
+          return;
+        }
+      }
+      
+      let newItem = { ...item, _appliedMcat: mcatAtual };
+      grupoAtual.items.push(newItem);
     }
   });
   grupos.push(grupoAtual);
@@ -574,17 +624,20 @@ function renderizarPresets(data, termo) {
 
   grupos.forEach((grupo) => {
     const itensFiltrados = grupo.items.filter((item) => {
-      const rgbVal = item.rgb || item.color || item;
-      const nameVal = item.name || (typeof rgbVal === 'string' ? rgbVal : "Unnamed");
+      const rawRgb = item.rgb || item.color || item;
+      const nameVal = item.name || (typeof rawRgb === 'string' ? rawRgb : "Unnamed");
+      const mcatVal = item._appliedMcat || ""; 
 
-      let copyText = rgbVal;
-      if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
-        let cor1 = item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rgbVal);
-        let cor2 = item.rgb2 || (Array.isArray(item.colors) ? item.colors[1] : rgbVal);
-        copyText = `${cor1} ALT ${cor2}`;
+      let cor1 = extrairNumerosRGB(item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rawRgb));
+      let cor2 = item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2 ? item.colors[1] : null);
+      let copyText = cor1;
+      if (cor2) {
+        copyText = `${cor1} ALT ${extrairNumerosRGB(cor2)}`;
       }
 
-      return nameVal.toLowerCase().includes(termoBusca) || copyText.toString().toLowerCase().includes(termoBusca);
+      return nameVal.toLowerCase().includes(termoBusca) || 
+             copyText.toString().toLowerCase().includes(termoBusca) || 
+             mcatVal.toLowerCase().includes(termoBusca);
     });
 
     if (itensFiltrados.length > 0) {
@@ -593,60 +646,84 @@ function renderizarPresets(data, termo) {
       
       let catColor = "";
       if (grupo.color) {
-        catColor = Array.isArray(grupo.color) ? grupo.color[0] : grupo.color;
+        catColor = extrairNumerosRGB(grupo.color);
       }
       if (catColor) {
-        const corFormatada = catColor.includes(',') && !catColor.startsWith('rgb') && !catColor.startsWith('#') ? `rgb(${catColor})` : catColor;
-        h2.style.color = corFormatada;
-        h2.style.borderBottomColor = corFormatada;
+        h2.style.color = `rgb(${catColor})`;
+        h2.style.borderBottomColor = `rgb(${catColor})`;
       }
       
       conteudo.appendChild(h2);
 
-      const grid = document.createElement("div");
-      grid.className = "presets-grid";
-
-      itensFiltrados.forEach((item) => {
-        const rgbVal = item.rgb || item.color || item;
-        const nameVal = item.name || (typeof rgbVal === 'string' ? rgbVal : "Unnamed");
-
-        let copyText = rgbVal;
-        if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
-          let cor1 = item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rgbVal);
-          let cor2 = item.rgb2 || (Array.isArray(item.colors) ? item.colors[1] : rgbVal);
-          copyText = `${cor1} ALT ${cor2}`;
-        }
-
-        const card = document.createElement("div");
-        card.className = "preset-card";
-        
-        // INICIO: gradientePresetCard
-        if (item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2)) {
-          let cor1 = item.rgb1 || item.colors[0];
-          let cor2 = item.rgb2 || item.colors[1];
-          let c1 = cor1.includes(',') && !cor1.startsWith('rgb') ? `rgb(${cor1})` : cor1;
-          let c2 = cor2.includes(',') && !cor2.startsWith('rgb') ? `rgb(${cor2})` : cor2;
-          card.style.background = `linear-gradient(90deg, ${c1}, ${c2})`;
-        } else {
-          card.style.backgroundColor = rgbVal.includes(',') && !rgbVal.startsWith('rgb') ? `rgb(${rgbVal})` : rgbVal;
-        }
-        // FIM: gradientePresetCard
-
-        card.textContent = nameVal;
-
-        card.onclick = async () => {
-          await navigator.clipboard.writeText(copyText); 
-          tocarSomClique();
-          updateHistory(copyText); 
-          const originalText = card.textContent;
-          card.textContent = "Copied!";
-          setTimeout(() => {
-            card.textContent = originalText;
-          }, 1000);
-        };
-        grid.appendChild(card);
+      let mcats = { "_default_": [] };
+      itensFiltrados.forEach(item => {
+        let m = item._appliedMcat || "_default_";
+        if (!mcats[m]) mcats[m] = [];
+        mcats[m].push(item);
       });
-      conteudo.appendChild(grid);
+
+      let mcatKeys = Object.keys(mcats).filter(k => k !== "_default_");
+      let orderedKeys = ["_default_", ...mcatKeys];
+
+      orderedKeys.forEach(mcatName => {
+        let itemsInMcat = mcats[mcatName];
+        if (itemsInMcat.length === 0) return;
+
+        if (mcatName !== "_default_") {
+          const h3 = document.createElement("h3");
+          h3.className = "mcat-title";
+          h3.textContent = mcatName;
+          
+          let currentMcatColor = mcatColors[mcatName] ? extrairNumerosRGB(mcatColors[mcatName]) : catColor;
+          if (currentMcatColor) {
+            h3.style.color = `rgb(${currentMcatColor})`;
+            h3.style.borderBottomColor = `rgb(${currentMcatColor})`;
+          }
+          conteudo.appendChild(h3);
+        }
+
+        const grid = document.createElement("div");
+        grid.className = "presets-grid";
+
+        itemsInMcat.forEach((item) => {
+          const rawRgb = item.rgb || item.color || item;
+          const nameVal = item.name || (typeof rawRgb === 'string' ? rawRgb : "Unnamed");
+
+          let cor1 = extrairNumerosRGB(item.rgb1 || (Array.isArray(item.colors) ? item.colors[0] : rawRgb));
+          let cor2 = item.rgb2 || (Array.isArray(item.colors) && item.colors.length >= 2 ? item.colors[1] : null);
+          if (cor2) cor2 = extrairNumerosRGB(cor2);
+
+          let copyText = cor1;
+          if (cor2) {
+            copyText = `${cor1} ALT ${cor2}`;
+          }
+
+          const card = document.createElement("div");
+          card.className = "preset-card";
+          
+          if (cor2) {
+            card.style.background = `linear-gradient(90deg, rgb(${cor1}), rgb(${cor2}))`;
+          } else {
+            card.style.backgroundColor = `rgb(${cor1})`;
+          }
+
+          card.textContent = nameVal;
+
+          card.onclick = async () => {
+            await navigator.clipboard.writeText(copyText); 
+            tocarSomClique();
+            updateHistory(copyText); 
+            const originalText = card.textContent;
+            card.textContent = "Copied!";
+            setTimeout(() => {
+              card.textContent = originalText;
+            }, 1000);
+          };
+          grid.appendChild(card);
+        });
+        
+        conteudo.appendChild(grid);
+      });
     }
   });
 }
@@ -891,6 +968,7 @@ function dispararPesquisaAtual(valor) {
 }
 // FIM: dispararPesquisaAtual
 
+// INICIO: eventListenersGlobais
 campoPesquisa.addEventListener("input", (e) => {
   const val = e.target.value.trim();
 
@@ -919,7 +997,6 @@ document.getElementById("btnTema").addEventListener("click", () => {
 });
 
 window.addEventListener("keydown", (e) => {
-  // 1. Atalho Global que fecha tudo (Esc)
   if (e.key === "Escape") {
     campoPesquisa.value = "";
     menu.classList.add("hidden");
@@ -928,7 +1005,6 @@ window.addEventListener("keydown", (e) => {
     dispararPesquisaAtual("");
     campoPesquisa.blur();
     
-    // Fecha os modais se estiverem abertos
     if (typeof fecharModalEdicao === 'function') fecharModalEdicao();
     if (typeof fecharNotepad === 'function') fecharNotepad();
     const cheatSheet = document.getElementById("cheatSheetModal");
@@ -936,35 +1012,29 @@ window.addEventListener("keydown", (e) => {
     return;
   }
 
-  // Verifica se o usuário está focado em um input/textarea para não disparar atalhos enquanto digita
   const isInputFocused = document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA';
 
-  // 2. Atalho: / (Foca na pesquisa)
   if (e.key === "/") {
     if (!isInputFocused) {
-      e.preventDefault(); // Impede de digitar a "/" na barra
+      e.preventDefault(); 
       campoPesquisa.focus();
     }
     return;
   }
 
-  // Se estiver focado na barra de pesquisa ou em modais de texto, bloqueia os atalhos abaixo
   if (isInputFocused) return;
 
   const keyLower = e.key.toLowerCase();
 
-  // 3. Sistema de Cheat Sheet e Navegação Rápida
   if (keyLower === "[") {
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.toggle("hidden");
   } 
-  // Ir para a aba Anterior (-)
   else if (keyLower === "-" || keyLower === "_") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
     const currentIndex = navButtons.findIndex(btn => btn.classList.contains("ativo"));
     if (currentIndex > 0) navButtons[currentIndex - 1].click();
   } 
-  // Ir para a aba Próxima (+ ou =)
   else if (keyLower === "=" || keyLower === "+") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
     const currentIndex = navButtons.findIndex(btn => btn.classList.contains("ativo"));
@@ -972,40 +1042,31 @@ window.addEventListener("keydown", (e) => {
       navButtons[currentIndex + 1].click();
     }
   } 
-  // Alternar Tema (T)
   else if (keyLower === "t") {
     document.getElementById("btnTema").click();
   } 
-  // Alternar Menu (M)
   else if (keyLower === "m") {
     document.getElementById("btnToggle").click();
   } 
-  // Alternar Tela Cheia (F)
   else if (keyLower === "f") {
     document.getElementById("btnFullscreen").click();
   }
-  // Descer pro fundo (J)
   else if (keyLower === "j") {
     window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
   }
-  // Subir pro topo (K)
   else if (keyLower === "k") {
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
-    
-  // Abrir o Bloco de Notas (N)
   else if (keyLower === "n") {
     e.preventDefault();
     abrirNotepad();
   }
 });
 
-
 window.onload = () => {
   carregarTags();
   carregarDados("json/dados.json", document.querySelector("nav button"));
   
-  // Carregar conteúdo do Notepad, se houver
   const noteContent = localStorage.getItem('jjs_notepad_data');
   if(noteContent) document.getElementById('notepadText').value = noteContent;
 };
@@ -1033,6 +1094,7 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
 }
+// FIM: eventListenersGlobais
 
 let catEditandoId = null;
 let itemEditandoId = null;
@@ -1106,32 +1168,38 @@ function salvarItemEdicao() {
 }
 // FIM: salvarItemEdicao
 
-// INICIO: Funções do Notepad
+// INICIO: abrirNotepad
 function abrirNotepad() {
   document.getElementById("notepadModal").classList.remove("hidden");
   document.getElementById("notepadText").focus();
 }
+// FIM: abrirNotepad
 
+// INICIO: fecharNotepad
 function fecharNotepad() {
   salvarNotepadSilencioso();
   document.getElementById("notepadModal").classList.add("hidden");
 }
+// FIM: fecharNotepad
 
+// INICIO: salvarNotepad
 function salvarNotepad() {
   salvarNotepadSilencioso();
   fecharNotepad();
   historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Note saved successfully!</span>`;
   setTimeout(() => renderizarHistorico(), 2000);
 }
+// FIM: salvarNotepad
 
+// INICIO: salvarNotepadSilencioso
 function salvarNotepadSilencioso() {
   const val = document.getElementById("notepadText").value;
   localStorage.setItem('jjs_notepad_data', val);
 }
-// Para salvar a nota automaticamente enquanto a pessoa digita:
 document.getElementById("notepadText").addEventListener("input", salvarNotepadSilencioso);
-// FIM: Funções do Notepad
+// FIM: salvarNotepadSilencioso
 
+// INICIO: exportJSON
 document.getElementById("btnExportJSON").addEventListener("click", () => {
   const exportData = dadosAtuais.map(cat => {
     const cleanCat = { ...cat };
@@ -1159,7 +1227,9 @@ document.getElementById("btnExportJSON").addEventListener("click", () => {
   
   historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] File ${fileName} exported successfully!</span>`;
 });
+// FIM: exportJSON
 
+// INICIO: toggleFullscreen
 const btnFullscreen = document.getElementById("btnFullscreen");
 
 btnFullscreen.addEventListener("click", () => {
@@ -1183,3 +1253,4 @@ document.addEventListener("fullscreenchange", () => {
     btnFullscreen.title = "Full Screen";
   }
 });
+// FIM: toggleFullscreen

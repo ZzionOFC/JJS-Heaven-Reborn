@@ -484,3 +484,18 @@ body.light-mode .shortcut-key {
   border-color: #ccc;
   color: #e65100;
 }
+
+.mcat-title {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #555;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+body.light-mode .mcat-title {
+  border-bottom-color: #aaa;
+  color: #444;
+}

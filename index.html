@@ -1,100 +1,279 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>JJS Heaven</title>
-<link rel="manifest" href="manifest.json" />
-<script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
-<link rel="stylesheet" href="css/index.css" />
-</head>
-<body>
-<button class="theme-toggle floating-btn" id="btnTema" title="Toggle Theme (T)">☀️</button>
-<button class="top-toggle floating-btn" id="btnTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Scroll to Top (K)">↑</button>
-<button class="bottom-toggle floating-btn" id="btnBottom" onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})" title="Scroll to Bottom (J)">↓</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JJS Heaven</title>
+    <link rel="manifest" href="manifest.json" />
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <button
+      class="theme-toggle floating-btn"
+      id="btnTema"
+      title="Toggle Theme (T)"
+    >
+      ☀️
+    </button>
+    <button
+      class="top-toggle floating-btn"
+      id="btnTop"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      title="Scroll to Top (K)"
+    >
+      ↑
+    </button>
+    <button
+      class="bottom-toggle floating-btn"
+      id="btnBottom"
+      onclick="
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+      "
+      title="Scroll to Bottom (J)"
+    >
+      ↓
+    </button>
 
-<div class="container">
-<div class="sticky-area">
-<div class="top-controls">
-<button class="toggle-btn" id="btnToggle">MENU ≡</button>
-<button class="action-btn" id="btnFullscreen" title="Full Screen">⛶</button>
-<button class="action-btn" id="btnExportJSON" style="display: none">💾 Export</button>
-<button class="action-btn" id="btnInstall" title="Install App" style="display: none">⬇️ App</button>
-</div>
+    <div class="container">
+      <div class="sticky-area">
+        <div class="top-controls">
+          <button class="toggle-btn" id="btnToggle">MENU ≡</button>
+          <button class="action-btn" id="btnFullscreen" title="Full Screen">
+            ⛶
+          </button>
+          <button class="action-btn" id="btnExportJSON" style="display: none">
+            💾 Export
+          </button>
+          <button
+            class="action-btn"
+            id="btnInstall"
+            title="Install App"
+            style="display: none"
+          >
+            ⬇️ App
+          </button>
+        </div>
 
-<nav id="menu" class="hidden">
-<button onclick="carregarDados('json/dados.json', this)" class="ativo">Data</button>
-<button onclick="carregarDados('json/decals.json', this)">Decals</button>
-<button onclick="carregarDados('json/part.json', this)">Particles</button>
-<button onclick="carregarDados('json/audios.json', this)">Audios</button>
-<button onclick="carregarDados('json/mesh.json', this)">Meshes</button>
-<button onclick="carregarDados('json/codes.json', this)">Codes</button>
-<button onclick="renderizarColorPicker(this)">Colors</button>
-<button onclick="carregarPresets('json/colors.json', this)">Presets</button>
-<button onclick="carregarLogs('json/log.txt', this)">SOCIALS</button>
-</nav>
-<input type="text" id="campoPesquisa" class="search-input" placeholder="Search..." />
-<div id="tagsContainer" class="tags-container hidden"></div>
+        <nav id="menu" class="hidden">
+          <button
+            onclick="carregarDados('json/dados.json', this)"
+            class="ativo"
+          >
+            Data
+          </button>
+          <button onclick="carregarDados('json/decals.json', this)">
+            Decals
+          </button>
+          <button onclick="carregarDados('json/part.json', this)">
+            Particles
+          </button>
+          <button onclick="carregarDados('json/audios.json', this)">
+            Audios
+          </button>
+          <button onclick="carregarDados('json/mesh.json', this)">
+            Meshes
+          </button>
+          <button onclick="carregarDados('json/codes.json', this)">
+            Codes
+          </button>
+          <button onclick="renderizarColorPicker(this)">Colors</button>
+          <button onclick="carregarPresets('json/colors.json', this)">
+            Presets
+          </button>
+          <button onclick="carregarLogs('json/log.txt', this)">SOCIALS</button>
+        </nav>
+        <!-- DESATIVAÇÃO DE PRIMEIRA LETRA MAIÚSCULA AUTOMÁTICA -->
+        <input
+          type="text"
+          id="campoPesquisa"
+          class="search-input"
+          placeholder="Search..."
+          autocapitalize="none"
+          autocorrect="off"
+          spellcheck="false"
+          autocomplete="off"
+        />
+        <div id="tagsContainer" class="tags-container hidden"></div>
 
-<div id="history-bar">Recent: None</div>
-</div>
-<main id="conteudo"></main>
-</div>
+        <div id="history-bar">Recent: None</div>
+      </div>
+      <main id="conteudo"></main>
+    </div>
 
-<div id="editorModal" class="modal-overlay hidden">
-<div class="modal-content">
-<h3 id="modalTitle" style="margin-top:0;">✏️ Edit Item</h3>
-<label>Name:</label>
-<input type="text" id="editName" class="modal-input" placeholder="Item Name..." />
-<label>ID:</label>
-<input type="text" id="editId" class="modal-input" placeholder="ID..." />
-<label>Code:</label>
-<input type="text" id="editCode" class="modal-input" placeholder="Code..." />
+    <div id="editorModal" class="modal-overlay hidden">
+      <div class="modal-content">
+        <h3 id="modalTitle" style="margin-top: 0">✏️ Edit Item</h3>
+        <label>Name:</label>
+        <input
+          type="text"
+          id="editName"
+          class="modal-input"
+          placeholder="Item Name..."
+        />
+        <label>ID:</label>
+        <input
+          type="text"
+          id="editId"
+          class="modal-input"
+          placeholder="ID..."
+        />
+        <label>Code:</label>
+        <input
+          type="text"
+          id="editCode"
+          class="modal-input"
+          placeholder="Code..."
+        />
+        <label>Info (optional):</label>
+        <input
+          type="text"
+          id="editInf"
+          class="modal-input"
+          placeholder="Extra info..."
+        />
+        <label>Config (optional):</label>
+        <input
+          type="text"
+          id="editConf"
+          class="modal-input"
+          placeholder="Config (ex: size:5.5)..."
+        />
 
-<div style="display: flex; gap: 10px; margin-top: 15px;">
-<button onclick="salvarItemEdicao()" class="action-btn" style="flex: 1; background: #2e7d32; border-color: #4caf50;">Save</button>
-<button onclick="fecharModalEdicao()" class="action-btn" style="flex: 1;">Cancel</button>
-</div>
-</div>
-</div>
-
-<!-- INICIO: Notepad -->
-<div id="notepadModal" class="modal-overlay hidden" onclick="if(event.target === this) fecharNotepad()">
-<div class="modal-content" style="max-width: 500px; width: 95%; height: 60vh; display: flex; flex-direction: column;">
-<h3 style="margin-top:0; display:flex; justify-content:space-between; align-items:center; border-bottom: 2px solid #333; padding-bottom: 10px;">
-📝 Notepad
-<button onclick="fecharNotepad()" style="background:none;border:none;color:#aaa;cursor:pointer;font-size:16px;">✖</button>
-</h3>
-<textarea id="notepadText" style="flex:1; width:100%; background:#121212; color:#fff; border:1px solid #333; padding:12px; resize:none; font-family:inherit; border-radius:4px; box-sizing:border-box;" placeholder="Type your notes here..."></textarea>
-<div style="display: flex; gap: 10px; margin-top: 15px;">
-<button onclick="salvarNotepad()" class="action-btn" style="flex: 1; background: #2e7d32; border-color: #4caf50;">Save & Close</button>
-</div>
-</div>
-</div>
-<!--Notepad -->
-
-<div id="cheatSheetModal" class="modal-overlay hidden" onclick="if(event.target === this) this.classList.add('hidden')">
-<div class="modal-content" style="max-width: 450px;">
-<h3 style="margin-top:0; border-bottom: 2px solid #333; padding-bottom: 10px;">⌨️ Keyboard Shortcuts</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; line-height: 2.2; font-size: 14px;">
-<div>
-<strong class="shortcut-key">[</strong> Toggle Cheat Sheet<br>
-<strong class="shortcut-key">/</strong> Focus Search<br>
-<strong class="shortcut-key">Esc</strong> Clear / Close<br>
-<strong class="shortcut-key">-</strong> Previous Tab<br>
-<strong class="shortcut-key">+</strong> Next Tab<br>
-</div>
-<div>
-<strong class="shortcut-key">J</strong> Scroll to Bottom<br>
-<strong class="shortcut-key">K</strong> Scroll to Top<br>
-<strong class="shortcut-key">N</strong> Open Notepad<br>
-<strong class="shortcut-key">T / M / F</strong> Theme/Menu/Full<br>
-</div>
-</div>
-<button onclick="document.getElementById('cheatSheetModal').classList.add('hidden')" class="action-btn" style="width: 100%; margin-top: 20px;">Close</button>
-</div>
-</div>
-
-<script src="js/index.js"></script>
-</body>
+        <div style="display: flex; gap: 10px; margin-top: 15px">
+          <button
+            onclick="salvarItemEdicao()"
+            class="action-btn"
+            style="flex: 1; background: #2e7d32; border-color: #4caf50"
+          >
+            Save
+          </button>
+          <button
+            onclick="fecharModalEdicao()"
+            class="action-btn"
+            style="flex: 1"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="notepadModal"
+      class="modal-overlay hidden"
+      onclick="if (event.target === this) fecharNotepad();"
+    >
+      <div
+        class="modal-content"
+        style="
+          max-width: 500px;
+          width: 95%;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+        <h3
+          style="
+            margin-top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+          "
+        >
+          📝 Notepad
+          <button
+            onclick="fecharNotepad()"
+            style="
+              background: none;
+              border: none;
+              color: #aaa;
+              cursor: pointer;
+              font-size: 16px;
+            "
+          >
+            ✖
+          </button>
+        </h3>
+        <textarea
+          id="notepadText"
+          style="
+            flex: 1;
+            width: 100%;
+            background: #121212;
+            color: #fff;
+            border: 1px solid #333;
+            padding: 12px;
+            resize: none;
+            font-family: inherit;
+            border-radius: 4px;
+            box-sizing: border-box;
+          "
+          placeholder="Type your notes here..."
+        ></textarea>
+        <div style="display: flex; gap: 10px; margin-top: 15px">
+          <button
+            onclick="salvarNotepad()"
+            class="action-btn"
+            style="flex: 1; background: #2e7d32; border-color: #4caf50"
+          >
+            Save & Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="cheatSheetModal"
+      class="modal-overlay hidden"
+      onclick="if (event.target === this) this.classList.add('hidden');"
+    >
+      <div class="modal-content" style="max-width: 450px">
+        <h3
+          style="
+            margin-top: 0;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+          "
+        >
+          ⌨️ Keyboard Shortcuts
+        </h3>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            line-height: 2.2;
+            font-size: 14px;
+          "
+        >
+          <div>
+            <strong class="shortcut-key">[</strong> Toggle Cheat Sheet<br />
+            <strong class="shortcut-key">/</strong> Focus Search<br />
+            <strong class="shortcut-key">Esc</strong> Clear / Close<br />
+            <strong class="shortcut-key">-</strong> Previous Tab<br />
+            <strong class="shortcut-key">+</strong> Next Tab<br />
+          </div>
+          <div>
+            <strong class="shortcut-key">J</strong> Scroll to Bottom<br />
+            <strong class="shortcut-key">K</strong> Scroll to Top<br />
+            <strong class="shortcut-key">N</strong> Open Notepad<br />
+            <strong class="shortcut-key">T / M / F</strong>
+            Theme/Menu/Full<br />
+          </div>
+        </div>
+        <button
+          onclick="
+            document.getElementById('cheatSheetModal').classList.add('hidden')
+          "
+          class="action-btn"
+          style="width: 100%; margin-top: 20px"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
 </html>

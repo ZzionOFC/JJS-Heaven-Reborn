@@ -1,0 +1,4929 @@
+[
+  {
+    "category": "Sound Effects:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Blood Gush",
+        "id": "139131477132737"
+      },
+      {
+        "type": "item",
+        "name": "Hard Slam",
+        "id": "99099006327211"
+      },
+      {
+        "type": "item",
+        "name": "Rock Slammed At Rocks",
+        "id": "139818366003696"
+      },
+      {
+        "type": "item",
+        "name": "Fire Impact",
+        "id": "139681553729333"
+      },
+      {
+        "type": "item",
+        "name": "Explosion/Sudden Impact",
+        "id": "138533090376585"
+      },
+      {
+        "type": "item",
+        "name": "Strong Punch/Impact",
+        "id": "138507090524688"
+      },
+      {
+        "type": "item",
+        "name": "Impact 1",
+        "id": "138491608174336"
+      },
+      {
+        "type": "item",
+        "name": "Impact 2",
+        "id": "124508619845222"
+      },
+      {
+        "type": "item",
+        "name": "Impact 3",
+        "id": "136296034626741"
+      },
+      {
+        "type": "item",
+        "name": "Glass Break",
+        "id": "138817960173178"
+      },
+      {
+        "type": "item",
+        "name": "Strong Impact",
+        "id": "128356543877971"
+      },
+      {
+        "type": "item",
+        "name": "Black Flash Impact",
+        "id": "101408037150094"
+      },
+      {
+        "type": "item",
+        "name": "Rock Impact",
+        "id": "9118614718"
+      },
+      {
+        "type": "item",
+        "name": "Black Flash Impact ALT1",
+        "id": "17873732848"
+      },
+      {
+        "type": "item",
+        "name": "Body Impact Hard",
+        "id": "5507830073"
+      },
+      {
+        "type": "item",
+        "name": "Axe Impact",
+        "id": "9113225979"
+      },
+      {
+        "type": "item",
+        "name": "Rock Large impact",
+        "id": "9118617342"
+      },
+      {
+        "type": "item",
+        "name": "Sword Impact",
+        "id": "7171761940"
+      },
+      {
+        "type": "item",
+        "name": "Pool Splash Impact",
+        "id": "9117822527"
+      },
+      {
+        "type": "item",
+        "name": "Laser Zap Impact",
+        "id": "9119594928"
+      },
+      {
+        "type": "item",
+        "name": "Blood/Bullet Hit Impact",
+        "id": "4427231299"
+      },
+      {
+        "type": "item",
+        "name": "Bullet Hard Surface Impact",
+        "id": "78578946566141"
+      },
+      {
+        "type": "item",
+        "name": "Rock Smash Impact",
+        "id": "9125869505"
+      },
+      {
+        "type": "item",
+        "name": "Dismantle Impact",
+        "id": "127747836286692"
+      },
+      {
+        "type": "item",
+        "name": "Saw Blade Impact",
+        "id": "233380645"
+      },
+      {
+        "type": "item",
+        "name": "Ice/Glass Impact",
+        "id": "107467482558699"
+      },
+      {
+        "type": "item",
+        "name": "Metal Impact",
+        "id": "9113764330"
+      },
+      {
+        "type": "item",
+        "name": "Lighting Impact",
+        "id": "4961088919"
+      },
+      {
+        "type": "item",
+        "name": "Random Impact",
+        "id": "5501600429"
+      },
+      {
+        "type": "item",
+        "name": "Metal Impact 2",
+        "id": "9116709512"
+      },
+      {
+        "type": "item",
+        "name": "Metal Impact 3",
+        "id": "9116673944"
+      },
+      {
+        "type": "item",
+        "name": "Harder Rock Impact",
+        "id": "9118614717"
+      },
+      {
+        "type": "item",
+        "name": "SnowBall Impact",
+        "id": "4518881974"
+      },
+      {
+        "type": "item",
+        "name": "Star Impact",
+        "id": "4612384643"
+      },
+      {
+        "type": "item",
+        "name": "Shockwave Impact",
+        "id": "107099176643351"
+      },
+      {
+        "type": "item",
+        "name": "Shield Impact",
+        "id": "9119074309"
+      },
+      {
+        "type": "item",
+        "name": "Random Impact ALT2",
+        "id": "126329843178617"
+      },
+      {
+        "type": "item",
+        "name": "Normal Rock Impact",
+        "id": "9118613455"
+      },
+      {
+        "type": "item",
+        "name": "Normal Rock Impact ALT2",
+        "id": "9118614058"
+      },
+      {
+        "type": "item",
+        "name": "Random Impact ALT3",
+        "id": "3105090678"
+      },
+      {
+        "type": "item",
+        "name": "Normal Rock Impact ALT3",
+        "id": "9118613457"
+      },
+      {
+        "type": "item",
+        "name": "Random Impact ALT4",
+        "id": "120935595628430"
+      },
+      {
+        "type": "item",
+        "name": "Super Impact",
+        "id": "3295664865"
+      },
+      {
+        "type": "item",
+        "name": "Rock Pile Impact",
+        "id": "8974095117"
+      },
+      {
+        "type": "item",
+        "name": "Bullet Metal Impact",
+        "id": "81340193577891"
+      },
+      {
+        "type": "item",
+        "name": "Rumble Impact",
+        "id": "3923230963"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Impact",
+        "id": "6324692247"
+      },
+      {
+        "type": "item",
+        "name": "Mace Impact",
+        "id": "130613136581394"
+      },
+      {
+        "type": "item",
+        "name": "Smash Impact",
+        "id": "7823511893"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Smash Impact",
+        "id": "76841366761482"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Kick Impact",
+        "id": "3509669748"
+      },
+      {
+        "type": "item",
+        "name": "Meteor Impact",
+        "id": "5292846003"
+      },
+      {
+        "type": "item",
+        "name": "Punch/Kick Impact",
+        "id": "119755305870451"
+      },
+      {
+        "type": "item",
+        "name": "Kick 1st Impact",
+        "id": "134363357074487"
+      },
+      {
+        "type": "item",
+        "name": "Kick 2nd Impact",
+        "id": "123458238003078"
+      },
+      {
+        "type": "item",
+        "name": "Debris Slam Impact",
+        "id": "139091089156450"
+      },
+      {
+        "type": "item",
+        "name": "Punch Impact",
+        "id": "120787552999211"
+      },
+      {
+        "type": "item",
+        "name": "Gorey Impact",
+        "id": "84939824055200"
+      },
+      {
+        "type": "item",
+        "name": "High speed woosh",
+        "id": "125815824381597"
+      },
+      {
+        "type": "item",
+        "name": "Slash & blood",
+        "id": "74976004744038"
+      },
+      {
+        "type": "item",
+        "name": "Cloth rustle",
+        "id": "136224586361044"
+      },
+      {
+        "type": "item",
+        "name": "Cloth quick",
+        "id": "121238985608899"
+      },
+      {
+        "type": "item",
+        "name": "Gun click",
+        "id": "139170625572709"
+      },
+      {
+        "type": "item",
+        "name": "Gun load",
+        "id": "127341644767895"
+      },
+      {
+        "type": "item",
+        "name": "Gun fire",
+        "id": "134693554186099"
+      },
+      {
+        "type": "item",
+        "name": "Shell casing eject",
+        "id": "4223883783"
+      },
+      {
+        "type": "item",
+        "name": "Shell eject 2",
+        "id": "86548525433119"
+      },
+      {
+        "type": "item",
+        "name": "Reload",
+        "id": "1778483724"
+      },
+      {
+        "type": "item",
+        "name": "Handgun reload",
+        "id": "5651440920"
+      },
+      {
+        "type": "item",
+        "name": "Lightweight gun fire",
+        "id": "6376004735"
+      },
+      {
+        "type": "item",
+        "name": "Handgun Fire",
+        "id": "139278950707917"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing",
+        "id": "140277245983305"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing ALT",
+        "id": "137017959711769"
+      },
+      {
+        "type": "item",
+        "name": "Spin Woosh",
+        "id": "138269694368715"
+      },
+      {
+        "type": "item",
+        "name": "Anticipation Wind",
+        "id": "137887511526908"
+      },
+      {
+        "type": "item",
+        "name": "3 Part Woosh",
+        "id": "139481160035471"
+      },
+      {
+        "type": "item",
+        "name": "Knife Quick",
+        "id": "4681191260"
+      },
+      {
+        "type": "item",
+        "name": "Knife",
+        "id": "137951817204948"
+      },
+      {
+        "type": "item",
+        "name": "Swish Woosh",
+        "id": "104835897489348"
+      },
+      {
+        "type": "item",
+        "name": "Heartbeat",
+        "id": "135454814111440"
+      },
+      {
+        "type": "item",
+        "name": "Glass Shatter",
+        "id": "105792362821593"
+      },
+      {
+        "type": "item",
+        "name": "Footstep",
+        "id": "135712042029119"
+      },
+      {
+        "type": "item",
+        "name": "Footstep ALT",
+        "id": "96150396419499"
+      },
+      {
+        "type": "item",
+        "name": "Rubble Settling",
+        "id": "139161937936105"
+      },
+      {
+        "type": "item",
+        "name": "Explosion",
+        "id": "140244542853196"
+      },
+      {
+        "type": "item",
+        "name": "Spinning",
+        "id": "138968344237450"
+      },
+      {
+        "type": "item",
+        "name": "Woosh",
+        "id": "124745828565304"
+      },
+      {
+        "type": "item",
+        "name": "Fast Spin Woosh",
+        "id": "79436225943098"
+      },
+      {
+        "type": "item",
+        "name": "Faster Spin Woosh",
+        "id": "120970073153190"
+      },
+      {
+        "type": "item",
+        "name": "Spinning Slash Woosh",
+        "id": "92525376068049"
+      },
+      {
+        "type": "item",
+        "name": "X slash",
+        "id": "126203981639603"
+      },
+      {
+        "type": "item",
+        "name": "RCT",
+        "id": "119894975006068"
+      },
+      {
+        "type": "item",
+        "name": "Soul Flare",
+        "id": "129574185636266"
+      },
+      {
+        "type": "item",
+        "name": "Slow Woosh",
+        "id": "119611082558157"
+      },
+      {
+        "type": "item",
+        "name": "Spin",
+        "id": "112270144568260"
+      },
+      {
+        "type": "item",
+        "name": "Slide",
+        "id": "119551515364349"
+      },
+      {
+        "type": "item",
+        "name": "Swing",
+        "id": "97257125551026"
+      },
+      {
+        "type": "item",
+        "name": "Bone crack",
+        "id": "124893077006041"
+      },
+      {
+        "type": "item",
+        "name": "Blade Wind Spin",
+        "id": "126297206149558"
+      },
+      {
+        "type": "item",
+        "name": "Base Wind Spin",
+        "id": "123673490166393"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch",
+        "id": "127347019383138"
+      },
+      {
+        "type": "item",
+        "name": "Slam",
+        "id": "100457174196725"
+      },
+      {
+        "type": "item",
+        "name": "Critical Hit",
+        "id": "8595984380"
+      },
+      {
+        "type": "item",
+        "name": "Knockback",
+        "id": "116749249835197"
+      },
+      {
+        "type": "item",
+        "name": "Strong Slam",
+        "id": "87116080821971"
+      },
+      {
+        "type": "item",
+        "name": "Weak Punch",
+        "id": "8595980577"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT2",
+        "id": "9117969687"
+      },
+      {
+        "type": "item",
+        "name": "Punch Swing",
+        "id": "5835032207"
+      },
+      {
+        "type": "item",
+        "name": "Punch Swing ALT2",
+        "id": "101467914599270"
+      },
+      {
+        "type": "item",
+        "name": "Punch Swing ALT3",
+        "id": "74238153433253"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT3",
+        "id": "9117969717"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT4",
+        "id": "8278630896"
+      },
+      {
+        "type": "item",
+        "name": "Swift Punch",
+        "id": "72142112079276"
+      },
+      {
+        "type": "item",
+        "name": "Strong Punch",
+        "id": "8595983255"
+      },
+      {
+        "type": "item",
+        "name": "Blocked Punch",
+        "id": "132615624053575"
+      },
+      {
+        "type": "item",
+        "name": "Strong Punch ALT2",
+        "id": "140139514810063"
+      },
+      {
+        "type": "item",
+        "name": "Blocked Punch ALT2",
+        "id": "3546610106"
+      },
+      {
+        "type": "item",
+        "name": "Punch Swing ALT4",
+        "id": "121514852904179"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT5",
+        "id": "98330897555423"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT6",
+        "id": "9117969584"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT7",
+        "id": "109316755832781"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT8",
+        "id": "9117969892"
+      },
+      {
+        "type": "item",
+        "name": "Critical Punch",
+        "id": "8595977193"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT9",
+        "id": "128800126046142"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Punch",
+        "id": "99021683276237"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Punch ALT2",
+        "id": "6164853733"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Punch ALT3",
+        "id": "84612044277731"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Punch ALT4",
+        "id": "122822101119933"
+      },
+      {
+        "type": "item",
+        "name": "Punch Barrage",
+        "id": "75722719022420"
+      },
+      {
+        "type": "item",
+        "name": "Punch Barrage ALT2",
+        "id": "129299857571217"
+      },
+      {
+        "type": "item",
+        "name": "Sharp Wind",
+        "id": "85437334014853"
+      },
+      {
+        "type": "item",
+        "name": "Basic Kick",
+        "id": "8595975458"
+      },
+      {
+        "type": "item",
+        "name": "Kick Swing",
+        "id": "114235921050731"
+      },
+      {
+        "type": "item",
+        "name": "Basic Kick ALT1",
+        "id": "86699600703335"
+      },
+      {
+        "type": "item",
+        "name": "Basic Kick ALT2",
+        "id": "93662867657476"
+      },
+      {
+        "type": "item",
+        "name": "Strong Kick",
+        "id": "101093315205711"
+      },
+      {
+        "type": "item",
+        "name": "Kicks",
+        "id": "100051240496994"
+      },
+      {
+        "type": "item",
+        "name": "Kick Woosh",
+        "id": "137359811336205"
+      },
+      {
+        "type": "item",
+        "name": "Kick Woosh ALT1",
+        "id": "127819174075907"
+      },
+      {
+        "type": "item",
+        "name": "Punch",
+        "id": "123675955398289"
+      },
+      {
+        "type": "item",
+        "name": "Spin kick",
+        "id": "131969177643108"
+      },
+      {
+        "type": "item",
+        "name": "Beatdown Windup",
+        "id": "95611427457014"
+      },
+      {
+        "type": "item",
+        "name": "Beatdown Grab",
+        "id": "93176405761881"
+      },
+      {
+        "type": "item",
+        "name": "Punch Swing ALT5",
+        "id": "99595080052889"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT10",
+        "id": "112520700932085"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT11",
+        "id": "87821280606182"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT12",
+        "id": "73650047389210"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT13",
+        "id": "92176894751328"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT14",
+        "id": "72225188465997"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT15",
+        "id": "130989811909727"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT16",
+        "id": "138589747810858"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT17",
+        "id": "123985356916053"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT18",
+        "id": "108903008437675"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT19",
+        "id": "77249485841875"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT21",
+        "id": "124571849561275"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT22",
+        "id": "86972601825871"
+      },
+      {
+        "type": "item",
+        "name": "Basic Punch ALT23",
+        "id": "9117970193"
+      },
+      {
+        "type": "item",
+        "name": "Heavy Punch ALT5",
+        "id": "136390605758244"
+      },
+      {
+        "type": "item",
+        "name": "Lightining Zap",
+        "id": "8952019380"
+      },
+      {
+        "type": "item",
+        "name": "Metal Ting Sound",
+        "id": "102143179165244"
+      },
+      {
+        "type": "item",
+        "name": "Magical Light Shimmer",
+        "id": "130555533032517"
+      },
+      {
+        "type": "item",
+        "name": "Medium Lightning Sound",
+        "id": "137661824521453"
+      },
+      {
+        "type": "item",
+        "name": "Explosion + Lightning (small starup)",
+        "id": "120353476358106"
+      },
+      {
+        "type": "item",
+        "name": "Lightning Strong Impact",
+        "id": "81920739716196"
+      },
+      {
+        "type": "item",
+        "name": "Plasma Lightning Sound",
+        "id": "127435559395786"
+      },
+      {
+        "type": "item",
+        "name": "Shockwave Pulse 1",
+        "id": "6883650972"
+      },
+      {
+        "type": "item",
+        "name": "Pulse With Light \"noise\" 1",
+        "id": "111482598688792"
+      },
+      {
+        "type": "item",
+        "name": "Pulse With Light \"noise\" 2",
+        "id": "135766244778996"
+      },
+      {
+        "type": "item",
+        "name": "Energy Pass By/Pulse",
+        "id": "97849925223786"
+      },
+      {
+        "type": "item",
+        "name": "Synth Bass Drop",
+        "id": "106271204257379"
+      },
+      {
+        "type": "item",
+        "name": "Synth High Pitched Bell",
+        "id": "9126073001"
+      },
+      {
+        "type": "item",
+        "name": "Cool Laser With FadeIn/Out",
+        "id": "1841310201"
+      },
+      {
+        "type": "item",
+        "name": "Warp Sound With StartUp",
+        "id": "114129417539712"
+      }
+    ]
+  },
+  {
+    "category": "Weapons SFX:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Sword Swings",
+        "id": "140492871204586"
+      },
+      {
+        "type": "item",
+        "name": "Sword Dash 1",
+        "id": "81455919549480"
+      },
+      {
+        "type": "item",
+        "name": "Sword Dash 2",
+        "id": "139994035606058"
+      },
+      {
+        "type": "item",
+        "name": "Unsheath/M1 Sword Swing",
+        "id": "114350721362906"
+      },
+      {
+        "type": "item",
+        "name": "JJS Sword Swing",
+        "id": "134362189197913"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing",
+        "id": "137628815514180"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing",
+        "id": "137364752797787"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing",
+        "id": "132278037003088"
+      },
+      {
+        "type": "item",
+        "name": "Sword Swing",
+        "id": "131370398099954"
+      },
+      {
+        "type": "item",
+        "name": "Super Sword",
+        "id": "138168045092736"
+      },
+      {
+        "type": "item",
+        "name": "Sword Noise",
+        "id": "137192158251109"
+      },
+      {
+        "type": "item",
+        "name": "Crowbar Impact 1",
+        "id": "139685206535254"
+      },
+      {
+        "type": "item",
+        "name": "Crowbar Impact 2",
+        "id": "74017040888390"
+      }
+    ]
+  },
+  {
+    "category": "JJK Sound Effects:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Death RCT",
+        "id": "114987067570386"
+      },
+      {
+        "type": "item",
+        "name": "Technique Burnout",
+        "id": "86401133542921"
+      },
+      {
+        "type": "item",
+        "name": "Mahoraga Wheel Turn",
+        "id": "112330950210072"
+      },
+      {
+        "type": "item",
+        "name": "Mahoraga Wheel Turn ALT",
+        "id": "138662381158713"
+      },
+      {
+        "type": "item",
+        "name": "Critical Hit JJK",
+        "id": "108823442252759"
+      },
+      {
+        "type": "item",
+        "name": "Black Flash Spark",
+        "id": "9114251571"
+      },
+      {
+        "type": "item",
+        "name": "Black Flash Hit",
+        "id": "124300768333968"
+      },
+      {
+        "type": "item",
+        "name": "Black Flash Sparks",
+        "id": "88254490992405"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy",
+        "id": "120714138513879"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 2",
+        "id": "120458587618994"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 3",
+        "id": "90739802998105"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 4",
+        "id": "113186934265156"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 5",
+        "id": "137480468339388"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 6",
+        "id": "115298681629023"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 7",
+        "id": "129896512527003"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 8",
+        "id": "94032205831374"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy 9",
+        "id": "113012976203051"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy Flare",
+        "id": "90664148167227"
+      },
+      {
+        "type": "item",
+        "name": "Cursed Energy Explosion",
+        "id": "106071477740392"
+      },
+      {
+        "type": "item",
+        "name": "Reverse Cursed Technique",
+        "id": "81169123566651"
+      },
+      {
+        "type": "item",
+        "name": "Simple Domain",
+        "id": "89507447627094"
+      },
+      {
+        "type": "item",
+        "name": "Domain Amplification",
+        "id": "106418161284861"
+      },
+      {
+        "type": "item",
+        "name": "Curse Sound",
+        "id": "89495884718996"
+      },
+      {
+        "type": "item",
+        "name": "Hidden Inventory Curse",
+        "id": "124277180088599"
+      }
+    ]
+  },
+  {
+    "category": "Musics:",
+    "items": [
+      {
+        "type": "item",
+        "name": "JUDAS (0.75 Speed)  (END 210)",
+        "id": "118314578679702"
+      },
+      {
+        "type": "item",
+        "name": "AIZO (START 50)  (END 225)",
+        "id": "128857183932211"
+      },
+      {
+        "type": "item",
+        "name": "ThunderClap",
+        "id": "103590461924679"
+      },
+      {
+        "type": "item",
+        "name": "Shinjuku Themed Music",
+        "id": "1843530144"
+      },
+      {
+        "type": "item",
+        "name": "Delirium",
+        "id": "71149066332949"
+      },
+      {
+        "type": "item",
+        "name": "Limitless/Infinite Void",
+        "id": "16071901783"
+      },
+      {
+        "type": "item",
+        "name": "Your Battle Is My Battle",
+        "id": "15048731914"
+      },
+      {
+        "type": "item",
+        "name": "If I am With You",
+        "id": "14457960806"
+      },
+      {
+        "type": "item",
+        "name": "If I am with you (full)",
+        "id": "97785209024735"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple",
+        "id": "80767112039125"
+      },
+      {
+        "type": "item",
+        "name": "Yuji Rage/Lying Rage",
+        "id": "72975253717108"
+      },
+      {
+        "type": "item",
+        "name": "Jsd Gojo awakening theme",
+        "id": "112842942143320"
+      },
+      {
+        "type": "item",
+        "name": "Malevolent Shrine",
+        "id": "15583493700"
+      },
+      {
+        "type": "item",
+        "name": "Cool boss music",
+        "id": "105914070405455"
+      },
+      {
+        "type": "item",
+        "name": "Working overtime",
+        "id": "129827447835246"
+      },
+      {
+        "type": "item",
+        "name": "Limitless Cursed Technique",
+        "id": "79094308247449"
+      },
+      {
+        "type": "item",
+        "name": "EQUAL TO HEAVEN (Gojo awk)",
+        "id": "132827169743082"
+      },
+      {
+        "type": "item",
+        "name": "Perfection",
+        "id": "17856253579"
+      },
+      {
+        "type": "item",
+        "name": "REMEMBER SNIPPET",
+        "id": "124612159336785"
+      },
+      {
+        "type": "item",
+        "name": "GOJO AWAKENING THEME (Jujutsu Island)",
+        "id": "104389950417824"
+      },
+      {
+        "type": "item",
+        "name": "Hakari Awakening Theme",
+        "id": "1841425167"
+      },
+      {
+        "type": "item",
+        "name": "…Divine General…",
+        "id": "108134338254237"
+      },
+      {
+        "type": "item",
+        "name": "No Hesitation",
+        "id": "80546329417672"
+      },
+      {
+        "type": "item",
+        "name": "Hidden Inventory (0.2 Domain)",
+        "id": "127012663233191"
+      },
+      {
+        "type": "item",
+        "name": "Jujutsu Sorcerer, Nobara Kugisaki",
+        "id": "87717761641632"
+      },
+      {
+        "type": "item",
+        "name": "Jujutsu Sorcerer",
+        "id": "93806472702660"
+      },
+      {
+        "type": "item",
+        "name": "RESOLVE",
+        "id": "100342664971650"
+      },
+      {
+        "type": "item",
+        "name": "The Man Aoi Todo",
+        "id": "110319777022724"
+      },
+      {
+        "type": "item",
+        "name": "With Rage",
+        "id": "134510057337409"
+      },
+      {
+        "type": "item",
+        "name": "Metamorphosis",
+        "id": "102890330623699"
+      },
+      {
+        "type": "item",
+        "name": "Brothers Are Just Like That",
+        "id": "74448785185865"
+      },
+      {
+        "type": "item",
+        "name": "Defeat Here",
+        "id": "122611731399518"
+      },
+      {
+        "type": "item",
+        "name": "The Eldest of Ten Younger Siblings",
+        "id": "79817911287935"
+      },
+      {
+        "type": "item",
+        "name": "The Culling Games",
+        "id": "87938210865027"
+      },
+      {
+        "type": "item",
+        "name": "Red Scale",
+        "id": "115455369185748"
+      },
+      {
+        "type": "item",
+        "name": "Projection (OFFICIAL)",
+        "id": "123462196064122"
+      },
+      {
+        "type": "item",
+        "name": "This is True Love",
+        "id": "78260108940233"
+      },
+      {
+        "type": "item",
+        "name": "Diamond Is Unbreakable",
+        "id": "100251297819278"
+      },
+      {
+        "type": "item",
+        "name": "Admiring You",
+        "id": "136208016606825"
+      },
+      {
+        "type": "item",
+        "name": "REMEMBER",
+        "id": "72720212660446"
+      },
+      {
+        "type": "item",
+        "name": "Remember (Black Flash Part)",
+        "id": "17284219852"
+      },
+      {
+        "type": "item",
+        "name": "Heian Theme (START 4)",
+        "id": "83360856832970"
+      },
+      {
+        "type": "item",
+        "name": "False Memories (START 1)",
+        "id": "98778929139784"
+      },
+      {
+        "type": "item",
+        "name": "Deadly Sentencing",
+        "id": "1838873271"
+      },
+      {
+        "type": "item",
+        "name": "Watch Your Head",
+        "id": "81565701409447"
+      },
+      {
+        "type": "item",
+        "name": "Yuta's Blackflash Startup",
+        "id": "126598851794168"
+      },
+      {
+        "type": "item",
+        "name": "Yuta's Blackflash",
+        "id": "132472285449398"
+      },
+      {
+        "type": "item",
+        "name": "We Are Stop The Attack (Yuta's Domain)",
+        "id": "139647861430129"
+      },
+      {
+        "type": "item",
+        "name": "Todo LANDS Blackflash",
+        "id": "83892455359949"
+      },
+      {
+        "type": "item",
+        "name": "Final Blackflash Startup",
+        "id": "102672006215074"
+      },
+      {
+        "type": "item",
+        "name": "What Was Entrusted to Me (Yuji's final Blackflash)",
+        "id": "93167187278849"
+      },
+      {
+        "type": "item",
+        "name": "Self Embodiment Of Perfection",
+        "id": "86272117379537"
+      },
+      {
+        "type": "item",
+        "name": "Boogie Woogie (Cooking emote)",
+        "id": "93014927239264"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna's Suite (START 1.85)",
+        "id": "94689150691907"
+      },
+      {
+        "type": "item",
+        "name": "Paradise",
+        "id": "125515503762033"
+      },
+      {
+        "type": "item",
+        "name": "Attack By Storm",
+        "id": "93592932221585"
+      },
+      {
+        "type": "item",
+        "name": "Jujutsu Sorcerer, Fushiguro Megumi",
+        "id": "78684437820826"
+      },
+      {
+        "type": "item",
+        "name": "You Better Get Strong",
+        "id": "116962182432565"
+      },
+      {
+        "type": "item",
+        "name": "Three Years of Overflowing Youth",
+        "id": "95324138389404"
+      },
+      {
+        "type": "item",
+        "name": "Toji Fushiguro",
+        "id": "138174948335297"
+      },
+      {
+        "type": "item",
+        "name": "Joint Struggle",
+        "id": "76848394549125"
+      },
+      {
+        "type": "item",
+        "name": "Burying",
+        "id": "100404097911493"
+      },
+      {
+        "type": "item",
+        "name": "Fluctuations",
+        "id": "101960888969083"
+      },
+      {
+        "type": "item",
+        "name": "Searching for Riko",
+        "id": "129743645401686"
+      },
+      {
+        "type": "item",
+        "name": "Be Prepared",
+        "id": "128832440697894"
+      },
+      {
+        "type": "item",
+        "name": "The Real You",
+        "id": "100991232396237"
+      },
+      {
+        "type": "item",
+        "name": "JUJUTSU KAISEN",
+        "id": "97242468209506"
+      },
+      {
+        "type": "item",
+        "name": "Heian Sukuna",
+        "id": "106884552604357"
+      },
+      {
+        "type": "item",
+        "name": "Climax Jumping (FULL)",
+        "id": "103838195310017"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) DAN DA DAN Season 2 OP",
+        "id": "80573035607413"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Monster",
+        "id": "101630396672327"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) IRIS OUT",
+        "id": "105101200197308"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Comedy (Spy x Family ED)",
+        "id": "105221088984417"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) YOASOBI",
+        "id": "90859757345792"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) 獅子志司",
+        "id": "131405671247725"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Konton Boogie",
+        "id": "81367699242492"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Bye Bye Bye",
+        "id": "123794377431460"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Crucified",
+        "id": "107492048363429"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Unwelcome School (Piano)",
+        "id": "99653587219175"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Let the World Burn",
+        "id": "111351357978027"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Shinzo wo Sasageyo!",
+        "id": "92091515351538"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Jane Doe (Piano Ver.)",
+        "id": "139288844480313"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK) Bless Me With the Leaf of the Tree",
+        "id": "112210136966411"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) Death is no More",
+        "id": "16831108393"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) (Forgot Title)",
+        "id": "16190782181"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) New Jeans",
+        "id": "93958751571254"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) (Forgot Title)",
+        "id": "118507373399694"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) Life Force",
+        "id": "110152577760152"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) Bad Apple (START 10)",
+        "id": "123572020022002"
+      },
+      {
+        "type": "item",
+        "name": "(Non-JJK Related) Dive",
+        "id": "96096795516863"
+      },
+      {
+        "type": "item",
+        "name": "Nanami's Suite-",
+        "id": "101593085288560"
+      },
+      {
+        "type": "item",
+        "name": "Naoya Vs Maki-",
+        "id": "72627784747020"
+      },
+      {
+        "type": "item",
+        "name": "Perfected Soul Final Form-",
+        "id": "102381037061740"
+      },
+      {
+        "type": "item",
+        "name": "Your battle is my battle-",
+        "id": "120888709429691"
+      },
+      {
+        "type": "item",
+        "name": "REMEMBER Remix-",
+        "id": "129344450109211"
+      },
+      {
+        "type": "item",
+        "name": "Delirious-",
+        "id": "107078958049699"
+      },
+      {
+        "type": "item",
+        "name": "Toji Fushiguro..?-",
+        "id": "81048912497519"
+      },
+      {
+        "type": "item",
+        "name": "Unlimited void -",
+        "id": "131649240815291"
+      },
+      {
+        "type": "item",
+        "name": "Comedy fumihiko -",
+        "id": "86125627968466"
+      }
+    ]
+  },
+  {
+    "category": "Voice Lines:",
+    "items": []
+  },
+  {
+    "category": "JJK:",
+    "items": []
+  },
+  {
+    "category": "Sukuna:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Domain Expansion",
+        "id": "6590147536"
+      },
+      {
+        "type": "item",
+        "name": "Malevolent Shrine",
+        "id": "7817367014"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion ALT",
+        "id": "111592483425666"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion ALT2",
+        "id": "75156521634741"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion (DUB)",
+        "id": "70856028792315"
+      },
+      {
+        "type": "item",
+        "name": "Flame Arrow",
+        "id": "108386911367253"
+      },
+      {
+        "type": "item",
+        "name": "Flame Arrow 2",
+        "id": "114048576219376"
+      },
+      {
+        "type": "item",
+        "name": "Flame Arrow (DUB)",
+        "id": "103262979488091"
+      },
+      {
+        "type": "item",
+        "name": "Cleave (DUB)",
+        "id": "115369853491058"
+      },
+      {
+        "type": "item",
+        "name": "Cleave (DUB) 2",
+        "id": "90160747644919"
+      },
+      {
+        "type": "item",
+        "name": "Cleave",
+        "id": "94023991860242"
+      },
+      {
+        "type": "item",
+        "name": "SpiderWeb",
+        "id": "78694066023913"
+      },
+      {
+        "type": "item",
+        "name": "Dismantle",
+        "id": "112401600931306"
+      },
+      {
+        "type": "item",
+        "name": "Dismantle ALT",
+        "id": "87909320331735"
+      },
+      {
+        "type": "item",
+        "name": "Dismantle (DUB)",
+        "id": "81636344309542"
+      },
+      {
+        "type": "item",
+        "name": "Scale Of the Dragon!",
+        "id": "125013565004025"
+      },
+      {
+        "type": "item",
+        "name": "Recoil!",
+        "id": "138073415413436"
+      },
+      {
+        "type": "item",
+        "name": "Twin Meteors World Cutting Slash",
+        "id": "94772051181219"
+      },
+      {
+        "type": "item",
+        "name": "Scale Of the Dragon! (DUB)",
+        "id": "90485786481215"
+      },
+      {
+        "type": "item",
+        "name": "Recoil! (DUB)",
+        "id": "99044678317350"
+      },
+      {
+        "type": "item",
+        "name": "Twin Meteors! (DUB)",
+        "id": "112569237851223"
+      },
+      {
+        "type": "item",
+        "name": "WORLD CUTTING SLASH ENG",
+        "id": "109529456386924"
+      },
+      {
+        "type": "item",
+        "name": "Full Chant (DUB)",
+        "id": "128974104482582"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Theres no Point of Runnng Away",
+        "id": "132201479349930"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laughing",
+        "id": "139007765143882"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Die",
+        "id": "103898086385000"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Idiot",
+        "id": "91314701968093"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Match it",
+        "id": "93883860842763"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-forgo this one",
+        "id": "97960256382964"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Try your Best/Good Luck",
+        "id": "17801535876"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You Did it",
+        "id": "124723824798365"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Foolish Person",
+        "id": "132332545513142"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laugh 2",
+        "id": "102150923270506"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Right There",
+        "id": "98076270798343"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laugh 3",
+        "id": "17757267413"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laugh 1 ALT",
+        "id": "87442694943332"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Kill",
+        "id": "78658251839338"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-It’s Over you Punk",
+        "id": "105046019506843"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Know your place",
+        "id": "115955384025484"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You Die Here",
+        "id": "99464358264783"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Oi",
+        "id": "109660701821480"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Comon, Bring it on",
+        "id": "110412824489527"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-MAHORAGA!",
+        "id": "123483800208290"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Don’t Get Sassy",
+        "id": "105321406598450"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Try To Endure",
+        "id": "114318923733138"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Lets have an Test of Firepower",
+        "id": "116910376190764"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-So kill them",
+        "id": "70940281178127"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-I’ll Show you",
+        "id": "95414545177355"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-it Seems like you can enjoy it a little",
+        "id": "95561349159305"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Die 2",
+        "id": "79470339782485"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Real Jujutsu",
+        "id": "131597542579839"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Now",
+        "id": "124643228826346"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You Done it Now",
+        "id": "90348497093586"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Deceitful",
+        "id": "97961365512921"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Try Dodging",
+        "id": "99789936722471"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Man You Really Are Boring",
+        "id": "18745916098"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You Wanna Go?",
+        "id": "100733972525413"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Is this All?",
+        "id": "116951231025389"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Is that All you Got?",
+        "id": "102236592984696"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Arm yourself (DUB)",
+        "id": "125272403356745"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Whats Wrong?",
+        "id": "94489748432028"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Heh",
+        "id": "107038089633999"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laugh 5",
+        "id": "97581017049145"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Stop this if you can (DUB)",
+        "id": "88629603675964"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You Lift your Head too high",
+        "id": "108665717493206"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-No you wont (DUB)",
+        "id": "108863938573629"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-I here by Forbid Every (DUB)",
+        "id": "130475503785809"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Person in a 100 Meter Radius (DUB)",
+        "id": "89106871163578"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-From moving until i say...(DUB)",
+        "id": "121718803146928"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Not Yet (DUB)",
+        "id": "114469606598954"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Now (DUB)",
+        "id": "117934497670393"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-What an Disappointment (DUB)",
+        "id": "140019416986714"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Your not",
+        "id": "107065338033023"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-You may start to panic",
+        "id": "97746200677093"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Laugh 6 (why does he laugh and Smile so much)",
+        "id": "122947024008097"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Don’t try to show off (DUB)",
+        "id": "96736919590274"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Disgusting",
+        "id": "70726327722777"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-YOU CAN SEE IT MAHORAGA!",
+        "id": "130389782283081"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Out of the Way (DUB)",
+        "id": "110155050903690"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Lets Have an Contest of Fire Power (DUB)",
+        "id": "109941122671754"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Surprise i Read your move?",
+        "id": "136722209598707"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-The Moonlight Shining",
+        "id": "113504170111600"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Arm Yourself",
+        "id": "129132965459068"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-What Are you Looking At? (DUB)",
+        "id": "139013938442822"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-I’ll Give you one Second Move.",
+        "id": "73521048955599"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-I’ll Give you one Second…Move. (DUB)",
+        "id": "105755139250333"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Grunt 1",
+        "id": "75505698144837"
+      },
+      {
+        "type": "item",
+        "name": "Sukuna-Grunt 2",
+        "id": "79147498119542"
+      }
+    ]
+  },
+  {
+    "category": "Go/jo:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Domain Expansion",
+        "id": "6667923288"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion Full",
+        "id": "136494030417281"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion 2",
+        "id": "92222782898725"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion 3",
+        "id": "91452701983451"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion (DUB)",
+        "id": "132499326612355"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion ALT",
+        "id": "127359226046130"
+      },
+      {
+        "type": "item",
+        "name": "Hollow JP",
+        "id": "87270785806248"
+      },
+      {
+        "type": "item",
+        "name": "Purple JP",
+        "id": "124592014179933"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple",
+        "id": "101193645294867"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple 2",
+        "id": "111729485396365"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple 3",
+        "id": "130193350003956"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple 200%/Limitless Purple Merging Voiceline",
+        "id": "123198439593386"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple Blue/Ao",
+        "id": "139467226875451"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple Red/Aka",
+        "id": "137975701115668"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple (DUB)",
+        "id": "126308653163026"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple (DUB) 2",
+        "id": "86235257134419"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple 4",
+        "id": "85853411352911"
+      },
+      {
+        "type": "item",
+        "name": "Hollow Purple Teen Gojo Speech",
+        "id": "73511415385065"
+      },
+      {
+        "type": "item",
+        "name": "Phase (DUB)",
+        "id": "101599878810980"
+      },
+      {
+        "type": "item",
+        "name": "Twilight (DUB)",
+        "id": "138047147925561"
+      },
+      {
+        "type": "item",
+        "name": "Eyes of wisdom (DUB)",
+        "id": "104308016456541"
+      },
+      {
+        "type": "item",
+        "name": "Polarized Light (DUB)",
+        "id": "132714605140023"
+      },
+      {
+        "type": "item",
+        "name": "Crow and Declaration (DUB)",
+        "id": "74397949452944"
+      },
+      {
+        "type": "item",
+        "name": "Between Front and Back (DUB)",
+        "id": "138690208765159"
+      },
+      {
+        "type": "item",
+        "name": "Chants (DUB)",
+        "id": "101847887562680"
+      },
+      {
+        "type": "item",
+        "name": "Max Reversal Red",
+        "id": "119570806852578"
+      },
+      {
+        "type": "item",
+        "name": "Reversal Red",
+        "id": "79055523886516"
+      },
+      {
+        "type": "item",
+        "name": "Reversal Red 2",
+        "id": "81598170780818"
+      },
+      {
+        "type": "item",
+        "name": "Reversal Red 3",
+        "id": "136240782932429"
+      },
+      {
+        "type": "item",
+        "name": "Reversal Red 4",
+        "id": "138506669426699"
+      },
+      {
+        "type": "item",
+        "name": "Max Reversal Red (Noise in the background)",
+        "id": "114219438298857"
+      },
+      {
+        "type": "item",
+        "name": "Reversal Red (DUB)",
+        "id": "97353870844493"
+      },
+      {
+        "type": "item",
+        "name": "Red ALT",
+        "id": "109109367098255"
+      },
+      {
+        "type": "item",
+        "name": "Red ALT 2",
+        "id": "127619086764079"
+      },
+      {
+        "type": "item",
+        "name": "Max Lapse Blue",
+        "id": "81047671528594"
+      },
+      {
+        "type": "item",
+        "name": "Max Lapse Blue ALT",
+        "id": "75091144779701"
+      },
+      {
+        "type": "item",
+        "name": "Max Blue",
+        "id": "100423616391687"
+      },
+      {
+        "type": "item",
+        "name": "Max Lapse Blue (DUB)",
+        "id": "100293942244325"
+      },
+      {
+        "type": "item",
+        "name": "Blue",
+        "id": "84296024334596"
+      },
+      {
+        "type": "item",
+        "name": "Blue ALT",
+        "id": "139300165846293"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Yowai mo/Your Weak",
+        "id": "7147847068"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Thats Right",
+        "id": "17801287827"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Final Blow",
+        "id": "76709236886220"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-It’s in the way",
+        "id": "126469507532612"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-My students are Watching",
+        "id": "115438685697124"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Yo it’s been an while",
+        "id": "134720365521601"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Wait There",
+        "id": "77956271026948"
+      },
+      {
+        "type": "item",
+        "name": "One of the gojo honored one Speech",
+        "id": "117141478660865"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Next",
+        "id": "18956314488"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Chuckling (Rct Sound in background)",
+        "id": "121491163728346"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Useless",
+        "id": "77594900737652"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-You’re Finished",
+        "id": "103282453759756"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-There",
+        "id": "96827608200349"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I’ll Set something up",
+        "id": "80715727419438"
+      },
+      {
+        "type": "item",
+        "name": "Random Gojo Speech",
+        "id": "130303224686750"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Looks like it had an effect  (what did gojo say/joke-)",
+        "id": "107690136191332"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Give it an try",
+        "id": "116950156890684"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Theres No point of doing Anything",
+        "id": "137505477292308"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Take the Amplified and the Reversal",
+        "id": "81625640486470"
+      },
+      {
+        "type": "item",
+        "name": "Random Gojo Voiceline",
+        "id": "126170339002311"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I Won’t let you get away",
+        "id": "86891100502580"
+      },
+      {
+        "type": "item",
+        "name": "Another Random Gojo Voiceline",
+        "id": "87937307508355"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I’m Sorry Amanai  (I LUV RIKO AMANAI) «HaR that’s a middle schooler…",
+        "id": "122607463542880"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I’m Sorry Amanai ALT",
+        "id": "103161480241519"
+      },
+      {
+        "type": "item",
+        "name": "Random Gojo Grab",
+        "id": "104192245351277"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Perpection, Communication",
+        "id": "80217868080403"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Where you running off too?",
+        "id": "105851096175037"
+      },
+      {
+        "type": "item",
+        "name": "Random Voiceline",
+        "id": "114059181933684"
+      },
+      {
+        "type": "item",
+        "name": "Random Voiceline Again",
+        "id": "88314701154591"
+      },
+      {
+        "type": "item",
+        "name": "Once Another",
+        "id": "72472356776293"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-You",
+        "id": "126856319949339"
+      },
+      {
+        "type": "item",
+        "name": "Teen Gojo line (but does it matter?)",
+        "id": "18441105964"
+      },
+      {
+        "type": "item",
+        "name": "Another Random",
+        "id": "105704440947095"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Yaaaay!",
+        "id": "99502703549628"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-You Crying? (DUB)",
+        "id": "17589291650"
+      },
+      {
+        "type": "item",
+        "name": "Gojo- Just Die Already",
+        "id": "117873853306521"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-My Soul Denies it",
+        "id": "74709407719329"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-SO TELL ME ALREADY WHO THE HELL ARE YOU",
+        "id": "94161731798272"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Your the Challenger Here!",
+        "id": "111740674551873"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I Failed!/Failed",
+        "id": "94803359636186"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Now",
+        "id": "122348035599927"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Your Right, You may be Right….YOUR SO RIGHT!",
+        "id": "92443050834728"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-What",
+        "id": "108788778137993"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-He’s Pouting Cause he Didn’t Get to Fight ((DUB) And also Lil Loud)",
+        "id": "120771426736406"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Read a book, your stupid is showing (DUB)",
+        "id": "76386513029297"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Cursed Technique Reversal",
+        "id": "104598754516247"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-This Whole Time, YOU HAVEN’T BEEN ABLE TO KEEP UP LIKE THE OTHERS (DUB)",
+        "id": "137479005347294"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Your Kinda weak (DUB)",
+        "id": "98945168188377"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-I’m Saying im actually Shocked you can actually beat me with this Loser Shit",
+        "id": "137881635410655"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Is that right you could be right….YOUR SO RIGHT! (DUB)",
+        "id": "76540772402446"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Now Red!",
+        "id": "85083838786740"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Maximum Output",
+        "id": "101435955631389"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Random Ahh Speech",
+        "id": "75622501111023"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Say Cheese (DUB)",
+        "id": "140454236127295"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Your probably ain’t popular with That Attitude",
+        "id": "133177550112394"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Infinity (DUB)",
+        "id": "133809394319696"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Through out heaven and earth i alone am the honored one (DUB)",
+        "id": "130928835702874"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-If you wanna Win Try Harder (DUB)",
+        "id": "119962612382714"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Bi Bi",
+        "id": "90745257609472"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Ironic Isn’t it",
+        "id": "136469047043803"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Nothing Getting Through! (DUB)",
+        "id": "118635698285194"
+      },
+      {
+        "type": "item",
+        "name": "Random Ahhh",
+        "id": "76115740668944"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Laugh",
+        "id": "124042248079061"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Random Speech",
+        "id": "138787816667001"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Can you keep up with me (DUB)",
+        "id": "120040504445320"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Time to GO all out (DUB)",
+        "id": "87072146571206"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Maximum Output (DUB)",
+        "id": "132457671197004"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Suit yourself (DUB)",
+        "id": "81202641555052"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Get Ready to Fly (DUB)",
+        "id": "132870709863578"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Laugh 2",
+        "id": "126609052859345"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-This is where your weak Right? (DUB)",
+        "id": "131603789840912"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Yay we’re all Settled",
+        "id": "140347243632976"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Simple Domain (DUB)",
+        "id": "91786503872089"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-In the Gojo clan Only an Scent know about this (DUB)",
+        "id": "79930928302386"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Here we go (DUB)",
+        "id": "90241374214744"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Don’t Worry im the Strongest!",
+        "id": "95478115133582"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Comon Comon",
+        "id": "124297567960185"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Amplification and Reversal (DUB)",
+        "id": "102710391115625"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-How’d You like THAT!",
+        "id": "82067535981209"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Im Still ALIVE AND KICKING! (DUB)",
+        "id": "95890764963406"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-When you stabbed me through the throat… (DUB)",
+        "id": "103060822458192"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-But i finally grasped it on the verge of Death! (DUB)",
+        "id": "127886391933942"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Cursed Energy is Negative Energy (DUB)",
+        "id": "130350334878011"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-So If you multiply that energy against itself (DUB)",
+        "id": "124115072203176"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Thats The Reverse Cursed Technique! (DUB)",
+        "id": "96751877381733"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Easier Said than DONE! (DUB)",
+        "id": "103991626298887"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-And Smash those two infinites together to create an imaginary",
+        "id": "74045225310057"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Full Imaginary Speech",
+        "id": "126890860606305"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 1",
+        "id": "1046662619071372"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 2",
+        "id": "111529004553736"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 3",
+        "id": "134970660527106"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 4",
+        "id": "123522380569941"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 5",
+        "id": "111940263569133"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 6",
+        "id": "130920004165916"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 7",
+        "id": "126148787727694"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 8",
+        "id": "134686015255841"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt 9",
+        "id": "123726268855438"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-Grunt Take THAT!",
+        "id": "73808073236331"
+      },
+      {
+        "type": "item",
+        "name": "Gojo-HA!",
+        "id": "100443100174990"
+      },
+      {
+        "type": "item",
+        "name": "Blindfold off",
+        "id": "4458760518"
+      },
+      {
+        "type": "item",
+        "name": "Grabs Blindfold",
+        "id": "3929467888"
+      }
+    ]
+  },
+  {
+    "category": "Yuji:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash ALT",
+        "id": "106715878485112"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash ALT2",
+        "id": "116435798578500"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash",
+        "id": "80789966292797"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash 2",
+        "id": "125937498873331"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash 3",
+        "id": "103380495768864"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash 4",
+        "id": "140702556798017"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Black Flash (DUB)",
+        "id": "73714209238311"
+      },
+      {
+        "type": "item",
+        "name": "Yuj-Domain Expansion",
+        "id": "123007939973371"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Take That",
+        "id": "86971731544896"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Divergent Fist",
+        "id": "124467150710718"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-I am you…",
+        "id": "104417728494860"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-it’s Over!",
+        "id": "132233323846626"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-i’ll kill you",
+        "id": "128202152846484"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Too slow",
+        "id": "137543376294410"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Dismantle",
+        "id": "132762694300974"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Cleave",
+        "id": "105873046732884"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-I’ll Never Forgive you",
+        "id": "128147895378783"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Final Blow",
+        "id": "86492294479705"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Thats it",
+        "id": "91183417814574"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Sorry nanami",
+        "id": "138026504146186"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Let’s Go",
+        "id": "135419998543765"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-i won’t hold back",
+        "id": "92223585301586"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-I am You (DUB)",
+        "id": "89809910567515"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Go Away",
+        "id": "126923809826857"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Simple Domain",
+        "id": "103945211889824"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Scatter",
+        "id": "80999890195978"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-That Works",
+        "id": "79273852602408"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-I’ll send you by air",
+        "id": "109614966470076"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Right there",
+        "id": "96148531798725"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-i Am you (Shorter)",
+        "id": "89428643983910"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-War Cry",
+        "id": "100960026347013"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-War Cry 2",
+        "id": "72633258617161"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-War Cry 3",
+        "id": "128931027876873"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-War Cry 4",
+        "id": "120714911514889"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt",
+        "id": "79126734376192"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 2",
+        "id": "80915397766181"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 3",
+        "id": "91938870480466"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 4",
+        "id": "125766374407021"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 5",
+        "id": "128995162231638"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 6",
+        "id": "109675522084504"
+      },
+      {
+        "type": "item",
+        "name": "Yuji-Grunt 7",
+        "id": "114602451477321"
+      }
+    ]
+  },
+  {
+    "category": "Yuta VFX:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Yuta-Domain Expansion",
+        "id": "76941832228083"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Rika",
+        "id": "126477582779647"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Sorry",
+        "id": "76634863512677"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-It’s Over",
+        "id": "96929923653703"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Right There",
+        "id": "107596403137736"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-it’s in the way",
+        "id": "71182257066697"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Cursed Speech",
+        "id": "18625416349"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Rika! It’s in the shortest distance!",
+        "id": "114747156655867"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Love Beam",
+        "id": "114792685602342"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Love Beam 2",
+        "id": "128784153872064"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Here it is",
+        "id": "139179129467634"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Grunt",
+        "id": "115192105733284"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Grunt 2",
+        "id": "71726759468284"
+      },
+      {
+        "type": "item",
+        "name": "Yuta-Grunt 3",
+        "id": "116368884152381"
+      }
+    ]
+  },
+  {
+    "category": "Megumi Fushiguro:",
+    "items": [
+      {
+        "type": "item",
+        "name": "With This Treasure I summon (DUB)",
+        "id": "74841585220876"
+      },
+      {
+        "type": "item",
+        "name": "With This Treasure I summon (DUB) ALT",
+        "id": "139082786435602"
+      },
+      {
+        "type": "item",
+        "name": "With This Treasure I summon",
+        "id": "127626892125080"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion",
+        "id": "116957638660975"
+      },
+      {
+        "type": "item",
+        "name": "Domain Expansion (DUB)",
+        "id": "100409524148210"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Nue",
+        "id": "115968897332074"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Toad",
+        "id": "114339111288879"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Rabbit Escape",
+        "id": "84460145928149"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Divine Dogs",
+        "id": "134427543801522"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Max Elephant",
+        "id": "105375061605340"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Serpent",
+        "id": "85338440788078"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-I’ll Do it",
+        "id": "136549505109793"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Go",
+        "id": "102417977940576"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Match it",
+        "id": "126604422133191"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Come",
+        "id": "130135447083293"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Do it",
+        "id": "124198428931482"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-This Will Decide it",
+        "id": "111093491075603"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-I’ll Be dying first, give it your Best!",
+        "id": "83613745202992"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Final Blow",
+        "id": "120429864780967"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Oh What the Hell! (DUB)",
+        "id": "73339412382848"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Now",
+        "id": "76831391027166"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Right There",
+        "id": "99720280793444"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-With a Strong Foundation",
+        "id": "110352270001118"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-To Change a Person",
+        "id": "97386284681114"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Well Thats Too Damn Bad!",
+        "id": "137498555783148"
+      },
+      {
+        "type": "item",
+        "name": "Megumi-Grunt",
+        "id": "80212747482630"
+      }
+    ]
+  },
+  {
+    "category": "NOBARA VFX:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Nobara-Finish Him!",
+        "id": "128654138851326"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Die!",
+        "id": "116346205208465"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Theres No Point of Running Away",
+        "id": "96671145173470"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Laughing",
+        "id": "93408102129236"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-This Is the Last one",
+        "id": "103741327999151"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Right There",
+        "id": "125058057054486"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Random Line",
+        "id": "88256652899616"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Random Line 2",
+        "id": "72784999172006"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Random Line 3",
+        "id": "130896764193508"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Life Wasn’t So Bad  (NOBARA NOOOO)",
+        "id": "84403192598213"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Life Wasn’t So Bad",
+        "id": "18750999930"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-You Can’t Escape! (DUB)",
+        "id": "91738171294193"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Back Off! (DUB)",
+        "id": "86131908135690"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Shake Em OFF! (DUB)",
+        "id": "76108338408871"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-There (DUB)",
+        "id": "88916713378754"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Move",
+        "id": "116768953520085"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Try and Evade This! (DUB)",
+        "id": "118019412913091"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-I’ll Send You Flying (DUB)",
+        "id": "87171962977229"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-No Dodging this (DUB)",
+        "id": "122056065795168"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Here It is",
+        "id": "124868876337918"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Here i Come (DUB)",
+        "id": "127622605532605"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Grunt",
+        "id": "91941977914973"
+      },
+      {
+        "type": "item",
+        "name": "Nobara-Grunt 2",
+        "id": "93781752862566"
+      }
+    ]
+  },
+  {
+    "category": "KENTO NANAMI:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Nanami-Not Yet!",
+        "id": "116731922233626"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-There!",
+        "id": "92575525213927"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-Are you looking away?",
+        "id": "73327938470063"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-Overtime Vow",
+        "id": "95622240952136"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-How about this?",
+        "id": "134674894607727"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-This is it!",
+        "id": "127996114427041"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-Wasting my time",
+        "id": "138256323347291"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-It is over!",
+        "id": "129646502099179"
+      },
+      {
+        "type": "item",
+        "name": "Namami-Grunt 1",
+        "id": "85736039355295"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-Grunt 2",
+        "id": "7865368558009678653685580096"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-hoh(grunt/sigh)",
+        "id": "138520379588161"
+      },
+      {
+        "type": "item",
+        "name": "Nanami-Sigh",
+        "id": "83040544565202"
+      }
+    ]
+  },
+  {
+    "category": "CHOSO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Choso-Blood Manipulation Blood Meteorite:",
+        "id": "117566423456918"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Convergence",
+        "id": "130066562156553"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Don’t give up",
+        "id": "88313622954243"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Supernova",
+        "id": "90987430781974"
+      },
+      {
+        "type": "item",
+        "name": "Choso-That’s why I’m strong",
+        "id": "125177505143380"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Control Yourself",
+        "id": "71964937464995"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Piercing Blood",
+        "id": "77483637639532"
+      },
+      {
+        "type": "item",
+        "name": "Choso-What a shame",
+        "id": "118396854503736"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Too Bad",
+        "id": "73860315625102"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Purifying Cut",
+        "id": "113574591443175"
+      },
+      {
+        "type": "item",
+        "name": "Choso-I sensed resistance",
+        "id": "92456507766890"
+      },
+      {
+        "type": "item",
+        "name": "Choso-I have become stronger",
+        "id": "134839082816879"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Act Immediately",
+        "id": "78675197922042"
+      },
+      {
+        "type": "item",
+        "name": "Choso- Alright",
+        "id": "129565048204632"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Red Scale",
+        "id": "75973129252993"
+      },
+      {
+        "type": "item",
+        "name": "Choso- I’m Ready",
+        "id": "118364699507436"
+      },
+      {
+        "type": "item",
+        "name": "Choso- I’ll kill you!",
+        "id": "127446264678332"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Red Scale Double:",
+        "id": "137608948354157"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Random Line1",
+        "id": "111146642384121"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Grunt1",
+        "id": "91631284225803"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Grunt2",
+        "id": "94909753521954"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Grunt3",
+        "id": "113974863294932"
+      },
+      {
+        "type": "item",
+        "name": "Choso-Grunt4",
+        "id": "90559700556519"
+      }
+    ]
+  },
+  {
+    "category": "TOGE INUMAKI:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Inumaki-Run",
+        "id": "136356541767167"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Explode",
+        "id": "130485333905026"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Twist",
+        "id": "110260221787174"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Stop",
+        "id": "124528224024803"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Return",
+        "id": "106370614948518"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-BLAST AWAY!",
+        "id": "114726106743901"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Stop/Dont Move2",
+        "id": "81585240045994"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Get Crushed (DUB)",
+        "id": "110203908584619"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Don’t Move (DUB)",
+        "id": "131655524649244"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-BLAST AWAY! (DUB)",
+        "id": "78590017867009"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-PLUMMET! (DUB)",
+        "id": "87201916375502"
+      },
+      {
+        "type": "item",
+        "name": "Inumkai-Tunamayo (DUB)",
+        "id": "72369130868796"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Sleep (DUB)",
+        "id": "94238831343799"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Sleep",
+        "id": "84744420318834"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Make it Clap (It’s canon) (DUB)",
+        "id": "126834084942608"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Okaka",
+        "id": "87665819116128"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Konbu",
+        "id": "77098727424893"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Die (Cut the first 1-2 seconds) (DUB)",
+        "id": "114941992821359"
+      },
+      {
+        "type": "item",
+        "name": "Inumaki-Same as above but ^ JP",
+        "id": "110701067711355"
+      }
+    ]
+  },
+  {
+    "category": "KINJI HAKARI:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Hakari-Domain Expansion",
+        "id": "18926606023"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Interesting, I’ll listen to you…",
+        "id": "132371247415873"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-As long as you’re still standing…",
+        "id": "88678521309951"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Luck is meant to be tested",
+        "id": "121164454062484"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-My passion’s gone cold now!",
+        "id": "105147165057955"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Did you lose some weight panda? (You can cut the panda part out if needed in sb) (DUB)",
+        "id": "108494764058116"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Save it kid… my passion’s… !(DUB)",
+        "id": "100842452666373"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-It’s here…",
+        "id": "113533055722008"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Grunt1",
+        "id": "131113285009760"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Grunt2",
+        "id": "71569611794165"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Grunt3",
+        "id": "85957465990020"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Grunt4",
+        "id": "135492598849710"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Grunt5",
+        "id": "80405859690124"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Random Line1",
+        "id": "112688123037441"
+      },
+      {
+        "type": "item",
+        "name": "Hakari-Laugh1",
+        "id": "108493655568442"
+      }
+    ]
+  },
+  {
+    "category": "AOI TODO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Todo-Die!",
+        "id": "105581863680107"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Slow",
+        "id": "78484337295607"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Right there!",
+        "id": "125880847679101"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Brother",
+        "id": "136128403437499"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Victory!",
+        "id": "118426096040086"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Black Flash",
+        "id": "106990766644455"
+      },
+      {
+        "type": "item",
+        "name": "Todo-My besto friendo",
+        "id": "116450545244027"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Boogie Woogie1",
+        "id": "73786980795155"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Boogie Woogie2",
+        "id": "104864596678069"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Boogie Woogie3",
+        "id": "120094114578587"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Grunt1",
+        "id": "128102224071757"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Grunt2",
+        "id": "84715387055738"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Grunt3",
+        "id": "78421518304576"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line1",
+        "id": "129196124613825"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line2",
+        "id": "127027823817135"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line3",
+        "id": "119112064643128"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line4",
+        "id": "96933360116149"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line5",
+        "id": "90617789288942"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line6",
+        "id": "123567944202900"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line7",
+        "id": "77799367530995"
+      },
+      {
+        "type": "item",
+        "name": "Todo-Random Line8",
+        "id": "73991456862843"
+      }
+    ]
+  },
+  {
+    "category": "MAKI ZENIN:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Maki Zenin-Now!",
+        "id": "136580914485839"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Scatter!",
+        "id": "81174061513659"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Match It!",
+        "id": "109605141416539"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-That’s It!",
+        "id": "83927474197287"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Right There!",
+        "id": "82836129991131"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Try to get out of the way",
+        "id": "108378725588342"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Let’s go!",
+        "id": "115601509066760"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Come!",
+        "id": "128982577666439"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-I won’t let you!",
+        "id": "96738341273532"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-What?",
+        "id": "108431444170847"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Im at my best",
+        "id": "81134420095803"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-I won’t hold back you know?",
+        "id": "135849542225887"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-You think I’ll let that hit? (DUB)",
+        "id": "80623653828725"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Three, four, five, nine, ten, eleven",
+        "id": "126904990164847"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-24 frames",
+        "id": "84344530112746"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-You thought that would land?…",
+        "id": "116554375001581"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-War Cry",
+        "id": "102259281663127"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Grunt1",
+        "id": "97022268148377"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Grunt2",
+        "id": "78657959515917"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Grunt3",
+        "id": "129412879327737"
+      },
+      {
+        "type": "item",
+        "name": "Maki Zenin-Beatdown Finisher",
+        "id": "104079413212489"
+      }
+    ]
+  },
+  {
+    "category": "NAOYA ZENIN:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Naoya-Have you no heart?",
+        "id": "137207936287355"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-You Fake…",
+        "id": "99477821929676"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-The one who stands besides them…",
+        "id": "103839111578592"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Power is weight and speed",
+        "id": "110490555299568"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-You",
+        "id": "122524731682919"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Aren’t Toji",
+        "id": "97228334317955"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-YOU IMPOSTER!",
+        "id": "108022258167270"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Are you serious?!?! you gutter trash",
+        "id": "93720495465590"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Top Speed!",
+        "id": "75138797742324"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-You planned to take my hit head on…",
+        "id": "126180983374284"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Eh?",
+        "id": "107052365916830"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Random Line1",
+        "id": "138100116846729"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Random Line2",
+        "id": "134445847554517"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Random Line3",
+        "id": "76039253466707"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Random Line4",
+        "id": "127742703543170"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-Grunt",
+        "id": "134228133010955"
+      },
+      {
+        "type": "item",
+        "name": "Naoya-PO-(Getting Punched)",
+        "id": "127130418218342"
+      }
+    ]
+  },
+  {
+    "category": "TOJI FUSHIGURO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Toji-The fun is over",
+        "id": "111037148824963"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Even if you regret it, press on",
+        "id": "77328989396592"
+      },
+      {
+        "type": "item",
+        "name": "Toji-It’s over",
+        "id": "133973649448589"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Free to go now (DUB)",
+        "id": "123075812128777"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Our fights just begun",
+        "id": "132717395953805"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Fool",
+        "id": "114782208926711"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Something off, no, perfect (DUB)",
+        "id": "110486887598639"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Beaten by a monkey like me",
+        "id": "115101234182387"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Goodbye",
+        "id": "73222654485569"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Die!",
+        "id": "132276123826094"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Toji Fushiguro",
+        "id": "111849162524778"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Kill Sorcerers?",
+        "id": "121620809189973"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Blessing of Heritage (DUB)",
+        "id": "84324584722478"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Lost my edge (DUB)",
+        "id": "90215079150858"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Getting my edge back now (DUB)",
+        "id": "76627189723526"
+      },
+      {
+        "type": "item",
+        "name": "Toji-See what happens? (DUB)",
+        "id": "123720824015515"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Worthless (DUB)",
+        "id": "70478052478090"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Break it up",
+        "id": "99204690422745"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Random Line1",
+        "id": "125990042708182"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Random Line2",
+        "id": "126688057209233"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Random Line3",
+        "id": "100350988369933"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Random Line4",
+        "id": "137276876735072"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Grunt1",
+        "id": "126740695429691"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Grunt2",
+        "id": "119266962146629"
+      },
+      {
+        "type": "item",
+        "name": "Toji-Beatdown Finisher",
+        "id": "90600484236149"
+      }
+    ]
+  },
+  {
+    "category": "MAHITO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Mahito-Domain Expansion",
+        "id": "18269037904"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Self Embodiment of Perfection",
+        "id": "102867572691447"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Domain Expansion Full1",
+        "id": "88562341351758"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Domain Expansion Full2",
+        "id": "87148152162273"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Black Flash",
+        "id": "136369054999917"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Scream-ish",
+        "id": "133773671993385"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-What’s wrong?",
+        "id": "94524831969616"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Finish",
+        "id": "91850428535895"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Go Crazy",
+        "id": "86942179513157"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Push through!",
+        "id": "76310968829598"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-How about a little transfiguration?",
+        "id": "108084366937891"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-This hurts!",
+        "id": "75756720447339"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Hey, what’s up?",
+        "id": "121237667968448"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I truly am… I truly am…… (DUB)",
+        "id": "115951281328694"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I CAN HEAR YOU FINE",
+        "id": "102786823407386"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-This isn’t all you’ve got right? (DUB)",
+        "id": "139764862986677"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-What fun! (DUB)",
+        "id": "112765928115091"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-This inspiration… (DUB)",
+        "id": "105165671011204"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I can still go (DUB)",
+        "id": "75486095478662"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I can take it (DUB)",
+        "id": "120416400943523"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Right now… (DUB)",
+        "id": "119636021579812"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Black Flash (DUB)",
+        "id": "93197461671860"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Carnage",
+        "id": "133159669078038"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Nice Shot",
+        "id": "99430043205386"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I truly am… A CURSE",
+        "id": "17774330356"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I’m starting on the…",
+        "id": "94323091615881"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Body Repel",
+        "id": "86893371815516"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Just have some fun",
+        "id": "95989977998148"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Idle Transfiguration",
+        "id": "127207130132104"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Let’s kick it up a notch",
+        "id": "133684855255987"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-This is the last curse",
+        "id": "96648441808465"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-I bet I could do it now",
+        "id": "76736165313350"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Ah Ha!",
+        "id": "113970745436621"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Laugh1",
+        "id": "102321896514205"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Hey whats wrong?",
+        "id": "76931256128641"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Direct Hit!",
+        "id": "74862073546301"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Laugh2",
+        "id": "103306200768779"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Mahito Cackling3 (DUB VOICE)",
+        "id": "131787608732863"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Mahito Laugh4 (DUB VOICE)",
+        "id": "100260760028170"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Grunt1",
+        "id": "99078479690143"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Battle Cry",
+        "id": "105642109239621"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Random Line1",
+        "id": "130432458315011"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Random Line2",
+        "id": "130129598898573"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Random Line3",
+        "id": "80680222077502"
+      },
+      {
+        "type": "item",
+        "name": "Mahito-Random Line4",
+        "id": "102078420851074"
+      }
+    ]
+  },
+  {
+    "category": "SUGURU GETO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Geto-Domain Expansion Full",
+        "id": "98170491424747"
+      },
+      {
+        "type": "item",
+        "name": "Geto Domain Expansion Full2",
+        "id": "92437640796232"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Hit it further!",
+        "id": "104740771923651"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Got it!",
+        "id": "134689032488545"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Rainbow Dragon! (3 seconds of music)",
+        "id": "132127993459227"
+      },
+      {
+        "type": "item",
+        "name": "Geto-I fight for justice! (loud)",
+        "id": "97858781570708"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Uzumaki (weird scream after)",
+        "id": "128770009926180"
+      },
+      {
+        "type": "item",
+        "name": "Geto-FILTHY MONKEY WHO CANT EVEN USE JUJUTSU (DUB)",
+        "id": "126563964124399"
+      },
+      {
+        "type": "item",
+        "name": "Geto-You’re going to die",
+        "id": "136863392910890"
+      },
+      {
+        "type": "item",
+        "name": "Geto-The world I long for…",
+        "id": "107934619282203"
+      },
+      {
+        "type": "item",
+        "name": "Geto-I don’t need monkeys… (DUB)",
+        "id": "17574633871"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Mini Uzumkai",
+        "id": "72696200547226"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Focus (DUB)",
+        "id": "98681482393157"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Geto being bored",
+        "id": "86808478452572"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Laugh",
+        "id": "106856484033945"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Grunt",
+        "id": "77343546714218"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line1",
+        "id": "138545593534232"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line2",
+        "id": "137596206428505"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line3",
+        "id": "126997245495724"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line4",
+        "id": "138440793223033"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line5",
+        "id": "137687404425280"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line6",
+        "id": "117276230909972"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line7",
+        "id": "136401599571420"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line8",
+        "id": "82302789711848"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line9",
+        "id": "128229053569173"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line10",
+        "id": "95837344589785"
+      },
+      {
+        "type": "item",
+        "name": "Geto-Random Line 11",
+        "id": "133508500746041"
+      }
+    ]
+  },
+  {
+    "category": "HIROMI HIGURUMA:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Higuruma-Domain Expansion",
+        "id": "78901952320498"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma-Domain Expansion Full (Quiet)",
+        "id": "94214404918647"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma-Everyone come back… (DUB)",
+        "id": "124871927819305"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma-Why are you looking at me like…",
+        "id": "85741622330321"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma-Random Line1",
+        "id": "114071895748444"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma-Random Line2",
+        "id": "85144427102310"
+      },
+      {
+        "type": "item",
+        "name": "Higuruma Retrial Hammer",
+        "id": "126520484151314"
+      },
+      {
+        "type": "item",
+        "name": "Confiscation+Death Penalty",
+        "id": "92815202683304"
+      }
+    ]
+  },
+  {
+    "category": "JOGO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Domain Expansion",
+        "id": "79947103979339"
+      },
+      {
+        "type": "item",
+        "name": "Coffin of the Iron Mountain (DUB)",
+        "id": "72747720172118"
+      },
+      {
+        "type": "item",
+        "name": "Maximum METEOR",
+        "id": "138012383510485"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line",
+        "id": "80916867059834"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 2",
+        "id": "127180933159682"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 3",
+        "id": "129679971747847"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 4",
+        "id": "128611023019603"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 5",
+        "id": "90780533167112"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 6",
+        "id": "133946283615462"
+      },
+      {
+        "type": "item",
+        "name": "Jogo-Random Line 7",
+        "id": "137491450668850"
+      }
+    ]
+  },
+  {
+    "category": "HAJIME KASHIMO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Kashimo-Laugh",
+        "id": "82149097940682"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Cause This Is An Funeral For An LIFE TIME (DUB)",
+        "id": "116627511792131"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Turn Up The Volume (DUB)",
+        "id": "82453043418646"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Thats What Losers Think! (DUB)",
+        "id": "124167476940000"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-What’s going on…?… (DUB)",
+        "id": "90312958655086"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Damn right I killed him… (DUB)",
+        "id": "114170850815052"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Grunt",
+        "id": "83253261479036"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Grunt 2",
+        "id": "99442877308228"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Grunt 3",
+        "id": "90086411940906"
+      },
+      {
+        "type": "item",
+        "name": "Kashimo-Grunt 4",
+        "id": "105945600274656"
+      }
+    ]
+  },
+  {
+    "category": "RYU ISHIGORI:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Ryu-Domain Expansion",
+        "id": "124611373375338"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Granite Blast",
+        "id": "127939351777412"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Granite Blast ALT",
+        "id": "117550548315770"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Are You My Desert?",
+        "id": "133496109986108"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Thanks, I’m Full",
+        "id": "86231296594541"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Sweet!",
+        "id": "96435018807239"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-You’re Not Invited…",
+        "id": "97491199423522"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Want A Go?",
+        "id": "75675840314450"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-LET US KEEP CHOWING DOWN!",
+        "id": "130927783112917"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-I’ll Just Smash Em ,",
+        "id": "72166398252378"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Desert",
+        "id": "101551668625098"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Overheat",
+        "id": "105527390639720"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Soyenara(aka bye)",
+        "id": "72192186679013"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Unsatisfied",
+        "id": "108782872873805"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Unsatisfied ALT",
+        "id": "82334032059022"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Best",
+        "id": "115694849453462"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Super Sweet!",
+        "id": "125976352048009"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Here’s Your Reward",
+        "id": "95928599816639"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Appetite",
+        "id": "130396253878230"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Have a Seat  (END 2)",
+        "id": "116539246771207"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-You’re Sweet!",
+        "id": "109331222171391"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Hey Hey",
+        "id": "113149706956318"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-KEEP GOING",
+        "id": "137412287464769"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Random Line1",
+        "id": "111003958121806"
+      },
+      {
+        "type": "item",
+        "name": "Ryu-Scream",
+        "id": "103567319773985"
+      }
+    ]
+  },
+  {
+    "category": "TAKAKA URO:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Uro-Thin Ice Breaker",
+        "id": "132695666283950"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Thin Ice Breaker ALT",
+        "id": "100406839351881"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Like This?",
+        "id": "136293876961878"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Reverse Curse Technique",
+        "id": "112523508698863"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Why Would Anyone From Your…",
+        "id": "139196584756857"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Don’t Get Ahead of Yourself!",
+        "id": "106559554103270"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Uro venting",
+        "id": "126023727970847"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Hurry Up and Attack Me",
+        "id": "121902821359584"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Don’t Underestimate Me!",
+        "id": "115375852509853"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Just Like That",
+        "id": "81703650235953"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Chuckle",
+        "id": "127747973908713"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Grunt1",
+        "id": "88019929705849"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Grunt2",
+        "id": "121570571518842"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Randon Line1",
+        "id": "108189873056335"
+      },
+      {
+        "type": "item",
+        "name": "Uro-Random Line2",
+        "id": "123944101999777"
+      }
+    ]
+  },
+  {
+    "category": "BLUE LOCK:",
+    "items": []
+  },
+  {
+    "category": "Kaiser:",
+    "items": [
+      {
+        "type": "item",
+        "name": "beinchuss",
+        "id": "135806341129336"
+      },
+      {
+        "type": "item",
+        "name": "Kaiser Drible",
+        "id": "108089623238423"
+      },
+      {
+        "type": "item",
+        "name": "On your knees",
+        "id": "91309580955139"
+      },
+      {
+        "type": "item",
+        "name": "Ich haisse kaiser",
+        "id": "136210529718183"
+      },
+      {
+        "type": "item",
+        "name": "Superstar",
+        "id": "133843333331796"
+      }
+    ]
+  },
+  {
+    "category": "Bachira:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Super Special",
+        "id": "77583463994380"
+      },
+      {
+        "type": "item",
+        "name": "Bam",
+        "id": "91703880053372"
+      },
+      {
+        "type": "item",
+        "name": "AWK",
+        "id": "86934186064046"
+      },
+      {
+        "type": "item",
+        "name": "Smash Lift",
+        "id": "73538826030942"
+      },
+      {
+        "type": "item",
+        "name": "We Must Be Super Special Too",
+        "id": "81317149432163"
+      }
+    ]
+  },
+  {
+    "category": "RIN:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Bleh",
+        "id": "78799439798103"
+      },
+      {
+        "type": "item",
+        "name": "Mangle",
+        "id": "70628994919304"
+      },
+      {
+        "type": "item",
+        "name": "Korosu",
+        "id": "132269224818658"
+      },
+      {
+        "type": "item",
+        "name": "Center Of Gravity",
+        "id": "136350442436418"
+      },
+      {
+        "type": "item",
+        "name": "Im Gonna Crush U",
+        "id": "138225455443008"
+      },
+      {
+        "type": "item",
+        "name": "Egoista",
+        "id": "130741999230391"
+      }
+    ]
+  },
+  {
+    "category": "Nagi:",
+    "items": [
+      {
+        "type": "item",
+        "name": "Im gonna give it a try",
+        "id": "71398457295540"
+      },
+      {
+        "type": "item",
+        "name": "Bring It",
+        "id": "109284856567788"
+      },
+      {
+        "type": "item",
+        "name": "I want to chalenge myself",
+        "id": "121690429761012"
+      }
+    ]
+  }
+]

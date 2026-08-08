@@ -97,7 +97,7 @@ h2 {
   border-bottom: 2px solid #333;
   padding-bottom: 10px;
   margin-top: 30px;
-  scroll-margin-top: 160px; /* Ajuda no atalho L */
+  scroll-margin-top: 160px;
 }
 .code-btn {
   display: block;
@@ -251,8 +251,6 @@ body.light-mode #btnTop::after {
   background-color: #fff;
   color: #333;
 }
-
-/* Inclusões do Notepad para Light Mode */
 body.light-mode #notepadText {
   background: #f4f4f9 !important;
   color: #222 !important;
@@ -484,7 +482,6 @@ body.light-mode .shortcut-key {
   border-color: #ccc;
   color: #e65100;
 }
-
 .mcat-title {
   font-size: 15px;
   margin-top: 20px;
@@ -498,4 +495,70 @@ body.light-mode .shortcut-key {
 body.light-mode .mcat-title {
   border-bottom-color: #aaa;
   color: #444;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 5px 5px 0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  transition:
+    transform 0.2s,
+    filter 0.2s;
+}
+.social-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
+.social-link.dis {
+  background-color: #5865f2;
+}
+.social-link.ins {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.social-link.ttk {
+  background-color: #000;
+  border: 1px solid #333;
+}
+body.light-mode .social-link.ttk {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #ccc;
+}
+
+.suggestion-card {
+  aspect-ratio: 2.2;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.suggestion-card:hover {
+  transform: scale(1.05);
+  border-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }

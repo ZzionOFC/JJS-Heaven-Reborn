@@ -1,5 +1,7 @@
 let audioCtx = null;
 
+const ARQUIVOS_TAGS = ['jjs']; 
+
 // INICIO: tocarSomClique
 function tocarSomClique() {
   try {
@@ -14,15 +16,11 @@ function tocarSomClique() {
     const gainNode = audioCtx.createGain();
 
     osc.type = "square";
-
     osc.frequency.setValueAtTime(350, audioCtx.currentTime);
     osc.frequency.exponentialRampToValueAtTime(80, audioCtx.currentTime + 0.03);
 
     gainNode.gain.setValueAtTime(0.08, audioCtx.currentTime);
-    gainNode.gain.exponentialRampToValueAtTime(
-      0.001,
-      audioCtx.currentTime + 0.03,
-    );
+    gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.03);
 
     osc.connect(gainNode);
     gainNode.connect(audioCtx.destination);
@@ -47,8 +45,7 @@ const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
   btnToggle = document.getElementById("btnToggle"),
   menu = document.getElementById("menu"),
-  historyBar = document.getElementById("history-bar"),
-  tagsContainer = document.getElementById("tagsContainer");
+  historyBar = document.getElementById("history-bar");
 
 let dadosAtuais = [],
   isCodesAtual = false,
@@ -60,92 +57,23 @@ let presetsAtuais = [];
 let modoAdminAtivo = false;
 const SENHA_ADMIN = "admin123";
 
-let tagsMap = {};
-let listaTags = [];
-let tagAtiva = "";
-
-// INICIO: carregarTags
-async function carregarTags() {
-  try {
-    const res = await fetch("json/tags.json");
-    if (!res.ok) return;
-    const data = await res.json();
-    processarTags(data);
-    renderizarPopupTags();
-  } catch (e) {}
-}
-// FIM: carregarTags
-
-// INICIO: processarTags
-function processarTags(data) {
-  tagsMap = {};
-  listaTags = Object.keys(data);
-
-  for (let tag in data) {
-    let ranges = data[tag];
-    ranges.forEach((range) => {
-      if (/^\d+-\d+$/.test(range)) {
-        let [inicio, fim] = range.split("-").map(Number);
-        for (let i = inicio; i <= fim; i++) {
-          let idStr = String(i).padStart(4, "0");
-          if (!tagsMap[idStr]) tagsMap[idStr] = [];
-          tagsMap[idStr].push(tag);
-        }
-      } else {
-        if (!tagsMap[range]) tagsMap[range] = [];
-        tagsMap[range].push(tag);
-      }
-    });
-  }
-}
-// FIM: processarTags
-
-// INICIO: renderizarPopupTags
-function renderizarPopupTags() {
-  if (listaTags.length === 0) return;
-  tagsContainer.classList.remove("hidden");
-  tagsContainer.innerHTML = `<span style="color:#888; font-size:12px; margin-right:5px;">Tags:</span>`;
-
-  let btnTodas = document.createElement("button");
-  btnTodas.className = `tag-pill ${tagAtiva === "" ? "ativa" : ""}`;
-  btnTodas.textContent = "All";
-  btnTodas.onclick = () => {
-    tagAtiva = "";
-    renderizarPopupTags();
-    dispararPesquisaAtual(campoPesquisa.value);
-  };
-  tagsContainer.appendChild(btnTodas);
-
-  listaTags.forEach((tag) => {
-    let btn = document.createElement("button");
-    btn.className = `tag-pill ${tagAtiva === tag ? "ativa" : ""}`;
-    btn.textContent = tag;
-    btn.onclick = () => {
-      tagAtiva = tag;
-      renderizarPopupTags();
-      dispararPesquisaAtual(campoPesquisa.value);
-    };
-    tagsContainer.appendChild(btn);
-  });
-}
-// FIM: renderizarPopupTags
-
 // INICIO: eventosIniciais
 btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 
+// Scroll reformulado para corrigir ambos os botões dinamicamente
 window.onscroll = () => {
   if (document.body.classList.contains("focus-mode-active")) return;
   const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  const scrollHeight =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   const scrollPercent = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+  
   const btnTop = document.getElementById("btnTop");
+  const btnBottom = document.getElementById("btnBottom");
+  
   const isLightMode = document.body.classList.contains("light-mode");
-  const corFundoBarra = isLightMode
-    ? "rgba(204,204,204,0.9)"
-    : "rgba(51,51,51,0.85)";
+  const corFundoBarra = isLightMode ? "rgba(204,204,204,0.9)" : "rgba(51,51,51,0.85)";
 
+  // Seta pra cima
   if (scrollTop > 300) {
     btnTop.style.display = "flex";
     btnTop.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
@@ -153,11 +81,15 @@ window.onscroll = () => {
     btnTop.style.display = "none";
   }
 
-  const bateuNoFundo =
-    window.innerHeight + window.scrollY >= document.body.scrollHeight - 50;
-  document.getElementById("btnBottom").style.display = bateuNoFundo
-    ? "none"
-    : "flex";
+  // Seta pra baixo
+  const bateuNoFundo = Math.ceil(window.innerHeight + window.scrollY) >= document.body.scrollHeight - 50;
+    
+  if (!bateuNoFundo && scrollHeight > 0) {
+    btnBottom.style.display = "flex";
+    btnBottom.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
+  } else {
+    btnBottom.style.display = "none";
+  }
 };
 // FIM: eventosIniciais
 
@@ -178,7 +110,6 @@ function renderizarHistorico() {
 }
 // FIM: renderizarHistorico
 
-// INICIO: updateHistory
 function updateHistory(val) {
   if (!history.includes(val)) {
     history.unshift(val);
@@ -186,24 +117,127 @@ function updateHistory(val) {
   }
   renderizarHistorico();
 }
-// FIM: updateHistory
 
-// INICIO: renderizarColorPicker
+// INICIO: renderizarTools (Aba Tools: Calculadora & Gerador Font)
+function renderizarTools(btn) {
+  document.body.classList.remove("focus-mode-active");
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
+  
+  if (btn) btn.classList.add("ativo");
+
+  conteudo.innerHTML = `
+    <div class="tools-container" style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+      
+      <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
+        <h3 style="margin-top: 0; color: #4caf50; border-bottom: 1px solid #333; padding-bottom: 10px;">⏱️ Interval Calculator</h3>
+        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Calculate the difference in seconds between two points (decimals supported).</p>
+        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+          <input type="number" id="intervalStart" step="0.01" placeholder="Start value (e.g. 10.5)" style="flex: 1; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px;">
+          <input type="number" id="intervalEnd" step="0.01" placeholder="End value (e.g. 25.2)" style="flex: 1; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px;">
+        </div>
+        <button id="btnCalcInterval" class="action-btn" style="width: 100%; background: #2e7d32; border-color: #4caf50;">Calculate Interval</button>
+        <div id="intervalResult" style="margin-top: 15px; font-size: 18px; font-weight: bold; text-align: center; color: #ffff7e; min-height: 25px;"></div>
+      </div>
+
+      <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
+        <h3 style="margin-top: 0; color: #ff9800; border-bottom: 1px solid #333; padding-bottom: 10px;">🎨 Font Color Generator</h3>
+        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Generate a colored HTML font tag with iro.js.</p>
+        
+        <input type="text" id="fontInputText" placeholder="Enter your text here..." style="width: 100%; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px; box-sizing: border-box; margin-bottom: 15px;">
+        
+        <div style="display: flex; justify-content: center; margin-bottom: 15px; background: #121212; padding: 15px; border-radius: 8px; border: 1px solid #333;">
+          <div id="fontColorPicker"></div>
+        </div>
+
+        <div style="margin-bottom: 15px; padding: 15px; background: #121212; border: 1px dashed #555; border-radius: 4px; text-align: center;">
+          <span style="font-size: 12px; color: #aaa; display: block; margin-bottom: 5px; text-transform: uppercase;">Preview:</span>
+          <div id="fontPreviewText" style="font-size: 18px; font-weight: bold;">Your Text Here</div>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+          <input type="text" id="fontOutputCode" readonly style="flex: 1; padding: 10px; background: #121212; color: #4caf50; border: 1px solid #333; border-radius: 4px; font-family: monospace;">
+          <button id="btnCopyFont" class="action-btn">Copy Tag</button>
+        </div>
+      </div>
+
+    </div>
+  `;
+
+  // Lógica da Calculadora de Intervalo
+  document.getElementById("btnCalcInterval").addEventListener("click", () => {
+    const start = parseFloat(document.getElementById("intervalStart").value.replace(',', '.'));
+    const end = parseFloat(document.getElementById("intervalEnd").value.replace(',', '.'));
+    const resultDiv = document.getElementById("intervalResult");
+    
+    if (isNaN(start) || isNaN(end)) {
+      resultDiv.textContent = "Please enter valid numbers!";
+      resultDiv.style.color = "#f44336";
+    } else {
+      const diff = Math.abs(end - start);
+      resultDiv.textContent = `Result: ${diff.toFixed(2)} seconds`;
+      resultDiv.style.color = document.body.classList.contains('light-mode') ? "#d32f2f" : "#ffff7e";
+    }
+  });
+
+  // Lógica do Font Color Generator (Iro.js)
+  const fontPicker = new iro.ColorPicker("#fontColorPicker", {
+    width: 150,
+    color: "#ff0000",
+    borderWidth: 1,
+    borderColor: "#333",
+  });
+
+  const fontInputText = document.getElementById("fontInputText");
+  const fontPreviewText = document.getElementById("fontPreviewText");
+  const fontOutputCode = document.getElementById("fontOutputCode");
+  const btnCopyFont = document.getElementById("btnCopyFont");
+
+  const updateFontGenerator = () => {
+    const hex = fontPicker.color.hexString;
+    const text = fontInputText.value || "JJS HEAVEN";
+    
+    fontPreviewText.textContent = text;
+    fontPreviewText.style.color = hex;
+    
+    fontOutputCode.value = `<font color="${hex}">${text}</font>`;
+  };
+
+  fontPicker.on("color:change", updateFontGenerator);
+  fontInputText.addEventListener("input", updateFontGenerator);
+  updateFontGenerator(); // Run inicial
+
+  btnCopyFont.addEventListener("click", async () => {
+    await navigator.clipboard.writeText(fontOutputCode.value);
+    tocarSomClique();
+    const ogText = btnCopyFont.textContent;
+    btnCopyFont.textContent = "Copied!";
+    btnCopyFont.style.background = "#2e7d32";
+    btnCopyFont.style.color = "#fff";
+    btnCopyFont.style.borderColor = "#4caf50";
+    setTimeout(() => {
+      btnCopyFont.textContent = ogText;
+      btnCopyFont.style.background = "";
+      btnCopyFont.style.color = "";
+      btnCopyFont.style.borderColor = "";
+    }, 1000);
+  });
+}
+// FIM: renderizarTools
+
+// INICIO: renderizarColorPicker (Cores)
 function renderizarColorPicker(btn) {
   document.body.classList.remove("focus-mode-active");
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
-  btn.classList.add("ativo");
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
+  
+  if(btn) btn.classList.add("ativo");
 
-  let savedColors = JSON.parse(
-    localStorage.getItem("jjs_saved_colors") || "[]",
-  );
+  let savedColors = JSON.parse(localStorage.getItem("jjs_saved_colors") || "[]");
 
   conteudo.innerHTML = `
 <div style="text-align:center; padding:15px; display:flex; flex-direction:column; align-items:center; max-width: 480px; margin: 0 auto;">
     <h2 style="margin-bottom: 20px; font-size: 20px; letter-spacing: 1px;">Color Studio & Picker</h2>
-    
     <div id="color-picker-container" style="display:flex; justify-content:center; margin-bottom:20px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);"></div>
     
     <div style="display:flex; gap:10px; width:100%; justify-content:center; margin-bottom:15px;">
@@ -227,7 +261,6 @@ function renderizarColorPicker(btn) {
 <div id="extractedColorDisplay" style="margin-top:10px; padding:8px; font-size:11px; font-weight:bold; border-radius:4px; display:none; text-align:center; text-shadow:0 1px 2px rgba(0,0,0,0.8);"></div>
     </div>
 
-    <!-- SUBSTITUIDO: Sugestões de cores por Previews de Textura -->
     <div style="width:100%; padding:12px; border:1px solid rgba(255,255,255,0.08); background:#161616; border-radius:6px; margin-bottom:25px; box-sizing:border-box; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
 <h3 style="margin-top:0; font-size:12px; text-transform: uppercase; letter-spacing: 1px; color: #aaa; margin-bottom: 10px; border:none; text-align: left;">✨ Texture Previews</h3>
 <div id="texturePreviews" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; margin-top:0;">
@@ -275,18 +308,12 @@ function renderizarColorPicker(btn) {
     const hVal = color.hexString.toUpperCase();
     const rVal = `${color.rgb.r},${color.rgb.g},${color.rgb.b}`;
 
-    if (document.activeElement !== hex) {
-      hex.value = hVal;
-    }
-    if (document.activeElement !== rgb) {
-      rgb.value = rVal;
-    }
+    if (document.activeElement !== hex) hex.value = hVal;
+    if (document.activeElement !== rgb) rgb.value = rVal;
 
     hex.style.color = hVal;
     rgb.style.color = hVal;
-    gerarSugestoesDeCores(color.rgb);
 
-    // Atualiza os backgrounds interativos com a cor selecionada (mix-blend-mode)
     const g = document.getElementById("preview-grass");
     const w = document.getElementById("preview-wood");
     const wb = document.getElementById("preview-woodb");
@@ -298,144 +325,16 @@ function renderizarColorPicker(btn) {
   updateInputs(colorPicker.color);
   colorPicker.on("color:change", updateInputs);
 
-  // INICIO: rgbToHsl (mantido para não remover nada)
-  function rgbToHsl(r, g, b) {
-    r /= 255;
-    g /= 255;
-    b /= 255;
-    let max = Math.max(r, g, b),
-      min = Math.min(r, g, b);
-    let h,
-      s,
-      l = (max + min) / 2;
-    if (max === min) {
-      h = s = 0;
-    } else {
-      let d = max - min;
-      s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-      switch (max) {
-        case r:
-          h = (g - b) / d + (g < b ? 6 : 0);
-          break;
-        case g:
-          h = (b - r) / d + 2;
-          break;
-        case b:
-          h = (r - g) / d + 4;
-          break;
-      }
-      h /= 6;
-    }
-    return [h * 360, s * 100, l * 100];
-  }
-  // FIM: rgbToHsl
-
-  // INICIO: hslToRgb (mantido para não remover nada)
-  function hslToRgb(h, s, l) {
-    h = ((h % 360) + 360) % 360;
-    s = Math.max(0, Math.min(100, s));
-    l = Math.max(0, Math.min(100, l));
-    h /= 360;
-    s /= 100;
-    l /= 100;
-    let r, g, b;
-    if (s === 0) {
-      r = g = b = l;
-    } else {
-      let hue2rgb = (p, q, t) => {
-        if (t < 0) t += 1;
-        if (t > 1) t -= 1;
-        if (t < 1 / 6) return p + (q - p) * 6 * t;
-        if (t < 1 / 2) return q;
-        if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-        return p;
-      };
-      let q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-      let p = 2 * l - q;
-      r = hue2rgb(p, q, h + 1 / 3);
-      g = hue2rgb(p, q, h);
-      b = hue2rgb(p, q, h - 1 / 3);
-    }
-    return `${Math.round(r * 255)},${Math.round(g * 255)},${Math.round(b * 255)}`;
-  }
-  // FIM: hslToRgb
-
-  // INICIO: gerarSugestoesDeCores (mantida a logica interna para nao remover nada do codigo base original, embora o HTML dela tenha sido substituido)
-  function gerarSugestoesDeCores(curRgb) {
-    const grid = document.getElementById("suggestionsGrid");
-    if (!grid) return; // Se não achar o suggestionsGrid antigo, simplesmente ignora sem erro
-    grid.innerHTML = "";
-
-    let [h, s, l] = rgbToHsl(curRgb.r, curRgb.g, curRgb.b);
-
-    const sugestoes = [
-      { nome: "Neon", rgb: hslToRgb(h, 100, 50) },
-      {
-        nome: "Vibrant",
-        rgb: hslToRgb(h, Math.min(100, s + 35), Math.max(30, Math.min(70, l))),
-      },
-      {
-        nome: "Pastel",
-        rgb: hslToRgb(
-          h,
-          Math.max(20, s - 10),
-          Math.min(90, Math.max(75, l + 15)),
-        ),
-      },
-      { nome: "Grayish", rgb: hslToRgb(h, Math.max(0, s - 50), l) },
-      { nome: "Darker", rgb: hslToRgb(h, s, Math.max(10, l - 25)) },
-      { nome: "Lighter", rgb: hslToRgb(h, s, Math.min(95, l + 25)) },
-      { nome: "Complement", rgb: hslToRgb((h + 180) % 360, s, l) },
-      { nome: "Analogous", rgb: hslToRgb((h + 30) % 360, s, l) },
-    ];
-
-    sugestoes.forEach((item) => {
-      const card = document.createElement("div");
-      card.style.aspectRatio = "2.2";
-      card.style.borderRadius = "4px";
-      card.style.border = "1px solid rgba(255,255,255,0.15)";
-      card.style.cursor = "pointer";
-      card.style.display = "flex";
-      card.style.flexDirection = "column";
-      card.style.justifyContent = "center";
-      card.style.alignItems = "center";
-      card.style.padding = "4px";
-      card.style.color = "#fff";
-      card.style.textShadow = "0 1px 2px rgba(0,0,0,0.9)";
-      card.style.backgroundColor = `rgb(${item.rgb})`;
-      card.innerHTML = `<span style="font-size:10px; font-weight:bold; opacity:0.95;">${item.nome}</span>
-<span style="font-size:8px; font-family:monospace; margin-top:2px; opacity:0.8;">${item.rgb}</span>`;
-
-      card.onclick = async () => {
-        await navigator.clipboard.writeText(item.rgb);
-        tocarSomClique();
-        updateHistory(item.rgb);
-        colorPicker.color.set(`rgb(${item.rgb})`);
-        card.style.borderColor = "#4caf50";
-        setTimeout(() => {
-          card.style.borderColor = "rgba(255,255,255,0.15)";
-        }, 600);
-      };
-      grid.appendChild(card);
-    });
-  }
-  // FIM: gerarSugestoesDeCores
-
   hex.addEventListener("input", (e) => {
     let val = e.target.value.trim();
     if (val && !val.startsWith("#")) val = "#" + val;
-    if (/^#([0-9A-F]{3}){1,2}$/i.test(val)) {
-      colorPicker.color.set(val);
-    }
+    if (/^#([0-9A-F]{3}){1,2}$/i.test(val)) colorPicker.color.set(val);
   });
 
   rgb.addEventListener("input", (e) => {
     let val = e.target.value.trim();
     let parts = val.split(",").map((n) => parseInt(n.trim()));
-    if (
-      parts.length === 3 &&
-      parts.every((n) => !isNaN(n) && n >= 0 && n <= 255)
-    ) {
+    if (parts.length === 3 && parts.every((n) => !isNaN(n) && n >= 0 && n <= 255)) {
       colorPicker.color.set({ r: parts[0], g: parts[1], b: parts[2] });
     }
   });
@@ -458,12 +357,10 @@ function renderizarColorPicker(btn) {
       }),
   );
 
-  // INICIO: renderizarFavoritos
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
     if (savedColors.length === 0) {
-      savedColorsGrid.innerHTML =
-        "<p style='color:#888; grid-column: 1 / -1; font-size:13px; text-align:left;'>No colors saved yet.</p>";
+      savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:13px; text-align:left;'>No colors saved yet.</p>";
       return;
     }
 
@@ -473,14 +370,8 @@ function renderizarColorPicker(btn) {
 
       const card = document.createElement("div");
       card.className = "preset-card";
-      card.style.backgroundColor =
-        corValue.includes(",") &&
-        !corValue.startsWith("rgb") &&
-        !corValue.startsWith("#")
-          ? `rgb(${corValue})`
-          : corValue;
+      card.style.backgroundColor = corValue.includes(",") && !corValue.startsWith("rgb") && !corValue.startsWith("#") ? `rgb(${corValue})` : corValue;
       card.style.borderRadius = "4px";
-
       card.textContent = corName;
 
       card.onclick = async () => {
@@ -489,9 +380,7 @@ function renderizarColorPicker(btn) {
         updateHistory(corValue);
         const originalText = card.textContent;
         card.textContent = "Copied!";
-        setTimeout(() => {
-          card.textContent = originalText;
-        }, 1000);
+        setTimeout(() => { card.textContent = originalText; }, 1000);
       };
 
       card.oncontextmenu = (e) => {
@@ -500,18 +389,15 @@ function renderizarColorPicker(btn) {
         localStorage.setItem("jjs_saved_colors", JSON.stringify(savedColors));
         renderizarFavoritos();
       };
-
       savedColorsGrid.appendChild(card);
     });
   }
-  // FIM: renderizarFavoritos
 
   renderizarFavoritos();
 
   btnSaveColor.onclick = () => {
     const currentColor = rgb.value;
     const customName = colorNameInput.value.trim() || currentColor;
-
     const isDuplicate = savedColors.some((c) => {
       const cVal = typeof c === "string" ? c : c.value;
       const cName = typeof c === "string" ? c : c.name;
@@ -522,20 +408,14 @@ function renderizarColorPicker(btn) {
       savedColors.push({ value: currentColor, name: customName });
       localStorage.setItem("jjs_saved_colors", JSON.stringify(savedColors));
       renderizarFavoritos();
-
       colorNameInput.value = "";
-
       const textoOriginal = btnSaveColor.textContent;
       btnSaveColor.textContent = "Saved!";
-      setTimeout(() => {
-        btnSaveColor.textContent = textoOriginal;
-      }, 1000);
+      setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
     } else {
       const textoOriginal = btnSaveColor.textContent;
       btnSaveColor.textContent = "Exists!";
-      setTimeout(() => {
-        btnSaveColor.textContent = textoOriginal;
-      }, 1000);
+      setTimeout(() => { btnSaveColor.textContent = textoOriginal; }, 1000);
     }
   };
 
@@ -551,9 +431,7 @@ function renderizarColorPicker(btn) {
   const imgCanvasWrapper = document.getElementById("imgCanvasWrapper");
   const imgCanvas = document.getElementById("imgCanvas");
   const pickerDot = document.getElementById("pickerDot");
-  const extractedColorDisplay = document.getElementById(
-    "extractedColorDisplay",
-  );
+  const extractedColorDisplay = document.getElementById("extractedColorDisplay");
   const ctx = imgCanvas.getContext("2d");
   let canvasImage = new Image();
 
@@ -575,12 +453,9 @@ function renderizarColorPicker(btn) {
   window.addEventListener("paste", lidarComCola);
 
   imageInput.addEventListener("change", (e) => {
-    if (e.target.files && e.target.files[0]) {
-      carregarImagemNaCanvas(e.target.files[0]);
-    }
+    if (e.target.files && e.target.files[0]) carregarImagemNaCanvas(e.target.files[0]);
   });
 
-  // INICIO: carregarImagemNaCanvas
   function carregarImagemNaCanvas(file) {
     const url = URL.createObjectURL(file);
     canvasImage.onload = () => {
@@ -593,11 +468,9 @@ function renderizarColorPicker(btn) {
     };
     canvasImage.src = url;
   }
-  // FIM: carregarImagemNaCanvas
 
   let isDraggingCanvas = false;
 
-  // INICIO: extrairCorDaCanvas
   const extrairCorDaCanvas = (e) => {
     const rect = imgCanvas.getBoundingClientRect();
     let xVisivel = e.clientX - rect.left;
@@ -622,7 +495,6 @@ function renderizarColorPicker(btn) {
     extractedColorDisplay.style.backgroundColor = `rgb(${rgbStr})`;
     extractedColorDisplay.textContent = `Selected: ${rgbStr}`;
   };
-  // FIM: extrairCorDaCanvas
 
   imgCanvas.addEventListener("pointerdown", (e) => {
     isDraggingCanvas = true;
@@ -643,9 +515,9 @@ function renderizarColorPicker(btn) {
 function carregarPresets(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
+  
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading presets...</div>';
 
@@ -658,23 +530,17 @@ function carregarPresets(url, btn) {
       presetsAtuais = data;
       renderizarPresets(presetsAtuais, "");
     })
-    .catch((err) => {
-      conteudo.innerHTML =
-        '<div class="status-msg" style="color:red;">Error loading presets.</div>';
-    });
+    .catch((err) => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading presets.</div>'; });
 }
 // FIM: carregarPresets
 
-// INICIO: extrairNumerosRGB
 function extrairNumerosRGB(val) {
   if (!val) return "";
   let str = Array.isArray(val) ? val[0] : val;
   if (typeof str !== "string") str = String(str);
   return str.replace(/rgba?\((.*?)\)/gi, "$1").trim();
 }
-// FIM: extrairNumerosRGB
 
-// INICIO: renderizarPresets
 function renderizarPresets(data, termo) {
   conteudo.innerHTML = "";
 
@@ -691,25 +557,16 @@ function renderizarPresets(data, termo) {
         grupoAtual.color = item.color || item.rgb || null;
       } else {
         grupos.push(grupoAtual);
-        grupoAtual = {
-          cat: item.cat,
-          color: item.color || item.rgb || null,
-          items: [],
-        };
+        grupoAtual = { cat: item.cat, color: item.color || item.rgb || null, items: [] };
       }
       primeiraCategoriaEncontrada = true;
       mcatAtual = "_default_";
     } else {
       if (item.mcat !== undefined) {
         mcatAtual = item.mcat || "_default_";
-        if (item.color || item.rgb) {
-          mcatColors[mcatAtual] = item.color || item.rgb;
-        }
-        if (!item.name && !item.rgb && !item.colors) {
-          return;
-        }
+        if (item.color || item.rgb) mcatColors[mcatAtual] = item.color || item.rgb;
+        if (!item.name && !item.rgb && !item.colors) return;
       }
-
       let newItem = { ...item, _appliedMcat: mcatAtual };
       grupoAtual.items.push(newItem);
     }
@@ -721,8 +578,7 @@ function renderizarPresets(data, termo) {
   grupos.forEach((grupo) => {
     const itensFiltrados = grupo.items.filter((item) => {
       const rawRgb = item.rgb || item.color || item;
-      const nameVal =
-        item.name || (typeof rawRgb === "string" ? rawRgb : "Unnamed");
+      const nameVal = item.name || (typeof rawRgb === "string" ? rawRgb : "Unnamed");
       const mcatVal = item._appliedMcat || "";
 
       let arrayColors = [];
@@ -749,14 +605,11 @@ function renderizarPresets(data, termo) {
       h2.textContent = grupo.cat;
 
       let catColor = "";
-      if (grupo.color) {
-        catColor = extrairNumerosRGB(grupo.color);
-      }
+      if (grupo.color) catColor = extrairNumerosRGB(grupo.color);
       if (catColor) {
         h2.style.color = `rgb(${catColor})`;
         h2.style.borderBottomColor = `rgb(${catColor})`;
       }
-
       conteudo.appendChild(h2);
 
       let mcats = { _default_: [] };
@@ -778,9 +631,7 @@ function renderizarPresets(data, termo) {
           h3.className = "mcat-title";
           h3.textContent = mcatName;
 
-          let currentMcatColor = mcatColors[mcatName]
-            ? extrairNumerosRGB(mcatColors[mcatName])
-            : catColor;
+          let currentMcatColor = mcatColors[mcatName] ? extrairNumerosRGB(mcatColors[mcatName]) : catColor;
           if (currentMcatColor) {
             h3.style.color = `rgb(${currentMcatColor})`;
             h3.style.borderBottomColor = `rgb(${currentMcatColor})`;
@@ -793,8 +644,7 @@ function renderizarPresets(data, termo) {
 
         itemsInMcat.forEach((item) => {
           const rawRgb = item.rgb || item.color || item;
-          const nameVal =
-            item.name || (typeof rawRgb === "string" ? rawRgb : "Unnamed");
+          const nameVal = item.name || (typeof rawRgb === "string" ? rawRgb : "Unnamed");
 
           let arrayColors = [];
           if (Array.isArray(item.colors)) {
@@ -807,14 +657,11 @@ function renderizarPresets(data, termo) {
           }
 
           let copyText = arrayColors.join(" ALT ");
-
           const card = document.createElement("div");
           card.className = "preset-card";
 
           if (arrayColors.length > 1) {
-            const gradientColors = arrayColors
-              .map((c) => `rgb(${c})`)
-              .join(", ");
+            const gradientColors = arrayColors.map((c) => `rgb(${c})`).join(", ");
             card.style.background = `linear-gradient(90deg, ${gradientColors})`;
           } else if (arrayColors.length === 1) {
             card.style.backgroundColor = `rgb(${arrayColors[0]})`;
@@ -828,28 +675,26 @@ function renderizarPresets(data, termo) {
             updateHistory(copyText);
             const originalText = card.textContent;
             card.textContent = "Copied!";
-            setTimeout(() => {
-              card.textContent = originalText;
-            }, 1000);
+            setTimeout(() => { card.textContent = originalText; }, 1000);
           };
           grid.appendChild(card);
         });
-
         conteudo.appendChild(grid);
       });
     }
   });
 }
-// FIM: renderizarPresets
 
-// INICIO: carregarDados
 function carregarDados(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
-  if (btn) btn.classList.add("ativo");
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
+  
+  if (btn) {
+    document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
+    btn.classList.add("ativo");
+  }
+
   conteudo.innerHTML = '<div class="status-msg">Loading data...</div>';
 
   fetch(url)
@@ -866,7 +711,6 @@ function carregarDados(url, btn) {
       data.forEach((cat) => {
         cat.catId = "C" + String(contadorCategoria).padStart(4, "0");
         contadorCategoria++;
-
         let itensMapeados = [];
 
         cat.items.forEach((item) => {
@@ -875,9 +719,7 @@ function carregarDados(url, btn) {
 
           if (!item.name || item.name.trim() === "") {
             let novoNome = cat.category || "";
-            if (!novoNome.endsWith(":")) {
-              novoNome += ":";
-            }
+            if (!novoNome.endsWith(":")) novoNome += ":";
             item.name = novoNome;
 
             if (categoriaAnterior) {
@@ -891,8 +733,11 @@ function carregarDados(url, btn) {
         });
 
         cat.items = itensMapeados;
-
         if (cat.items.length > 0) {
+          dadosProcessados.push(cat);
+          categoriaAnterior = cat;
+        } else if (modoAdminAtivo) {
+          // Mantém as categorias vazias visíveis no modo admin para podermos adicionar itens
           dadosProcessados.push(cat);
           categoriaAnterior = cat;
         }
@@ -902,67 +747,29 @@ function carregarDados(url, btn) {
       isCodesAtual = url.includes("codes.json");
       renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
     })
-    .catch((err) => {
-      conteudo.innerHTML = `<div class="status-msg" style="color:red;">Error loading ${url}.</div>`;
-    });
+    .catch((err) => { conteudo.innerHTML = `<div class="status-msg" style="color:red;">Error loading ${url}.</div>`; });
 }
-// FIM: carregarDados
 
-// INICIO: renderizarItens
 function renderizarItens(data, isCodes, termo) {
   conteudo.innerHTML = "";
   const termoBusca = termo.toLowerCase();
 
   data.forEach((cat) => {
-    const categoriaBate = cat.category
-      ? cat.category.toLowerCase().includes(termoBusca)
-      : false;
-    const catIdBate =
-      modoAdminAtivo && cat.catId
-        ? cat.catId.toLowerCase().includes(termoBusca)
-        : false;
+    const categoriaBate = cat.category ? cat.category.toLowerCase().includes(termoBusca) : false;
+    const catIdBate = modoAdminAtivo && cat.catId ? cat.catId.toLowerCase().includes(termoBusca) : false;
 
     const itens = cat.items.filter((i) => {
-      if (tagAtiva !== "") {
-        let tagsDesteItem = tagsMap[i.autoId] || [];
-        let tagsDestaCategoria = tagsMap[cat.catId] || [];
-        if (
-          !tagsDesteItem.includes(tagAtiva) &&
-          !tagsDestaCategoria.includes(tagAtiva)
-        )
-          return false;
-      }
-
       if (categoriaBate || catIdBate) return true;
-      const nomeMatch = i.name
-        ? i.name.toLowerCase().includes(termoBusca)
-        : false;
-      const idMatch = i.id
-        ? i.id.toString().toLowerCase().includes(termoBusca)
-        : false;
-      const codeMatch = i.code
-        ? i.code.toString().toLowerCase().includes(termoBusca)
-        : false;
-      const autoIdMatch =
-        modoAdminAtivo && i.autoId
-          ? i.autoId.toString().includes(termoBusca)
-          : false;
+      const nomeMatch = i.name ? i.name.toLowerCase().includes(termoBusca) : false;
+      const idMatch = i.id ? i.id.toString().toLowerCase().includes(termoBusca) : false;
+      const codeMatch = i.code ? i.code.toString().toLowerCase().includes(termoBusca) : false;
+      const autoIdMatch = modoAdminAtivo && i.autoId ? i.autoId.toString().includes(termoBusca) : false;
+      const infMatch = i.inf ? i.inf.toString().toLowerCase().includes(termoBusca) : false;
+      const confMatch = i.conf ? i.conf.toString().toLowerCase().includes(termoBusca) : false;
+      const nametMatch = i.namet ? i.namet.toString().toLowerCase().includes(termoBusca) : false;
+      const alttMatch = i.altt ? i.altt.toString().toLowerCase().includes(termoBusca) : false;
 
-      const infMatch = i.inf
-        ? i.inf.toString().toLowerCase().includes(termoBusca)
-        : false;
-      const confMatch = i.conf
-        ? i.conf.toString().toLowerCase().includes(termoBusca)
-        : false;
-
-      return (
-        nomeMatch ||
-        idMatch ||
-        codeMatch ||
-        autoIdMatch ||
-        infMatch ||
-        confMatch
-      );
+      return (nomeMatch || idMatch || codeMatch || autoIdMatch || infMatch || confMatch || nametMatch || alttMatch);
     });
 
     if (itens.length > 0 || modoAdminAtivo) {
@@ -979,68 +786,152 @@ function renderizarItens(data, isCodes, termo) {
       conteudo.appendChild(h2);
 
       itens.forEach((i) => {
-        const el = document.createElement("button");
-        el.className = "code-btn";
+        const hasAlts = i.namet && i.altt;
+        let nametArr = [];
+        let alttArr = [];
+        
+        if (hasAlts) {
+          nametArr = Array.isArray(i.namet) ? i.namet : String(i.namet).split(',').map(s=>s.trim());
+          alttArr = Array.isArray(i.altt) ? i.altt : String(i.altt).split(',').map(s=>s.trim());
+        }
 
         const nomeParaExibir = i.name ? i.name.replace(/:$/, "") : "Unnamed";
-
         let extraHtml = "";
-        if (i.inf)
-          extraHtml += `<div style="font-size: 11px; opacity: 0.75; margin-top: 5px; font-weight: normal;">ℹ️ ${i.inf}</div>`;
-        if (i.conf)
-          extraHtml += `<div style="font-size: 11px; color: #4caf50; margin-top: 2px; font-weight: normal;">⚙️ ${i.conf}</div>`;
+        if (i.inf) extraHtml += `<div style="font-size: 11px; opacity: 0.75; margin-top: 5px; font-weight: normal;">ℹ️ ${i.inf}</div>`;
+        if (i.conf) extraHtml += `<div style="font-size: 11px; color: #4caf50; margin-top: 2px; font-weight: normal;">⚙️ ${i.conf}</div>`;
 
+        let mainContentHtml = "";
         if (modoAdminAtivo) {
-          el.innerHTML = `<div style="font-weight:bold;">${nomeParaExibir}</div>
-            ${extraHtml}
+          mainContentHtml = `<div style="font-weight:bold;">${nomeParaExibir}</div>${extraHtml}
             <span style="color:#ff9800; float:right; display:flex; align-items:center; margin-top: ${extraHtml ? "-25px" : "-18px"};">
               [Admin ID: ${i.autoId}]
               <button class="admin-btn-small edit-btn" data-autoid="${i.autoId}" data-catid="${cat.catId}">✏️ Edit</button>
             </span>`;
-          el.style.borderLeftColor = "#ff9800";
         } else {
-          el.innerHTML = `<div style="font-weight:bold;">${isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "No ID"}`}</div>${extraHtml}`;
-          el.style.borderLeftColor = "#555";
+          mainContentHtml = `<div style="font-weight:bold;">${isCodes ? nomeParaExibir : `${nomeParaExibir}: ${i.id || "No ID"}`}</div>${extraHtml}`;
         }
 
-        el.onclick = async (e) => {
-          if (e.target.classList.contains("edit-btn")) {
-            e.stopPropagation();
-            abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
-            return;
-          }
+        if (hasAlts && nametArr.length > 0) {
+            const wrapper = document.createElement("div");
+            wrapper.className = "item-wrapper";
+            if (modoAdminAtivo) wrapper.style.borderLeftColor = "#ff9800";
+            else wrapper.style.borderLeftColor = "#555";
 
-          const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+            const mainDiv = document.createElement("div");
+            mainDiv.className = "item-main";
 
-          if (val) {
-            await navigator.clipboard.writeText(val);
-            tocarSomClique();
-            updateHistory(val);
-            el.classList.add("btnClicado");
+            const copyArea = document.createElement("div");
+            copyArea.className = "item-copy-area";
+            copyArea.innerHTML = mainContentHtml;
 
-            const originalHTML = el.innerHTML;
-            el.innerHTML = "Copied!";
+            const toggleArea = document.createElement("div");
+            toggleArea.className = "item-toggle-area";
+            toggleArea.innerHTML = "▼";
 
-            setTimeout(() => {
-              el.classList.remove("btnClicado");
-              el.innerHTML = originalHTML;
-            }, 1000);
-          }
-        };
-        conteudo.appendChild(el);
+            mainDiv.appendChild(copyArea);
+            mainDiv.appendChild(toggleArea);
+            wrapper.appendChild(mainDiv);
+
+            const altsDiv = document.createElement("div");
+            altsDiv.className = "item-alts hidden";
+            
+            for(let idx = 0; idx < nametArr.length; idx++) {
+                const altName = nametArr[idx];
+                const altId = alttArr[idx] || "";
+                
+                const altBtn = document.createElement("div");
+                altBtn.className = "alt-copy-area";
+                altBtn.innerHTML = `<b>${altName}</b>: ${altId}`;
+                
+                altBtn.onclick = async (e) => {
+                    e.stopPropagation();
+                    const val = altId;
+                    if (val) {
+                        await navigator.clipboard.writeText(val);
+                        tocarSomClique();
+                        updateHistory(val);
+                        altBtn.classList.add("btnClicado");
+                        const originalHTML = altBtn.innerHTML;
+                        altBtn.innerHTML = "Copied!";
+                        setTimeout(() => {
+                            altBtn.classList.remove("btnClicado");
+                            altBtn.innerHTML = originalHTML;
+                        }, 1000);
+                    }
+                };
+                altsDiv.appendChild(altBtn);
+            }
+            
+            wrapper.appendChild(altsDiv);
+            
+            toggleArea.onclick = (e) => {
+                e.stopPropagation();
+                altsDiv.classList.toggle("hidden");
+                toggleArea.innerHTML = altsDiv.classList.contains("hidden") ? "▼" : "▲";
+            };
+
+            copyArea.onclick = async (e) => {
+                if (e.target.classList.contains("edit-btn")) {
+                  e.stopPropagation();
+                  abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
+                  return;
+                }
+                const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+                if (val) {
+                  await navigator.clipboard.writeText(val);
+                  tocarSomClique();
+                  updateHistory(val);
+                  copyArea.classList.add("btnClicado");
+                  const originalHTML = copyArea.innerHTML;
+                  copyArea.innerHTML = "Copied!";
+                  setTimeout(() => {
+                    copyArea.classList.remove("btnClicado");
+                    copyArea.innerHTML = originalHTML;
+                  }, 1000);
+                }
+            };
+            conteudo.appendChild(wrapper);
+        } else {
+            const el = document.createElement("button");
+            el.className = "code-btn";
+            el.innerHTML = mainContentHtml;
+            if (modoAdminAtivo) el.style.borderLeftColor = "#ff9800";
+            else el.style.borderLeftColor = "#555";
+
+            el.onclick = async (e) => {
+              if (e.target.classList.contains("edit-btn")) {
+                e.stopPropagation();
+                abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
+                return;
+              }
+
+              const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+              if (val) {
+                await navigator.clipboard.writeText(val);
+                tocarSomClique();
+                updateHistory(val);
+                el.classList.add("btnClicado");
+                const originalHTML = el.innerHTML;
+                el.innerHTML = "Copied!";
+                setTimeout(() => {
+                  el.classList.remove("btnClicado");
+                  el.innerHTML = originalHTML;
+                }, 1000);
+              }
+            };
+            conteudo.appendChild(el);
+        }
       });
     }
   });
 }
-// FIM: renderizarItens
 
-// INICIO: carregarLogs
 function carregarLogs(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
-  document
-    .querySelectorAll("nav button")
-    .forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
+  document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
+  
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading logs...</div>';
 
@@ -1050,85 +941,41 @@ function carregarLogs(url, btn) {
       return res.text();
     })
     .then((text) => {
-      logsAtuais = text
-        .split(/\r?\n/)
-        .map((linha) => linha.trim())
-        .filter((linha) => linha.length > 0);
+      logsAtuais = text.split(/\r?\n/).map((linha) => linha.trim()).filter((linha) => linha.length > 0);
       renderizarLogs(logsAtuais, "");
     })
-    .catch((err) => {
-      conteudo.innerHTML =
-        '<div class="status-msg" style="color:red;">Error loading log.txt.</div>';
-    });
+    .catch((err) => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading log.txt.</div>'; });
 }
-// FIM: carregarLogs
 
-// INICIO: formatarTextoLog
 function formatarTextoLog(texto) {
   let resultado = texto;
-
-  // Substituições de redes sociais para gerarem links automaticos visualmente chamativos!
-  resultado = resultado.replace(
-    /dis @([a-zA-Z0-9_.-]+)/gi,
-    '<a href="https://discord.com/users/$1" target="_blank" class="social-link dis">Discord: @$1</a>',
-  );
-  resultado = resultado.replace(
-    /ins @([a-zA-Z0-9_.-]+)/gi,
-    '<a href="https://instagram.com/$1" target="_blank" class="social-link ins">Instagram: @$1</a>',
-  );
-  resultado = resultado.replace(
-    /ttk @([a-zA-Z0-9_.-]+)/gi,
-    '<a href="https://tiktok.com/@$1" target="_blank" class="social-link ttk">TikTok: @$1</a>',
-  );
-
-  // Markdown padrao
+  resultado = resultado.replace(/dis @([a-zA-Z0-9_.-]+)/gi, '<a href="https://discord.com/users/$1" target="_blank" class="social-link dis">Discord: @$1</a>');
+  resultado = resultado.replace(/ins @([a-zA-Z0-9_.-]+)/gi, '<a href="https://instagram.com/$1" target="_blank" class="social-link ins">Instagram: @$1</a>');
+  resultado = resultado.replace(/ttk @([a-zA-Z0-9_.-]+)/gi, '<a href="https://tiktok.com/@$1" target="_blank" class="social-link ttk">TikTok: @$1</a>');
   resultado = resultado.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-  resultado = resultado.replace(
-    /\~\~(.*?)\~\~/g,
-    '<span class="log-small">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\*rgb,(\d{1,3}),(\d{1,3}),(\d{1,3})\s(.*?)\*/g,
-    '<span style="color: rgb($1,$2,$3);">$4</span>',
-  );
-  resultado = resultado.replace(
-    /\|\|(.*?)\|\|/g,
-    '<span class="log-header">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\|(.*?)\|/g,
-    '<span style="font-size: 24px; display: inline-block; margin: 5px 0;">$1</span>',
-  );
-  resultado = resultado.replace(
-    /\$(.*?)\$/g,
-    '<span style="text-decoration: underline;">$1</span>',
-  );
+  resultado = resultado.replace(/\~\~(.*?)\~\~/g, '<span class="log-small">$1</span>');
+  resultado = resultado.replace(/\*rgb,(\d{1,3}),(\d{1,3}),(\d{1,3})\s(.*?)\*/g, '<span style="color: rgb($1,$2,$3);">$4</span>');
+  resultado = resultado.replace(/\|\|(.*?)\|\|/g, '<span class="log-header">$1</span>');
+  resultado = resultado.replace(/\|(.*?)\|/g, '<span style="font-size: 24px; display: inline-block; margin: 5px 0;">$1</span>');
+  resultado = resultado.replace(/\$(.*?)\$/g, '<span style="text-decoration: underline;">$1</span>');
   return resultado;
 }
-// FIM: formatarTextoLog
 
-// INICIO: renderizarLogs
 function renderizarLogs(logs, termo) {
   conteudo.innerHTML = "";
   const logHeaderWrapper = document.createElement("div");
-  logHeaderWrapper.style.cssText =
-    "display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px;";
+  logHeaderWrapper.style.cssText = "display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px;";
 
   const h2 = document.createElement("h2");
   h2.textContent = "ABOUT ME:";
   h2.style.cssText = "margin: 0; border: none; padding: 0;";
 
   const focusBtn = document.createElement("button");
-  focusBtn.textContent = document.body.classList.contains("focus-mode-active")
-    ? "Exit Focus Mode"
-    : "Toggle Focus Mode";
-  focusBtn.style.cssText =
-    "background: #1e1e1e; color: #fff; border: 1px solid #333; padding: 8px 16px; font-weight: bold; cursor: pointer; border-radius: 2px; font-size: 12px;";
+  focusBtn.textContent = document.body.classList.contains("focus-mode-active") ? "Exit Focus Mode" : "Toggle Focus Mode";
+  focusBtn.style.cssText = "background: #1e1e1e; color: #fff; border: 1px solid #333; padding: 8px 16px; font-weight: bold; cursor: pointer; border-radius: 2px; font-size: 12px;";
   focusBtn.onclick = () => {
     document.body.classList.toggle("focus-mode-active");
-    focusBtn.textContent = document.body.classList.contains("focus-mode-active")
-      ? "Exit Focus Mode"
-      : "Toggle Focus Mode";
+    focusBtn.textContent = document.body.classList.contains("focus-mode-active") ? "Exit Focus Mode" : "Toggle Focus Mode";
   };
 
   logHeaderWrapper.appendChild(h2);
@@ -1136,28 +983,24 @@ function renderizarLogs(logs, termo) {
   conteudo.appendChild(logHeaderWrapper);
 
   const wrapper = document.createElement("div");
-  wrapper.style.cssText =
-    "display: flex; flex-direction: column; gap: 2px; padding: 10px 0; text-align: left;";
+  wrapper.style.cssText = "display: flex; flex-direction: column; gap: 2px; padding: 10px 0; text-align: left;";
 
   logs.forEach((textoBruto) => {
     if (textoBruto.toLowerCase().includes(termo.toLowerCase())) {
       const p = document.createElement("p");
-      p.style.cssText =
-        "margin: 0; padding: 0; line-height: 1; font-size: 15px; word-break: break-word;";
+      p.style.cssText = "margin: 0; padding: 0; line-height: 1; font-size: 15px; word-break: break-word;";
       p.innerHTML = formatarTextoLog(textoBruto);
       wrapper.appendChild(p);
     }
   });
   conteudo.appendChild(wrapper);
 }
-// FIM: renderizarLogs
 
-// INICIO: dispararPesquisaAtual
 function dispararPesquisaAtual(valor) {
   const abaAtivaElement = document.querySelector("nav button.ativo");
   const abaAtiva = abaAtivaElement ? abaAtivaElement.textContent : "";
 
-  if (abaAtiva !== "Colors" && abaAtiva !== "Logs" && abaAtiva !== "Presets") {
+  if (abaAtiva !== "Colors" && abaAtiva !== "Logs" && abaAtiva !== "Presets" && abaAtiva !== "Tools") {
     renderizarItens(dadosAtuais, isCodesAtual, valor);
   } else if (abaAtiva === "Logs") {
     renderizarLogs(logsAtuais, valor);
@@ -1165,86 +1008,96 @@ function dispararPesquisaAtual(valor) {
     renderizarPresets(presetsAtuais, valor);
   }
 }
-// FIM: dispararPesquisaAtual
 
-// INICIO: eventListenersGlobais
+// INICIO: renderizarPillsTags
+function renderizarPillsTags() {
+  const container = document.getElementById("tagsContainer");
+  container.innerHTML = "";
+  container.classList.remove("hidden");
+  
+  const resetPill = document.createElement("button");
+  resetPill.className = "tag-pill reset-pill";
+  resetPill.textContent = "Reset";
+  resetPill.onclick = () => {
+    document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+    document.getElementById('campoPesquisa').value = "";
+    carregarDados('json/dados.json', document.querySelector("nav button:first-child"));
+  };
+  container.appendChild(resetPill);
+  
+  if(ARQUIVOS_TAGS && ARQUIVOS_TAGS.length > 0) {
+    ARQUIVOS_TAGS.forEach(tagName => {
+      const pill = document.createElement("button");
+      pill.className = "tag-pill";
+      pill.textContent = tagName;
+      
+      pill.onclick = () => {
+        document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
+        carregarDados(`tags/${tagName}.json`, null);
+      };
+      
+      container.appendChild(pill);
+    });
+  }
+}
+// FIM: renderizarPillsTags
+
 campoPesquisa.addEventListener("input", (e) => {
   const val = e.target.value.trim();
-
-  // Agora compara de forma ignorando a primeira letra maiuscula se der bobeira e independente do teclado
   if (val.toLowerCase() === SENHA_ADMIN.toLowerCase()) {
     modoAdminAtivo = !modoAdminAtivo;
     campoPesquisa.value = "";
-
-    document.getElementById("btnExportJSON").style.display = modoAdminAtivo
-      ? "block"
-      : "none";
-
+    document.getElementById("btnExportJSON").style.display = modoAdminAtivo ? "block" : "none";
+    document.getElementById("btnAddCategory").style.display = modoAdminAtivo ? "block" : "none";
     historyBar.innerHTML = `<span style="color: #ff9800; font-weight: bold;">[!] ADMIN/EDITOR MODE ${modoAdminAtivo ? "ENABLED" : "DISABLED"}</span>`;
-
-    setTimeout(() => {
-      renderizarHistorico();
-    }, 2500);
-
-    dispararPesquisaAtual("");
+    setTimeout(() => { renderizarHistorico(); }, 2500);
+    
+    // Recarrega os dados caso alguma categoria estivesse oculta
+    carregarDados(linkOriginalAtual || "json/dados.json", document.querySelector("nav button.ativo"));
     return;
   }
-
   dispararPesquisaAtual(val);
 });
 
 document.getElementById("btnTema").addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
-  document.getElementById("btnTema").textContent =
-    document.body.classList.contains("light-mode") ? "🌙" : "☀️";
+  document.getElementById("btnTema").textContent = document.body.classList.contains("light-mode") ? "🌙" : "☀️";
 });
 
 window.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     campoPesquisa.value = "";
     menu.classList.add("hidden");
-    tagAtiva = "";
-    renderizarPopupTags();
     dispararPesquisaAtual("");
     campoPesquisa.blur();
-
     if (typeof fecharModalEdicao === "function") fecharModalEdicao();
+    if (typeof fecharModalCategoria === "function") fecharModalCategoria();
     if (typeof fecharNotepad === "function") fecharNotepad();
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.add("hidden");
     return;
   }
 
-  const isInputFocused =
-    document.activeElement.tagName === "INPUT" ||
-    document.activeElement.tagName === "TEXTAREA";
-
+  const isInputFocused = document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA";
   if (e.key === "/") {
-    if (!isInputFocused) {
-      e.preventDefault();
-      campoPesquisa.focus();
-    }
+    if (!isInputFocused) { e.preventDefault(); campoPesquisa.focus(); }
     return;
   }
-
   if (isInputFocused) return;
 
   const keyLower = e.key.toLowerCase();
-
   if (keyLower === "[") {
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.toggle("hidden");
   } else if (keyLower === "-" || keyLower === "_") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
-    const currentIndex = navButtons.findIndex((btn) =>
-      btn.classList.contains("ativo"),
-    );
+    const currentIndex = navButtons.findIndex((btn) => btn.classList.contains("ativo"));
     if (currentIndex > 0) navButtons[currentIndex - 1].click();
   } else if (keyLower === "=" || keyLower === "+") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
-    const currentIndex = navButtons.findIndex((btn) =>
-      btn.classList.contains("ativo"),
-    );
+    const currentIndex = navButtons.findIndex((btn) => btn.classList.contains("ativo"));
     if (currentIndex < navButtons.length - 1 && currentIndex !== -1) {
       navButtons[currentIndex + 1].click();
     }
@@ -1265,9 +1118,8 @@ window.addEventListener("keydown", (e) => {
 });
 
 window.onload = () => {
-  carregarTags();
   carregarDados("json/dados.json", document.querySelector("nav button"));
-
+  renderizarPillsTags();
   const noteContent = localStorage.getItem("jjs_notepad_data");
   if (noteContent) document.getElementById("notepadText").value = noteContent;
 };
@@ -1295,22 +1147,22 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
 }
-// FIM: eventListenersGlobais
 
+// INICIO: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 let catEditandoId = null;
 let itemEditandoId = null;
 
-// INICIO: abrirModalEdicao
 function abrirModalEdicao(autoId, catId) {
   catEditandoId = catId;
   itemEditandoId = autoId;
-
   const modal = document.getElementById("editorModal");
   const inpName = document.getElementById("editName");
   const inpId = document.getElementById("editId");
   const inpCode = document.getElementById("editCode");
   const inpInf = document.getElementById("editInf");
   const inpConf = document.getElementById("editConf");
+  const inpNamet = document.getElementById("editNamet");
+  const inpAltt = document.getElementById("editAltt");
   const modalTitle = document.getElementById("modalTitle");
 
   if (autoId) {
@@ -1321,6 +1173,8 @@ function abrirModalEdicao(autoId, catId) {
     inpCode.value = item.code || "";
     if (inpInf) inpInf.value = item.inf || "";
     if (inpConf) inpConf.value = item.conf || "";
+    if (inpNamet) inpNamet.value = item.namet ? (Array.isArray(item.namet) ? item.namet.join(", ") : item.namet) : "";
+    if (inpAltt) inpAltt.value = item.altt ? (Array.isArray(item.altt) ? item.altt.join(", ") : item.altt) : "";
     modalTitle.textContent = "✏️ Edit Item";
   } else {
     inpName.value = "";
@@ -1328,30 +1182,25 @@ function abrirModalEdicao(autoId, catId) {
     inpCode.value = "";
     if (inpInf) inpInf.value = "";
     if (inpConf) inpConf.value = "";
+    if (inpNamet) inpNamet.value = "";
+    if (inpAltt) inpAltt.value = "";
     modalTitle.textContent = "➕ New Item";
   }
-
   modal.classList.remove("hidden");
 }
-// FIM: abrirModalEdicao
 
-// INICIO: fecharModalEdicao
 function fecharModalEdicao() {
   document.getElementById("editorModal").classList.add("hidden");
 }
-// FIM: fecharModalEdicao
 
-// INICIO: salvarItemEdicao
 function salvarItemEdicao() {
   const inpName = document.getElementById("editName").value.trim();
   const inpId = document.getElementById("editId").value.trim();
   const inpCode = document.getElementById("editCode").value.trim();
-  const inpInf = document.getElementById("editInf")
-    ? document.getElementById("editInf").value.trim()
-    : "";
-  const inpConf = document.getElementById("editConf")
-    ? document.getElementById("editConf").value.trim()
-    : "";
+  const inpInf = document.getElementById("editInf") ? document.getElementById("editInf").value.trim() : "";
+  const inpConf = document.getElementById("editConf") ? document.getElementById("editConf").value.trim() : "";
+  const inpNamet = document.getElementById("editNamet") ? document.getElementById("editNamet").value.trim() : "";
+  const inpAltt = document.getElementById("editAltt") ? document.getElementById("editAltt").value.trim() : "";
 
   if (!inpName) {
     alert("Item name is required!");
@@ -1363,23 +1212,20 @@ function salvarItemEdicao() {
   if (itemEditandoId) {
     const item = cat.items.find((i) => i.autoId === itemEditandoId);
     item.name = inpName;
-    if (inpId) item.id = inpId;
-    else delete item.id;
-    if (inpCode) item.code = inpCode;
-    else delete item.code;
-    if (inpInf) item.inf = inpInf;
-    else delete item.inf;
-    if (inpConf) item.conf = inpConf;
-    else delete item.conf;
+    if (inpId) item.id = inpId; else delete item.id;
+    if (inpCode) item.code = inpCode; else delete item.code;
+    if (inpInf) item.inf = inpInf; else delete item.inf;
+    if (inpConf) item.conf = inpConf; else delete item.conf;
+    if (inpNamet) item.namet = inpNamet.includes(',') ? inpNamet.split(',').map(s=>s.trim()) : inpNamet; else delete item.namet;
+    if (inpAltt) item.altt = inpAltt.includes(',') ? inpAltt.split(',').map(s=>s.trim()) : inpAltt; else delete item.altt;
   } else {
-    const newItem = {
-      name: inpName,
-      autoId: "NEW-" + Date.now(),
-    };
+    const newItem = { name: inpName, autoId: "NEW-" + Date.now() };
     if (inpId) newItem.id = inpId;
     if (inpCode) newItem.code = inpCode;
     if (inpInf) newItem.inf = inpInf;
     if (inpConf) newItem.conf = inpConf;
+    if (inpNamet) newItem.namet = inpNamet.includes(',') ? inpNamet.split(',').map(s=>s.trim()) : inpNamet;
+    if (inpAltt) newItem.altt = inpAltt.includes(',') ? inpAltt.split(',').map(s=>s.trim()) : inpAltt;
     cat.items.push(newItem);
   }
 
@@ -1387,74 +1233,97 @@ function salvarItemEdicao() {
   renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
   historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Changes saved in memory. Remember to Export!</span>`;
 }
-// FIM: salvarItemEdicao
+// FIM: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 
-// INICIO: abrirNotepad
+// INICIO: LÓGICA DE ADIÇÃO DE CATEGORIA
+function abrirModalCategoria() {
+  document.getElementById("editCategoryName").value = "";
+  document.getElementById("categoryModal").classList.remove("hidden");
+}
+
+function fecharModalCategoria() {
+  document.getElementById("categoryModal").classList.add("hidden");
+}
+
+function salvarCategoria() {
+  const catName = document.getElementById("editCategoryName").value.trim();
+  if (!catName) {
+    alert("Category name is required!");
+    return;
+  }
+  
+  let maxCatNum = 0;
+  dadosAtuais.forEach(c => {
+    if (c.catId && c.catId.startsWith("C")) {
+      const num = parseInt(c.catId.substring(1));
+      if (!isNaN(num) && num > maxCatNum) maxCatNum = num;
+    }
+  });
+  const nextCatId = "C" + String(maxCatNum + 1).padStart(4, "0");
+
+  const newCat = {
+    category: catName,
+    catId: nextCatId,
+    items: []
+  };
+
+  dadosAtuais.push(newCat);
+  
+  fecharModalCategoria();
+  renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
+  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Category added in memory. Remember to Export!</span>`;
+}
+
+document.getElementById("btnAddCategory").addEventListener("click", abrirModalCategoria);
+// FIM: LÓGICA DE ADIÇÃO DE CATEGORIA
+
 function abrirNotepad() {
   document.getElementById("notepadModal").classList.remove("hidden");
   document.getElementById("notepadText").focus();
 }
-// FIM: abrirNotepad
 
-// INICIO: fecharNotepad
 function fecharNotepad() {
   salvarNotepadSilencioso();
   document.getElementById("notepadModal").classList.add("hidden");
 }
-// FIM: fecharNotepad
 
-// INICIO: salvarNotepad
 function salvarNotepad() {
   salvarNotepadSilencioso();
   fecharNotepad();
   historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Note saved successfully!</span>`;
   setTimeout(() => renderizarHistorico(), 2000);
 }
-// FIM: salvarNotepad
 
-// INICIO: salvarNotepadSilencioso
 function salvarNotepadSilencioso() {
   const val = document.getElementById("notepadText").value;
   localStorage.setItem("jjs_notepad_data", val);
 }
-document
-  .getElementById("notepadText")
-  .addEventListener("input", salvarNotepadSilencioso);
-// FIM: salvarNotepadSilencioso
+document.getElementById("notepadText").addEventListener("input", salvarNotepadSilencioso);
 
-// INICIO: exportJSON
 document.getElementById("btnExportJSON").addEventListener("click", () => {
   const exportData = dadosAtuais.map((cat) => {
     const cleanCat = { ...cat };
     delete cleanCat.catId;
-
     cleanCat.items = cat.items.map((i) => {
       const cleanItem = { ...i };
       delete cleanItem.autoId;
       return cleanItem;
     });
-
     return cleanCat;
   });
 
-  const dataStr =
-    "data:text/json;charset=utf-8," +
-    encodeURIComponent(JSON.stringify(exportData, null, 2));
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
   const downloadAnchorNode = document.createElement("a");
   downloadAnchorNode.setAttribute("href", dataStr);
-
   const fileName = linkOriginalAtual.split("/").pop() || "updated_data.json";
   downloadAnchorNode.setAttribute("download", fileName);
-
   document.body.appendChild(downloadAnchorNode);
   downloadAnchorNode.click();
   downloadAnchorNode.remove();
 
   historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] File ${fileName} exported successfully!</span>`;
 });
-// FIM: exportJSON
 
-// INICIO: toggleFullscreen
 const btnFullscreen = document.getElementById("btnFullscreen");
 
 btnFullscreen.addEventListener("click", () => {
@@ -1463,9 +1332,7 @@ btnFullscreen.addEventListener("click", () => {
       console.log(`Error attempting to enter full screen: ${err.message}`);
     });
   } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    }
+    if (document.exitFullscreen) document.exitFullscreen();
   }
 });
 
@@ -1478,4 +1345,3 @@ document.addEventListener("fullscreenchange", () => {
     btnFullscreen.title = "Full Screen";
   }
 });
-// FIM: toggleFullscreen

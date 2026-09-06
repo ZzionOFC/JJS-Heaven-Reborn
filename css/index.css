@@ -406,13 +406,28 @@ transform: translateY(-2px); filter: brightness(1.2);
 
 /* 8. SISTEMA DE TAGS (Pílulas) */
 .tags-container { 
-display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; margin-bottom: 10px; 
+display: flex; 
+flex-wrap: nowrap; /* Impede a quebra de linha das tags */
+gap: 8px; 
+margin-top: 10px; 
+margin-bottom: 10px; 
+overflow-x: auto; /* Permite rolar horizontalmente */
+-webkit-overflow-scrolling: touch; /* Suavidade no mobile */
+padding-bottom: 5px; /* Respiro caso alguma barra nativa sobreponha */
+scrollbar-width: none; /* Firefox (Oculta barra de rolagem) */
+-ms-overflow-style: none; /* IE e Edge (Oculta barra de rolagem) */
+}
+
+.tags-container::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera (Oculta barra de rolagem) */
 }
 
 .tag-pill { 
 background: #1e1e1e; color: #aaa; border: 1px solid #333; padding: 6px 14px; 
 border-radius: 20px; font-size: 11px; cursor: pointer; font-weight: bold; 
 transition: all 0.2s ease; text-transform: uppercase; letter-spacing: 0.5px; 
+flex-shrink: 0; /* Impede que a tag seja achatada */
+white-space: nowrap; /* Garante que o texto fique em uma única linha */
 }
 
 .tag-pill:hover { 

@@ -1,0 +1,25 @@
+|CAP 1: Escolha Das Cores|
+Essa é a principal escolha na hora de fazer seu mapa: as cores que vai utilizar.
+A escolha da paleta é a fundação visual do seu mapa. O erro mais comum entre iniciantes é o uso excessivo de tons hiper-saturados ou excessivamente claros, que geram fadiga visual.
+
+**A Regra do Color Picker:** Evite os extremos (o topo e o fundo absoluto) do seletor de cores na maioria dos casos.
+
+**O Ponto de Equilíbrio:** Foque na faixa intermediária do color picker. Essa região concentra tons equilibrados e suaves que tornam o cenário agradável para partidas longas.
+
+**Demonstração visual:** Observe a diferença de contraste e fadiga ocular entre os tons extremos e os tons centrais na imagem abaixo.
+
+***colordif.png***
+percebe como as cores no meio não dóem tanto o olho? é esse resultado que você quer adquirir.
+
+|CAP 2: Consistencia Entre as Cores|
+**Regra dos 3 Tons (60-30-10):** Mantenha o seu mapa visualmente limpo usando uma proporção entre os items do mapa:
+**60% Cores Dominante:** Chão, paredes principais e base do mapa.
+**30% Cor Secundária:** Elementos de suporte que dão corpo ao cenário, como telhados, calçadas, pilares e acabamentos internos. Deve harmonizar com a dominante sem fugir do tema do seu mapa.
+**10% Cor de Destaque**: Pontos de foco para guiar o olhar ou indicar gameplay, como pontos de spawn, iluminação, efeitos e pequenos detalhes complementares. Use tons mais vibrantes aqui.
+***631.png***
+|CAP 3: Layering E Degradê|
+**Layering:** essa é a parte que faz o mapa não ficar "plano".
+ao fazer lugares que você quer mostras profundidade, você usa o layering: colocar pequenos blocos maiores ou menores em relação ao objeto para dar mais detalhes e profundidade para ele.
+**Degradê:** Eleva a qualidade visual de paredes e objetos grandes. Utilize variações sutis de tons mais claros ou escuros em blocos sequenciais para criar iluminação gradual, volume e destaque visual.
+**Conexão entre 2 cores:** para fazer uma conexão limpa entre 2 cores, você pega as 2 cores que vc quer, e vai as juntando utilizando cores levemente mais parecidas com a outra. isso melhora o fluxo visual entre as cores do seu mapa. (Para isso eu recomendo usar a ferramenta expecifica para isso no nosso site, na aba Colors)
+***conect.png***

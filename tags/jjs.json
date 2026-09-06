@@ -1,0 +1,8927 @@
+[
+  {
+    "category": "Domain Clash Music:",
+    "items": [
+      {
+        "name": "",
+        "id": "89526560746434",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Impacts and Ragdolls:",
+    "items": [
+      {
+        "name": "Impact1",
+        "id": "91186117342",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact2",
+        "id": "9118615862",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact3",
+        "id": "9118614058",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact4",
+        "id": "9116816096",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RagdollFall1",
+        "id": "3784888301",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RagdollFall2",
+        "id": "3784888809",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RagdollFall3",
+        "id": "3784889529",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Break (downslam)",
+        "id": "3778609188",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "ITEMS:",
+    "items": []
+  },
+  {
+    "category": "Coin:",
+    "items": [
+      {
+        "name": "Parry",
+        "id": "81202220081219",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Coin",
+        "id": "136124980150792",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Naginata:",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "94107281648467",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2 and Hit3",
+        "id": "103563218704266",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Gun:",
+    "items": [
+      {
+        "name": "GunFire",
+        "id": "5735280081",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "3932141920",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GunBreak",
+        "id": "1358442317",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "CROWBAR",
+    "items": [
+      {
+        "name": "Start",
+        "id": "113373990352365",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start(plays alongside the first)",
+        "id": "111213038660342",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "114235921050731",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit(0.05 start)",
+        "id": "95443546571326",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Arayashiki",
+    "items": [
+      {
+        "name": "SlashFX",
+        "id": "88813089730068",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "86812684303392",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "81029444709032",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "TNT:",
+    "items": [
+      {
+        "name": "TNT",
+        "id": "4633141679",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "90854697257230",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Jet Black:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "4085938599",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "3932145123",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Soda:",
+    "items": [
+      {
+        "name": "Open (1.3x)",
+        "id": "6315580910",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Drink (1.3x)",
+        "id": "2245190929",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Banana Peel:",
+    "items": [
+      {
+        "name": "Peel",
+        "id": "1606631241",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slip",
+        "id": "129432532096499",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Hazenoki's Eye:",
+    "items": [
+      {
+        "name": "EyeExplode",
+        "id": "83364996869460",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Voice Recorder:",
+    "items": [
+      {
+        "name": "Switch",
+        "id": "90506072322224",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voice (thing that has in all modes)",
+        "id": "88080590196375",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Crush",
+        "id": "128573990774413",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DontMove",
+        "id": "117637019344223",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BlastAway",
+        "id": "81923105628397",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Transfigured Flesh:",
+    "items": [
+      {
+        "name": "Wall",
+        "id": "134228799555671",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Playful Cloud:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "116901112122156",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "97228090794267",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "103222009007167",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2 (0.9x)",
+        "id": "3755636825",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "7978512114",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Sever",
+        "id": "134273082284707",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Sniper:",
+    "items": [
+      {
+        "name": "Fire",
+        "id": "136523485",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Recharge",
+        "id": "131265718595511",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode (Finisher)",
+        "id": "2227416952",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode (finisher)",
+        "id": "4459572763",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Bowling ball:",
+    "items": [
+      {
+        "name": "Loop",
+        "id": "96331415600436",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "79710336574311",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Dashes:",
+    "items": [
+      {
+        "name": "StrikeStart (Mahito blade windup)",
+        "id": "17866719328",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Strike (mahito blade hit)",
+        "id": "17866718764",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ClubDash(mahito club and awk dash)",
+        "id": "17866720253",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Chase (normal frontdash)",
+        "id": "4909206080",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "(1.2x) DashHit (normal frontdash hit)",
+        "id": "8595975458",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SideDash",
+        "id": "3929467229",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Block:",
+    "items": [
+      {
+        "name": "Block1",
+        "id": "4306994267",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Block2",
+        "id": "4306994664",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Block3",
+        "id": "4306994923",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "MetalHit(plays alongside with )",
+    "items": [
+      {
+        "name": "Block1",
+        "id": "9125669515",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Block3",
+        "id": "9116618112",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "M1 Normal:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "4571259077",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "8595975878",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "8595974357",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Yuji:",
+    "items": []
+  },
+  {
+    "category": "Mechamaru Robot (Absolute):",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "96898767418731",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "117701139875807",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "128596780293930",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing4",
+        "id": "138499167704645",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Higuruma:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "113209095877671",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "84939324218501",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "135909874140545",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing4",
+        "id": "79836302909830",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Sword:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "110077886238560",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "97328834310548",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "121671840621180",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Haruta:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "94221495279664",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "111701118737902",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "121592312107730",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing4",
+        "id": "117243892822517",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "73369470591089",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "129306040953825",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "133798286166675",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "StabHit4",
+        "id": "3932142219",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Nanami:",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "91344226850535",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "91019449442779",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "139826126503063",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "135674501661535",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Up",
+        "id": "116816804360404",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Yuta (goat):",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "96045121549069",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "122411333696591",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "115274191208556",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "88685272276380",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "83770717073727",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "74317472561001",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "NEW",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "90045339954472",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "101012088379497",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "86863533715011",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing4Sword",
+        "id": "75487544146387",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "85608110116893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "71064172624438",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "119908133360580",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitDown",
+        "id": "105620422413126",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitUp",
+        "id": "78554756765213",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MetalHit",
+        "id": "113344342875514",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MetalHit2",
+        "id": "108742052808505",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MetalHit3",
+        "id": "104021116814815",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "LocustGuy:",
+    "items": [
+      {
+        "name": "Slash",
+        "id": "6881026094",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Punch (plays at the 3rd m1)",
+        "id": "106685608076122",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ch*rles (Mangaka):",
+    "items": []
+  },
+  {
+    "category": "(Mahito) Blade:",
+    "items": [
+      {
+        "name": "Hit1234",
+        "id": "6603295565",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "(Mahito) Club:",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "5507815764",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "5507830815",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "5507829691",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "5507830449",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Meimei:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "97397807195262",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "125022411565210",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "77024899974007",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing4",
+        "id": "111349415856272",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwingDown",
+        "id": "97522655138696",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwingUp",
+        "id": "79800397833188",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "133341853236210",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "125024159587132",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "136328533963688",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "139804351541539",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitDown",
+        "id": "137270477988121",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitUp",
+        "id": "72070015028896",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Mahoraga:",
+    "items": [
+      {
+        "name": "Hit2",
+        "id": "3932145654",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "3848125583",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Kurouroshi",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "79820354186531",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "125485263588435",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "106665047526422",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing1",
+        "id": "130832989916480",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "140347479317758",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "CHARACTERS",
+    "items": []
+  },
+  {
+    "category": "Gojo:",
+    "items": []
+  },
+  {
+    "category": "Lapse Blue:",
+    "items": [
+      {
+        "name": "LapseBluePull",
+        "id": "411286671",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "9105467029",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Infinity",
+        "id": "9066732918",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Red:",
+    "items": [
+      {
+        "name": "Wind",
+        "id": "6006851551",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "154787303",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "3059775624",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Rapid Punches:",
+    "items": []
+  },
+  {
+    "category": "(I did this cuz my friend dared me)",
+    "items": [
+      {
+        "name": "BlackflashHit (1.5x)",
+        "id": "12764933067",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Twofold Kick:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "3755637186",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "3755636992",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "4086172909",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "7515452875",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "TeleportWindup",
+        "id": "9118159096",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GlassBreak",
+        "id": "6737581315",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Face Crush:",
+    "items": [
+      {
+        "name": "TeleportDrag",
+        "id": "93186173642807",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DragThrow",
+        "id": "82926856324306",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "BlindGrab",
+        "id": "3929467888",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BlindsOff",
+        "id": "4458760518",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FistSlam",
+        "id": "9066673412",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Lapse Blue Max:",
+    "items": [
+      {
+        "name": "Wind",
+        "id": "9056932358",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Absorb",
+        "id": "4299623070",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Reversal Red Max:",
+    "items": [
+      {
+        "name": "MaxCharge",
+        "id": "16828657609",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Aim",
+        "id": "16773286492",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MaxFire",
+        "id": "16828657180",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Remember music",
+        "id": "17284219852",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BlackFlash",
+        "id": "17520297840",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Finisher:",
+    "items": [
+      {
+        "name": "BlackFlashSparks2",
+        "id": "9114314398",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Hollow Purple:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "14326861262",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Merge",
+        "id": "17018019870",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Snap",
+        "id": "15075475525",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "698224146",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Hollow Nuke:",
+    "items": [
+      {
+        "name": "Smash",
+        "id": "4776197442",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music2",
+        "id": "14457960806",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Summon",
+        "id": "4858918400",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MaxCharge",
+        "id": "4299624634",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "7602599324",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Domain:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "6667923288",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DomainOpen",
+        "id": "3059775781",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Domain",
+        "id": "7260423115",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "InfiniteVoid",
+        "id": "15171602676",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "16071901783",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shatter",
+        "id": "6737581507",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "0.2:",
+    "items": [
+      {
+        "name": "ShortOpen",
+        "id": "111507747920000",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Startup",
+        "id": "135405966044594",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ShortDomain2",
+        "id": "77956271026948",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Boost1",
+        "id": "93070893390347",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ShortDomain3",
+        "id": "86891100502580",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slowdown",
+        "id": "76523688182264",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Boost2",
+        "id": "126837281119039",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "130525286637724",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "94234054127236",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "108671308229639",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Barrage",
+        "id": "127027345708590",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Breathe",
+        "id": "82179939991290",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Yuji / Sugoona:",
+    "items": []
+  },
+  {
+    "category": "Cursed Strikes:",
+    "items": [
+      {
+        "name": "FrontSlide(1.1x)",
+        "id": "3084314259",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "16773286330",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "(another hits are just his m1s)",
+    "items": []
+  },
+  {
+    "category": "Aerial:",
+    "items": [
+      {
+        "name": "Spin",
+        "id": "8120249833",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GroundImpact",
+        "id": "7093763783",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Crushing Blow:",
+    "items": [
+      {
+        "name": "Crack",
+        "id": "4403634269",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit     plays at the same time(both 1.25x)",
+        "id": "7307838125",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit /",
+        "id": "9118614717",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Divergent Fist:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "4059009185",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Divergent(1.5x)",
+        "id": "5795505380",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Black Flash:",
+    "items": [
+      {
+        "name": "PerfectHit (Black Flash Chain)",
+        "id": "112426502291350",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Finisher:",
+    "items": [
+      {
+        "name": "Voice (Kôkusen)",
+        "id": "12761286504",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "4th black flash",
+    "items": [
+      {
+        "name": "WindUp",
+        "id": "102672006215074",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "93167187278849",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Manji Kick:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "9125615451",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dodge",
+        "id": "6470740758",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "9126228977",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "9113504593",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Finisher:",
+    "items": [
+      {
+        "name": "Crush",
+        "id": "4307207693",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Crush2",
+        "id": "3848082818",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Switch",
+        "id": "15675012262",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Arrow",
+        "id": "7278163473",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Dismantle:",
+    "items": [
+      {
+        "name": "Slash (multiple times)(1.5x)",
+        "id": "935843979",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinishSlash (finisher and m1 sound)",
+        "id": "9119749145",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "WCS:",
+    "items": [
+      {
+        "name": "WorldSlash1",
+        "id": "17053666464",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "WorldSlash2",
+        "id": "17053670289",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "WorldSlash3",
+        "id": "17053667034",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Open:",
+    "items": [
+      {
+        "name": "Hands",
+        "id": "1072005487",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Clap",
+        "id": "6874043782",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Idle",
+        "id": "7978653185",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FireShoot",
+        "id": "5801273676",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "331888892",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Rush:",
+    "items": []
+  },
+  {
+    "category": "(when hit)",
+    "items": [
+      {
+        "name": "RushHit",
+        "id": "3763467977",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shrine:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "7817341182",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Ring",
+        "id": "7817336081",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "15583493700",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Ready",
+        "id": "8181034930",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "WaterSplash",
+        "id": "9120548819",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Hakari:",
+    "items": []
+  },
+  {
+    "category": "Reserve Balls:",
+    "items": [
+      {
+        "name": "Fire",
+        "id": "9114427348",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact",
+        "id": "7512928742",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shutter Doors:",
+    "items": [
+      {
+        "name": "Spawn",
+        "id": "9125644321",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "858508159",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "9116684884",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Rough Energy:",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "17046377464",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Air:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "17168364647",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Speed1",
+        "id": "17046282310",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shock",
+        "id": "120458587618994",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact",
+        "id": "71472197762839",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Fever Breaker:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "17101065238",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "17101065020",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "17101065425",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "6324841214",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Fever Crush:",
+    "items": [
+      {
+        "name": "CrushSwing (0.15 start)",
+        "id": "100606314590244",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": []
+  },
+  {
+    "category": "Door Guard:",
+    "items": []
+  },
+  {
+    "category": "Rhythm:",
+    "items": []
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "137100901601126",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "IdleDeath",
+        "id": "7252480818",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "9039704032",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Travel",
+        "id": "16943255415",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Roll",
+        "id": "3299794881",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JackpotMusic",
+        "id": "1841443579",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Jackpot",
+        "id": "6644505962",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Lucky Volley:",
+    "items": []
+  },
+  {
+    "category": "mix of normals m1",
+    "items": []
+  },
+  {
+    "category": "Lucky Rushdown:",
+    "items": []
+  },
+  {
+    "category": "Overwhelming Luck:",
+    "items": [
+      {
+        "name": "Dash",
+        "id": "17046281380",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "17046505673",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Energy Surge:",
+    "items": [
+      {
+        "name": "Dash",
+        "id": "17169364965",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "17169364647",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "17046282624",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "17169365111",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swag",
+        "id": "9119122635",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Teleport",
+        "id": "17169364809",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "17169365331",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RushLaunch",
+        "id": "9114362943",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Megumi:",
+    "items": []
+  },
+  {
+    "category": "Rabbit Escape:",
+    "items": [
+      {
+        "name": "Spawn",
+        "id": "17206057016",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Despawn",
+        "id": "17206056478",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Nue:",
+    "items": [
+      {
+        "name": "Spawn",
+        "id": "17269358415",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "17269354824",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "3929458922",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Toad:",
+    "items": [
+      {
+        "name": "Spawn",
+        "id": "17269355559",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fly",
+        "id": "17269355114",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "17269354737",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flyback",
+        "id": "17269354618",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Despawn",
+        "id": "17269355252",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Totality:",
+    "items": [
+      {
+        "name": "Spawn",
+        "id": "17392238439",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash",
+        "id": "17392240969",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "ShadowEnter",
+        "id": "4459057272",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Awaken",
+        "id": "125901185360744",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Max Elephant:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "17206057404",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spawn",
+        "id": "17457463445",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "4086190876",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Despawn",
+        "id": "17457463045",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Great Serpent:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "17513691601",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spawn",
+        "id": "17513691442",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fly",
+        "id": "3778630178",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "17513691220",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Despawn",
+        "id": "17513690981",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Despawn",
+        "id": "17392238770",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shadow Swarm:",
+    "items": []
+  },
+  {
+    "category": "Mahoraga Summon:",
+    "items": [
+      {
+        "name": "Timer",
+        "id": "17607887277",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Summon2 (Christmas)",
+        "id": "9038469500",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Summon (normal)",
+        "id": "17607886466",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Appear",
+        "id": "17607885989",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Moving",
+        "id": "17607887774",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "17607886878",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Mahoraga:",
+    "items": []
+  },
+  {
+    "category": "Divine Pummel:",
+    "items": []
+  },
+  {
+    "category": "Ground Pitch:",
+    "items": [
+      {
+        "name": "Wind",
+        "id": "3848835272",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "3932587669",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Earthquake:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "18205736907",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Attempt",
+        "id": "18205737752",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Success",
+        "id": "18205737353",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Takedown:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "18440677683",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Teleport",
+        "id": "18440678071",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Adaptation:",
+    "items": [
+      {
+        "name": "AdaptGlow",
+        "id": "3932669033",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Adapt",
+        "id": "17612867532",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Parry",
+        "id": "7868507340",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "World Slash:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "4299625271",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SlashThrow",
+        "id": "4299510555",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": []
+  },
+  {
+    "category": "Mahito:",
+    "items": []
+  },
+  {
+    "category": "Stockpile:",
+    "items": [
+      {
+        "name": "Create",
+        "id": "4086172699",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "3755636638",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "9118609396",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "37556366825",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Soul Fire:",
+    "items": [
+      {
+        "name": "Morph",
+        "id": "3929463305",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "3742310026",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Focus Strike:",
+    "items": []
+  },
+  {
+    "category": "Blade:",
+    "items": [
+      {
+        "name": "Chains",
+        "id": "9113756883",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "3751519865",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "7131799080",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Club:",
+    "items": [
+      {
+        "name": "Transform3",
+        "id": "18110707051",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Transform2",
+        "id": "18110706199",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "3848838070",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Body Repel:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "18259558562",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Clap",
+        "id": "18259558246",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "18259557789",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Transform1 (Blade)",
+        "id": "18110706601",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Spit",
+        "id": "9114741340",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Idle Transfig:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "4086203738",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Eyes",
+        "id": "4085790525",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Finisher:",
+    "items": [
+      {
+        "name": "Slap",
+        "id": "7837489886",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Body Disfigure:",
+    "items": [
+      {
+        "name": "Morph",
+        "id": "4086172420",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DrillWind",
+        "id": "9114240880",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Drill",
+        "id": "4459571224",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DrillHit (8 times)",
+        "id": "4988621662",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Unmorph",
+        "id": "4086172099",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Spike Wrath:",
+    "items": [
+      {
+        "name": "Retract",
+        "id": "4459576395",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Roll",
+        "id": "93437252503790",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Jihei Endonka:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "17866271934",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Perfection",
+        "id": "17866727111",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "17856253579",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Super awk:",
+    "items": [
+      {
+        "name": "Whip",
+        "id": "9119747260",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Wide Strikes:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "128285017632391",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voice",
+        "id": "17881719214",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "129416140764076",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "136525465702097",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "97547768328998",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "98835249800067",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit5",
+        "id": "70844809405348",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "KOKUSEN!!",
+        "id": "18123145861",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Face Blitz:",
+    "items": []
+  },
+  {
+    "category": "Crushing Rushdown:",
+    "items": [
+      {
+        "name": "HairPull",
+        "id": "90579969522260",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Head Splitter:",
+    "items": [
+      {
+        "name": "Weave",
+        "id": "9114158056",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Weave2",
+        "id": "9120734610",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bass",
+        "id": "8406997653",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "What (huh?)",
+        "id": "83353502086066",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash",
+        "id": "9126229280",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Choso:",
+    "items": []
+  },
+  {
+    "category": "Piercing Blood:",
+    "items": [
+      {
+        "name": "Fire",
+        "id": "124532419231032",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Pressure",
+        "id": "9074099528",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "4086202171",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Flowing Red Scale:",
+    "items": []
+  },
+  {
+    "category": "Supernova:",
+    "items": [
+      {
+        "name": "Counter",
+        "id": "9113764330",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BloodBurst",
+        "id": "3739364168",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "BloodMerge",
+        "id": "9120086654",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BloodBurst2",
+        "id": "18427761019",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Blood Edge:",
+    "items": [
+      {
+        "name": "Dash",
+        "id": "3755636152",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Convergence",
+        "id": "4459578169",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Awaken",
+        "id": "119654508166149",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Slicing Exorcism:",
+    "items": []
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Saw1",
+        "id": "114060318185092",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Saw",
+        "id": "8847056740",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Wing King:",
+    "items": [
+      {
+        "name": "Hit2",
+        "id": "17046281074",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Blood Rain:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "137790880409950",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "End",
+        "id": "99414146840490",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Plasma Wave:",
+    "items": [
+      {
+        "name": "Swarm",
+        "id": "9114828109",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "9120610973",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Todo:",
+    "items": []
+  },
+  {
+    "category": "Swift Kick:",
+    "items": []
+  },
+  {
+    "category": "Brute Force:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "17725418857",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "98484366943330",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Black Flash:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "83892455359949",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voice",
+        "id": "92231886696392",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Pebble Throw:",
+    "items": []
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Clap",
+        "id": "17156034319",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "8595975858",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Black Flash:",
+    "items": [
+      {
+        "name": "Woosh (piano)",
+        "id": "105692714483194",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Elbow Drop:",
+    "items": []
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Perfect",
+        "id": "1358454187",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "SFX",
+        "id": "126354519236423",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "98778929139784",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Idol's Debut:",
+    "items": []
+  },
+  {
+    "category": "Climax Jumping:",
+    "items": []
+  },
+  {
+    "category": "mix of normals m1s",
+    "items": [
+      {
+        "name": "Bell",
+        "id": "6810760581",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Dreams:",
+    "items": []
+  },
+  {
+    "category": "Brothers:",
+    "items": []
+  },
+  {
+    "category": "Higuruma:",
+    "items": []
+  },
+  {
+    "category": "Extended Swings:",
+    "items": []
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Hit1 (no block)",
+        "id": "17168365111",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Justice Served:",
+    "items": [
+      {
+        "name": "HeavySwing",
+        "id": "140527314975641",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Judgement's Reach:",
+    "items": [
+      {
+        "name": "JudgeReachStart",
+        "id": "87590911386077",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JudgeReachSwing",
+        "id": "102880207942198",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JudgeReach",
+        "id": "105213688680216",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JudgeReachFinisher",
+        "id": "108121946929288",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Judgement's Reach NEW",
+    "items": []
+  },
+  {
+    "category": "Twirling Strikes:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "91477583246788",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "118282544664000",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "106620419375208",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "138752442741376",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Final",
+        "id": "95667653480776",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Pressing Charges",
+    "items": []
+  },
+  {
+    "category": "No Escape:",
+    "items": [
+      {
+        "name": "Recall",
+        "id": "117657083645864",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "94214404918647",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bang (0.2 startup)",
+        "id": "6404320398",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "NewMusic",
+        "id": "1838970386",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "OldMusic",
+        "id": "1838873271",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Travel",
+        "id": "167123203",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Click",
+        "id": "8388724806",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Tick",
+        "id": "5473174633",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Talk",
+        "id": "97182227194468",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fill",
+        "id": "4612385951",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Awaken",
+        "id": "83172464708469",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Execution:",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "85889207849279",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flash",
+        "id": "122106379884893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "74107786334233",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stab",
+        "id": "91882353459943",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "2:",
+    "items": [
+      {
+        "name": "Sever2(the another ones remains the same)",
+        "id": "104869864560993",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "3:",
+    "items": [
+      {
+        "name": "Fall",
+        "id": "79498136171279",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Curb",
+        "id": "133486111948739",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Final Judgement:",
+    "items": [
+      {
+        "name": "Sprint",
+        "id": "102929342782364",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "83275111049273",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dodges",
+        "id": "83048216359043",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stab",
+        "id": "7072652156",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordPull",
+        "id": "5754299808",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Verdict:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "96847703906101",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RunSmack",
+        "id": "102251058729529",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "115997745833984",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "74801973019001",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Triple Sentence:",
+    "items": [
+      {
+        "name": "ThrowStart",
+        "id": "128159562878534",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw2",
+        "id": "124837936201770",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Sweep",
+        "id": "132889926530295",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Domain Amp:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "84293649223671",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Absorb",
+        "id": "109731283975341",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Yuta",
+    "items": []
+  },
+  {
+    "category": "Severing Path:",
+    "items": [
+      {
+        "name": "Leap",
+        "id": "128763907862260",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "mix of swings and hit of his m1s",
+    "items": []
+  },
+  {
+    "category": "NEW",
+    "items": [
+      {
+        "name": "Start",
+        "id": "95876856890836",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing1",
+        "id": "120714154715812",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "129682722005190",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "73434180515706",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "137337069510286",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "86231967919037",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "97003333926852",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "117756899811635",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Resolute Slash:",
+    "items": [
+      {
+        "name": "SwordGrab",
+        "id": "122209095269858",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "86506412325620",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ResoluteSlash",
+        "id": "14427790767",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Black Flash:",
+    "items": [
+      {
+        "name": "Windup1 (music)",
+        "id": "126598851794168",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Windup2",
+        "id": "85972589629135",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Land2 (electric shock and knockback)",
+        "id": "132879779265336",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Land1 (the music with voiceline)",
+        "id": "132472285449398",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Veilstep:",
+    "items": [
+      {
+        "name": "Veilstep",
+        "id": "121354995604661",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Use Again:",
+    "items": [
+      {
+        "name": "VeilstepJump",
+        "id": "74892667038544",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VeilstepDive",
+        "id": "79148321721845",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VeilstepHit",
+        "id": "90439756216771",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Outburst",
+    "items": [
+      {
+        "name": "Start",
+        "id": "115816722667586",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "86752717770401",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "83164718262698",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explosion",
+        "id": "83796511190884",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ExplosionHit",
+        "id": "82314797872585",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Parry",
+        "id": "74854125236607",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Revolve:",
+    "items": [
+      {
+        "name": "RevolveDive",
+        "id": "113403339442588",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RevolveLand",
+        "id": "122860314546755",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Second Wind",
+    "items": [
+      {
+        "name": "Dash",
+        "id": "122018900711660",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "80892604094179",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "The others sounds are probably from veilstep use again variant",
+    "items": []
+  },
+  {
+    "category": "Rika Special:",
+    "items": [
+      {
+        "name": "Summon",
+        "id": "81914373674135",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "voiceline (yuhtah)",
+        "id": "136734180743874",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Downslam:",
+    "items": []
+  },
+  {
+    "category": "Launch:",
+    "items": [
+      {
+        "name": "Launch",
+        "id": "72050513112942",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Throw:",
+    "items": [
+      {
+        "name": "RikaMovement",
+        "id": "94504796493417",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ThrowStart",
+        "id": "121746815389545",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinishSong",
+        "id": "91266524334221",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Haymaker:",
+    "items": [
+      {
+        "name": "Haymaker",
+        "id": "92653689754693",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "123373069192090",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voiceline",
+        "id": "85246358633776",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BreakChain",
+        "id": "87637812190192",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BreakChain",
+        "id": "82858286583983",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VL",
+        "id": "93926154797041",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Break",
+        "id": "138460768017549",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "NEW",
+    "items": [
+      {
+        "name": "Start",
+        "id": "96210507614652",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voiceline",
+        "id": "120155303418484",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ShakeArm",
+        "id": "96857444594355",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "EquipArm",
+        "id": "82010180737404",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Elbow Rush:",
+    "items": [
+      {
+        "name": "Whiff",
+        "id": "84493401750489",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact4",
+        "id": "9118612945",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "96377525338185",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Step1",
+        "id": "76842997698748",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Step2",
+        "id": "90282304902568",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Teleport",
+        "id": "106463408823054",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Barrage",
+        "id": "118844796311667",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Barrage2",
+        "id": "95680035639252",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cursed Speech:",
+    "items": [
+      {
+        "name": "CursedSpeechStart",
+        "id": "76485051513534",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VoiceDontMove",
+        "id": "91630012293502",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Energy Ripple",
+    "items": [
+      {
+        "name": "Start",
+        "id": "102285974755522",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bomb1",
+        "id": "73393411828542",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bomb2",
+        "id": "72879767828886",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Feint:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "77514337135425",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CEBurst",
+        "id": "102450195424013",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explosion",
+        "id": "129389928559036",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Feint",
+        "id": "86382772357027",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "128669563112488",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "True Love Beam:",
+    "items": [
+      {
+        "name": "TrueLove",
+        "id": "118689694101518",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ChargeSFX",
+        "id": "114265785065488",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VoiceLine",
+        "id": "82962697738747",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "117663808507739",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SmallBeam",
+        "id": "111645361582005",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Mutual Love:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "8098966252",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "121842315815683",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "OST",
+        "id": "139647861430129",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AmbianceLoop",
+        "id": "91942331202663",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordFall",
+        "id": "1382296680778086",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JacobLadder",
+        "id": "129174925057034",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Misc of Mutual Love:",
+    "items": [
+      {
+        "name": "DismantleSwing",
+        "id": "140388769343703",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Glass",
+        "id": "7140152893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MiniRikaFly",
+        "id": "112981074280224",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MiniRikaSwarm",
+        "id": "80705570218040",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MiniRikaToggle",
+        "id": "112205395048785",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PickupSword",
+        "id": "81157826243193",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RunSlash",
+        "id": "93748708419116",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordGround1",
+        "id": "72417515043142",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordGround2",
+        "id": "95363686354809",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordGround3",
+        "id": "128908669459793",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VoiceDie",
+        "id": "129151959162409",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "TLBGlassBreak",
+        "id": "6737582452",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "NEW OST",
+    "items": [
+      {
+        "name": "OST",
+        "id": "84395583379130",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "OSTDomainClashWin",
+        "id": "107921124631537",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Mechamaru:",
+    "items": []
+  },
+  {
+    "category": "Ultra Spin:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "84086575329798",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "140170031367282",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Finisher",
+        "id": "112571179914529",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Boost On:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "100318681703568",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Booster",
+        "id": "74496850917248",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SecondPart",
+        "id": "135426272617658",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchWoosh",
+        "id": "133212067497301",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "95000450601035",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "SupermanLand",
+        "id": "104732468256369",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DummyThrow",
+        "id": "129170380119486",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ultra Cannon:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "134210095047021",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shoot",
+        "id": "135423939868890",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "138458686172685",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Holdable:",
+    "items": [
+      {
+        "name": "FunnyFall",
+        "id": "92378884776528",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SmoothLanding2",
+        "id": "95331755325332",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Albatros",
+        "id": "95402418269891",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Puppet Barrage:",
+    "items": [
+      {
+        "name": "Kick",
+        "id": "117932005679311",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "86442687037437",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Sparks",
+        "id": "89864850840092",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Heat Emission:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "99141482888889",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Vent",
+        "id": "82105741477552",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Ignition",
+        "id": "79885225857047",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "102143839764358",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "127886167245545",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Burst",
+        "id": "89529539001765",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "StopSound",
+        "id": "125624636902462",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Explode",
+        "id": "140013024412222",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RedLight",
+        "id": "118151923808388",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FloorClimb",
+        "id": "139616349986648",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VideoAppear",
+        "id": "111234176541963",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "VideoEnd",
+        "id": "134118844472163",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Miracle Cannon:",
+    "items": [
+      {
+        "name": "AttemptCharge",
+        "id": "93972901144059",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AttemptChargePhase",
+        "id": "115628303287481",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ChargeBeam",
+        "id": "133539727442636",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explosion",
+        "id": "83221875448666",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Pigeon Viola:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "116321073104316",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "100910853016629",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "87672355641711",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Absolute Destruction:",
+    "items": [
+      {
+        "name": "Run",
+        "id": "86551700610888",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Jump",
+        "id": "79252900483987",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "110146716041793",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Technique Charge:",
+    "items": [
+      {
+        "name": "FastBeep",
+        "id": "95875243041940",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "77485525406669",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "LightningStart",
+        "id": "119556501266993",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "LightningLoop",
+        "id": "102823781132282",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Lock",
+        "id": "97775263336318",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "LongBeep",
+        "id": "127728932215477",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shot",
+        "id": "97280758781987",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Dash:",
+    "items": [
+      {
+        "name": "KickStart",
+        "id": "138284014987713",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "KickSwing",
+        "id": "77121845853523",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Jump:",
+    "items": [
+      {
+        "name": "Jump",
+        "id": "103299572527813",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dropkick",
+        "id": "93545676012051",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Naoya:",
+    "items": []
+  },
+  {
+    "category": "Misc:",
+    "items": [
+      {
+        "name": "Frame(1.5x)",
+        "id": "9116384757",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FrameBreak",
+        "id": "117947531369694",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Projection Breaker:",
+    "items": [
+      {
+        "name": "1",
+        "id": "136567919489969",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spin",
+        "id": "139629826004213",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Kick",
+        "id": "117954571666770",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Bleedout:",
+    "items": [
+      {
+        "name": "Startup(1.25x)",
+        "id": "120434937298193",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "103711283192425",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bleed",
+        "id": "80064422113149",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hemorrhage",
+        "id": "113551991267513",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Sandevistan (afterimages)",
+        "id": "123491349270512",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinisherStab",
+        "id": "135840401388179",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "85770270274263",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Decisive Strike:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "132967103418764",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flicker",
+        "id": "117817818925397",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flicker2",
+        "id": "114943144739692",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "111770082377892",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FirstHit",
+        "id": "132856141242580",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SecondHit",
+        "id": "73629332494583",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "hits by: Senipkoo1 (Valiant) thank you brotha",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "135367226283909",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "100905404143936",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "116472527330220",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "70397374333185",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cursory Impact:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "83127118538873",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "105590625569131",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Kick",
+        "id": "82810979613330",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "KickHit",
+        "id": "90410999998931",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shatter:",
+    "items": [
+      {
+        "name": "Grab",
+        "id": "137048570141513",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Acceleration",
+        "id": "94144459580306",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ultimate:",
+    "items": [
+      {
+        "name": "Parry",
+        "id": "106542373538584",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Catch",
+        "id": "84738383989434",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "88458298681974",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab2",
+        "id": "110744212285066",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fall",
+        "id": "84461843348673",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Form",
+        "id": "78303395722270",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Top Speed:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "76441723033793",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fly",
+        "id": "121692248969984",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GlassCollect",
+        "id": "138307879334129",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Flash Freezing:",
+    "items": []
+  },
+  {
+    "category": "Tendril Grab:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "101436171540292",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Preview",
+        "id": "131805187374240",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "104531288598918",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Retrieve",
+        "id": "119812081621029",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GrabEnd",
+        "id": "127414943518610",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Domain:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "99951577218359",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flicker",
+        "id": "9113678080",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "103306767550001",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Nanami (true goat):",
+    "items": []
+  },
+  {
+    "category": "Cleaving Whirlwind:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "76686174099249",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "112016169570826",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RatioHit",
+        "id": "1358231117772524",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Severance Kick:",
+    "items": [
+      {
+        "name": "WhooshFront",
+        "id": "89020571624799",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AirHit2",
+        "id": "78963760295110",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitFront",
+        "id": "123177859397652",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Reverse Kick:",
+    "items": [
+      {
+        "name": "WhooshBack",
+        "id": "81817452065610",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitBack",
+        "id": "91207251126673",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Blunt Cut:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "120044543888205",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "132547948177910",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "115254148621223",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Finisher",
+        "id": "87832618406303",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Air:",
+    "items": [
+      {
+        "name": "AirWhoosh",
+        "id": "80326265097136",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AirHit1",
+        "id": "106529011379327",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Stabilize:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "106889101756832",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SpinShort",
+        "id": "81674903851837",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spin",
+        "id": "112176479612273",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ratio:",
+    "items": [
+      {
+        "name": "Appear",
+        "id": "91977155481568",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Success",
+        "id": "132640361437873",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Disappear",
+        "id": "74763348702619",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awk:",
+    "items": [
+      {
+        "name": "EyeFlash",
+        "id": "107311996562711",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Break (RatioBreaker)",
+        "id": "72705960325356",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Ultimate",
+        "id": "99971740567145",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "111627864602847",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "RB1:",
+    "items": [
+      {
+        "name": "Whoosh",
+        "id": "129476317253467",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SlashHit",
+        "id": "70661569139566",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "140357722460039",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "114890408068900",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "RB2:",
+    "items": [
+      {
+        "name": "Whoosh",
+        "id": "109606601595459",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "128470369858785",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "RB3:",
+    "items": [
+      {
+        "name": "Jump",
+        "id": "131926569091906",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "138559373472111",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "113305253204345",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "137417358886595",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "RB4:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "114438794227487",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "77727716120757",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "115290636129284",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Sharpen:",
+    "items": [
+      {
+        "name": "Basic",
+        "id": "107873525040694",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash",
+        "id": "86053178684110",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Air:",
+    "items": [
+      {
+        "name": "JumpWindup",
+        "id": "126091250245401",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "JumpSlash",
+        "id": "82587618521227",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RatioHit",
+        "id": "124499225392363",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Interrogate:",
+    "items": [
+      {
+        "name": "Grab1",
+        "id": "86957506426946",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab2",
+        "id": "75657430345285",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinisherHit",
+        "id": "133064355676720",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Freeze",
+        "id": "85140820024591",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Collapse:",
+    "items": [
+      {
+        "name": "Jump",
+        "id": "84988803689953",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "111660088544435",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ImpactGround",
+        "id": "105799337452305",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact1",
+        "id": "3848076724",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Activate",
+        "id": "89971826287050",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DebreeDrop",
+        "id": "94475379772653",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Hanami:",
+    "items": []
+  },
+  {
+    "category": "Root Swarm:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "102970184623188",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swarm",
+        "id": "103290587422612",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Disappear",
+        "id": "98476421854862",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Spikes:",
+    "items": [
+      {
+        "name": "Spear1",
+        "id": "115026144285429",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spear2",
+        "id": "132548164020742",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spikes",
+        "id": "92699785397200",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SpikesWindup",
+        "id": "124210128005270",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "WoodBallsAppear",
+        "id": "118077996038991",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RootDisappear",
+        "id": "115236945194905",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Bud Shot:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "107077525770659",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "83883449987100",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "84674642106437",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "84359158055042",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Defense Response:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "78001037313968",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "79583362062555",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "83044567135942",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AirStartup",
+        "id": "78330240985463",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Root",
+        "id": "77781927063804",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Flower Field (Special):",
+    "items": [
+      {
+        "name": "Flower Field Startup",
+        "id": "117000088170934",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flower Field Appear",
+        "id": "76363463402061",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flower Field Hit",
+        "id": "118109994896373",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening",
+    "items": [
+      {
+        "name": "Awakening",
+        "id": "110390473056942",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ArmWrapRip",
+        "id": "88996378164806",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "SPECIAL",
+    "items": [
+      {
+        "name": "EmpowerStart",
+        "id": "126484135817532",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Empower",
+        "id": "121507843776522",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Beam",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "136525288045173",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shoot",
+        "id": "128589895747977",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Root Rampage",
+    "items": [
+      {
+        "name": "Start",
+        "id": "130090012774324",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "OST",
+        "id": "124241243130190",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RootAppear",
+        "id": "96909600400910",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "RootLoop",
+        "id": "76362638159759",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cursed Buds",
+    "items": [
+      {
+        "name": "Start",
+        "id": "78278433425386",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Appear",
+        "id": "101070040828999",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shining Sea of Growing Branches",
+    "items": [
+      {
+        "name": "DomainVL",
+        "id": "123270105224744",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DomainOST",
+        "id": "127491777315078",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ryu:",
+    "items": []
+  },
+  {
+    "category": "Granite Blast:",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "107571923469306",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "126461458989078",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "106260518361457",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FireHard",
+        "id": "135255751694953",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Unsatisfied:",
+    "items": [
+      {
+        "name": "Weave",
+        "id": "135700558246306",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "95723598539974",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "81751127529448",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "102321170538785",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "128456835641035",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinalHit1",
+        "id": "70449756871810",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinalHit2",
+        "id": "74324781247417",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Second Helping:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "122087651309441",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "77586579310356",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AirHit",
+        "id": "110428188752548",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AirHit2",
+        "id": "91193070042368",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Appetizer:",
+    "items": []
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Comb",
+        "id": "77417792700571",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hair",
+        "id": "140476433079342",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Sweet",
+    "items": [
+      {
+        "name": "Comb",
+        "id": "82086397349945",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SWEEET",
+        "id": "77659919167587",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Recover Ult",
+    "items": [
+      {
+        "name": "Recovery",
+        "id": "120486776927289",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "UltimateStart",
+        "id": "89655786683392",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Aizo/Larpzo Instrumentals",
+        "id": "137364280179144",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Jingle",
+        "id": "129375015802470",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Aizo Vocals",
+        "id": "92475178445200",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Larpzo Vocals",
+        "id": "73905683100406",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "UltimateFire",
+        "id": "117201550249538",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "128041696595076",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dismember",
+        "id": "125624703041853",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Startup",
+        "id": "116742641261240",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "107716907231014",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Startup",
+        "id": "119992343011162",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash 0.53s after",
+        "id": "80805627087578",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit 0.27s after",
+        "id": "95762461473174",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slide 0.35s after",
+        "id": "138870212952178",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "LongHit 0.85s after",
+        "id": "95356764606940",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact 0.78s after",
+        "id": "105961802014473",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "\"You weren't Invited\"",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "125360177222726",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "79379409212286",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "114191015848865",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PowerDash",
+        "id": "110086889584801",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FullCharge",
+        "id": "85164048354891",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dash",
+        "id": "71672117204710",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "100409424308279",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Reggie:",
+    "items": []
+  },
+  {
+    "category": "Garage Sale",
+    "items": [
+      {
+        "name": "GarageSaleFire",
+        "id": "91453853141113",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Blood",
+        "id": "111249233187427",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Metal2",
+        "id": "80999206489420",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Metal3",
+        "id": "107796049493315",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Plastic",
+        "id": "75753405975943",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Wood",
+        "id": "140656310469778",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Wood2",
+        "id": "116249662210202",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Wood3",
+        "id": "101380531513364",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Littering",
+    "items": [
+      {
+        "name": "Start",
+        "id": "103301083087000",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Land",
+        "id": "86764689887681",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallSpawn",
+        "id": "99759086455482",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallHit",
+        "id": "100748769985426",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CouponBurn",
+        "id": "125716556337114",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CouponBurn2",
+        "id": "114347179797315",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Gushing Wound",
+    "items": [
+      {
+        "name": "KnifeHit",
+        "id": "71774765966659",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "KnifeThrow",
+        "id": "111244393435078",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Coupon",
+    "items": [
+      {
+        "name": "CouponWhoosh",
+        "id": "108402568417321",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Piano Drop",
+    "items": [
+      {
+        "name": "PianoFall",
+        "id": "92044295160013",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PianoBreak",
+        "id": "131621337491363",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Speed Crash",
+    "items": [
+      {
+        "name": "Start",
+        "id": "109685696309687",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slide",
+        "id": "82405804083158",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "118132147240619",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "74567233471387",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "DriveBoost",
+        "id": "74389594563083",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Drive",
+        "id": "114988990044033",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Blunt Trauma",
+    "items": [
+      {
+        "name": "Start",
+        "id": "95348847008043",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Jump",
+        "id": "113083056429013",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whoosh1",
+        "id": "125154542788300",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whoosh2",
+        "id": "123238394993400",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whoosh3",
+        "id": "77372942368028",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whoosh4",
+        "id": "120766776714585",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whoosh5",
+        "id": "85676063616925",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "102164697067872",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "136680620487323",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "109959088160341",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "138544666565067",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit5",
+        "id": "85532716555972",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Break1",
+        "id": "96902489129057",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Break2",
+        "id": "94678591956485",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Fleche",
+    "items": [
+      {
+        "name": "Dash",
+        "id": "105229282385221",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "112053484765331",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PullOut",
+        "id": "118548537635667",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Drone Strike",
+    "items": [
+      {
+        "name": "Drone Start",
+        "id": "107291925076757",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Loop",
+        "id": "99028553321196",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Press",
+        "id": "110959680539377",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "120730870285645",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Pole Vault",
+    "items": [
+      {
+        "name": "Slam",
+        "id": "93759638792144",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Homerun",
+    "items": [
+      {
+        "name": "Start",
+        "id": "114429572456597",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Followup",
+        "id": "126020536706311",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "125930049555363",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "81782379432866",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2Homerun",
+        "id": "122913259127813",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallFire",
+        "id": "133735049749688",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallHit",
+        "id": "100207477013610",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallLaunch1",
+        "id": "135769065921066",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BallLaunch2",
+        "id": "124003902760206",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "R SPECIAL(Discard)",
+    "items": [
+      {
+        "name": "Spa(idk what its doing here)",
+        "id": "9125634964",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Locust Guy:",
+    "items": []
+  },
+  {
+    "category": "Clever:",
+    "items": [
+      {
+        "name": "FourArmed",
+        "id": "80668615055821",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "mix of normals m1s and swings",
+    "items": []
+  },
+  {
+    "category": "Black Mucus:",
+    "items": [
+      {
+        "name": "Use",
+        "id": "113347338503767",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "100827769870979",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "78710776102497",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Crushing Jaws:",
+    "items": [
+      {
+        "name": "Bite1",
+        "id": "116622642632294",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bite2",
+        "id": "76763256436030",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bite3",
+        "id": "95015102526752",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BiteFinisher",
+        "id": "4459570664",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "75618749388830",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "97479273744599",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slam",
+        "id": "123322530943923",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Wing Throw:",
+    "items": [
+      {
+        "name": "Flight",
+        "id": "9114876115",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": []
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Victory",
+        "id": "102259199317446",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Yuki:",
+    "items": []
+  },
+  {
+    "category": "Garuda Rebound:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "94830582667262",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Bounce",
+        "id": "140210011421911",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charged",
+        "id": "12482038747864",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slow",
+        "id": "93528549345434",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Punch",
+        "id": "91677916810574",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Return",
+        "id": "124116283788613",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Rising Rage:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "83066231638545",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ChargeFail (variant)",
+        "id": "130483916115974",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "72214797814045",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge",
+        "id": "126216905119949",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Mass Breaker:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "115575205427140",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Miss",
+        "id": "105475201107176",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "75089222303073",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Garuda Stab:",
+    "items": [
+      {
+        "name": "Startup2",
+        "id": "9113837941",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stab",
+        "id": "137783275962038",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Charge:",
+    "items": [
+      {
+        "name": "WhipFlyBack",
+        "id": "104413303615093",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FirstWhip",
+        "id": "108271854301469",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SecondWhip",
+        "id": "76311359826097",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Scream",
+        "id": "17309157540",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "131800911231116",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "GrabOST",
+        "id": "15048731914",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "137050048462822",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Finish",
+        "id": "75191661535842",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hole",
+        "id": "73828252330994",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": []
+  },
+  {
+    "category": "Ch*rles (Mangaka):",
+    "items": []
+  },
+  {
+    "category": "Despair:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "107284905728635",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Spin",
+        "id": "102170331317268",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "98574727138893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "mix of m1s",
+    "items": []
+  },
+  {
+    "category": "Shut Up!:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "128854350040211",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stab",
+        "id": "134654946718633",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "123300556709057",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "140443001346012",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "104974135649084",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Air:",
+    "items": []
+  },
+  {
+    "category": "Eye Catching:",
+    "items": [
+      {
+        "name": "Hit",
+        "id": "125025280611426",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Sacrilege:",
+    "items": []
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "UltStart",
+        "id": "114694152385335",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Ult",
+        "id": "135733886312570",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "UltVoice",
+        "id": "83082182015605",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Haruta:",
+    "items": []
+  },
+  {
+    "category": "Miracles:",
+    "items": [
+      {
+        "name": "Gain(1.05x)",
+        "id": "135375336346189",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Lose(0.92x)",
+        "id": "106582622347034",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ambush:",
+    "items": [
+      {
+        "name": "AmbushSwing",
+        "id": "75682608773801",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AmbushHit",
+        "id": "130435802660891",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ragdoll:",
+    "items": [
+      {
+        "name": "Backstab",
+        "id": "98104546054574",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Backstab:",
+    "items": [
+      {
+        "name": "FrontHit",
+        "id": "88483086994779",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BackHit",
+        "id": "80957966391322",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Trip:",
+    "items": [
+      {
+        "name": "Trip",
+        "id": "116070235847840",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Trip2",
+        "id": "18782451032",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cheap Shot:",
+    "items": [
+      {
+        "name": "SwordThrow",
+        "id": "96689127096230",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwordSpin",
+        "id": "109830368249561",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Dirty Play:",
+    "items": [
+      {
+        "name": "Wave",
+        "id": "80175764312984",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Catch",
+        "id": "118484407389443",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ankle Cutter:",
+    "items": [
+      {
+        "name": "AnkleCutterHit",
+        "id": "132826787704625",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "High Time:",
+    "items": [
+      {
+        "name": "Hightime",
+        "id": "77439795464226",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Jawbreaker:",
+    "items": [
+      {
+        "name": "JawBreaker",
+        "id": "94680472414828",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Meimei:",
+    "items": []
+  },
+  {
+    "category": "Updraft:",
+    "items": [
+      {
+        "name": "Slash(0.1 start)",
+        "id": "102930929366058",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "79423034421628",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Circling:",
+    "items": [
+      {
+        "name": "AirSlash",
+        "id": "119142203253321",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge1",
+        "id": "96429366234284",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Charge2",
+        "id": "93758496042865",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinisherHit",
+        "id": "71283069341606",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinisherSlash",
+        "id": "107240505684079",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinisherWoosh",
+        "id": "133644222097997",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "79490575410915",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "83282493896478",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash1",
+        "id": "72700191895039",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash2",
+        "id": "129555200163898",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "117215651521928",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Gliding:",
+    "items": [
+      {
+        "name": "FallHit",
+        "id": "99243622771297",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact",
+        "id": "107260062344288",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash1",
+        "id": "78400218029025",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash2",
+        "id": "120697290435030",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Slash3",
+        "id": "99519848911330",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SpinHit1",
+        "id": "140010761148859",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SpinHit2",
+        "id": "119754485666227",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "73914060900348",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Murmurate:",
+    "items": [
+      {
+        "name": "AxeThrow",
+        "id": "134502721603797",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AxeSpin",
+        "id": "119173276613424",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "AxeCatch",
+        "id": "111347810430996",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Bird Control:",
+    "items": [
+      {
+        "name": "CrowEye",
+        "id": "87021710886866",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fly",
+        "id": "79225972873710",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Grab",
+        "id": "79048435945491",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "94132201322663",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Impact",
+        "id": "72894267845813",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Crow sounds:",
+    "items": [
+      {
+        "name": "Caw1",
+        "id": "9118066963",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Caw2",
+        "id": "9118066964",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Caw3",
+        "id": "9118066302",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Mad1",
+        "id": "6324425941",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Mad2 (speed 0.5 start 0.2)",
+        "id": "89659350030351",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Misc:",
+    "items": [
+      {
+        "name": "Crush",
+        "id": "115544964121243",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fall",
+        "id": "73946250167893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flock",
+        "id": "74218342289851",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Kurouroshi",
+    "items": []
+  },
+  {
+    "category": "Festering Strikes",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "93286266865153",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing2",
+        "id": "104907904159399",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing3",
+        "id": "106311045947290",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchSwing1",
+        "id": "88980176364383",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchSwing2",
+        "id": "81109554460735",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchSwing3",
+        "id": "99060595035893",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit1",
+        "id": "116242006916525",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "98493239356787",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "101346445611474",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinalHit1",
+        "id": "99724696924791",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FinalHit2",
+        "id": "85421364144658",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Throw",
+        "id": "133398263235788",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Detach",
+    "items": [
+      {
+        "name": "Detach",
+        "id": "109029348910711",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "137501745215626",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Reattach",
+        "id": "135978563187719",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "WallHit",
+        "id": "93140879342737",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Chokehold",
+    "items": [
+      {
+        "name": "Start",
+        "id": "90805933413832",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CleaveGrab",
+        "id": "104198667495225",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CleaveHit1",
+        "id": "109402680359235",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CleaveHit2",
+        "id": "108072576247551",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchGrab",
+        "id": "113019008368244",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchHit1",
+        "id": "112347897421173",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "PunchHit2",
+        "id": "117318006773809",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Roach Swarm",
+    "items": [
+      {
+        "name": "Swarm1",
+        "id": "74666116625885",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swarm2",
+        "id": "75559353370329",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwarmFollowup",
+        "id": "79232669620094",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SwarmFollowupWoosh",
+        "id": "70700553092129",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explosion",
+        "id": "86411356240367",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "93651725220212",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "SPECIAL(Earthen Insect Trance)",
+    "items": [
+      {
+        "name": "Start",
+        "id": "72746768653220",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BugAppear",
+        "id": "96413924453295",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BugDisappear",
+        "id": "127107526984301",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "BugExplode",
+        "id": "121940982680472",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FlyLoop",
+        "id": "101147988114470",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Screen",
+        "id": "131607143679266",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Tick",
+    "items": [
+      {
+        "name": "Tick1",
+        "id": "131578725133089",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Tick2",
+        "id": "78365892014897",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Tick3",
+        "id": "74362920031076",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Parthenogenesis",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "140489322474010",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode",
+        "id": "72012026236266",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explode2",
+        "id": "106970207163140",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Bugnado",
+    "items": [
+      {
+        "name": "Start",
+        "id": "113266643332344",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Explosion",
+        "id": "70550841608303",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Tornado",
+        "id": "82589163918117",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "EXTRA",
+    "items": [
+      {
+        "name": "StartInvade",
+        "id": "106428537939718",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hatch",
+        "id": "84206413372567",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "EatStart",
+        "id": "73225130279309",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Egg1",
+        "id": "99300073151078",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Egg2",
+        "id": "116964825206058",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Egg3",
+        "id": "86783201350495",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Egg4",
+        "id": "72909343949477",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Heian Sugooner:",
+    "items": []
+  },
+  {
+    "category": "Strong Dismantle:",
+    "items": [
+      {
+        "name": "Start",
+        "id": "70482785888704",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Fire",
+        "id": "125288142627715",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "74232847084175",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Chant1:",
+    "items": [
+      {
+        "name": "Dismantle1 (Kai Voice)",
+        "id": "134011003057260",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Chant2:",
+    "items": [
+      {
+        "name": "Slashes2",
+        "id": "135309023186303",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dismantle2",
+        "id": "97581017049145",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Chant3:",
+    "items": [
+      {
+        "name": "Dismantle3",
+        "id": "115955384025484",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FireWCS",
+        "id": "4299584756",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Chant4",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "4299626748",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Owarida",
+        "id": "124265527510765",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Open Furnace:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "100843467610521",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "FugaVoice",
+        "id": "78637547122675",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Shockwave",
+        "id": "5447233442",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cleave Rush:",
+    "items": [
+      {
+        "name": "CleaveStart",
+        "id": "109660701821480",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stance",
+        "id": "9118612065",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Stance2",
+        "id": "17725419392",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CleaveVoice",
+        "id": "97960256382964",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "CleaveVoice2",
+        "id": "77732395767858",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Kamutoke:",
+    "items": [
+      {
+        "name": "Equip",
+        "id": "6605239584",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Equip2",
+        "id": "3744393890",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "1",
+        "id": "3750993658",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "2",
+        "id": "4299587602",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "3",
+        "id": "4299513168",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "4",
+        "id": "4776302225",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Shrine:",
+    "items": [
+      {
+        "name": "Voice",
+        "id": "130807317538504",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "UhohStart",
+        "id": "252289753",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Music",
+        "id": "83360856832970",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voice2",
+        "id": "133077835308960",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Voice3",
+        "id": "124012721234128",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Goku:",
+    "items": []
+  },
+  {
+    "category": "Kamehameha:",
+    "items": [
+      {
+        "name": "Use",
+        "id": "128138421943286",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Staff Uppercut:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "113917760201943",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "136281286882999",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Staff Extend:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "84803863795019",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "132043726972669",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ki Spam:",
+    "items": [
+      {
+        "name": "ShootKi",
+        "id": "136181939400388",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ExplodeKi (miss)",
+        "id": "78258660213953",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitKi",
+        "id": "73984021575636",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Ultimate:",
+    "items": []
+  },
+  {
+    "category": "JSD Chara:",
+    "items": []
+  },
+  {
+    "category": "Misc:",
+    "items": []
+  },
+  {
+    "category": "Dashes:",
+    "items": [
+      {
+        "name": "1",
+        "id": "92870369637296",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "2",
+        "id": "133205097862880",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "M1S:",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "92660735965001",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "103376351068703",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "122604454724442",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "108932851477523",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Down",
+        "id": "73223862105514",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Up",
+        "id": "124704505278190",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Swing",
+        "id": "116055107185271",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Onslaught:",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "112334421250960",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Whooshes",
+        "id": "109750891566279",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit2",
+        "id": "92242615253671",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit3",
+        "id": "115238316257902",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit4",
+        "id": "83252903812674",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit5",
+        "id": "118008236689924",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit6",
+        "id": "137296633918555",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit7",
+        "id": "79492597332929",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit8",
+        "id": "102503367678078",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "LastHit",
+        "id": "129425371797564",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Air:",
+    "items": [
+      {
+        "name": "WindupSFX",
+        "id": "71886127750084",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitSFX",
+        "id": "92646954276141",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Lethal Wound:",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "136647946051022",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Getup",
+        "id": "72356309866561",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit (1.6 speed)",
+        "id": "112190329411296",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Blood Mary:",
+    "items": [
+      {
+        "name": "WindupSFX",
+        "id": "125221767118801",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Dropkick",
+        "id": "135803259895374",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "ConnectSFX",
+        "id": "84000702645054",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Fight:",
+    "items": [
+      {
+        "name": "Startup",
+        "id": "133706660487150",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitSFX",
+        "id": "102530149417103",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SuccessHitSFX",
+        "id": "95100057721788",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "MissHit",
+        "id": "92658796918459",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Special:",
+    "items": [
+      {
+        "name": "Hit SFX",
+        "id": "77456429238350",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Flourish",
+        "id": "106302903900436",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Awakening:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "128475093365422",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "SFX",
+        "id": "91237555203708",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Cursed Remedy:",
+    "items": [
+      {
+        "name": "StartupSFX",
+        "id": "100705684685259",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "HitSFX",
+        "id": "83588770043956",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Reset:",
+    "items": [
+      {
+        "name": "Main",
+        "id": "111151680989224",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Second 1",
+        "id": "1112954360180261",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Second 2",
+        "id": "100501096830709",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Atonement:",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "97193501595542",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Start",
+        "id": "112496240445109",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Lose",
+        "id": "72809722363624",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Win",
+        "id": "124970888162706",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  },
+  {
+    "category": "Seven Souls:",
+    "items": [
+      {
+        "name": "Windup",
+        "id": "102415905240085",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "Hit",
+        "id": "127769542531541",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "qte 1",
+        "id": "91971313816789",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      },
+      {
+        "name": "qte 2",
+        "id": "133545655546336",
+        "texture": "",
+        "namet": "",
+        "altt": []
+      }
+    ]
+  }
+]

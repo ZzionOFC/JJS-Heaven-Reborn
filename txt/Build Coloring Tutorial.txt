@@ -1,25 +1,22 @@
-|CAP 1: Escolha Das Cores|
-Essa é a principal escolha na hora de fazer seu mapa: as cores que vai utilizar.
-A escolha da paleta é a fundação visual do seu mapa. O erro mais comum entre iniciantes é o uso excessivo de tons hiper-saturados ou excessivamente claros, que geram fadiga visual.
+|Chapter 1: Choosing Colors|
+This is the most important choice when creating your map: the colors you will use.
+Choosing a palette forms the visual foundation of your map. The most common mistake beginners make is overusing hyper-saturated or overly bright tones, which cause visual fatigue.
 
-**A Regra do Color Picker:** Evite os extremos (o topo e o fundo absoluto) do seletor de cores na maioria dos casos.
+**The Color Picker Rule:** In most cases, avoid the extremes (the absolute top and bottom) of the color picker.
 
-**O Ponto de Equilíbrio:** Foque na faixa intermediária do color picker. Essa região concentra tons equilibrados e suaves que tornam o cenário agradável para partidas longas.
+**The Sweet Spot:** Focus on the middle range of the color picker. This area contains balanced, soft tones that make the environment pleasant for long play sessions.
 
-**Demonstração visual:** Observe a diferença de contraste e fadiga ocular entre os tons extremos e os tons centrais na imagem abaixo.
+**Visual Demonstration:** Observe the difference in contrast and eye strain between the extreme tones and the central tones in the image below.
 
-***colordif.png***
-percebe como as cores no meio não dóem tanto o olho? é esse resultado que você quer adquirir.
+Notice how the colors in the middle aren't as hard on the eyes? That’s the result you want to achieve.
 
-|CAP 2: Consistencia Entre as Cores|
-**Regra dos 3 Tons (60-30-10):** Mantenha o seu mapa visualmente limpo usando uma proporção entre os items do mapa:
-**60% Cores Dominante:** Chão, paredes principais e base do mapa.
-**30% Cor Secundária:** Elementos de suporte que dão corpo ao cenário, como telhados, calçadas, pilares e acabamentos internos. Deve harmonizar com a dominante sem fugir do tema do seu mapa.
-**10% Cor de Destaque**: Pontos de foco para guiar o olhar ou indicar gameplay, como pontos de spawn, iluminação, efeitos e pequenos detalhes complementares. Use tons mais vibrantes aqui.
-***631.png***
-|CAP 3: Layering E Degradê|
-**Layering:** essa é a parte que faz o mapa não ficar "plano".
-ao fazer lugares que você quer mostras profundidade, você usa o layering: colocar pequenos blocos maiores ou menores em relação ao objeto para dar mais detalhes e profundidade para ele.
-**Degradê:** Eleva a qualidade visual de paredes e objetos grandes. Utilize variações sutis de tons mais claros ou escuros em blocos sequenciais para criar iluminação gradual, volume e destaque visual.
-**Conexão entre 2 cores:** para fazer uma conexão limpa entre 2 cores, você pega as 2 cores que vc quer, e vai as juntando utilizando cores levemente mais parecidas com a outra. isso melhora o fluxo visual entre as cores do seu mapa. (Para isso eu recomendo usar a ferramenta expecifica para isso no nosso site, na aba Colors)
-***conect.png***
+|Chapter 2: Color Consistency|
+**The 3-Tone Rule (60-30-10):** Keep your map visually clean by using a specific ratio for map elements:
+**60% Dominant Color:** Floors, main walls, and the map's base.
+**30% Secondary Color:** Supporting elements that flesh out the environment, such as roofs, sidewalks, pillars, and interior trim. It should harmonize with the dominant color without clashing with your map's theme.
+**10% Accent Color:** Focal points to guide the eye or indicate gameplay elements, such as spawn points, lighting, effects, and small complementary details. Use more vibrant tones here.
+
+|Chapter 3: Layering and Gradients|
+**Layering:** This is the technique that prevents the map from looking "flat."
+When creating areas where you want to convey depth, use layering: place smaller or larger blocks relative to the main object to add detail and a sense of depth. **Gradient:** Enhances the visual quality of walls and large objects. Use subtle variations of lighter or darker tones in sequential blocks to create gradual lighting, a sense of volume, and visual emphasis.
+**Connecting 2 colors:** To create a clean transition between two colors, take the two colors you want to use and blend them by introducing intermediate shades that bridge the gap between them. This improves the visual flow between the colors on your map. (For this, I recommend using the dedicated tool available on our website under the "Colors" tab.)

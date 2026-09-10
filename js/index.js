@@ -130,7 +130,7 @@ function renderizarTools(btn) {
     <div class="tools-container" style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
       
       <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-        <h3 style="margin-top: 0; color: #4caf50; border-bottom: 1px solid #333; padding-bottom: 10px;">⏱️ Interval Calculator</h3>
+        <h3 style="margin-top: 0; color: #4caf50; border-bottom: 1px solid #333; padding-bottom: 10px;">Interval Calculator</h3>
         <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Calculate the difference in seconds between two points (decimals supported).</p>
         <div style="display: flex; gap: 10px; margin-bottom: 15px;">
           <input type="number" id="intervalStart" step="0.01" placeholder="Start value (e.g. 10.5)" style="flex: 1; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px;">
@@ -141,8 +141,8 @@ function renderizarTools(btn) {
       </div>
 
       <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-        <h3 style="margin-top: 0; color: #ff9800; border-bottom: 1px solid #333; padding-bottom: 10px;">🎨 Font Color Generator</h3>
-        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Generate a colored HTML font tag with iro.js.</p>
+        <h3 style="margin-top: 0; color: #ff9800; border-bottom: 1px solid #333; padding-bottom: 10px;">Custom Char Color Generator</h3>
+        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Generate a colored name for tour character block.</p>
         
         <input type="text" id="fontInputText" placeholder="Enter your text here..." style="width: 100%; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px; box-sizing: border-box; margin-bottom: 15px;">
         

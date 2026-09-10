@@ -1,6 +1,6 @@
 let audioCtx = null;
 
-const ARQUIVOS_TAGS = ['jjs','audios','mesh','decals']; 
+const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals','musics'];
 
 // INICIO: tocarSomClique
 function tocarSomClique() {
@@ -31,6 +31,31 @@ function tocarSomClique() {
 }
 // FIM: tocarSomClique
 
+// Função auxiliar segura para cópia de texto com suporte total
+async function copiarTexto(texto) {
+  if (!texto) return false;
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(texto);
+    } else {
+      const textarea = document.createElement("textarea");
+      textarea.value = texto;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
+    tocarSomClique();
+    updateHistory(texto);
+    return true;
+  } catch (err) {
+    console.error("Erro ao copiar texto: ", err);
+    return false;
+  }
+}
+
 // INICIO: visibilityOptimization
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
@@ -45,7 +70,12 @@ const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
   btnToggle = document.getElementById("btnToggle"),
   menu = document.getElementById("menu"),
-  historyBar = document.getElementById("history-bar");
+  historyBar = document.getElementById("history-bar"),
+  btnTop = document.getElementById("btnTop"),
+  btnBottom = document.getElementById("btnBottom"),
+  btnExportJSON = document.getElementById("btnExportJSON"),
+  btnAddCategory = document.getElementById("btnAddCategory"),
+  btnFullscreen = document.getElementById("btnFullscreen");
 
 let dadosAtuais = [],
   isCodesAtual = false,
@@ -58,39 +88,61 @@ let modoAdminAtivo = false;
 const SENHA_ADMIN = "admin123";
 
 // INICIO: eventosIniciais
-btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
+if (btnToggle) {
+  btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
+}
 
-// Scroll reformulado para corrigir ambos os botões dinamicamente
-window.onscroll = () => {
+if (btnFullscreen) {
+  btnFullscreen.addEventListener("click", () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      if (document.exitFullscreen) document.exitFullscreen();
+    }
+  });
+}
+
+// Otimização e correção do Scroll (O botão fica exatamente no mesmo lugar)
+let scrollTicking = false;
+function atualizarBotoesScroll() {
   if (document.body.classList.contains("focus-mode-active")) return;
+
   const scrollTop = window.scrollY || document.documentElement.scrollTop;
   const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrollPercent = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-  
-  const btnTop = document.getElementById("btnTop");
-  const btnBottom = document.getElementById("btnBottom");
-  
+
+  if (scrollHeight <= 10) {
+    btnTop.style.display = "none";
+    btnBottom.style.display = "none";
+    return;
+  }
+
+  const scrollPercent = Math.min(100, Math.max(0, (scrollTop / scrollHeight) * 100));
   const isLightMode = document.body.classList.contains("light-mode");
   const corFundoBarra = isLightMode ? "rgba(204,204,204,0.9)" : "rgba(51,51,51,0.85)";
+  const progressoConic = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
 
-  // Seta pra cima
-  if (scrollTop > 300) {
+  // Se estiver da metade pra baixo (>= 50%), mostra botão de ir PRA CIMA
+  // Se estiver da metade pra cima (< 50%), mostra botão de ir PRA BAIXO
+  if (scrollPercent >= 50) {
     btnTop.style.display = "flex";
-    btnTop.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
+    btnTop.style.background = progressoConic;
+    btnBottom.style.display = "none";
   } else {
+    btnBottom.style.display = "flex";
+    btnBottom.style.background = progressoConic;
     btnTop.style.display = "none";
   }
+}
 
-  // Seta pra baixo
-  const bateuNoFundo = Math.ceil(window.innerHeight + window.scrollY) >= document.body.scrollHeight - 50;
-    
-  if (!bateuNoFundo && scrollHeight > 0) {
-    btnBottom.style.display = "flex";
-    btnBottom.style.background = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
-  } else {
-    btnBottom.style.display = "none";
+window.addEventListener("scroll", () => {
+  if (!scrollTicking) {
+    window.requestAnimationFrame(() => {
+      atualizarBotoesScroll();
+      scrollTicking = false;
+    });
+    scrollTicking = true;
   }
-};
+}, { passive: true });
 // FIM: eventosIniciais
 
 // INICIO: renderizarHistorico
@@ -103,7 +155,7 @@ function renderizarHistorico() {
       history
         .map(
           (h) =>
-            `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="navigator.clipboard.writeText('${h}'); tocarSomClique();">${h}</span>`,
+            `<span style="margin:0 5px; cursor:pointer; color:#ffff00" onclick="copiarTexto('${h}')">${h}</span>`,
         )
         .join("|");
   }
@@ -123,40 +175,40 @@ function renderizarTools(btn) {
   document.body.classList.remove("focus-mode-active");
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
-  
+
   if (btn) btn.classList.add("ativo");
 
   conteudo.innerHTML = `
-    <div class="tools-container" style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; margin-top: 15px;">
+    <div class="tools-container">
       
-      <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-        <h3 style="margin-top: 0; color: #4caf50; border-bottom: 1px solid #333; padding-bottom: 10px;">Interval Calculator</h3>
+      <div class="tool-card">
+        <h3 style="color: #4caf50;">Interval Calculator</h3>
         <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Calculate the difference in seconds between two points (decimals supported).</p>
-        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
-          <input type="number" id="intervalStart" step="0.01" placeholder="Start value (e.g. 10.5)" style="flex: 1; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px;">
-          <input type="number" id="intervalEnd" step="0.01" placeholder="End value (e.g. 25.2)" style="flex: 1; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px;">
+        <div style="display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap;">
+          <input type="number" id="intervalStart" step="0.01" placeholder="Start value (e.g. 10.5)" style="flex: 1; min-width: 140px;">
+          <input type="number" id="intervalEnd" step="0.01" placeholder="End value (e.g. 25.2)" style="flex: 1; min-width: 140px;">
         </div>
         <button id="btnCalcInterval" class="action-btn" style="width: 100%; background: #2e7d32; border-color: #4caf50;">Calculate Interval</button>
         <div id="intervalResult" style="margin-top: 15px; font-size: 18px; font-weight: bold; text-align: center; color: #ffff7e; min-height: 25px;"></div>
       </div>
 
-      <div class="tool-card" style="background: #1a1a1a; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-        <h3 style="margin-top: 0; color: #ff9800; border-bottom: 1px solid #333; padding-bottom: 10px;">Custom Char Color Generator</h3>
-        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Generate a colored name for tour character block.</p>
+      <div class="tool-card">
+        <h3 style="color: #ff9800;">Custom Char Color Generator</h3>
+        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">Generate a colored name for your character block.</p>
         
-        <input type="text" id="fontInputText" placeholder="Enter your text here..." style="width: 100%; padding: 10px; background: #121212; color: #fff; border: 1px solid #333; border-radius: 4px; box-sizing: border-box; margin-bottom: 15px;">
+        <input type="text" id="fontInputText" placeholder="Enter your text here..." style="width: 100%; margin-bottom: 15px;">
         
-        <div style="display: flex; justify-content: center; margin-bottom: 15px; background: #121212; padding: 15px; border-radius: 8px; border: 1px solid #333;">
+        <div class="tool-box" style="display: flex; justify-content: center; margin-bottom: 15px;">
           <div id="fontColorPicker"></div>
         </div>
 
-        <div style="margin-bottom: 15px; padding: 15px; background: #121212; border: 1px dashed #555; border-radius: 4px; text-align: center;">
+        <div class="tool-box" style="margin-bottom: 15px; text-align: center;">
           <span style="font-size: 12px; color: #aaa; display: block; margin-bottom: 5px; text-transform: uppercase;">Preview:</span>
           <div id="fontPreviewText" style="font-size: 18px; font-weight: bold;">Your Text Here</div>
         </div>
 
-        <div style="display: flex; gap: 10px;">
-          <input type="text" id="fontOutputCode" readonly style="flex: 1; padding: 10px; background: #121212; color: #4caf50; border: 1px solid #333; border-radius: 4px; font-family: monospace;">
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <input type="text" id="fontOutputCode" readonly style="flex: 1; min-width: 180px; color: #4caf50; font-family: monospace;">
           <button id="btnCopyFont" class="action-btn">Copy Tag</button>
         </div>
       </div>
@@ -166,21 +218,26 @@ function renderizarTools(btn) {
 
   // Lógica da Calculadora de Intervalo
   document.getElementById("btnCalcInterval").addEventListener("click", () => {
-    const start = parseFloat(document.getElementById("intervalStart").value.replace(',', '.'));
-    const end = parseFloat(document.getElementById("intervalEnd").value.replace(',', '.'));
+    const startVal = document.getElementById("intervalStart").value.replace(',', '.');
+    const endVal = document.getElementById("intervalEnd").value.replace(',', '.');
+    const start = parseFloat(startVal);
+    const end = parseFloat(endVal);
     const resultDiv = document.getElementById("intervalResult");
-    
+
     if (isNaN(start) || isNaN(end)) {
       resultDiv.textContent = "Please enter valid numbers!";
       resultDiv.style.color = "#f44336";
     } else {
       const diff = Math.abs(end - start);
       resultDiv.textContent = `Result: ${diff.toFixed(2)} seconds`;
-      resultDiv.style.color = document.body.classList.contains('light-mode') ? "#d32f2f" : "#ffff7e";
+      resultDiv.style.color = document.body.classList.contains('light-mode') ? "#2e7d32" : "#ffff7e";
     }
   });
 
-  // Lógica do Font Color Generator (Iro.js)
+  // Limpa o contêiner do seletor antes de recriar
+  const pickerContainer = document.getElementById("fontColorPicker");
+  pickerContainer.innerHTML = "";
+
   const fontPicker = new iro.ColorPicker("#fontColorPicker", {
     width: 150,
     color: "#ff0000",
@@ -194,33 +251,34 @@ function renderizarTools(btn) {
   const btnCopyFont = document.getElementById("btnCopyFont");
 
   const updateFontGenerator = () => {
-    const hex = fontPicker.color.hexString;
+    const hex = fontPicker.color ? fontPicker.color.hexString : "#ff0000";
     const text = fontInputText.value || "JJS HEAVEN";
-    
+
     fontPreviewText.textContent = text;
     fontPreviewText.style.color = hex;
-    
+
     fontOutputCode.value = `<font color="${hex}">${text}</font>`;
   };
 
   fontPicker.on("color:change", updateFontGenerator);
   fontInputText.addEventListener("input", updateFontGenerator);
-  updateFontGenerator(); // Run inicial
+  updateFontGenerator();
 
   btnCopyFont.addEventListener("click", async () => {
-    await navigator.clipboard.writeText(fontOutputCode.value);
-    tocarSomClique();
-    const ogText = btnCopyFont.textContent;
-    btnCopyFont.textContent = "Copied!";
-    btnCopyFont.style.background = "#2e7d32";
-    btnCopyFont.style.color = "#fff";
-    btnCopyFont.style.borderColor = "#4caf50";
-    setTimeout(() => {
-      btnCopyFont.textContent = ogText;
-      btnCopyFont.style.background = "";
-      btnCopyFont.style.color = "";
-      btnCopyFont.style.borderColor = "";
-    }, 1000);
+    const sucesso = await copiarTexto(fontOutputCode.value);
+    if (sucesso) {
+      const ogText = btnCopyFont.textContent;
+      btnCopyFont.textContent = "Copied!";
+      btnCopyFont.style.background = "#2e7d32";
+      btnCopyFont.style.color = "#fff";
+      btnCopyFont.style.borderColor = "#4caf50";
+      setTimeout(() => {
+        btnCopyFont.textContent = ogText;
+        btnCopyFont.style.background = "";
+        btnCopyFont.style.color = "";
+        btnCopyFont.style.borderColor = "";
+      }, 1000);
+    }
   });
 }
 // FIM: renderizarTools
@@ -230,8 +288,8 @@ function renderizarColorPicker(btn) {
   document.body.classList.remove("focus-mode-active");
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
-  
-  if(btn) btn.classList.add("ativo");
+
+  if (btn) btn.classList.add("ativo");
 
   let savedColors = JSON.parse(localStorage.getItem("jjs_saved_colors") || "[]");
 
@@ -297,6 +355,9 @@ function renderizarColorPicker(btn) {
     btnClearColors = document.getElementById("btnClearColors"),
     savedColorsGrid = document.getElementById("saved-colors-grid");
 
+  const pickerContainer = document.getElementById("color-picker-container");
+  pickerContainer.innerHTML = "";
+
   const colorPicker = new iro.ColorPicker("#color-picker-container", {
     width: 190,
     color: "#ffffff",
@@ -339,23 +400,20 @@ function renderizarColorPicker(btn) {
     }
   });
 
-  [hex, rgb].forEach(
-    (el) =>
-      (el.ondblclick = () => {
-        el.select();
-        navigator.clipboard.writeText(el.value);
-        tocarSomClique();
-        updateHistory(el.value);
-        const bgOriginal = el.style.background;
-        const corOriginal = el.style.color;
-        el.style.background = "#2e7d32";
-        el.style.color = "#ffffff";
-        setTimeout(() => {
-          el.style.background = bgOriginal;
-          el.style.color = corOriginal;
-        }, 500);
-      }),
-  );
+  [hex, rgb].forEach((el) => {
+    el.ondblclick = async () => {
+      el.select();
+      await copiarTexto(el.value);
+      const bgOriginal = el.style.background;
+      const corOriginal = el.style.color;
+      el.style.background = "#2e7d32";
+      el.style.color = "#ffffff";
+      setTimeout(() => {
+        el.style.background = bgOriginal;
+        el.style.color = corOriginal;
+      }, 500);
+    };
+  });
 
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
@@ -375,9 +433,7 @@ function renderizarColorPicker(btn) {
       card.textContent = corName;
 
       card.onclick = async () => {
-        await navigator.clipboard.writeText(corValue);
-        tocarSomClique();
-        updateHistory(corValue);
+        await copiarTexto(corValue);
         const originalText = card.textContent;
         card.textContent = "Copied!";
         setTimeout(() => { card.textContent = originalText; }, 1000);
@@ -517,7 +573,7 @@ function carregarPresets(url, btn) {
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
-  
+
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading presets...</div>';
 
@@ -530,7 +586,7 @@ function carregarPresets(url, btn) {
       presetsAtuais = data;
       renderizarPresets(presetsAtuais, "");
     })
-    .catch((err) => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading presets.</div>'; });
+    .catch(() => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading presets.</div>'; });
 }
 // FIM: carregarPresets
 
@@ -670,9 +726,7 @@ function renderizarPresets(data, termo) {
           card.textContent = nameVal;
 
           card.onclick = async () => {
-            await navigator.clipboard.writeText(copyText);
-            tocarSomClique();
-            updateHistory(copyText);
+            await copiarTexto(copyText);
             const originalText = card.textContent;
             card.textContent = "Copied!";
             setTimeout(() => { card.textContent = originalText; }, 1000);
@@ -689,7 +743,7 @@ function carregarDados(url, btn) {
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
-  
+
   if (btn) {
     document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
     btn.classList.add("ativo");
@@ -713,31 +767,34 @@ function carregarDados(url, btn) {
         contadorCategoria++;
         let itensMapeados = [];
 
-        cat.items.forEach((item) => {
-          item.autoId = String(contadorGlobal).padStart(4, "0");
-          contadorGlobal++;
+        if (cat.items) {
+          cat.items.forEach((item) => {
+            item.autoId = String(contadorGlobal).padStart(4, "0");
+            contadorGlobal++;
 
-          if (!item.name || item.name.trim() === "") {
-            let novoNome = cat.category || "";
-            if (!novoNome.endsWith(":")) novoNome += ":";
-            item.name = novoNome;
+            if (!item.name || item.name.trim() === "") {
+              let novoNome = cat.category || "";
+              if (!novoNome.endsWith(":")) novoNome += ":";
+              item.name = novoNome;
 
-            if (categoriaAnterior) {
-              categoriaAnterior.items.push(item);
+              if (categoriaAnterior) {
+                categoriaAnterior.items.push(item);
+              } else {
+                itensMapeados.push(item);
+              }
             } else {
               itensMapeados.push(item);
             }
-          } else {
-            itensMapeados.push(item);
-          }
-        });
+          });
+        } else {
+          cat.items = [];
+        }
 
         cat.items = itensMapeados;
         if (cat.items.length > 0) {
           dadosProcessados.push(cat);
           categoriaAnterior = cat;
         } else if (modoAdminAtivo) {
-          // Mantém as categorias vazias visíveis no modo admin para podermos adicionar itens
           dadosProcessados.push(cat);
           categoriaAnterior = cat;
         }
@@ -747,7 +804,7 @@ function carregarDados(url, btn) {
       isCodesAtual = url.includes("codes.json");
       renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
     })
-    .catch((err) => { conteudo.innerHTML = `<div class="status-msg" style="color:red;">Error loading ${url}.</div>`; });
+    .catch(() => { conteudo.innerHTML = `<div class="status-msg" style="color:red;">Error loading ${url}.</div>`; });
 }
 
 function renderizarItens(data, isCodes, termo) {
@@ -789,7 +846,7 @@ function renderizarItens(data, isCodes, termo) {
         const hasAlts = i.namet && i.altt;
         let nametArr = [];
         let alttArr = [];
-        
+
         if (hasAlts) {
           nametArr = Array.isArray(i.namet) ? i.namet : String(i.namet).split(',').map(s=>s.trim());
           alttArr = Array.isArray(i.altt) ? i.altt : String(i.altt).split(',').map(s=>s.trim());
@@ -812,114 +869,108 @@ function renderizarItens(data, isCodes, termo) {
         }
 
         if (hasAlts && nametArr.length > 0) {
-            const wrapper = document.createElement("div");
-            wrapper.className = "item-wrapper";
-            if (modoAdminAtivo) wrapper.style.borderLeftColor = "#ff9800";
-            else wrapper.style.borderLeftColor = "#555";
+          const wrapper = document.createElement("div");
+          wrapper.className = "item-wrapper";
+          if (modoAdminAtivo) wrapper.style.borderLeftColor = "#ff9800";
+          else wrapper.style.borderLeftColor = "#555";
 
-            const mainDiv = document.createElement("div");
-            mainDiv.className = "item-main";
+          const mainDiv = document.createElement("div");
+          mainDiv.className = "item-main";
 
-            const copyArea = document.createElement("div");
-            copyArea.className = "item-copy-area";
-            copyArea.innerHTML = mainContentHtml;
+          const copyArea = document.createElement("div");
+          copyArea.className = "item-copy-area";
+          copyArea.innerHTML = mainContentHtml;
 
-            const toggleArea = document.createElement("div");
-            toggleArea.className = "item-toggle-area";
-            toggleArea.innerHTML = "▼";
+          const toggleArea = document.createElement("div");
+          toggleArea.className = "item-toggle-area";
+          toggleArea.innerHTML = "▼";
 
-            mainDiv.appendChild(copyArea);
-            mainDiv.appendChild(toggleArea);
-            wrapper.appendChild(mainDiv);
+          mainDiv.appendChild(copyArea);
+          mainDiv.appendChild(toggleArea);
+          wrapper.appendChild(mainDiv);
 
-            const altsDiv = document.createElement("div");
-            altsDiv.className = "item-alts hidden";
-            
-            for(let idx = 0; idx < nametArr.length; idx++) {
-                const altName = nametArr[idx];
-                const altId = alttArr[idx] || "";
-                
-                const altBtn = document.createElement("div");
-                altBtn.className = "alt-copy-area";
-                altBtn.innerHTML = `<b>${altName}</b>: ${altId}`;
-                
-                altBtn.onclick = async (e) => {
-                    e.stopPropagation();
-                    const val = altId;
-                    if (val) {
-                        await navigator.clipboard.writeText(val);
-                        tocarSomClique();
-                        updateHistory(val);
-                        altBtn.classList.add("btnClicado");
-                        const originalHTML = altBtn.innerHTML;
-                        altBtn.innerHTML = "Copied!";
-                        setTimeout(() => {
-                            altBtn.classList.remove("btnClicado");
-                            altBtn.innerHTML = originalHTML;
-                        }, 1000);
-                    }
-                };
-                altsDiv.appendChild(altBtn);
-            }
-            
-            wrapper.appendChild(altsDiv);
-            
-            toggleArea.onclick = (e) => {
-                e.stopPropagation();
-                altsDiv.classList.toggle("hidden");
-                toggleArea.innerHTML = altsDiv.classList.contains("hidden") ? "▼" : "▲";
-            };
+          const altsDiv = document.createElement("div");
+          altsDiv.className = "item-alts hidden";
 
-            copyArea.onclick = async (e) => {
-                if (e.target.classList.contains("edit-btn")) {
-                  e.stopPropagation();
-                  abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
-                  return;
-                }
-                const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
-                if (val) {
-                  await navigator.clipboard.writeText(val);
-                  tocarSomClique();
-                  updateHistory(val);
-                  copyArea.classList.add("btnClicado");
-                  const originalHTML = copyArea.innerHTML;
-                  copyArea.innerHTML = "Copied!";
-                  setTimeout(() => {
-                    copyArea.classList.remove("btnClicado");
-                    copyArea.innerHTML = originalHTML;
-                  }, 1000);
-                }
-            };
-            conteudo.appendChild(wrapper);
-        } else {
-            const el = document.createElement("button");
-            el.className = "code-btn";
-            el.innerHTML = mainContentHtml;
-            if (modoAdminAtivo) el.style.borderLeftColor = "#ff9800";
-            else el.style.borderLeftColor = "#555";
+          for (let idx = 0; idx < nametArr.length; idx++) {
+            const altName = nametArr[idx];
+            const altId = alttArr[idx] || "";
 
-            el.onclick = async (e) => {
-              if (e.target.classList.contains("edit-btn")) {
-                e.stopPropagation();
-                abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
-                return;
-              }
+            const altBtn = document.createElement("div");
+            altBtn.className = "alt-copy-area";
+            altBtn.innerHTML = `<b>${altName}</b>: ${altId}`;
 
-              const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+            altBtn.onclick = async (e) => {
+              e.stopPropagation();
+              const val = altId;
               if (val) {
-                await navigator.clipboard.writeText(val);
-                tocarSomClique();
-                updateHistory(val);
-                el.classList.add("btnClicado");
-                const originalHTML = el.innerHTML;
-                el.innerHTML = "Copied!";
+                await copiarTexto(val);
+                altBtn.classList.add("btnClicado");
+                const originalHTML = altBtn.innerHTML;
+                altBtn.innerHTML = "Copied!";
                 setTimeout(() => {
-                  el.classList.remove("btnClicado");
-                  el.innerHTML = originalHTML;
+                  altBtn.classList.remove("btnClicado");
+                  altBtn.innerHTML = originalHTML;
                 }, 1000);
               }
             };
-            conteudo.appendChild(el);
+            altsDiv.appendChild(altBtn);
+          }
+
+          wrapper.appendChild(altsDiv);
+
+          toggleArea.onclick = (e) => {
+            e.stopPropagation();
+            altsDiv.classList.toggle("hidden");
+            toggleArea.innerHTML = altsDiv.classList.contains("hidden") ? "▼" : "▲";
+          };
+
+          copyArea.onclick = async (e) => {
+            if (e.target.classList.contains("edit-btn")) {
+              e.stopPropagation();
+              abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
+              return;
+            }
+            const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+            if (val) {
+              await copiarTexto(val);
+              copyArea.classList.add("btnClicado");
+              const originalHTML = copyArea.innerHTML;
+              copyArea.innerHTML = "Copied!";
+              setTimeout(() => {
+                copyArea.classList.remove("btnClicado");
+                copyArea.innerHTML = originalHTML;
+              }, 1000);
+            }
+          };
+          conteudo.appendChild(wrapper);
+        } else {
+          const el = document.createElement("button");
+          el.className = "code-btn";
+          el.innerHTML = mainContentHtml;
+          if (modoAdminAtivo) el.style.borderLeftColor = "#ff9800";
+          else el.style.borderLeftColor = "#555";
+
+          el.onclick = async (e) => {
+            if (e.target.classList.contains("edit-btn")) {
+              e.stopPropagation();
+              abrirModalEdicao(e.target.dataset.autoid, e.target.dataset.catid);
+              return;
+            }
+
+            const val = modoAdminAtivo ? i.autoId : isCodes ? i.code : i.id;
+            if (val) {
+              await copiarTexto(val);
+              el.classList.add("btnClicado");
+              const originalHTML = el.innerHTML;
+              el.innerHTML = "Copied!";
+              setTimeout(() => {
+                el.classList.remove("btnClicado");
+                el.innerHTML = originalHTML;
+              }, 1000);
+            }
+          };
+          conteudo.appendChild(el);
         }
       });
     }
@@ -931,7 +982,7 @@ function carregarLogs(url, btn) {
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
-  
+
   if (btn) btn.classList.add("ativo");
   conteudo.innerHTML = '<div class="status-msg">Loading logs...</div>';
 
@@ -944,7 +995,7 @@ function carregarLogs(url, btn) {
       logsAtuais = text.split(/\r?\n/).map((linha) => linha.trim()).filter((linha) => linha.length > 0);
       renderizarLogs(logsAtuais, "");
     })
-    .catch((err) => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading log.txt.</div>'; });
+    .catch(() => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading log.txt.</div>'; });
 }
 
 function formatarTextoLog(texto) {
@@ -1014,7 +1065,7 @@ function renderizarPillsTags() {
   const container = document.getElementById("tagsContainer");
   container.innerHTML = "";
   container.classList.remove("hidden");
-  
+
   const resetPill = document.createElement("button");
   resetPill.className = "tag-pill reset-pill";
   resetPill.textContent = "Reset";
@@ -1024,41 +1075,46 @@ function renderizarPillsTags() {
     carregarDados('json/dados.json', document.querySelector("nav button:first-child"));
   };
   container.appendChild(resetPill);
-  
-  if(ARQUIVOS_TAGS && ARQUIVOS_TAGS.length > 0) {
+
+  if (ARQUIVOS_TAGS && ARQUIVOS_TAGS.length > 0) {
     ARQUIVOS_TAGS.forEach(tagName => {
       const pill = document.createElement("button");
       pill.className = "tag-pill";
       pill.textContent = tagName;
-      
+
       pill.onclick = () => {
         document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
         document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
         carregarDados(`tags/${tagName}.json`, null);
       };
-      
+
       container.appendChild(pill);
     });
   }
 }
 // FIM: renderizarPillsTags
 
+// Debounce na busca para melhorar performance geral do site
+let timerPesquisa = null;
 campoPesquisa.addEventListener("input", (e) => {
   const val = e.target.value.trim();
   if (val.toLowerCase() === SENHA_ADMIN.toLowerCase()) {
     modoAdminAtivo = !modoAdminAtivo;
     campoPesquisa.value = "";
-    document.getElementById("btnExportJSON").style.display = modoAdminAtivo ? "block" : "none";
-    document.getElementById("btnAddCategory").style.display = modoAdminAtivo ? "block" : "none";
+    if (btnExportJSON) btnExportJSON.style.display = modoAdminAtivo ? "block" : "none";
+    if (btnAddCategory) btnAddCategory.style.display = modoAdminAtivo ? "block" : "none";
     historyBar.innerHTML = `<span style="color: #ff9800; font-weight: bold;">[!] ADMIN/EDITOR MODE ${modoAdminAtivo ? "ENABLED" : "DISABLED"}</span>`;
     setTimeout(() => { renderizarHistorico(); }, 2500);
-    
-    // Recarrega os dados caso alguma categoria estivesse oculta
+
     carregarDados(linkOriginalAtual || "json/dados.json", document.querySelector("nav button.ativo"));
     return;
   }
-  dispararPesquisaAtual(val);
+
+  clearTimeout(timerPesquisa);
+  timerPesquisa = setTimeout(() => {
+    dispararPesquisaAtual(val);
+  }, 100);
 });
 
 document.getElementById("btnTema").addEventListener("click", () => {
@@ -1072,9 +1128,9 @@ window.addEventListener("keydown", (e) => {
     menu.classList.add("hidden");
     dispararPesquisaAtual("");
     campoPesquisa.blur();
-    if (typeof fecharModalEdicao === "function") fecharModalEdicao();
-    if (typeof fecharModalCategoria === "function") fecharModalCategoria();
-    if (typeof fecharNotepad === "function") fecharNotepad();
+    fecharModalEdicao();
+    fecharModalCategoria();
+    fecharNotepad();
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.add("hidden");
     return;
@@ -1106,7 +1162,7 @@ window.addEventListener("keydown", (e) => {
   } else if (keyLower === "m") {
     document.getElementById("btnToggle").click();
   } else if (keyLower === "f") {
-    document.getElementById("btnFullscreen").click();
+    if (btnFullscreen) btnFullscreen.click();
   } else if (keyLower === "j") {
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   } else if (keyLower === "k") {
@@ -1117,36 +1173,70 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-window.onload = () => {
-  carregarDados("json/dados.json", document.querySelector("nav button"));
-  renderizarPillsTags();
-  const noteContent = localStorage.getItem("jjs_notepad_data");
-  if (noteContent) document.getElementById("notepadText").value = noteContent;
-};
-
-let promptDeInstalação;
-const btnInstall = document.getElementById("btnInstall");
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  promptDeInstalação = e;
-  btnInstall.style.display = "block";
-});
-
-btnInstall.addEventListener("click", async () => {
-  if (promptDeInstalação) {
-    promptDeInstalação.prompt();
-    const { outcome } = await promptDeInstalação.userChoice;
-    promptDeInstalação = null;
-    btnInstall.style.display = "none";
-  }
-});
-
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
-  });
+// INICIO: LÓGICA DE NOTEPAD
+function abrirNotepad() {
+  const modal = document.getElementById("notepadModal");
+  const noteContent = localStorage.getItem("jjs_notepad_data") || "";
+  document.getElementById("notepadText").value = noteContent;
+  if (modal) modal.classList.remove("hidden");
 }
+
+function fecharNotepad() {
+  const modal = document.getElementById("notepadModal");
+  if (modal) modal.classList.add("hidden");
+}
+
+function salvarNotepad() {
+  const val = document.getElementById("notepadText").value;
+  localStorage.setItem("jjs_notepad_data", val);
+  fecharNotepad();
+}
+// FIM: LÓGICA DE NOTEPAD
+
+// INICIO: LÓGICA DE CATEGORIA (ADMIN)
+function abrirModalCategoria() {
+  document.getElementById("editCategoryName").value = "";
+  document.getElementById("categoryModal").classList.remove("hidden");
+}
+
+function fecharModalCategoria() {
+  document.getElementById("categoryModal").classList.add("hidden");
+}
+
+function salvarCategoria() {
+  const catName = document.getElementById("editCategoryName").value.trim();
+  if (!catName) return;
+
+  const novaCatId = "C" + String(dadosAtuais.length + 1).padStart(4, "0");
+  dadosAtuais.push({
+    category: catName,
+    catId: novaCatId,
+    items: []
+  });
+
+  fecharModalCategoria();
+  renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
+}
+
+if (btnAddCategory) {
+  btnAddCategory.addEventListener("click", abrirModalCategoria);
+}
+
+// Exportação de JSON no modo Admin
+if (btnExportJSON) {
+  btnExportJSON.addEventListener("click", exportarJSON);
+}
+
+function exportarJSON() {
+  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dadosAtuais, null, 2));
+  const downloadAnchor = document.createElement("a");
+  downloadAnchor.setAttribute("href", dataStr);
+  downloadAnchor.setAttribute("download", "dados_editados.json");
+  document.body.appendChild(downloadAnchor);
+  downloadAnchor.click();
+  downloadAnchor.remove();
+}
+// FIM: LÓGICA DE CATEGORIA (ADMIN)
 
 // INICIO: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 let catEditandoId = null;
@@ -1167,15 +1257,19 @@ function abrirModalEdicao(autoId, catId) {
 
   if (autoId) {
     const cat = dadosAtuais.find((c) => c.catId === catId);
-    const item = cat.items.find((i) => i.autoId === autoId);
-    inpName.value = item.name ? item.name.replace(/:$/, "") : "";
-    inpId.value = item.id || "";
-    inpCode.value = item.code || "";
-    if (inpInf) inpInf.value = item.inf || "";
-    if (inpConf) inpConf.value = item.conf || "";
-    if (inpNamet) inpNamet.value = item.namet ? (Array.isArray(item.namet) ? item.namet.join(", ") : item.namet) : "";
-    if (inpAltt) inpAltt.value = item.altt ? (Array.isArray(item.altt) ? item.altt.join(", ") : item.altt) : "";
-    modalTitle.textContent = "✏️ Edit Item";
+    if (cat) {
+      const item = cat.items.find((i) => i.autoId === autoId);
+      if (item) {
+        inpName.value = item.name ? item.name.replace(/:$/, "") : "";
+        inpId.value = item.id || "";
+        inpCode.value = item.code || "";
+        if (inpInf) inpInf.value = item.inf || "";
+        if (inpConf) inpConf.value = item.conf || "";
+        if (inpNamet) inpNamet.value = item.namet ? (Array.isArray(item.namet) ? item.namet.join(", ") : item.namet) : "";
+        if (inpAltt) inpAltt.value = item.altt ? (Array.isArray(item.altt) ? item.altt.join(", ") : item.altt) : "";
+        modalTitle.textContent = "✏️ Edit Item";
+      }
+    }
   } else {
     inpName.value = "";
     inpId.value = "";
@@ -1190,158 +1284,87 @@ function abrirModalEdicao(autoId, catId) {
 }
 
 function fecharModalEdicao() {
-  document.getElementById("editorModal").classList.add("hidden");
+  const modal = document.getElementById("editorModal");
+  if (modal) modal.classList.add("hidden");
 }
 
 function salvarItemEdicao() {
   const inpName = document.getElementById("editName").value.trim();
   const inpId = document.getElementById("editId").value.trim();
   const inpCode = document.getElementById("editCode").value.trim();
-  const inpInf = document.getElementById("editInf") ? document.getElementById("editInf").value.trim() : "";
-  const inpConf = document.getElementById("editConf") ? document.getElementById("editConf").value.trim() : "";
-  const inpNamet = document.getElementById("editNamet") ? document.getElementById("editNamet").value.trim() : "";
-  const inpAltt = document.getElementById("editAltt") ? document.getElementById("editAltt").value.trim() : "";
-
-  if (!inpName) {
-    alert("Item name is required!");
-    return;
-  }
+  const inpInf = document.getElementById("editInf").value.trim();
+  const inpConf = document.getElementById("editConf").value.trim();
+  const inpNamet = document.getElementById("editNamet").value.trim();
+  const inpAltt = document.getElementById("editAltt").value.trim();
 
   const cat = dadosAtuais.find((c) => c.catId === catEditandoId);
+  if (!cat) return;
 
   if (itemEditandoId) {
     const item = cat.items.find((i) => i.autoId === itemEditandoId);
-    item.name = inpName;
-    if (inpId) item.id = inpId; else delete item.id;
-    if (inpCode) item.code = inpCode; else delete item.code;
-    if (inpInf) item.inf = inpInf; else delete item.inf;
-    if (inpConf) item.conf = inpConf; else delete item.conf;
-    if (inpNamet) item.namet = inpNamet.includes(',') ? inpNamet.split(',').map(s=>s.trim()) : inpNamet; else delete item.namet;
-    if (inpAltt) item.altt = inpAltt.includes(',') ? inpAltt.split(',').map(s=>s.trim()) : inpAltt; else delete item.altt;
+    if (item) {
+      if (inpName) item.name = inpName;
+      if (inpId) item.id = inpId; else delete item.id;
+      if (inpCode) item.code = inpCode; else delete item.code;
+      if (inpInf) item.inf = inpInf; else delete item.inf;
+      if (inpConf) item.conf = inpConf; else delete item.conf;
+      if (inpNamet) item.namet = inpNamet; else delete item.namet;
+      if (inpAltt) item.altt = inpAltt; else delete item.altt;
+    }
   } else {
-    const newItem = { name: inpName, autoId: "NEW-" + Date.now() };
-    if (inpId) newItem.id = inpId;
-    if (inpCode) newItem.code = inpCode;
-    if (inpInf) newItem.inf = inpInf;
-    if (inpConf) newItem.conf = inpConf;
-    if (inpNamet) newItem.namet = inpNamet.includes(',') ? inpNamet.split(',').map(s=>s.trim()) : inpNamet;
-    if (inpAltt) newItem.altt = inpAltt.includes(',') ? inpAltt.split(',').map(s=>s.trim()) : inpAltt;
-    cat.items.push(newItem);
+    let totalItens = 0;
+    dadosAtuais.forEach(c => totalItens += c.items.length);
+
+    const novoItem = {
+      autoId: String(totalItens + 1).padStart(4, "0"),
+      name: inpName
+    };
+    if (inpId) novoItem.id = inpId;
+    if (inpCode) novoItem.code = inpCode;
+    if (inpInf) novoItem.inf = inpInf;
+    if (inpConf) novoItem.conf = inpConf;
+    if (inpNamet) novoItem.namet = inpNamet;
+    if (inpAltt) novoItem.altt = inpAltt;
+
+    cat.items.push(novoItem);
   }
 
   fecharModalEdicao();
   renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Changes saved in memory. Remember to Export!</span>`;
 }
 // FIM: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 
-// INICIO: LÓGICA DE ADIÇÃO DE CATEGORIA
-function abrirModalCategoria() {
-  document.getElementById("editCategoryName").value = "";
-  document.getElementById("categoryModal").classList.remove("hidden");
-}
-
-function fecharModalCategoria() {
-  document.getElementById("categoryModal").classList.add("hidden");
-}
-
-function salvarCategoria() {
-  const catName = document.getElementById("editCategoryName").value.trim();
-  if (!catName) {
-    alert("Category name is required!");
-    return;
+window.onload = () => {
+  carregarDados("json/dados.json", document.querySelector("nav button"));
+  renderizarPillsTags();
+  const noteContent = localStorage.getItem("jjs_notepad_data");
+  if (noteContent && document.getElementById("notepadText")) {
+    document.getElementById("notepadText").value = noteContent;
   }
-  
-  let maxCatNum = 0;
-  dadosAtuais.forEach(c => {
-    if (c.catId && c.catId.startsWith("C")) {
-      const num = parseInt(c.catId.substring(1));
-      if (!isNaN(num) && num > maxCatNum) maxCatNum = num;
+};
+
+let promptDeInstalação;
+const btnInstall = document.getElementById("btnInstall");
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  promptDeInstalação = e;
+  if (btnInstall) btnInstall.style.display = "block";
+});
+
+if (btnInstall) {
+  btnInstall.addEventListener("click", async () => {
+    if (promptDeInstalação) {
+      promptDeInstalação.prompt();
+      await promptDeInstalação.userChoice;
+      promptDeInstalação = null;
+      btnInstall.style.display = "none";
     }
   });
-  const nextCatId = "C" + String(maxCatNum + 1).padStart(4, "0");
-
-  const newCat = {
-    category: catName,
-    catId: nextCatId,
-    items: []
-  };
-
-  dadosAtuais.push(newCat);
-  
-  fecharModalCategoria();
-  renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Category added in memory. Remember to Export!</span>`;
 }
 
-document.getElementById("btnAddCategory").addEventListener("click", abrirModalCategoria);
-// FIM: LÓGICA DE ADIÇÃO DE CATEGORIA
-
-function abrirNotepad() {
-  document.getElementById("notepadModal").classList.remove("hidden");
-  document.getElementById("notepadText").focus();
-}
-
-function fecharNotepad() {
-  salvarNotepadSilencioso();
-  document.getElementById("notepadModal").classList.add("hidden");
-}
-
-function salvarNotepad() {
-  salvarNotepadSilencioso();
-  fecharNotepad();
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] Note saved successfully!</span>`;
-  setTimeout(() => renderizarHistorico(), 2000);
-}
-
-function salvarNotepadSilencioso() {
-  const val = document.getElementById("notepadText").value;
-  localStorage.setItem("jjs_notepad_data", val);
-}
-document.getElementById("notepadText").addEventListener("input", salvarNotepadSilencioso);
-
-document.getElementById("btnExportJSON").addEventListener("click", () => {
-  const exportData = dadosAtuais.map((cat) => {
-    const cleanCat = { ...cat };
-    delete cleanCat.catId;
-    cleanCat.items = cat.items.map((i) => {
-      const cleanItem = { ...i };
-      delete cleanItem.autoId;
-      return cleanItem;
-    });
-    return cleanCat;
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
-
-  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
-  const downloadAnchorNode = document.createElement("a");
-  downloadAnchorNode.setAttribute("href", dataStr);
-  const fileName = linkOriginalAtual.split("/").pop() || "updated_data.json";
-  downloadAnchorNode.setAttribute("download", fileName);
-  document.body.appendChild(downloadAnchorNode);
-  downloadAnchorNode.click();
-  downloadAnchorNode.remove();
-
-  historyBar.innerHTML = `<span style="color: #4caf50; font-weight: bold;">[!] File ${fileName} exported successfully!</span>`;
-});
-
-const btnFullscreen = document.getElementById("btnFullscreen");
-
-btnFullscreen.addEventListener("click", () => {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen().catch((err) => {
-      console.log(`Error attempting to enter full screen: ${err.message}`);
-    });
-  } else {
-    if (document.exitFullscreen) document.exitFullscreen();
-  }
-});
-
-document.addEventListener("fullscreenchange", () => {
-  if (document.fullscreenElement) {
-    btnFullscreen.textContent = "🗗";
-    btnFullscreen.title = "Exit Full Screen";
-  } else {
-    btnFullscreen.textContent = "⛶";
-    btnFullscreen.title = "Full Screen";
-  }
-});
+}

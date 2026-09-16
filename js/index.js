@@ -1,6 +1,6 @@
 let audioCtx = null;
 
-const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals','musics'];
+const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals'];
 
 // INICIO: tocarSomClique
 function tocarSomClique() {
@@ -712,7 +712,7 @@ function renderizarPresets(data, termo) {
             arrayColors.push(extrairNumerosRGB(rawRgb));
           }
 
-          let copyText = arrayColors.join(" ALT ");
+          let copyText = arrayColors.join(" ");
           const card = document.createElement("div");
           card.className = "preset-card";
 

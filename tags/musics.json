@@ -1,7 +1,652 @@
 [
   {
-    "category": "Musics:",
+    "category": "Jujutsu Kaisen:",
     "items": [
+      {
+        "name": "Jsd Gojo awakening theme",
+        "id": "112842942143320",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "EQUAL TO HEAVEN (Gojo awk)",
+        "id": "132827169743082",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "GOJO AWAKENING THEME (Jujutsu Island)",
+        "id": "104389950417824",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Unlimited void -",
+        "id": "131649240815291",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari Awakening Theme",
+        "id": "1841425167",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari",
+        "id": "136208016606825",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji Rage/Lying Rage",
+        "id": "72975253717108",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jujutsu Sorcerer Nobara Kugisaki",
+        "id": "87717761641632",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jujutsu Sorcerer Fushiguro Megumi",
+        "id": "78684437820826",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji Fushiguro",
+        "id": "138174948335297",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji Fushiguro..?-",
+        "id": "81048912497519",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "The Man Aoi Todo",
+        "id": "110319777022724",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Boogie Woogie (Cooking emote)",
+        "id": "93014927239264",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna's Suite (START 1.85)",
+        "id": "94689150691907",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Heian Sukuna",
+        "id": "106884552604357",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "…Divine General…",
+        "id": "108134338254237",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "The Eldest of Ten Younger Siblings",
+        "id": "79817911287935",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Brothers Are Just Like That",
+        "id": "74448785185865",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami's Suite-",
+        "id": "101593085288560",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Self Embodiment Of Perfection",
+        "id": "86272117379537",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Perfected Soul Final Form-",
+        "id": "102381037061740",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Comedy fumihiko -",
+        "id": "86125627968466",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Jujutsu Kaisen — Batalhas, Arcos & Trilhas Sonoras",
+    "items": [
+      {
+        "name": "JUJUTSU KAISEN",
+        "id": "97242468209506",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jujutsu Sorcerer",
+        "id": "93806472702660",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Shinjuku Themed Music",
+        "id": "1843530144",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hidden Inventory (0.2 Domain)",
+        "id": "127012663233191",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "The Culling Games",
+        "id": "87938210865027",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple",
+        "id": "80767112039125",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Limitless Cursed Technique",
+        "id": "79094308247449",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya Vs Maki-",
+        "id": "72627784747020",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Your battle is my battle-",
+        "id": "120888709429691",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Joint Struggle",
+        "id": "76848394549125",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Attack By Storm",
+        "id": "93592932221585",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "With Rage",
+        "id": "134510057337409",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Defeat Here",
+        "id": "122611731399518",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Red Scale",
+        "id": "115455369185748",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Projection (OFFICIAL)",
+        "id": "123462196064122",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Searching for Riko",
+        "id": "129743645401686",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Three Years of Overflowing Youth",
+        "id": "95324138389404",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Working overtime",
+        "id": "129827447835246",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "REMEMBER",
+        "id": "72720212660446",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "REMEMBER SNIPPET",
+        "id": "124612159336785",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "REMEMBER Remix-",
+        "id": "129344450109211",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "If I am with you (full)",
+        "id": "97785209024735",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "This is True Love",
+        "id": "78260108940233",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "The Real You",
+        "id": "100991232396237",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Delirium",
+        "id": "71149066332949",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Delirious-",
+        "id": "107078958049699",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "No Hesitation",
+        "id": "80546329417672",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "RESOLVE",
+        "id": "100342664971650",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Metamorphosis",
+        "id": "102890330623699",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Watch Your Head",
+        "id": "81565701409447",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Paradise",
+        "id": "125515503762033",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "You Better Get Strong",
+        "id": "116962182432565",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Burying",
+        "id": "100404097911493",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Fluctuations",
+        "id": "101960888969083",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Be Prepared",
+        "id": "128832440697894",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Other Animes and Games:",
+    "items": [
+      {
+        "name": "(Non-JJK) DAN DA DAN Season 2 OP",
+        "id": "80573035607413",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Monster",
+        "id": "101630396672327",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) IRIS OUT",
+        "id": "105101200197308",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Iris Out",
+        "id": "103406497050304",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Comedy (Spy x Family ED)",
+        "id": "105221088984417",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Shinzo wo Sasageyo!",
+        "id": "92091515351538",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Diamond Is Unbreakable",
+        "id": "100251297819278",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "All Might",
+        "id": "87487266487463",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Devils Never Cry (DMC 3)",
+        "id": "112210136966411",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Devil Trigger (DMC 5)",
+        "id": "92269961123486",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Bury the Light (Vergil Theme)",
+        "id": "94610815914311",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Unwelcome School (Piano)",
+        "id": "99653587219175",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Undertale",
+        "id": "124438586314654",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Climax Jumping (FULL)",
+        "id": "103838195310017",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) Bad Apple (START 10)",
+        "id": "123572020022002",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Others:",
+    "items": [
+      {
+        "name": "JUDAS (0.75 Speed)  (END 210)",
+        "id": "118314578679702",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "AIZO (START 50)  (END 225)",
+        "id": "128857183932211",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Aizo",
+        "id": "74888858151084",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "ThunderClap",
+        "id": "103590461924679",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Cool boss music",
+        "id": "105914070405455",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) YOASOBI",
+        "id": "90859757345792",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) 獅子志司",
+        "id": "131405671247725",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Konton Boogie",
+        "id": "81367699242492",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Bye Bye Bye",
+        "id": "123794377431460",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Crucified",
+        "id": "107492048363429",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Let the World Burn",
+        "id": "111351357978027",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK) Jane Doe (Piano Ver.)",
+        "id": "139288844480313",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) Death is no More",
+        "id": "16831108393",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) (IDK The name)",
+        "id": "16190782181",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) New Jeans",
+        "id": "93958751571254",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) (IDK The name)",
+        "id": "118507373399694",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) Life Force",
+        "id": "110152577760152",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "(Non-JJK Related) Dive",
+        "id": "96096795516863",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
       {
         "name": "Garota de Ipanema",
         "id": "130595079789554",
@@ -17,13 +662,6 @@
         "altt1": []
       },
       {
-        "name": "Judas (Speed Up)",
-        "id": "118314578679702",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
         "name": "Pretty Boy",
         "id": "79753601458980",
         "texture": "",
@@ -33,13 +671,6 @@
       {
         "name": "Number",
         "id": "82696338249251",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Iris Out",
-        "id": "103406497050304",
         "texture": "",
         "namet1": "",
         "altt1": []
@@ -73,34 +704,6 @@
         "altt1": []
       },
       {
-        "name": "Aizo",
-        "id": "74888858151084",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "All Might",
-        "id": "87487266487463",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Dandadan",
-        "id": "80573035607413",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Devils Never Cry (DMC 3)",
-        "id": "112210136966411",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
         "name": "I Don't Know",
         "id": "943089548868",
         "texture": "",
@@ -115,21 +718,7 @@
         "altt1": []
       },
       {
-        "name": "Devil Trigger (DMC 5)",
-        "id": "92269961123486",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bury the Light (Vergil Theme)",
-        "id": "94610815914311",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Chamber of Reflection (Boombox)",
+        "name": "Chamber of Reflection",
         "id": "134308368273766",
         "texture": "",
         "namet1": "",
@@ -145,20 +734,6 @@
       {
         "name": "Bunny Girl",
         "id": "102449740281117",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Hakari",
-        "id": "136208016606825",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Undertale",
-        "id": "124438586314654",
         "texture": "",
         "namet1": "",
         "altt1": []
@@ -201,6 +776,20 @@
       {
         "name": "Her Boyfriend",
         "id": "107094208500223",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Golden Mood",
+        "id": "109525158970423",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Liminal Space",
+        "id": "134959834418523",
         "texture": "",
         "namet1": "",
         "altt1": []

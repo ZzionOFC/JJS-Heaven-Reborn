@@ -1,6 +1,6 @@
 let audioCtx = null;
 
-const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals'];
+const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals','Voicelines'];
 
 // INICIO: tocarSomClique
 function tocarSomClique() {

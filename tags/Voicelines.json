@@ -1,0 +1,4580 @@
+[
+  {
+    "category": "VOICELINES:",
+    "items": []
+  },
+  {
+    "category": "Sukuna:",
+    "items": [
+      {
+        "name": "Domain Expansion",
+        "id": "6590147536",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Malevolent Shrine",
+        "id": "7817367014",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion ALT",
+        "id": "111592483425666",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion ALT2",
+        "id": "75156521634741",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion (DUB)",
+        "id": "70856028792315",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Flame Arrow",
+        "id": "108386911367253",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Flame Arrow 2",
+        "id": "114048576219376",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Flame Arrow (DUB)",
+        "id": "103262979488091",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Cleave (DUB)",
+        "id": "115369853491058",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Cleave (DUB) 2",
+        "id": "90160747644919",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Cleave",
+        "id": "94023991860242",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "SpiderWeb",
+        "id": "78694066023913",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Dismantle",
+        "id": "112401600931306",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Dismantle ALT",
+        "id": "87909320331735",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Dismantle (DUB)",
+        "id": "81636344309542",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Scale Of the Dragon!",
+        "id": "125013565004025",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Recoil!",
+        "id": "138073415413436",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Twin Meteors World Cutting Slash",
+        "id": "94772051181219",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Scale Of the Dragon! (DUB)",
+        "id": "90485786481215",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Recoil! (DUB)",
+        "id": "99044678317350",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Twin Meteors! (DUB)",
+        "id": "112569237851223",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "WORLD CUTTING SLASH ENG",
+        "id": "109529456386924",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Full Chant (DUB)",
+        "id": "128974104482582",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Theres no Point of Runnng Away",
+        "id": "132201479349930",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Laughing",
+        "id": "139007765143882",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Die",
+        "id": "103898086385000",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Idiot",
+        "id": "91314701968093",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Match it",
+        "id": "93883860842763",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Try your Best/Good Luck",
+        "id": "17801535876",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You Did it",
+        "id": "124723824798365",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Foolish Person",
+        "id": "132332545513142",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Laugh 2",
+        "id": "102150923270506",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Right There",
+        "id": "98076270798343",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Laugh 3",
+        "id": "17757267413",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Laugh 1 ALT",
+        "id": "87442694943332",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Kill",
+        "id": "78658251839338",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-It’s Over you Punk",
+        "id": "105046019506843",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You Die Here",
+        "id": "99464358264783",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Comon Bring it on",
+        "id": "110412824489527",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-MAHORAGA!",
+        "id": "123483800208290",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Don’t Get Sassy",
+        "id": "105321406598450",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Try To Endure",
+        "id": "114318923733138",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Lets have an Test of Firepower",
+        "id": "116910376190764",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-So kill them",
+        "id": "70940281178127",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-I’ll Show you",
+        "id": "95414545177355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-it Seems like you can enjoy it a little",
+        "id": "95561349159305",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Die 2",
+        "id": "79470339782485",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Real Jujutsu",
+        "id": "131597542579839",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Now",
+        "id": "124643228826346",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You Done it Now",
+        "id": "90348497093586",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Deceitful",
+        "id": "97961365512921",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Try Dodging",
+        "id": "99789936722471",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Man You Really Are Boring",
+        "id": "18745916098",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You Wanna Go?",
+        "id": "100733972525413",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Is this All?",
+        "id": "116951231025389",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Is that All you Got?",
+        "id": "102236592984696",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Arm yourself (DUB)",
+        "id": "125272403356745",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Whats Wrong?",
+        "id": "94489748432028",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Heh",
+        "id": "107038089633999",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Stop this if you can (DUB)",
+        "id": "88629603675964",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You Lift your Head too high",
+        "id": "108665717493206",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-No you wont (DUB)",
+        "id": "108863938573629",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-I here by Forbid Every (DUB)",
+        "id": "130475503785809",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Person in a 100 Meter Radius (DUB)",
+        "id": "89106871163578",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-From moving until i say...(DUB)",
+        "id": "121718803146928",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Not Yet (DUB)",
+        "id": "114469606598954",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Now (DUB)",
+        "id": "117934497670393",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-What an Disappointment (DUB)",
+        "id": "140019416986714",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Your not",
+        "id": "107065338033023",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-You may start to panic",
+        "id": "97746200677093",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Laugh 6 (why does he laugh and Smile so much)",
+        "id": "122947024008097",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Don’t try to show off (DUB)",
+        "id": "96736919590274",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Disgusting",
+        "id": "70726327722777",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-YOU CAN SEE IT MAHORAGA!",
+        "id": "130389782283081",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Out of the Way (DUB)",
+        "id": "110155050903690",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Lets Have an Contest of Fire Power (DUB)",
+        "id": "109941122671754",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Surprise i Read your move?",
+        "id": "136722209598707",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-The Moonlight Shining",
+        "id": "113504170111600",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Arm Yourself",
+        "id": "129132965459068",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-What Are you Looking At? (DUB)",
+        "id": "139013938442822",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-I’ll Give you one Second Move.",
+        "id": "73521048955599",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-I’ll Give you one Second…Move. (DUB)",
+        "id": "105755139250333",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Grunt 1",
+        "id": "75505698144837",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sukuna-Grunt 2",
+        "id": "79147498119542",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Go/jo:",
+    "items": [
+      {
+        "name": "Domain Expansion Full",
+        "id": "136494030417281",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion 2",
+        "id": "92222782898725",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion 3",
+        "id": "91452701983451",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion (DUB)",
+        "id": "132499326612355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion ALT",
+        "id": "127359226046130",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow JP",
+        "id": "87270785806248",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Purple JP",
+        "id": "124592014179933",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple",
+        "id": "101193645294867",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple 2",
+        "id": "111729485396365",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple 3",
+        "id": "130193350003956",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple 200%/Limitless Purple Merging Voiceline",
+        "id": "123198439593386",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple Blue/Ao",
+        "id": "139467226875451",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple Red/Aka",
+        "id": "137975701115668",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple (DUB)",
+        "id": "126308653163026",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple (DUB) 2",
+        "id": "86235257134419",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple 4",
+        "id": "85853411352911",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Purple Teen Gojo Speech",
+        "id": "73511415385065",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Phase (DUB)",
+        "id": "101599878810980",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Twilight (DUB)",
+        "id": "138047147925561",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Eyes of wisdom (DUB)",
+        "id": "104308016456541",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Polarized Light (DUB)",
+        "id": "132714605140023",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Crow and Declaration (DUB)",
+        "id": "74397949452944",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Between Front and Back (DUB)",
+        "id": "138690208765159",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Chants (DUB)",
+        "id": "101847887562680",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Reversal Red",
+        "id": "119570806852578",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reversal Red",
+        "id": "79055523886516",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reversal Red 2",
+        "id": "81598170780818",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reversal Red 3",
+        "id": "136240782932429",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reversal Red 4",
+        "id": "138506669426699",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Reversal Red (Noise in the background)",
+        "id": "114219438298857",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reversal Red (DUB)",
+        "id": "97353870844493",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Red ALT",
+        "id": "109109367098255",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Red ALT 2",
+        "id": "127619086764079",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Lapse Blue",
+        "id": "81047671528594",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Lapse Blue ALT",
+        "id": "75091144779701",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Blue",
+        "id": "100423616391687",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Max Lapse Blue (DUB)",
+        "id": "100293942244325",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Blue",
+        "id": "84296024334596",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Blue ALT",
+        "id": "139300165846293",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Yowai mo/Your Weak",
+        "id": "7147847068",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Thats Right",
+        "id": "17801287827",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Final Blow",
+        "id": "76709236886220",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-It’s in the way",
+        "id": "126469507532612",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-My students are Watching",
+        "id": "115438685697124",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Yo it’s been an while",
+        "id": "134720365521601",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "One of the gojo honored one Speech",
+        "id": "117141478660865",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Next",
+        "id": "18956314488",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Chuckling (Rct Sound in background)",
+        "id": "121491163728346",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Useless",
+        "id": "77594900737652",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-You’re Finished",
+        "id": "103282453759756",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-There",
+        "id": "96827608200349",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-I’ll Set something up",
+        "id": "80715727419438",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Gojo Speech",
+        "id": "130303224686750",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Looks like it had an effect  (what did gojo say/joke-)",
+        "id": "107690136191332",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Give it an try",
+        "id": "116950156890684",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Theres No point of doing Anything",
+        "id": "137505477292308",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Take the Amplified and the Reversal",
+        "id": "81625640486470",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Gojo Voiceline",
+        "id": "126170339002311",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Another Random Gojo Voiceline",
+        "id": "87937307508355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-I’m Sorry Amanai  (I LUV RIKO AMANAI) «HaR that’s a middle schooler…",
+        "id": "122607463542880",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-I’m Sorry Amanai ALT",
+        "id": "103161480241519",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Gojo Grab",
+        "id": "104192245351277",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Perpection Communication",
+        "id": "80217868080403",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Where you running off too?",
+        "id": "105851096175037",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Voiceline",
+        "id": "114059181933684",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Voiceline Again",
+        "id": "88314701154591",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Once Another",
+        "id": "72472356776293",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-You",
+        "id": "126856319949339",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Teen Gojo line (but does it matter?)",
+        "id": "18441105964",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Another Random",
+        "id": "105704440947095",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Yaaaay!",
+        "id": "99502703549628",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-You Crying? (DUB)",
+        "id": "17589291650",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo- Just Die Already",
+        "id": "117873853306521",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-My Soul Denies it",
+        "id": "74709407719329",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-SO TELL ME ALREADY WHO THE HELL ARE YOU",
+        "id": "94161731798272",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Your the Challenger Here!",
+        "id": "111740674551873",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-I Failed!/Failed",
+        "id": "94803359636186",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Now",
+        "id": "122348035599927",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Your Right You may be Right….YOUR SO RIGHT!",
+        "id": "92443050834728",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-What",
+        "id": "108788778137993",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-He’s Pouting Cause he Didn’t Get to Fight ((DUB) And also Lil Loud)",
+        "id": "120771426736406",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Read a book your stupid is showing (DUB)",
+        "id": "76386513029297",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Cursed Technique Reversal",
+        "id": "104598754516247",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-This Whole Time YOU HAVEN’T BEEN ABLE TO KEEP UP LIKE THE OTHERS (DUB)",
+        "id": "137479005347294",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Your Kinda weak (DUB)",
+        "id": "98945168188377",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-I’m Saying im actually Shocked you can actually beat me with this Loser Shit",
+        "id": "137881635410655",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Is that right you could be right….YOUR SO RIGHT! (DUB)",
+        "id": "76540772402446",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Now Red!",
+        "id": "85083838786740",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Maximum Output",
+        "id": "101435955631389",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Random Ahh Speech",
+        "id": "75622501111023",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Say Cheese (DUB)",
+        "id": "140454236127295",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Your probably ain’t popular with That Attitude",
+        "id": "133177550112394",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Infinity (DUB)",
+        "id": "133809394319696",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Through out heaven and earth i alone am the honored one (DUB)",
+        "id": "130928835702874",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-If you wanna Win Try Harder (DUB)",
+        "id": "119962612382714",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Bi Bi",
+        "id": "90745257609472",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Ironic Isn’t it",
+        "id": "136469047043803",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Nothing Getting Through! (DUB)",
+        "id": "118635698285194",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Random Ahhh",
+        "id": "76115740668944",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Laugh",
+        "id": "124042248079061",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Random Speech",
+        "id": "138787816667001",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Can you keep up with me (DUB)",
+        "id": "120040504445320",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Time to GO all out (DUB)",
+        "id": "87072146571206",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Maximum Output (DUB)",
+        "id": "132457671197004",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Suit yourself (DUB)",
+        "id": "81202641555052",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Get Ready to Fly (DUB)",
+        "id": "132870709863578",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Laugh 2",
+        "id": "126609052859345",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-This is where your weak Right? (DUB)",
+        "id": "131603789840912",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Yay we’re all Settled",
+        "id": "140347243632976",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Simple Domain (DUB)",
+        "id": "91786503872089",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-In the Gojo clan Only an Scent know about this (DUB)",
+        "id": "79930928302386",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Here we go (DUB)",
+        "id": "90241374214744",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Don’t Worry im the Strongest!",
+        "id": "95478115133582",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Comon Comon",
+        "id": "124297567960185",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Amplification and Reversal (DUB)",
+        "id": "102710391115625",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-How’d You like THAT!",
+        "id": "82067535981209",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Im Still ALIVE AND KICKING! (DUB)",
+        "id": "95890764963406",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-When you stabbed me through the throat… (DUB)",
+        "id": "103060822458192",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-But i finally grasped it on the verge of Death! (DUB)",
+        "id": "127886391933942",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Cursed Energy is Negative Energy (DUB)",
+        "id": "130350334878011",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-So If you multiply that energy against itself (DUB)",
+        "id": "124115072203176",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Thats The Reverse Cursed Technique! (DUB)",
+        "id": "96751877381733",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Easier Said than DONE! (DUB)",
+        "id": "103991626298887",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-And Smash those two infinites together to create an imaginary",
+        "id": "74045225310057",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Full Imaginary Speech",
+        "id": "126890860606305",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 1",
+        "id": "1046662619071372",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 2",
+        "id": "111529004553736",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 3",
+        "id": "134970660527106",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 4",
+        "id": "123522380569941",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 5",
+        "id": "111940263569133",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 6",
+        "id": "130920004165916",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 7",
+        "id": "126148787727694",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 8",
+        "id": "134686015255841",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt 9",
+        "id": "123726268855438",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-Grunt Take THAT!",
+        "id": "73808073236331",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gojo-HA!",
+        "id": "100443100174990",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Yuji:",
+    "items": [
+      {
+        "name": "Yuji-Black Flash ALT",
+        "id": "106715878485112",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash ALT2",
+        "id": "116435798578500",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash",
+        "id": "80789966292797",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash 2",
+        "id": "125937498873331",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash 3",
+        "id": "103380495768864",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash 4",
+        "id": "140702556798017",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Black Flash (DUB)",
+        "id": "73714209238311",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuj-Domain Expansion",
+        "id": "123007939973371",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Take That",
+        "id": "86971731544896",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Divergent Fist",
+        "id": "124467150710718",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-I am you…",
+        "id": "104417728494860",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-it’s Over!",
+        "id": "132233323846626",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-i’ll kill you",
+        "id": "128202152846484",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Too slow",
+        "id": "137543376294410",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Dismantle",
+        "id": "132762694300974",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Cleave",
+        "id": "105873046732884",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-I’ll Never Forgive you",
+        "id": "128147895378783",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Final Blow",
+        "id": "86492294479705",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Thats it",
+        "id": "91183417814574",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Sorry nanami",
+        "id": "138026504146186",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Let’s Go",
+        "id": "135419998543765",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-i won’t hold back",
+        "id": "92223585301586",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-I am You (DUB)",
+        "id": "89809910567515",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Go Away",
+        "id": "126923809826857",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Simple Domain",
+        "id": "103945211889824",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Scatter",
+        "id": "80999890195978",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-That Works",
+        "id": "79273852602408",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-I’ll send you by air",
+        "id": "109614966470076",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Right there",
+        "id": "96148531798725",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-i Am you (Shorter)",
+        "id": "89428643983910",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-War Cry",
+        "id": "100960026347013",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-War Cry 2",
+        "id": "72633258617161",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-War Cry 3",
+        "id": "128931027876873",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-War Cry 4",
+        "id": "120714911514889",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt",
+        "id": "79126734376192",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 2",
+        "id": "80915397766181",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 3",
+        "id": "91938870480466",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 4",
+        "id": "125766374407021",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 5",
+        "id": "128995162231638",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 6",
+        "id": "109675522084504",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuji-Grunt 7",
+        "id": "114602451477321",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Yuta:",
+    "items": [
+      {
+        "name": "Yuta-Domain Expansion",
+        "id": "76941832228083",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Rika",
+        "id": "126477582779647",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Sorry",
+        "id": "76634863512677",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-It’s Over",
+        "id": "96929923653703",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Right There",
+        "id": "107596403137736",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-it’s in the way",
+        "id": "71182257066697",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Cursed Speech",
+        "id": "18625416349",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Rika! It’s in the shortest distance!",
+        "id": "114747156655867",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Love Beam",
+        "id": "114792685602342",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Love Beam 2",
+        "id": "128784153872064",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Here it is",
+        "id": "139179129467634",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Grunt",
+        "id": "115192105733284",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Grunt 2",
+        "id": "71726759468284",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Yuta-Grunt 3",
+        "id": "116368884152381",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Megumi Fushiguro:",
+    "items": [
+      {
+        "name": "With This Treasure I summon (DUB)",
+        "id": "74841585220876",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "With This Treasure I summon (DUB) ALT",
+        "id": "139082786435602",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "With This Treasure I summon",
+        "id": "127626892125080",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion",
+        "id": "116957638660975",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Domain Expansion (DUB)",
+        "id": "100409524148210",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Nue",
+        "id": "115968897332074",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Toad",
+        "id": "114339111288879",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Rabbit Escape",
+        "id": "84460145928149",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Divine Dogs",
+        "id": "134427543801522",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Max Elephant",
+        "id": "105375061605340",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Serpent",
+        "id": "85338440788078",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-I’ll Do it",
+        "id": "136549505109793",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Go",
+        "id": "102417977940576",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Match it",
+        "id": "126604422133191",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Come",
+        "id": "130135447083293",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Do it",
+        "id": "124198428931482",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-This Will Decide it",
+        "id": "111093491075603",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-I’ll Be dying first give it your Best!",
+        "id": "83613745202992",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Final Blow",
+        "id": "120429864780967",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Oh What the Hell! (DUB)",
+        "id": "73339412382848",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Now",
+        "id": "76831391027166",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Right There",
+        "id": "99720280793444",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-With a Strong Foundation",
+        "id": "110352270001118",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-To Change a Person",
+        "id": "97386284681114",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Well Thats Too Damn Bad!",
+        "id": "137498555783148",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Megumi-Grunt",
+        "id": "80212747482630",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "NOBARA:",
+    "items": [
+      {
+        "name": "Nobara-Finish Him!",
+        "id": "128654138851326",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Die!",
+        "id": "116346205208465",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Theres No Point of Running Away",
+        "id": "96671145173470",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Laughing",
+        "id": "93408102129236",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-This Is the Last one",
+        "id": "103741327999151",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Right There",
+        "id": "125058057054486",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Random Line",
+        "id": "88256652899616",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Random Line 2",
+        "id": "72784999172006",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Random Line 3",
+        "id": "130896764193508",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Life Wasn’t So Bad  (NOBARA NOOOO)",
+        "id": "84403192598213",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Life Wasn’t So Bad",
+        "id": "18750999930",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-You Can’t Escape! (DUB)",
+        "id": "91738171294193",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Back Off! (DUB)",
+        "id": "86131908135690",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Shake Em OFF! (DUB)",
+        "id": "76108338408871",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-There (DUB)",
+        "id": "88916713378754",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Move",
+        "id": "116768953520085",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Try and Evade This! (DUB)",
+        "id": "118019412913091",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-I’ll Send You Flying (DUB)",
+        "id": "87171962977229",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-No Dodging this (DUB)",
+        "id": "122056065795168",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Here It is",
+        "id": "124868876337918",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Here i Come (DUB)",
+        "id": "127622605532605",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Grunt",
+        "id": "91941977914973",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nobara-Grunt 2",
+        "id": "93781752862566",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "KENTO NANAMI:",
+    "items": [
+      {
+        "name": "Nanami-Not Yet!",
+        "id": "116731922233626",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-There!",
+        "id": "92575525213927",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-Are you looking away?",
+        "id": "73327938470063",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-Overtime Vow",
+        "id": "95622240952136",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-How about this?",
+        "id": "134674894607727",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-This is it!",
+        "id": "127996114427041",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-Wasting my time",
+        "id": "138256323347291",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-It is over!",
+        "id": "129646502099179",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Namami-Grunt 1",
+        "id": "85736039355295",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-Grunt 2",
+        "id": "7865368558009678653685580096",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-hoh(grunt/sigh)",
+        "id": "138520379588161",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Nanami-Sigh",
+        "id": "83040544565202",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "CHOSO:",
+    "items": [
+      {
+        "name": "Choso-Blood Manipulation Blood Meteorite",
+        "id": "117566423456918",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Convergence",
+        "id": "130066562156553",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Don’t give up",
+        "id": "88313622954243",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Supernova",
+        "id": "90987430781974",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-That’s why I’m strong",
+        "id": "125177505143380",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Control Yourself",
+        "id": "71964937464995",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Piercing Blood",
+        "id": "77483637639532",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-What a shame",
+        "id": "118396854503736",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Too Bad",
+        "id": "73860315625102",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Purifying Cut",
+        "id": "113574591443175",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-I sensed resistance",
+        "id": "92456507766890",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-I have become stronger",
+        "id": "134839082816879",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Act Immediately",
+        "id": "78675197922042",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso- Alright",
+        "id": "129565048204632",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Red Scale",
+        "id": "75973129252993",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso- I’m Ready",
+        "id": "118364699507436",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso- I’ll kill you!",
+        "id": "127446264678332",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Red Scale Double",
+        "id": "137608948354157",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Random Line1",
+        "id": "111146642384121",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Grunt1",
+        "id": "91631284225803",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Grunt2",
+        "id": "94909753521954",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Grunt3",
+        "id": "113974863294932",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Choso-Grunt4",
+        "id": "90559700556519",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "TOGE INUMAKI:",
+    "items": [
+      {
+        "name": "Inumaki-Run",
+        "id": "136356541767167",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Explode",
+        "id": "130485333905026",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Twist",
+        "id": "110260221787174",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Stop",
+        "id": "124528224024803",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Return",
+        "id": "106370614948518",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-BLAST AWAY!",
+        "id": "114726106743901",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Stop/Dont Move2",
+        "id": "81585240045994",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Get Crushed (DUB)",
+        "id": "110203908584619",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Don’t Move (DUB)",
+        "id": "131655524649244",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-BLAST AWAY! (DUB)",
+        "id": "78590017867009",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-PLUMMET! (DUB)",
+        "id": "87201916375502",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumkai-Tunamayo (DUB)",
+        "id": "72369130868796",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Sleep (DUB)",
+        "id": "94238831343799",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Sleep",
+        "id": "84744420318834",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Make it Clap (It’s canon) (DUB)",
+        "id": "126834084942608",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Okaka",
+        "id": "87665819116128",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Konbu",
+        "id": "77098727424893",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Die (Cut the first 1-2 seconds) (DUB)",
+        "id": "114941992821359",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Inumaki-Same as above but ^ JP",
+        "id": "110701067711355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "KINJI HAKARI:",
+    "items": [
+      {
+        "name": "Hakari-Domain Expansion",
+        "id": "18926606023",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Interesting I’ll listen to you…",
+        "id": "132371247415873",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-As long as you’re still standing…",
+        "id": "88678521309951",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Luck is meant to be tested",
+        "id": "121164454062484",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-My passion’s gone cold now!",
+        "id": "105147165057955",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Did you lose some weight panda? (You can cut the panda part out if needed in sb) (DUB)",
+        "id": "108494764058116",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Save it kid… my passion’s… !(DUB)",
+        "id": "100842452666373",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-It’s here…",
+        "id": "113533055722008",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Grunt1",
+        "id": "131113285009760",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Grunt2",
+        "id": "71569611794165",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Grunt3",
+        "id": "85957465990020",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Grunt4",
+        "id": "135492598849710",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Grunt5",
+        "id": "80405859690124",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Random Line1",
+        "id": "112688123037441",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hakari-Laugh1",
+        "id": "108493655568442",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "AOI TODO:",
+    "items": [
+      {
+        "name": "Todo-Die!",
+        "id": "105581863680107",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Slow",
+        "id": "78484337295607",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Right there!",
+        "id": "125880847679101",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Brother",
+        "id": "136128403437499",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Victory!",
+        "id": "118426096040086",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Black Flash",
+        "id": "106990766644455",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-My besto friendo",
+        "id": "116450545244027",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Boogie Woogie1",
+        "id": "73786980795155",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Boogie Woogie2",
+        "id": "104864596678069",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Boogie Woogie3",
+        "id": "120094114578587",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Grunt1",
+        "id": "128102224071757",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Grunt2",
+        "id": "84715387055738",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Grunt3",
+        "id": "78421518304576",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line1",
+        "id": "129196124613825",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line2",
+        "id": "127027823817135",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line3",
+        "id": "119112064643128",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line4",
+        "id": "96933360116149",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line5",
+        "id": "90617789288942",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line6",
+        "id": "123567944202900",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line7",
+        "id": "77799367530995",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Todo-Random Line8",
+        "id": "73991456862843",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "MAKI ZENIN:",
+    "items": [
+      {
+        "name": "Maki Zenin-Now!",
+        "id": "136580914485839",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Scatter!",
+        "id": "81174061513659",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Match It!",
+        "id": "109605141416539",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-That’s It!",
+        "id": "83927474197287",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Right There!",
+        "id": "82836129991131",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Try to get out of the way",
+        "id": "108378725588342",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Let’s go!",
+        "id": "115601509066760",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Come!",
+        "id": "128982577666439",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-I won’t let you!",
+        "id": "96738341273532",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-What?",
+        "id": "108431444170847",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Im at my best",
+        "id": "81134420095803",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-I won’t hold back you know?",
+        "id": "135849542225887",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-You think I’ll let that hit? (DUB)",
+        "id": "80623653828725",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Three four five nine ten eleven",
+        "id": "126904990164847",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-24 frames",
+        "id": "84344530112746",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-You thought that would land?…",
+        "id": "116554375001581",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-War Cry",
+        "id": "102259281663127",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Grunt1",
+        "id": "97022268148377",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Grunt2",
+        "id": "78657959515917",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Grunt3",
+        "id": "129412879327737",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maki Zenin-Beatdown Finisher",
+        "id": "104079413212489",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "NAOYA ZENIN:",
+    "items": [
+      {
+        "name": "Naoya-Have you no heart?",
+        "id": "137207936287355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-You Fake…",
+        "id": "99477821929676",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-The one who stands besides them…",
+        "id": "103839111578592",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Power is weight and speed",
+        "id": "110490555299568",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-You",
+        "id": "122524731682919",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Aren’t Toji",
+        "id": "97228334317955",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-YOU IMPOSTER!",
+        "id": "108022258167270",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Are you serious?!?! you gutter trash",
+        "id": "93720495465590",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Top Speed!",
+        "id": "75138797742324",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-You planned to take my hit head on…",
+        "id": "126180983374284",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Eh?",
+        "id": "107052365916830",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Random Line1",
+        "id": "138100116846729",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Random Line2",
+        "id": "134445847554517",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Random Line3",
+        "id": "76039253466707",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Random Line4",
+        "id": "127742703543170",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-Grunt",
+        "id": "134228133010955",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Naoya-PO-(Getting Punched)",
+        "id": "127130418218342",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "TOJI FUSHIGURO:",
+    "items": [
+      {
+        "name": "Toji-The fun is over",
+        "id": "111037148824963",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Even if you regret it press on",
+        "id": "77328989396592",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-It’s over",
+        "id": "133973649448589",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Free to go now (DUB)",
+        "id": "123075812128777",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Our fights just begun",
+        "id": "132717395953805",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Fool",
+        "id": "114782208926711",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Something off no perfect (DUB)",
+        "id": "110486887598639",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Beaten by a monkey like me",
+        "id": "115101234182387",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Goodbye",
+        "id": "73222654485569",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Die!",
+        "id": "132276123826094",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Toji Fushiguro",
+        "id": "111849162524778",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Kill Sorcerers?",
+        "id": "121620809189973",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Blessing of Heritage (DUB)",
+        "id": "84324584722478",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Lost my edge (DUB)",
+        "id": "90215079150858",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Getting my edge back now (DUB)",
+        "id": "76627189723526",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-See what happens? (DUB)",
+        "id": "123720824015515",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Worthless (DUB)",
+        "id": "70478052478090",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Break it up",
+        "id": "99204690422745",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Random Line1",
+        "id": "125990042708182",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Random Line2",
+        "id": "126688057209233",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Random Line3",
+        "id": "100350988369933",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Random Line4",
+        "id": "137276876735072",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Grunt1",
+        "id": "126740695429691",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Grunt2",
+        "id": "119266962146629",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Toji-Beatdown Finisher",
+        "id": "90600484236149",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "MAHITO:",
+    "items": [
+      {
+        "name": "Mahito-Domain Expansion",
+        "id": "18269037904",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Self Embodiment of Perfection",
+        "id": "102867572691447",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Domain Expansion Full1",
+        "id": "88562341351758",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Domain Expansion Full2",
+        "id": "87148152162273",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Black Flash",
+        "id": "136369054999917",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Scream-ish",
+        "id": "133773671993385",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-What’s wrong?",
+        "id": "94524831969616",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Finish",
+        "id": "91850428535895",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Go Crazy",
+        "id": "86942179513157",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Push through!",
+        "id": "76310968829598",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-How about a little transfiguration?",
+        "id": "108084366937891",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-This hurts!",
+        "id": "75756720447339",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Hey what’s up?",
+        "id": "121237667968448",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I truly am… I truly am…… (DUB)",
+        "id": "115951281328694",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I CAN HEAR YOU FINE",
+        "id": "102786823407386",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-This isn’t all you’ve got right? (DUB)",
+        "id": "139764862986677",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-What fun! (DUB)",
+        "id": "112765928115091",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-This inspiration… (DUB)",
+        "id": "105165671011204",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I can still go (DUB)",
+        "id": "75486095478662",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I can take it (DUB)",
+        "id": "120416400943523",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Right now… (DUB)",
+        "id": "119636021579812",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Black Flash (DUB)",
+        "id": "93197461671860",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Carnage",
+        "id": "133159669078038",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Nice Shot",
+        "id": "99430043205386",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I truly am… A CURSE",
+        "id": "17774330356",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I’m starting on the…",
+        "id": "94323091615881",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Body Repel",
+        "id": "86893371815516",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Just have some fun",
+        "id": "95989977998148",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Idle Transfiguration",
+        "id": "127207130132104",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Let’s kick it up a notch",
+        "id": "133684855255987",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-This is the last curse",
+        "id": "96648441808465",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-I bet I could do it now",
+        "id": "76736165313350",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Ah Ha!",
+        "id": "113970745436621",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Laugh1",
+        "id": "102321896514205",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Hey whats wrong?",
+        "id": "76931256128641",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Direct Hit!",
+        "id": "74862073546301",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Laugh2",
+        "id": "103306200768779",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Mahito Cackling3 (DUB VOICE)",
+        "id": "131787608732863",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Mahito Laugh4 (DUB VOICE)",
+        "id": "100260760028170",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Grunt1",
+        "id": "99078479690143",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Battle Cry",
+        "id": "105642109239621",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Random Line1",
+        "id": "130432458315011",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Random Line2",
+        "id": "130129598898573",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Random Line3",
+        "id": "80680222077502",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mahito-Random Line4",
+        "id": "102078420851074",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "SUGURU GETO:",
+    "items": [
+      {
+        "name": "Geto-Domain Expansion Full",
+        "id": "98170491424747",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto Domain Expansion Full2",
+        "id": "92437640796232",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Hit it further!",
+        "id": "104740771923651",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Got it!",
+        "id": "134689032488545",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Rainbow Dragon! (3 seconds of music)",
+        "id": "132127993459227",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-I fight for justice! (loud)",
+        "id": "97858781570708",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Uzumaki (weird scream after)",
+        "id": "128770009926180",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-FILTHY MONKEY WHO CANT EVEN USE JUJUTSU (DUB)",
+        "id": "126563964124399",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-You’re going to die",
+        "id": "136863392910890",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-The world I long for…",
+        "id": "107934619282203",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-I don’t need monkeys… (DUB)",
+        "id": "17574633871",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Mini Uzumkai",
+        "id": "72696200547226",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Focus (DUB)",
+        "id": "98681482393157",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Geto being bored",
+        "id": "86808478452572",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Laugh",
+        "id": "106856484033945",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Grunt",
+        "id": "77343546714218",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line1",
+        "id": "138545593534232",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line2",
+        "id": "137596206428505",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line3",
+        "id": "126997245495724",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line4",
+        "id": "138440793223033",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line5",
+        "id": "137687404425280",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line6",
+        "id": "117276230909972",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line7",
+        "id": "136401599571420",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line8",
+        "id": "82302789711848",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line9",
+        "id": "128229053569173",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line10",
+        "id": "95837344589785",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Geto-Random Line 11",
+        "id": "133508500746041",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "HIROMI HIGURUMA:",
+    "items": [
+      {
+        "name": "Higuruma-Domain Expansion",
+        "id": "78901952320498",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Higuruma-Everyone come back… (DUB)",
+        "id": "124871927819305",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Higuruma-Why are you looking at me like…",
+        "id": "85741622330321",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Higuruma-Random Line1",
+        "id": "114071895748444",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Higuruma-Random Line2",
+        "id": "85144427102310",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Higuruma Retrial Hammer",
+        "id": "126520484151314",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Confiscation+Death Penalty",
+        "id": "92815202683304",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "JOGO:",
+    "items": [
+      {
+        "name": "Domain Expansion",
+        "id": "79947103979339",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Coffin of the Iron Mountain (DUB)",
+        "id": "72747720172118",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Maximum METEOR",
+        "id": "138012383510485",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line",
+        "id": "80916867059834",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 2",
+        "id": "127180933159682",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 3",
+        "id": "129679971747847",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 4",
+        "id": "128611023019603",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 5",
+        "id": "90780533167112",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 6",
+        "id": "133946283615462",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Jogo-Random Line 7",
+        "id": "137491450668850",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "HAJIME KASHIMO:",
+    "items": [
+      {
+        "name": "Kashimo-Laugh",
+        "id": "82149097940682",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Cause This Is An Funeral For An LIFE TIME (DUB)",
+        "id": "116627511792131",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Turn Up The Volume (DUB)",
+        "id": "82453043418646",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Thats What Losers Think! (DUB)",
+        "id": "124167476940000",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-What’s going on…?… (DUB)",
+        "id": "90312958655086",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Damn right I killed him… (DUB)",
+        "id": "114170850815052",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Grunt",
+        "id": "83253261479036",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Grunt 2",
+        "id": "99442877308228",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Grunt 3",
+        "id": "90086411940906",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kashimo-Grunt 4",
+        "id": "105945600274656",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "RYU ISHIGORI:",
+    "items": [
+      {
+        "name": "Ryu-Domain Expansion",
+        "id": "124611373375338",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Granite Blast",
+        "id": "127939351777412",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Granite Blast ALT",
+        "id": "117550548315770",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Are You My Desert?",
+        "id": "133496109986108",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Thanks I’m Full",
+        "id": "86231296594541",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Sweet!",
+        "id": "96435018807239",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-You’re Not Invited…",
+        "id": "97491199423522",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Want A Go?",
+        "id": "75675840314450",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-LET US KEEP CHOWING DOWN!",
+        "id": "130927783112917",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-I’ll Just Smash Em",
+        "id": "72166398252378",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Desert",
+        "id": "101551668625098",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Overheat",
+        "id": "105527390639720",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Soyenara(aka bye)",
+        "id": "72192186679013",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Unsatisfied",
+        "id": "108782872873805",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Unsatisfied ALT",
+        "id": "82334032059022",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Best",
+        "id": "115694849453462",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Super Sweet!",
+        "id": "125976352048009",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Here’s Your Reward",
+        "id": "95928599816639",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Appetite",
+        "id": "130396253878230",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Have a Seat  (END 2)",
+        "id": "116539246771207",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-You’re Sweet!",
+        "id": "109331222171391",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Hey Hey",
+        "id": "113149706956318",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-KEEP GOING",
+        "id": "137412287464769",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Random Line1",
+        "id": "111003958121806",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ryu-Scream",
+        "id": "103567319773985",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "TAKAKA URO:",
+    "items": [
+      {
+        "name": "Uro-Thin Ice Breaker",
+        "id": "132695666283950",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Thin Ice Breaker ALT",
+        "id": "100406839351881",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Like This?",
+        "id": "136293876961878",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Reverse Curse Technique",
+        "id": "112523508698863",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Why Would Anyone From Your…",
+        "id": "139196584756857",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Don’t Get Ahead of Yourself!",
+        "id": "106559554103270",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Uro venting",
+        "id": "126023727970847",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Hurry Up and Attack Me",
+        "id": "121902821359584",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Don’t Underestimate Me!",
+        "id": "115375852509853",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Just Like That",
+        "id": "81703650235953",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Chuckle",
+        "id": "127747973908713",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Grunt1",
+        "id": "88019929705849",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Grunt2",
+        "id": "121570571518842",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Randon Line1",
+        "id": "108189873056335",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Uro-Random Line2",
+        "id": "123944101999777",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "BLUE LOCK:",
+    "items": []
+  },
+  {
+    "category": "Kaiser:",
+    "items": [
+      {
+        "name": "beinchuss",
+        "id": "135806341129336",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Kaiser Drible",
+        "id": "108089623238423",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "On your knees",
+        "id": "91309580955139",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ich haisse kaiser",
+        "id": "136210529718183",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Superstar",
+        "id": "133843333331796",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Bachira:",
+    "items": [
+      {
+        "name": "Super Special",
+        "id": "77583463994380",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Bam",
+        "id": "91703880053372",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "AWK",
+        "id": "86934186064046",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Smash Lift",
+        "id": "73538826030942",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "We Must Be Super Special Too",
+        "id": "81317149432163",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "RIN:",
+    "items": [
+      {
+        "name": "Bleh",
+        "id": "78799439798103",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Mangle",
+        "id": "70628994919304",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Korosu",
+        "id": "132269224818658",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Center Of Gravity",
+        "id": "136350442436418",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Im Gonna Crush U",
+        "id": "138225455443008",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Egoista",
+        "id": "130741999230391",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Nagi:",
+    "items": [
+      {
+        "name": "Im gonna give it a try",
+        "id": "71398457295540",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Bring It",
+        "id": "109284856567788",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "I want to chalenge myself",
+        "id": "121690429761012",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  }
+]

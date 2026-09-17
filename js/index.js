@@ -1,4 +1,5 @@
 let audioCtx = null;
+let pasteListenerColorPicker = null;
 
 const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals','Voicelines'];
 
@@ -31,7 +32,6 @@ function tocarSomClique() {
 }
 // FIM: tocarSomClique
 
-// Função auxiliar segura para cópia de texto com suporte total
 async function copiarTexto(texto) {
   if (!texto) return false;
   try {
@@ -102,7 +102,6 @@ if (btnFullscreen) {
   });
 }
 
-// Otimização e correção do Scroll (O botão fica exatamente no mesmo lugar)
 let scrollTicking = false;
 function atualizarBotoesScroll() {
   if (document.body.classList.contains("focus-mode-active")) return;
@@ -121,8 +120,6 @@ function atualizarBotoesScroll() {
   const corFundoBarra = isLightMode ? "rgba(204,204,204,0.9)" : "rgba(51,51,51,0.85)";
   const progressoConic = `conic-gradient(#4caf50 ${scrollPercent}%, ${corFundoBarra} ${scrollPercent}%)`;
 
-  // Se estiver da metade pra baixo (>= 50%), mostra botão de ir PRA CIMA
-  // Se estiver da metade pra cima (< 50%), mostra botão de ir PRA BAIXO
   if (scrollPercent >= 50) {
     btnTop.style.display = "flex";
     btnTop.style.background = progressoConic;
@@ -170,13 +167,28 @@ function updateHistory(val) {
   renderizarHistorico();
 }
 
-// INICIO: renderizarTools (Aba Tools: Calculadora & Gerador Font)
+function extrairListaRGB(texto) {
+  if (!texto) return [];
+  const regex = /\b(?:2[0-4]\d|25[0-5]|[01]?\d\d?)\s*,\s*(?:2[0-4]\d|25[0-5]|[01]?\d\d?)\s*,\s*(?:2[0-4]\d|25[0-5]|[01]?\d\d?)\b/g;
+  const matches = texto.match(regex);
+  if (!matches) return [];
+  return matches.map(m => m.replace(/\s+/g, ''));
+}
+
+// INICIO: renderizarTools (Aba Tools: Calculadora, Gerador Font e Gerador de Degradê RGB)
 function renderizarTools(btn) {
+  if (pasteListenerColorPicker) {
+    window.removeEventListener("paste", pasteListenerColorPicker);
+    pasteListenerColorPicker = null;
+  }
+
   document.body.classList.remove("focus-mode-active");
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
 
   if (btn) btn.classList.add("ativo");
+
+  let savedGradients = JSON.parse(localStorage.getItem("jjs_saved_gradients") || "[]");
 
   conteudo.innerHTML = `
     <div class="tools-container">
@@ -210,6 +222,33 @@ function renderizarTools(btn) {
         <div style="display: flex; gap: 10px; flex-wrap: wrap;">
           <input type="text" id="fontOutputCode" readonly style="flex: 1; min-width: 180px; color: #4caf50; font-family: monospace;">
           <button id="btnCopyFont" class="action-btn">Copy Tag</button>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <h3 style="color: #00bcd4;">RGB Gradient Generator</h3>
+        <p style="font-size: 12px; color: #aaa; margin-bottom: 15px;">
+          Write RGB colors (e.g. 255,0,0) on separate lines or spaces. First colors stay at bottom and last colors at top.
+        </p>
+
+        <textarea id="gradientRgbInput" rows="4" placeholder="255,0,0&#10;0,255,0&#10;0,0,255" style="width: 100%; font-family: monospace; resize: vertical; margin-bottom: 15px;"></textarea>
+
+        <div style="text-align: center; margin-bottom: 15px;">
+          <span style="font-size: 12px; color: #aaa; display: block; margin-bottom: 8px; text-transform: uppercase; font-weight: bold;">Square Preview</span>
+          <div id="gradientSquarePreview" class="gradient-preview-square"></div>
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap;">
+          <button id="btnCopyGradient" class="action-btn" style="flex: 1; min-width: 140px;">Copy Gradient</button>
+          <button id="btnSaveGradient" class="action-btn" style="flex: 1; min-width: 140px; background: #2e7d32; border-color: #4caf50;">Save Gradient</button>
+        </div>
+
+        <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; margin-top: 15px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <span style="font-size: 13px; text-transform: uppercase; font-weight: bold; color: #ccc;">Saved Gradients</span>
+            <button id="btnClearGradients" style="background: transparent; border: 1px solid #444; color: #aaa; cursor: pointer; padding: 4px 10px; font-size: 11px; border-radius: 4px;">Clear All</button>
+          </div>
+          <div id="saved-gradients-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px;"></div>
         </div>
       </div>
 
@@ -280,11 +319,131 @@ function renderizarTools(btn) {
       }, 1000);
     }
   });
+
+  // Lógica do GERADOR DE DEGRADÊ RGB
+  const gradientRgbInput = document.getElementById("gradientRgbInput");
+  const gradientSquarePreview = document.getElementById("gradientSquarePreview");
+  const btnCopyGradient = document.getElementById("btnCopyGradient");
+  const btnSaveGradient = document.getElementById("btnSaveGradient");
+  const btnClearGradients = document.getElementById("btnClearGradients");
+  const savedGradientsGrid = document.getElementById("saved-gradients-grid");
+
+  const atualizarSquareGradient = () => {
+    const rgbs = extrairListaRGB(gradientRgbInput.value);
+    if (rgbs.length === 0) {
+      gradientSquarePreview.style.background = "#111";
+      gradientSquarePreview.style.borderStyle = "dashed";
+    } else if (rgbs.length === 1) {
+      gradientSquarePreview.style.background = `rgb(${rgbs[0]})`;
+      gradientSquarePreview.style.borderStyle = "solid";
+    } else {
+      const colorsCss = rgbs.map(c => `rgb(${c})`).join(", ");
+      // linear-gradient(to top, ...) faz com que as primeiras cores fiquem embaixo e as últimas no topo
+      gradientSquarePreview.style.background = `linear-gradient(to top, ${colorsCss})`;
+      gradientSquarePreview.style.borderStyle = "solid";
+    }
+  };
+
+  gradientRgbInput.addEventListener("input", atualizarSquareGradient);
+  atualizarSquareGradient();
+
+  btnCopyGradient.addEventListener("click", async () => {
+    const rgbs = extrairListaRGB(gradientRgbInput.value);
+    if (rgbs.length === 0) return;
+    const textoParaCopiar = rgbs.join(" ");
+    const sucesso = await copiarTexto(textoParaCopiar);
+    if (sucesso) {
+      const ogText = btnCopyGradient.textContent;
+      btnCopyGradient.textContent = "Copied!";
+      btnCopyGradient.style.background = "#2e7d32";
+      btnCopyGradient.style.color = "#fff";
+      setTimeout(() => {
+        btnCopyGradient.textContent = ogText;
+        btnCopyGradient.style.background = "";
+        btnCopyGradient.style.color = "";
+      }, 1000);
+    }
+  });
+
+  function renderizarSavedGradients() {
+    savedGradientsGrid.innerHTML = "";
+    if (savedGradients.length === 0) {
+      savedGradientsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:12px;'>No gradients saved yet.</p>";
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+    savedGradients.forEach((gradStr, index) => {
+      const rgbs = gradStr.split(" ");
+      const card = document.createElement("div");
+      card.className = "gradient-card";
+
+      if (rgbs.length === 1) {
+        card.style.backgroundColor = `rgb(${rgbs[0]})`;
+      } else {
+        const colorsCss = rgbs.map(c => `rgb(${c})`).join(", ");
+        card.style.background = `linear-gradient(to top, ${colorsCss})`;
+      }
+
+      card.textContent = gradStr;
+
+      card.onclick = async () => {
+        await copiarTexto(gradStr);
+        const originalText = card.textContent;
+        card.textContent = "Copied!";
+        setTimeout(() => { card.textContent = originalText; }, 1000);
+      };
+
+      card.oncontextmenu = (e) => {
+        e.preventDefault();
+        savedGradients.splice(index, 1);
+        localStorage.setItem("jjs_saved_gradients", JSON.stringify(savedGradients));
+        renderizarSavedGradients();
+      };
+
+      fragment.appendChild(card);
+    });
+    savedGradientsGrid.appendChild(fragment);
+  }
+
+  renderizarSavedGradients();
+
+  btnSaveGradient.onclick = () => {
+    const rgbs = extrairListaRGB(gradientRgbInput.value);
+    if (rgbs.length === 0) return;
+    const gradStr = rgbs.join(" ");
+
+    if (!savedGradients.includes(gradStr)) {
+      savedGradients.push(gradStr);
+      localStorage.setItem("jjs_saved_gradients", JSON.stringify(savedGradients));
+      renderizarSavedGradients();
+      const ogText = btnSaveGradient.textContent;
+      btnSaveGradient.textContent = "Saved!";
+      setTimeout(() => { btnSaveGradient.textContent = ogText; }, 1000);
+    } else {
+      const ogText = btnSaveGradient.textContent;
+      btnSaveGradient.textContent = "Exists!";
+      setTimeout(() => { btnSaveGradient.textContent = ogText; }, 1000);
+    }
+  };
+
+  btnClearGradients.onclick = () => {
+    if (confirm("Are you sure you want to delete all saved gradients?")) {
+      savedGradients = [];
+      localStorage.removeItem("jjs_saved_gradients");
+      renderizarSavedGradients();
+    }
+  };
 }
 // FIM: renderizarTools
 
-// INICIO: renderizarColorPicker (Cores)
+// INICIO: renderizarColorPicker (Cores Otimizado)
 function renderizarColorPicker(btn) {
+  if (pasteListenerColorPicker) {
+    window.removeEventListener("paste", pasteListenerColorPicker);
+    pasteListenerColorPicker = null;
+  }
+
   document.body.classList.remove("focus-mode-active");
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
   document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
@@ -365,6 +524,10 @@ function renderizarColorPicker(btn) {
     borderColor: "#333",
   });
 
+  const previewGrass = document.getElementById("preview-grass");
+  const previewWood = document.getElementById("preview-wood");
+  const previewWoodB = document.getElementById("preview-woodb");
+
   const updateInputs = (color) => {
     const hVal = color.hexString.toUpperCase();
     const rVal = `${color.rgb.r},${color.rgb.g},${color.rgb.b}`;
@@ -375,12 +538,10 @@ function renderizarColorPicker(btn) {
     hex.style.color = hVal;
     rgb.style.color = hVal;
 
-    const g = document.getElementById("preview-grass");
-    const w = document.getElementById("preview-wood");
-    const wb = document.getElementById("preview-woodb");
-    if (g) g.style.backgroundColor = `rgb(${rVal})`;
-    if (w) w.style.backgroundColor = `rgb(${rVal})`;
-    if (wb) wb.style.backgroundColor = `rgb(${rVal})`;
+    const rgbStyle = `rgb(${rVal})`;
+    if (previewGrass) previewGrass.style.backgroundColor = rgbStyle;
+    if (previewWood) previewWood.style.backgroundColor = rgbStyle;
+    if (previewWoodB) previewWoodB.style.backgroundColor = rgbStyle;
   };
 
   updateInputs(colorPicker.color);
@@ -415,12 +576,15 @@ function renderizarColorPicker(btn) {
     };
   });
 
+  // Renderização otimizada com DocumentFragment
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
     if (savedColors.length === 0) {
       savedColorsGrid.innerHTML = "<p style='color:#888; grid-column: 1 / -1; font-size:13px; text-align:left;'>No colors saved yet.</p>";
       return;
     }
+
+    const fragment = document.createDocumentFragment();
 
     savedColors.forEach((cor, index) => {
       const corValue = typeof cor === "string" ? cor : cor.value;
@@ -445,8 +609,10 @@ function renderizarColorPicker(btn) {
         localStorage.setItem("jjs_saved_colors", JSON.stringify(savedColors));
         renderizarFavoritos();
       };
-      savedColorsGrid.appendChild(card);
+      fragment.appendChild(card);
     });
+
+    savedColorsGrid.appendChild(fragment);
   }
 
   renderizarFavoritos();
@@ -491,9 +657,10 @@ function renderizarColorPicker(btn) {
   const ctx = imgCanvas.getContext("2d");
   let canvasImage = new Image();
 
-  const lidarComCola = (e) => {
+  pasteListenerColorPicker = (e) => {
     if (!document.getElementById("imgCanvas")) {
-      window.removeEventListener("paste", lidarComCola);
+      window.removeEventListener("paste", pasteListenerColorPicker);
+      pasteListenerColorPicker = null;
       return;
     }
     const itens = (e.clipboardData || e.originalEvent.clipboardData).items;
@@ -506,7 +673,7 @@ function renderizarColorPicker(btn) {
       }
     }
   };
-  window.addEventListener("paste", lidarComCola);
+  window.addEventListener("paste", pasteListenerColorPicker);
 
   imageInput.addEventListener("change", (e) => {
     if (e.target.files && e.target.files[0]) carregarImagemNaCanvas(e.target.files[0]);
@@ -526,6 +693,7 @@ function renderizarColorPicker(btn) {
   }
 
   let isDraggingCanvas = false;
+  let rafCanvasId = null;
 
   const extrairCorDaCanvas = (e) => {
     const rect = imgCanvas.getBoundingClientRect();
@@ -552,13 +720,18 @@ function renderizarColorPicker(btn) {
     extractedColorDisplay.textContent = `Selected: ${rgbStr}`;
   };
 
+  const extrairCorThrottled = (e) => {
+    if (rafCanvasId) cancelAnimationFrame(rafCanvasId);
+    rafCanvasId = requestAnimationFrame(() => extrairCorDaCanvas(e));
+  };
+
   imgCanvas.addEventListener("pointerdown", (e) => {
     isDraggingCanvas = true;
     imgCanvas.setPointerCapture(e.pointerId);
     extrairCorDaCanvas(e);
   });
   imgCanvas.addEventListener("pointermove", (e) => {
-    if (isDraggingCanvas) extrairCorDaCanvas(e);
+    if (isDraggingCanvas) extrairCorThrottled(e);
   });
   imgCanvas.addEventListener("pointerup", (e) => {
     isDraggingCanvas = false;
@@ -569,6 +742,10 @@ function renderizarColorPicker(btn) {
 
 // INICIO: carregarPresets
 function carregarPresets(url, btn) {
+  if (pasteListenerColorPicker) {
+    window.removeEventListener("paste", pasteListenerColorPicker);
+    pasteListenerColorPicker = null;
+  }
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
@@ -740,6 +917,10 @@ function renderizarPresets(data, termo) {
 }
 
 function carregarDados(url, btn) {
+  if (pasteListenerColorPicker) {
+    window.removeEventListener("paste", pasteListenerColorPicker);
+    pasteListenerColorPicker = null;
+  }
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
@@ -978,6 +1159,10 @@ function renderizarItens(data, isCodes, termo) {
 }
 
 function carregarLogs(url, btn) {
+  if (pasteListenerColorPicker) {
+    window.removeEventListener("paste", pasteListenerColorPicker);
+    pasteListenerColorPicker = null;
+  }
   document.body.classList.remove("focus-mode-active");
   linkOriginalAtual = url;
   document.querySelectorAll("nav button").forEach((b) => b.classList.remove("ativo"));
@@ -1222,7 +1407,6 @@ if (btnAddCategory) {
   btnAddCategory.addEventListener("click", abrirModalCategoria);
 }
 
-// Exportação de JSON no modo Admin
 if (btnExportJSON) {
   btnExportJSON.addEventListener("click", exportarJSON);
 }

@@ -7,37 +7,43 @@
         "id": "430351106",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0001"
       },
       {
         "name": "Circle Highlighter",
         "id": "16807912164",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0002"
       },
       {
         "name": "Flat Circle",
         "id": "989468093",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0003"
       },
       {
         "name": "Spike Ball",
         "id": "990753566",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0004"
       },
       {
         "name": "TSB Rock Line Debris",
         "id": "89836677395756",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0005"
       }
-    ]
+    ],
+    "catId": "C0001"
   },
   {
     "category": "Miss Circle Thing:",
@@ -47,20 +53,24 @@
         "id": "18524848399",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0006"
       },
       {
         "name": "Texture",
         "id": "18524848453",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0007"
       }
-    ]
+    ],
+    "catId": "C0002"
   },
   {
     "category": "JJK MESHES:",
-    "items": []
+    "items": [],
+    "catId": "C0003"
   },
   {
     "category": "Hollow Wicker Basket",
@@ -70,9 +80,11 @@
         "id": "5065466321",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0008"
       }
-    ]
+    ],
+    "catId": "C0004"
   },
   {
     "category": "Womb Profusion",
@@ -82,16 +94,19 @@
         "id": "74408379982837",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0009"
       },
       {
         "name": "Texture",
         "id": "112025978181868",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0010"
       }
-    ]
+    ],
+    "catId": "C0005"
   },
   {
     "category": "Naoya Frame",
@@ -101,16 +116,19 @@
         "id": "113222925767682",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0011"
       },
       {
         "name": "Texture",
         "id": "89189103674405",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0012"
       }
-    ]
+    ],
+    "catId": "C0006"
   },
   {
     "category": "Ganesha",
@@ -120,16 +138,19 @@
         "id": "131750866672815",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0013"
       },
       {
         "name": "Texture",
         "id": "76791310992880",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0014"
       }
-    ]
+    ],
+    "catId": "C0007"
   },
   {
     "category": "Ganesha JJS Style",
@@ -139,16 +160,19 @@
         "id": "81133659792021",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0015"
       },
       {
         "name": "Texture",
         "id": "112048711127570",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0016"
       }
-    ]
+    ],
+    "catId": "C0008"
   },
   {
     "category": "Rushing Ox",
@@ -158,16 +182,19 @@
         "id": "102678081371850",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0017"
       },
       {
         "name": "Texture",
         "id": "97044826568383",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0018"
       }
-    ]
+    ],
+    "catId": "C0009"
   },
   {
     "category": "Piercing Ox 2",
@@ -177,16 +204,19 @@
         "id": "93746949448317",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0019"
       },
       {
         "name": "Texture",
         "id": "130139262922796",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0020"
       }
-    ]
+    ],
+    "catId": "C0010"
   },
   {
     "category": "Festering Life Sword",
@@ -196,16 +226,19 @@
         "id": "115597874985905",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0021"
       },
       {
         "name": "Texture",
         "id": "82427804163347",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0022"
       }
-    ]
+    ],
+    "catId": "C0011"
   },
   {
     "category": "Festering Life Sword (CANON)",
@@ -215,16 +248,19 @@
         "id": "138364698137777",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0023"
       },
       {
         "name": "TEXTURE",
         "id": "105487940796690",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0024"
       }
-    ]
+    ],
+    "catId": "C0012"
   },
   {
     "category": "Inumaki Troat Spray",
@@ -234,16 +270,19 @@
         "id": "120724342406648",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0025"
       },
       {
         "name": "Texture",
         "id": "140218415406533",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0026"
       }
-    ]
+    ],
+    "catId": "C0013"
   },
   {
     "category": "Rainbow Dragon 1:",
@@ -253,16 +292,19 @@
         "id": "122337778593902",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0027"
       },
       {
         "name": "Texture",
         "id": "84015591905677",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0028"
       }
-    ]
+    ],
+    "catId": "C0014"
   },
   {
     "category": "Rainbow Dragon 2:",
@@ -272,9 +314,11 @@
         "id": "101217903019962",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0029"
       }
-    ]
+    ],
+    "catId": "C0015"
   },
   {
     "category": "Tiger Funeral:",
@@ -284,23 +328,27 @@
         "id": "99722225653192",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0030"
       },
       {
         "name": "Orange Fur",
         "id": "72330323981945",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0031"
       },
       {
         "name": "White Fur",
         "id": "103187475421515",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0032"
       }
-    ]
+    ],
+    "catId": "C0016"
   },
   {
     "category": "Machado da Mei Mei",
@@ -310,16 +358,19 @@
         "id": "89174111406172",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0033"
       },
       {
         "name": "Texture",
         "id": "97253098912094",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0034"
       }
-    ]
+    ],
+    "catId": "C0017"
   },
   {
     "category": "Domain Bubble 1:",
@@ -329,9 +380,11 @@
         "id": "110647293556307",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0035"
       }
-    ]
+    ],
+    "catId": "C0018"
   },
   {
     "category": "JJS Basic Shrine",
@@ -341,16 +394,19 @@
         "id": "133516790387596",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0036"
       },
       {
         "name": "Texture ID",
         "id": "92128437510622",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0037"
       }
-    ]
+    ],
+    "catId": "C0019"
   },
   {
     "category": "Executioners Sword",
@@ -360,16 +416,19 @@
         "id": "115239234792618",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0038"
       },
       {
         "name": "Texture",
         "id": "114270493916905",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0039"
       }
-    ]
+    ],
+    "catId": "C0020"
   },
   {
     "category": "Todo Vibraslap",
@@ -379,16 +438,19 @@
         "id": "73103282872272",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0040"
       },
       {
         "name": "Texture",
         "id": "113492790086560",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0041"
       }
-    ]
+    ],
+    "catId": "C0021"
   },
   {
     "category": "Crow",
@@ -398,16 +460,19 @@
         "id": "112396516576819",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0042"
       },
       {
         "name": "Texture",
         "id": "78149127019253",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0043"
       }
-    ]
+    ],
+    "catId": "C0022"
   },
   {
     "category": "Fish:",
@@ -417,16 +482,19 @@
         "id": "116265628923818",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0044"
       },
       {
         "name": "Texture",
         "id": "129835025833675",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0045"
       }
-    ]
+    ],
+    "catId": "C0023"
   },
   {
     "category": "Fish 2:",
@@ -436,9 +504,11 @@
         "id": "123345011286957",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0046"
       }
-    ]
+    ],
+    "catId": "C0024"
   },
   {
     "category": "Geto Squid",
@@ -448,16 +518,19 @@
         "id": "118113074232265",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0047"
       },
       {
         "name": "Texture",
         "id": "87303586730398",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0048"
       }
-    ]
+    ],
+    "catId": "C0025"
   },
   {
     "category": "Geto Worm",
@@ -467,16 +540,19 @@
         "id": "97647548302046",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0049"
       },
       {
         "name": "Texture",
         "id": "115152074156075",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0050"
       }
-    ]
+    ],
+    "catId": "C0026"
   },
   {
     "category": "Reggie Motorcycle",
@@ -486,16 +562,19 @@
         "id": "134797509390942",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0051"
       },
       {
         "name": "Texture ID",
         "id": "115210872798441",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0052"
       }
-    ]
+    ],
+    "catId": "C0027"
   },
   {
     "category": "Earthen Insect",
@@ -505,16 +584,19 @@
         "id": "130095414731793",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0053"
       },
       {
         "name": "Texture ID",
         "id": "87988345453684",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0054"
       }
-    ]
+    ],
+    "catId": "C0028"
   },
   {
     "category": "Hanami Flower",
@@ -524,16 +606,19 @@
         "id": "101636126969096",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0055"
       },
       {
         "name": "Texture ID",
         "id": "124790100790454",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0056"
       }
-    ]
+    ],
+    "catId": "C0029"
   },
   {
     "category": "Toad",
@@ -543,7 +628,8 @@
         "id": "100784740089834",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0057"
       },
       {
         "name": "Texture",
@@ -552,9 +638,11 @@
         "namet1": "",
         "altt1": [
           "Texture With closed mouth"
-        ]
+        ],
+        "autoId": "0058"
       }
-    ]
+    ],
+    "catId": "C0030"
   },
   {
     "category": "Tongue and twisted tongue",
@@ -564,16 +652,19 @@
         "id": "87030497202578",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0059"
       },
       {
         "name": "Twisted Tongue",
         "id": "73145349058655",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0060"
       }
-    ]
+    ],
+    "catId": "C0031"
   },
   {
     "category": "Remi's Hair",
@@ -583,16 +674,19 @@
         "id": "85710308515380",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0061"
       },
       {
         "name": "Texture id",
         "id": "79043970276887",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0062"
       }
-    ]
+    ],
+    "catId": "C0032"
   },
   {
     "category": "Round Deer",
@@ -602,16 +696,19 @@
         "id": "82782156279549",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0063"
       },
       {
         "name": "Texture ID",
         "id": "73883875350661",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0064"
       }
-    ]
+    ],
+    "catId": "C0033"
   },
   {
     "category": "Heian Sukuna Eyes",
@@ -621,16 +718,19 @@
         "id": "89790806821657",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0065"
       },
       {
         "name": "Texture ID",
         "id": "86094485444844",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0066"
       }
-    ]
+    ],
+    "catId": "C0034"
   },
   {
     "category": "Max Elephant",
@@ -640,16 +740,19 @@
         "id": "131977178498259",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0067"
       },
       {
         "name": "Texture",
         "id": "78775520980282",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0068"
       }
-    ]
+    ],
+    "catId": "C0035"
   },
   {
     "category": "Megumi Rabbit",
@@ -659,16 +762,19 @@
         "id": "107313299455571",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0069"
       },
       {
         "name": "Texture",
         "id": "92444826467717",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0070"
       }
-    ]
+    ],
+    "catId": "C0036"
   },
   {
     "category": "Manta Ray VFX",
@@ -678,16 +784,19 @@
         "id": "89962256593568",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0071"
       },
       {
         "name": "Texture ID",
         "id": "132524185890060",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0072"
       }
-    ]
+    ],
+    "catId": "C0037"
   },
   {
     "category": "Panda Wristband (Blue)",
@@ -697,16 +806,19 @@
         "id": "113806259434811",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0073"
       },
       {
         "name": "Texture ID",
         "id": "100895389061438",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0074"
       }
-    ]
+    ],
+    "catId": "C0038"
   },
   {
     "category": "Nue: Totality (Orochi)",
@@ -716,16 +828,19 @@
         "id": "72907606381080",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0075"
       },
       {
         "name": "Texture",
         "id": "103939500537151",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0076"
       }
-    ]
+    ],
+    "catId": "C0039"
   },
   {
     "category": "Shutter Doors",
@@ -735,20 +850,24 @@
         "id": "88806605554096",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0077"
       },
       {
         "name": "Texture ID",
         "id": "123005971649098",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0078"
       }
-    ]
+    ],
+    "catId": "C0040"
   },
   {
     "category": "Heian Sukuna Eye Thingy",
-    "items": []
+    "items": [],
+    "catId": "C0041"
   },
   {
     "category": "Shadow Hound 1",
@@ -758,16 +877,19 @@
         "id": "92811935862421",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0079"
       },
       {
         "name": "Texture",
         "id": "122006790369496",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0080"
       }
-    ]
+    ],
+    "catId": "C0042"
   },
   {
     "category": "Shadow Hound 2",
@@ -777,9 +899,11 @@
         "id": "119688921818050",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0081"
       }
-    ]
+    ],
+    "catId": "C0043"
   },
   {
     "category": "Shadow Hound 3",
@@ -789,9 +913,11 @@
         "id": "100827834033271",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0082"
       }
-    ]
+    ],
+    "catId": "C0044"
   },
   {
     "category": "Shadow Hound 4",
@@ -801,9 +927,11 @@
         "id": "74781308229591",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0083"
       }
-    ]
+    ],
+    "catId": "C0045"
   },
   {
     "category": "Roach",
@@ -813,16 +941,19 @@
         "id": "71798430613591",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0084"
       },
       {
         "name": "Texture ID",
         "id": "131676941752942",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0085"
       }
-    ]
+    ],
+    "catId": "C0046"
   },
   {
     "category": "Blood Bag",
@@ -832,16 +963,19 @@
         "id": "76028609716112",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0086"
       },
       {
         "name": "Texture ID",
         "id": "114485201339717",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0087"
       }
-    ]
+    ],
+    "catId": "C0047"
   },
   {
     "category": "Sukuna Finger (2.0)",
@@ -851,16 +985,19 @@
         "id": "139310525568911",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0088"
       },
       {
         "name": "Texture ID",
         "id": "70471000263013",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0089"
       }
-    ]
+    ],
+    "catId": "C0048"
   },
   {
     "category": "Hanami Arm",
@@ -870,16 +1007,19 @@
         "id": "103975337248586",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0090"
       },
       {
         "name": "Texture ID",
         "id": "100776427830358",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0091"
       }
-    ]
+    ],
+    "catId": "C0049"
   },
   {
     "category": "Thin Ice Breaker Stage 1:",
@@ -889,16 +1029,19 @@
         "id": "88240922077754",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0092"
       },
       {
         "name": "Texture ID",
         "id": "84272871288137",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0093"
       }
-    ]
+    ],
+    "catId": "C0050"
   },
   {
     "category": "Thin Ice Breaker Stage 2:",
@@ -908,9 +1051,11 @@
         "id": "108332859803176",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0094"
       }
-    ]
+    ],
+    "catId": "C0051"
   },
   {
     "category": "Thin Ice Breaker Stage 3:",
@@ -920,9 +1065,11 @@
         "id": "117877027996918",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0095"
       }
-    ]
+    ],
+    "catId": "C0052"
   },
   {
     "category": "Yorozu Pack:",
@@ -932,65 +1079,75 @@
         "id": "81407411704372",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0096"
       },
       {
         "name": "Spikes (Front)",
         "id": "100846463518890",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0097"
       },
       {
         "name": "Surrounding Spikes",
         "id": "100137275875011",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0098"
       },
       {
         "name": "Insect Wings (Inner)",
         "id": "96045759835782",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0099"
       },
       {
         "name": "Insect Wings (Outer)",
         "id": "75561325186836",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0100"
       },
       {
         "name": "Mercury Fist",
         "id": "140037162362148",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0101"
       },
       {
         "name": "Mercury Debris",
         "id": "110474614683320",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0102"
       },
       {
         "name": "Liquid Metal Disc",
         "id": "93258230696330",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0103"
       },
       {
         "name": "Javelin",
         "id": "115573586621627",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0104"
       }
-    ]
+    ],
+    "catId": "C0053"
   },
   {
     "category": "Mahito Transfiguration's:",
@@ -1000,100 +1157,115 @@
         "id": "100946084449394",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0105"
       },
       {
         "name": "JJS-Blade",
         "id": "98993696218974",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0106"
       },
       {
         "name": "JJS-Club",
         "id": "128377279477343",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0107"
       },
       {
         "name": "Spiked Club",
         "id": "118684898504289",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0108"
       },
       {
         "name": "Fist1",
         "id": "70646614088387",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0109"
       },
       {
         "name": "Fist2",
         "id": "125063503241016",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0110"
       },
       {
         "name": "SmallDrill",
         "id": "99650763726777",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0111"
       },
       {
         "name": "Big Club Left",
         "id": "130219838306432",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0112"
       },
       {
         "name": "Big Club Right",
         "id": "120775139592801",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0113"
       },
       {
         "name": "360 Spike Frame 1",
         "id": "131859227173012",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0114"
       },
       {
         "name": "360 Spike Frame 2",
         "id": "98503382266791",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0115"
       },
       {
         "name": "Spike Club Arm Frame 1",
         "id": "113012572274130",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0116"
       },
       {
         "name": "Spike Club Arm Frame 2",
         "id": "87481387627373",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0117"
       },
       {
         "name": "Spike Club Arm Frame 3 (w/ spikes)",
         "id": "128972701692015",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0118"
       }
-    ]
+    ],
+    "catId": "C0054"
   },
   {
     "category": "Horse Leg:",
@@ -1103,16 +1275,19 @@
         "id": "94192399229850",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0119"
       },
       {
         "name": "Texture",
         "id": "111617360497392",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0120"
       }
-    ]
+    ],
+    "catId": "C0055"
   },
   {
     "category": "Tentacle's Pack:",
@@ -1122,16 +1297,19 @@
         "id": "124219726764311",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0121"
       },
       {
         "name": "Large Spike",
         "id": "117743985103379",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0122"
       }
-    ]
+    ],
+    "catId": "C0056"
   },
   {
     "category": "Tentacles for stab/animation:",
@@ -1141,27 +1319,32 @@
         "id": "136180632440669",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0123"
       },
       {
         "name": "Spike 2",
         "id": "120542969720702",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0124"
       },
       {
         "name": "Spike 4",
         "id": "128728648087123",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0125"
       }
-    ]
+    ],
+    "catId": "C0057"
   },
   {
     "category": "Uraume:",
-    "items": []
+    "items": [],
+    "catId": "C0058"
   },
   {
     "category": "Frost Calm:",
@@ -1171,16 +1354,19 @@
         "id": "113075009000913",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0126"
       },
       {
         "name": "Texture",
         "id": "88848259988614",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0127"
       }
-    ]
+    ],
+    "catId": "C0059"
   },
   {
     "category": "Frost Calm (Front):",
@@ -1190,16 +1376,19 @@
         "id": "120320249157827",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0128"
       },
       {
         "name": "Texture",
         "id": "93848653414844",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0129"
       }
-    ]
+    ],
+    "catId": "C0060"
   },
   {
     "category": "Split Soul Katana",
@@ -1209,16 +1398,19 @@
         "id": "80942406858623",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0130"
       },
       {
         "name": "Texture",
         "id": "110693186487525",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0131"
       }
-    ]
+    ],
+    "catId": "C0061"
   },
   {
     "category": "Inverted Spear of Heaven",
@@ -1228,16 +1420,19 @@
         "id": "102105989219593",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0132"
       },
       {
         "name": "Texture",
         "id": "131973336159513",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0133"
       }
-    ]
+    ],
+    "catId": "C0062"
   },
   {
     "category": "Dragon Bone",
@@ -1247,16 +1442,19 @@
         "id": "127402484936932",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0134"
       },
       {
         "name": "Texture",
         "id": "1296535608794151",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0135"
       }
-    ]
+    ],
+    "catId": "C0063"
   },
   {
     "category": "Slaughter Demon",
@@ -1266,9 +1464,11 @@
         "id": "109027168346097",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0136"
       }
-    ]
+    ],
+    "catId": "C0064"
   },
   {
     "category": "Haruta’s Hand Sword",
@@ -1278,16 +1478,19 @@
         "id": "88809915286757",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0137"
       },
       {
         "name": "Texture",
         "id": "101994849646738",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0138"
       }
-    ]
+    ],
+    "catId": "C0065"
   },
   {
     "category": "Hiten",
@@ -1297,16 +1500,19 @@
         "id": "98433652204411",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0139"
       },
       {
         "name": "Texture",
         "id": "98460862343978",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0140"
       }
-    ]
+    ],
+    "catId": "C0066"
   },
   {
     "category": "Playful cloud segment",
@@ -1316,16 +1522,19 @@
         "id": "129089147916643",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0141"
       },
       {
         "name": "Texture ID",
         "id": "92718709151482",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0142"
       }
-    ]
+    ],
+    "catId": "C0067"
   },
   {
     "category": "G-War Staff",
@@ -1335,16 +1544,19 @@
         "id": "97777828041928",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0143"
       },
       {
         "name": "Texture ID",
         "id": "130177522506782",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0144"
       }
-    ]
+    ],
+    "catId": "C0068"
   },
   {
     "category": "Miwa Katana",
@@ -1354,16 +1566,19 @@
         "id": "122708361089753",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0145"
       },
       {
         "name": "Texture",
         "id": "129811377352181",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0146"
       }
-    ]
+    ],
+    "catId": "C0069"
   },
   {
     "category": "Miwa Katana Sheath",
@@ -1373,16 +1588,19 @@
         "id": "112033763487170",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0147"
       },
       {
         "name": "Texture",
         "id": "115833628478260",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0148"
       }
-    ]
+    ],
+    "catId": "C0070"
   },
   {
     "category": "Dragon Bone",
@@ -1392,9 +1610,11 @@
         "id": "129653560879415",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0149"
       }
-    ]
+    ],
+    "catId": "C0071"
   },
   {
     "category": "Slaughter Demon",
@@ -1404,9 +1624,11 @@
         "id": "127275111980811",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0150"
       }
-    ]
+    ],
+    "catId": "C0072"
   },
   {
     "category": "Kamutoke",
@@ -1416,16 +1638,19 @@
         "id": "91597777009641",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0151"
       },
       {
         "name": "Texture ID",
         "id": "133722274903165",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0152"
       }
-    ]
+    ],
+    "catId": "C0073"
   },
   {
     "category": "Hiten",
@@ -1435,16 +1660,19 @@
         "id": "109884625534934",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0153"
       },
       {
         "name": "Texture ID",
         "id": "107642154536749",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0154"
       }
-    ]
+    ],
+    "catId": "C0074"
   },
   {
     "category": "Higuruma's gavel",
@@ -1454,16 +1682,19 @@
         "id": "120545876937090",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0155"
       },
       {
         "name": "Texture",
         "id": "121702386941389",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0156"
       }
-    ]
+    ],
+    "catId": "C0075"
   },
   {
     "category": "Higuruma Sledgehammer",
@@ -1473,16 +1704,19 @@
         "id": "86058909971708",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0157"
       },
       {
         "name": "Texture",
         "id": "75126452065743",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0158"
       }
-    ]
+    ],
+    "catId": "C0076"
   },
   {
     "category": "Higuruma Big Hammer",
@@ -1492,16 +1726,19 @@
         "id": "127208449235789",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0159"
       },
       {
         "name": "Texture",
         "id": "88454858437941",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0160"
       }
-    ]
+    ],
+    "catId": "C0077"
   },
   {
     "category": "Higuruma Giant Hammer",
@@ -1511,16 +1748,19 @@
         "id": "108837123921990",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0161"
       },
       {
         "name": "Texture",
         "id": "72422758837580",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0162"
       }
-    ]
+    ],
+    "catId": "C0078"
   },
   {
     "category": "Kashimo's Nyoi Staff v1",
@@ -1530,16 +1770,19 @@
         "id": "18649396643",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0163"
       },
       {
         "name": "Texture ID",
         "id": "18649396442",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0164"
       }
-    ]
+    ],
+    "catId": "C0079"
   },
   {
     "category": "Kashimo's Nyoi Staff v2",
@@ -1549,16 +1792,19 @@
         "id": "123713349501705",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0165"
       },
       {
         "name": "Texture ID",
         "id": "95325238460371",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0166"
       }
-    ]
+    ],
+    "catId": "C0080"
   },
   {
     "category": "Yuta's Accurate Katana",
@@ -1568,16 +1814,19 @@
         "id": "87432200902531",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0167"
       },
       {
         "name": "Texture ID",
         "id": "83359618997134",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0168"
       }
-    ]
+    ],
+    "catId": "C0081"
   },
   {
     "category": "Cursed Speech Megaphone",
@@ -1587,16 +1836,19 @@
         "id": "107668740368266",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0169"
       },
       {
         "name": "Texture ID",
         "id": "117279713886263",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0170"
       }
-    ]
+    ],
+    "catId": "C0082"
   },
   {
     "category": "Adaptation Wheel",
@@ -1606,20 +1858,24 @@
         "id": "18619784828",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0171"
       },
       {
         "name": "Texture ID",
         "id": "18619793887",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0172"
       }
-    ]
+    ],
+    "catId": "C0083"
   },
   {
     "category": "Festering Life Sword",
-    "items": []
+    "items": [],
+    "catId": "C0084"
   },
   {
     "category": "Yuta Metal Arm v2",
@@ -1629,16 +1885,19 @@
         "id": "72863427912686",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0173"
       },
       {
         "name": "Texture",
         "id": "80945609073651",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0174"
       }
-    ]
+    ],
+    "catId": "C0085"
   },
   {
     "category": "Megumi's Sword",
@@ -1648,16 +1907,19 @@
         "id": "112002616335541",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0175"
       },
       {
         "name": "Texture",
         "id": "118658377145717",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0176"
       }
-    ]
+    ],
+    "catId": "C0086"
   },
   {
     "category": "Sword of Extermination",
@@ -1667,16 +1929,19 @@
         "id": "95937581477264",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0177"
       },
       {
         "name": "Texture",
         "id": "78244817483175",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0178"
       }
-    ]
+    ],
+    "catId": "C0087"
   },
   {
     "category": "Claws of Calamity V2",
@@ -1686,16 +1951,19 @@
         "id": "106192357013600",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0179"
       },
       {
         "name": "Texture",
         "id": "132269272192329",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0180"
       }
-    ]
+    ],
+    "catId": "C0088"
   },
   {
     "category": "Mini Rika Shikigami's",
@@ -1705,16 +1973,19 @@
         "id": "99826796083644",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0181"
       },
       {
         "name": "Texture",
         "id": "129332089407532",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0182"
       }
-    ]
+    ],
+    "catId": "C0089"
   },
   {
     "category": "Nobara's Strawdoll",
@@ -1724,16 +1995,19 @@
         "id": "91066090472201",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0183"
       },
       {
         "name": "Texture",
         "id": "128959392238817",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0184"
       }
-    ]
+    ],
+    "catId": "C0090"
   },
   {
     "category": "Nobara's Nail",
@@ -1743,9 +2017,11 @@
         "id": "103035845746945",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0185"
       }
-    ]
+    ],
+    "catId": "C0091"
   },
   {
     "category": "Hazenoki Pack",
@@ -1755,16 +2031,19 @@
         "id": "90940505102566",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0186"
       },
       {
         "name": "Texture",
         "id": "101879136379030",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0187"
       }
-    ]
+    ],
+    "catId": "C0092"
   },
   {
     "category": "Big Tooth (blood)",
@@ -1774,16 +2053,19 @@
         "id": "97729565330047",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0188"
       },
       {
         "name": "Texture",
         "id": "73714287796087",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0189"
       }
-    ]
+    ],
+    "catId": "C0093"
   },
   {
     "category": "Small Tooth (no blood)",
@@ -1793,16 +2075,19 @@
         "id": "135668461960107",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0190"
       },
       {
         "name": "Texture",
         "id": "99703675319068",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0191"
       }
-    ]
+    ],
+    "catId": "C0094"
   },
   {
     "category": "Small Tooth (blood)",
@@ -1812,16 +2097,19 @@
         "id": "136841138739961",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0192"
       },
       {
         "name": "Texture",
         "id": "97362392494002",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0193"
       }
-    ]
+    ],
+    "catId": "C0095"
   },
   {
     "category": "Eye (no blood)",
@@ -1831,16 +2119,19 @@
         "id": "139911878174368",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0194"
       },
       {
         "name": "Texture",
         "id": "91168820265285",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0195"
       }
-    ]
+    ],
+    "catId": "C0096"
   },
   {
     "category": "Eye (blood)",
@@ -1850,16 +2141,19 @@
         "id": "78300751714557",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0196"
       },
       {
         "name": "Texture",
         "id": "73237139150539",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0197"
       }
-    ]
+    ],
+    "catId": "C0097"
   },
   {
     "category": "Kamo bow position: 1",
@@ -1869,16 +2163,19 @@
         "id": "111134293129599",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0198"
       },
       {
         "name": "Texture ID",
         "id": "129491214994471",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0199"
       }
-    ]
+    ],
+    "catId": "C0098"
   },
   {
     "category": "Kamo bow position: 2",
@@ -1888,16 +2185,19 @@
         "id": "128018609746758",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0200"
       },
       {
         "name": "Texture ID",
         "id": "102750949444969",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0201"
       }
-    ]
+    ],
+    "catId": "C0099"
   },
   {
     "category": "Kamo bow position: 3",
@@ -1907,16 +2207,19 @@
         "id": "114299020501282",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0202"
       },
       {
         "name": "Texture ID",
         "id": "107537871142223",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0203"
       }
-    ]
+    ],
+    "catId": "C0100"
   },
   {
     "category": "Executioners Sword",
@@ -1926,16 +2229,19 @@
         "id": "82078113930362",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0204"
       },
       {
         "name": "Texture ID",
         "id": "110220402952083",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0205"
       }
-    ]
+    ],
+    "catId": "C0101"
   },
   {
     "category": "Naginata",
@@ -1945,16 +2251,19 @@
         "id": "131816849144345",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0206"
       },
       {
         "name": "Texture ID",
         "id": "111287877206031",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0207"
       }
-    ]
+    ],
+    "catId": "C0102"
   },
   {
     "category": "Nanami Blunt Knife",
@@ -1964,16 +2273,19 @@
         "id": "93867750494427",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0208"
       },
       {
         "name": "texture",
         "id": "122781637890503",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0209"
       }
-    ]
+    ],
+    "catId": "C0103"
   },
   {
     "category": "Nanami Ties",
@@ -1983,23 +2295,27 @@
         "id": "104153216035650",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0210"
       },
       {
         "name": "Tie (regular) amount",
         "id": "117841349294239",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0211"
       },
       {
         "name": "Texture (both)",
         "id": "128056001940854",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0212"
       }
-    ]
+    ],
+    "catId": "C0104"
   },
   {
     "category": "Others",
@@ -2009,16 +2325,19 @@
         "id": "100423137743603",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0213"
       },
       {
         "name": "Texture",
         "id": "109350061361929",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0214"
       }
-    ]
+    ],
+    "catId": "C0105"
   },
   {
     "category": "Aki's Nail Katana",
@@ -2028,16 +2347,19 @@
         "id": "128215374868953",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0215"
       },
       {
         "name": "Texture",
         "id": "123600075330771",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0216"
       }
-    ]
+    ],
+    "catId": "C0106"
   },
   {
     "category": "Frieren Staff",
@@ -2047,16 +2369,19 @@
         "id": "111735928688739",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0217"
       },
       {
         "name": "Texture",
         "id": "81707432434452",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0218"
       }
-    ]
+    ],
+    "catId": "C0107"
   },
   {
     "category": "Stark Battle Axe",
@@ -2066,16 +2391,19 @@
         "id": "92064522402128",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0219"
       },
       {
         "name": "Texture",
         "id": "105235082092845",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0220"
       }
-    ]
+    ],
+    "catId": "C0108"
   },
   {
     "category": "Gun",
@@ -2085,9 +2413,11 @@
         "id": "126190481742323",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0221"
       }
-    ]
+    ],
+    "catId": "C0109"
   },
   {
     "category": "Staff 1",
@@ -2097,16 +2427,19 @@
         "id": "77084488500410",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0222"
       },
       {
         "name": "Texture",
         "id": "133954040051098",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0223"
       }
-    ]
+    ],
+    "catId": "C0110"
   },
   {
     "category": "Staff 2",
@@ -2116,16 +2449,19 @@
         "id": "591079842",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0224"
       },
       {
         "name": "Texture",
         "id": "591079849",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0225"
       }
-    ]
+    ],
+    "catId": "C0111"
   },
   {
     "category": "Staff 3",
@@ -2135,16 +2471,19 @@
         "id": "591069337",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0226"
       },
       {
         "name": "Texture",
         "id": "591069349",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0227"
       }
-    ]
+    ],
+    "catId": "C0112"
   },
   {
     "category": "Staff 4",
@@ -2154,16 +2493,19 @@
         "id": "591065615",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0228"
       },
       {
         "name": "Texture",
         "id": "591065632",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0229"
       }
-    ]
+    ],
+    "catId": "C0113"
   },
   {
     "category": "3 Point Staff",
@@ -2173,16 +2515,19 @@
         "id": "867595059",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0230"
       },
       {
         "name": "Texture",
         "id": "867595087",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0231"
       }
-    ]
+    ],
+    "catId": "C0114"
   },
   {
     "category": "Half Moon Staff",
@@ -2192,16 +2537,19 @@
         "id": "15156470949",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0232"
       },
       {
         "name": "Texture",
         "id": "15156471571",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0233"
       }
-    ]
+    ],
+    "catId": "C0115"
   },
   {
     "category": "Anime Sword 1",
@@ -2211,16 +2559,19 @@
         "id": "432834974",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0234"
       },
       {
         "name": "Texture",
         "id": "432834982",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0235"
       }
-    ]
+    ],
+    "catId": "C0116"
   },
   {
     "category": "Broadsword 1",
@@ -2230,16 +2581,19 @@
         "id": "1427969333",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0236"
       },
       {
         "name": "Texture",
         "id": "1427969483",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0237"
       }
-    ]
+    ],
+    "catId": "C0117"
   },
   {
     "category": "Ichigo Sword",
@@ -2249,16 +2603,19 @@
         "id": "111215968596244",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0238"
       },
       {
         "name": "Texture",
         "id": "90209903586999",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0239"
       }
-    ]
+    ],
+    "catId": "C0118"
   },
   {
     "category": "Scythe",
@@ -2268,16 +2625,19 @@
         "id": "14918455750",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0240"
       },
       {
         "name": "Texture",
         "id": "14918455908",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0241"
       }
-    ]
+    ],
+    "catId": "C0119"
   },
   {
     "category": "Tanjiro Nichirin",
@@ -2287,9 +2647,11 @@
         "id": "134450434275717",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0242"
       }
-    ]
+    ],
+    "catId": "C0120"
   },
   {
     "category": "Inosuke Nichirin",
@@ -2299,16 +2661,19 @@
         "id": "96148003657239",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0243"
       },
       {
         "name": "Texture",
         "id": "116079118552551",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0244"
       }
-    ]
+    ],
+    "catId": "C0121"
   },
   {
     "category": "Tomioka Nichirin",
@@ -2318,16 +2683,19 @@
         "id": "94640914693111",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0245"
       },
       {
         "name": "Texture",
         "id": "94255000080357",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0246"
       }
-    ]
+    ],
+    "catId": "C0122"
   },
   {
     "category": "Tokito Nichirin",
@@ -2337,9 +2705,11 @@
         "id": "127844790437207",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0247"
       }
-    ]
+    ],
+    "catId": "C0123"
   },
   {
     "category": "Tengen Nichirin",
@@ -2349,16 +2719,19 @@
         "id": "123126372131386",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0248"
       },
       {
         "name": "Texture",
         "id": "100687001441618",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0249"
       }
-    ]
+    ],
+    "catId": "C0124"
   },
   {
     "category": "Katakuri Spear",
@@ -2368,16 +2741,19 @@
         "id": "130640099210762",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0250"
       },
       {
         "name": "Texture",
         "id": "123812719380897",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0251"
       }
-    ]
+    ],
+    "catId": "C0125"
   },
   {
     "category": "Kisuke sword",
@@ -2387,16 +2763,19 @@
         "id": "111922697999908",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0252"
       },
       {
         "name": "Texture",
         "id": "86594202956495",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0253"
       }
-    ]
+    ],
+    "catId": "C0126"
   },
   {
     "category": "Grimmjow sword",
@@ -2406,16 +2785,19 @@
         "id": "119008038207562",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0254"
       },
       {
         "name": "Texture",
         "id": "101361547006027",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0255"
       }
-    ]
+    ],
+    "catId": "C0127"
   },
   {
     "category": "Rukia sword",
@@ -2425,16 +2807,19 @@
         "id": "86330504232988",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0256"
       },
       {
         "name": "Texture",
         "id": "94621364048837",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0257"
       }
-    ]
+    ],
+    "catId": "C0128"
   },
   {
     "category": "Aizen Sword",
@@ -2444,16 +2829,19 @@
         "id": "118178437160764",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0258"
       },
       {
         "name": "texture",
         "id": "121320499635193",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0259"
       }
-    ]
+    ],
+    "catId": "C0129"
   },
   {
     "category": "Ichigo big funny sword",
@@ -2463,16 +2851,19 @@
         "id": "95851622499686",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0260"
       },
       {
         "name": "Texture",
         "id": "81362822074947",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0261"
       }
-    ]
+    ],
+    "catId": "C0130"
   },
   {
     "category": "Ichigo katana",
@@ -2482,16 +2873,19 @@
         "id": "134247097480661",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0262"
       },
       {
         "name": "Texture",
         "id": "13679012490415",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0263"
       }
-    ]
+    ],
+    "catId": "C0131"
   },
   {
     "category": "Battle Beast's mace",
@@ -2501,14 +2895,804 @@
         "id": "117652008187020",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0264"
       },
       {
         "name": "Texture id",
-        "id": "1203",
+        "id": "120348930477103",
         "texture": "",
         "namet1": "",
-        "altt1": []
+        "altt1": [],
+        "autoId": "0265"
+      }
+    ],
+    "catId": "C0132"
+  },
+  {
+    "category": "Spinal Cord Sword",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "87305273432148",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0266"
+      },
+      {
+        "name": "Texture",
+        "id": "112386837640742",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0267"
+      }
+    ],
+    "catId": "C0133"
+  },
+  {
+    "category": "Colorable Constrelation:",
+    "items": [
+      {
+        "name": "Id",
+        "id": "102121803454525",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0268"
+      }
+    ],
+    "catId": "C0134"
+  },
+  {
+    "category": "Metal Arms",
+    "items": [
+      {
+        "name": "Left Id",
+        "id": "113387576270123",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0269"
+      },
+      {
+        "name": "Right id",
+        "id": "139201024322062",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0270"
+      },
+      {
+        "name": "Texture",
+        "id": "86717821300275",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0271"
+      }
+    ],
+    "catId": "C0135"
+  },
+  {
+    "category": "Yuta ring",
+    "items": [],
+    "catId": "C0136"
+  },
+  {
+    "category": "Cyberpunk Meshes",
+    "items": [
+      {
+        "name": "Mantis Arm",
+        "id": "97129993736888",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0272",
+        "namet": "White, Black, Gray, Light Green, Purple, Yellow, Red",
+        "altt": "80763611425443, 96038686983774, 93981643294873, 93884245741258, 93884245741258, 131827358421352, 119483292161981"
+      }
+    ],
+    "catId": "C0137"
+  },
+  {
+    "category": "JJBA MESHES:",
+    "items": [],
+    "catId": "C0138"
+  },
+  {
+    "category": "Opened Umbrella:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "119526479223967",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0273"
+      },
+      {
+        "name": "Texture",
+        "id": "93739083322389",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0274"
+      }
+    ],
+    "catId": "C0139"
+  },
+  {
+    "category": "Closed Umbrella",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "18787300269",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0275"
+      },
+      {
+        "name": "Texture",
+        "id": "18787300356",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0276"
+      }
+    ],
+    "catId": "C0140"
+  },
+  {
+    "category": "Mandom Stand",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "125427739083942",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0277"
+      },
+      {
+        "name": "Texture",
+        "id": "91577431320888",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0278"
+      }
+    ],
+    "catId": "C0141"
+  },
+  {
+    "category": "Revolver:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "868958273",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0279"
+      },
+      {
+        "name": "Texture",
+        "id": "868958290",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0280"
+      }
+    ],
+    "catId": "C0142"
+  },
+  {
+    "category": "Steel Ball:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "82862864603421",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0281"
+      },
+      {
+        "name": "Texture",
+        "id": "102382645560187",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0282"
+      }
+    ],
+    "catId": "C0143"
+  },
+  {
+    "category": "Golden Rotation:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "116474057173043",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0283"
+      }
+    ],
+    "catId": "C0144"
+  },
+  {
+    "category": "Ball Breaker:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "18449529697",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0284"
+      },
+      {
+        "name": "Texture",
+        "id": "18449533684",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0285"
+      }
+    ],
+    "catId": "C0145"
+  },
+  {
+    "category": "Dash Echo:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "86697622117212",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0286"
+      },
+      {
+        "name": "Texture",
+        "id": "137851479881042",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0287"
+      }
+    ],
+    "catId": "C0146"
+  },
+  {
+    "category": "Echo Beatdown Attack 1:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "110789859261693",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0288"
+      }
+    ],
+    "catId": "C0147"
+  },
+  {
+    "category": "Echo Beatdown Attack 2:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "100883918684512",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0289"
+      }
+    ],
+    "catId": "C0148"
+  },
+  {
+    "category": "Echo Downslam Attack 1:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "116902541119604",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0290"
+      }
+    ],
+    "catId": "C0149"
+  },
+  {
+    "category": "Echo Downslam Attack 2:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "76879671718079",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0291"
+      }
+    ],
+    "catId": "C0150"
+  },
+  {
+    "category": "Act 2:",
+    "items": [
+      {
+        "name": "Basic Echo Stance",
+        "id": "139208219835039",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0292"
+      },
+      {
+        "name": "Texture",
+        "id": "107408175639169",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0293"
+      }
+    ],
+    "catId": "C0151"
+  },
+  {
+    "category": "Echo Attack 1:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "121741099614364",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0294"
+      }
+    ],
+    "catId": "C0152"
+  },
+  {
+    "category": "Echo Attack 2:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "88074934405004",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0295"
+      }
+    ],
+    "catId": "C0153"
+  },
+  {
+    "category": "Echo Attack 3:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "93719703705723",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0296"
+      }
+    ],
+    "catId": "C0154"
+  },
+  {
+    "category": "Basic Echo Stance:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "94385115620463",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0297"
+      },
+      {
+        "name": "Texture",
+        "id": "96951810992877",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0298"
+      }
+    ],
+    "catId": "C0155"
+  },
+  {
+    "category": "November Rain Basic Stance:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "73145116929217",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0299"
+      },
+      {
+        "name": "Texture",
+        "id": "82448305490246",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0300"
+      }
+    ],
+    "catId": "C0156"
+  },
+  {
+    "category": "Water Droplet:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "13569393651",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0301"
+      }
+    ],
+    "catId": "C0157"
+  },
+  {
+    "category": "Soft & Wet Head:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "125029039917749",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0302"
+      },
+      {
+        "name": "Texture",
+        "id": "85337610046047",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0303"
+      }
+    ],
+    "catId": "C0158"
+  },
+  {
+    "category": "Soft & Wet Torso:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "137346942704188",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0304"
+      },
+      {
+        "name": "Texture",
+        "id": "76086889531550",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0305"
+      }
+    ],
+    "catId": "C0159"
+  },
+  {
+    "category": "Soft & Wet Right Arm:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "84845345205849",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0306"
+      },
+      {
+        "name": "Texture",
+        "id": "76394581738096",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0307"
+      }
+    ],
+    "catId": "C0160"
+  },
+  {
+    "category": "Soft & Wet Left Arm:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "114952464769627",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0308"
+      }
+    ],
+    "catId": "C0161"
+  },
+  {
+    "category": "Soft & Wet Right Leg:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "101247861501234",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0309"
+      }
+    ],
+    "catId": "C0162"
+  },
+  {
+    "category": "Soft & Wet Left Leg:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "97639671491401",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0310"
+      }
+    ],
+    "catId": "C0163"
+  },
+  {
+    "category": "Bubble:",
+    "items": [
+      {
+        "name": "Mesh ID",
+        "id": "18748850768",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0311"
+      },
+      {
+        "name": "Texture",
+        "id": "18748851166",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0312"
+      }
+    ],
+    "catId": "C0164"
+  },
+  {
+    "category": "Color Changeable Star:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "6123743241",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0313"
+      }
+    ],
+    "catId": "C0165"
+  },
+  {
+    "category": "TUSK ACT 2:",
+    "items": [
+      {
+        "name": "Amount",
+        "id": "97737141353300",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0314"
+      },
+      {
+        "name": "Texture",
+        "id": "132989542307433",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0315"
+      }
+    ],
+    "catId": "C0166"
+  },
+  {
+    "category": "Katakuri pack:",
+    "items": [
+      {
+        "name": "BLUE TEXTURE",
+        "id": "102429291764422",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0316"
+      },
+      {
+        "name": "WHITE TEXTURE",
+        "id": "100259268516996",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0317"
+      }
+    ],
+    "catId": "C0167"
+  },
+  {
+    "category": "Items For Him:",
+    "items": [
+      {
+        "name": "Spear",
+        "id": "91840740837225",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0318"
+      },
+      {
+        "name": "Mochi Donut",
+        "id": "113395964957455",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0319"
+      },
+      {
+        "name": "Leg",
+        "id": "110860759334750",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0320"
+      },
+      {
+        "name": "Mochi Spike Tower",
+        "id": "88334146792657",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0321"
+      },
+      {
+        "name": "Mochi ball1",
+        "id": "91953838830035",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0322"
+      },
+      {
+        "name": "Mochi ball2",
+        "id": "117348131708196",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0323"
+      },
+      {
+        "name": "Mochi ball3",
+        "id": "127857949047938",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0324"
+      },
+      {
+        "name": "Mochi Puddle",
+        "id": "113684259516192",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0325"
+      }
+    ],
+    "catId": "C0168"
+  },
+  {
+    "category": "Non-Haki:",
+    "items": [
+      {
+        "name": "Short",
+        "id": "101235661068219",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0326"
+      },
+      {
+        "name": "Medium",
+        "id": "84110445564541",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0327"
+      },
+      {
+        "name": "Long",
+        "id": "95239562923437",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0328"
+      },
+      {
+        "name": "Hand1",
+        "id": "119990987288645",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0329"
+      },
+      {
+        "name": "Hand2",
+        "id": "127858116894251",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0330"
+      }
+    ],
+    "catId": "C0169"
+  },
+  {
+    "category": "Haki:",
+    "items": [
+      {
+        "name": "Short",
+        "id": "99133709601948",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0331"
+      },
+      {
+        "name": "Medium",
+        "id": "118432892776695",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0332"
+      },
+      {
+        "name": "Long",
+        "id": "100640539491441",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0333"
+      },
+      {
+        "name": "Hand1",
+        "id": "79316130329463",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0334"
+      },
+      {
+        "name": "Hand2",
+        "id": "122516718902953",
+        "texture": "",
+        "namet1": "",
+        "altt1": [],
+        "autoId": "0335"
       }
     ]
   }

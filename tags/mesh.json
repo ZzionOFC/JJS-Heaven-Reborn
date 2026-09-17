@@ -2784,26 +2784,10 @@
     "items": [
       {
         "name": "Mantis Arm",
-        "id": "97129993736888",
-        "namet": [
-          "White",
-          "Black",
-          "Gray",
-          "Light Green",
-          "Purple",
-          "Yellow",
-          "Red"
-        ],
-        "altt": [
-          "80763611425443",
-          "96038686983774",
-          "93981643294873",
-          "93884245741258",
-          "93884245741258",
-          "131827358421352",
-          "119483292161981"
-        ]
-      },
+        "id": "97129993736888"
+      }
+    ]
+  },
   {
     "category": "VFX Meshes:",
     "items": []
@@ -2813,171 +2797,99 @@
     "items": [
       {
         "name": "Explosion Effect",
-        "id": "1826588507",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "1826588507"
       },
       {
         "name": "Alt Wind Expand",
-        "id": "95714443790578",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "95714443790578"
       },
       {
         "name": "Better Wind Ring 1",
-        "id": "3454554153",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "3454554153"
       },
       {
         "name": "Better Wind Ring 2",
-        "id": "6026279643",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6026279643"
       },
       {
         "name": "Better Wind Ring 3",
-        "id": "5769820098",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5769820098"
       },
       {
         "name": "Better Wind Ring 4",
-        "id": "93903129600437",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "93903129600437"
       },
       {
         "name": "Curved Dash (Alt)",
-        "id": "5697180926",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5697180926"
       },
       {
         "name": "Curved Dash (Part A)",
-        "id": "5697180112",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5697180112"
       },
       {
         "name": "Curved Dash (Part B)",
-        "id": "5697180531",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5697180531"
       },
       {
         "name": "Dash Effect",
-        "id": "5697179963",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5697179963"
       },
       {
         "name": "Semi-Curved Dash",
-        "id": "117053766456109",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "117053766456109"
       },
       {
         "name": "Spring-Shaped Wind 1",
-        "id": "104176020262494",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "104176020262494"
       },
       {
         "name": "Spring-Shaped Wind 2",
-        "id": "84332797157724",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "84332797157724"
       },
       {
         "name": "Tornado/Lightning",
-        "id": "5926727378",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5926727378"
       },
       {
         "name": "Whirl Slash + Expand",
-        "id": "82909834540741",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "82909834540741"
       },
       {
         "name": "Whirlwind 1",
-        "id": "5188651386",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5188651386"
       },
       {
         "name": "Wind Cyclone Thingy",
-        "id": "6071361028",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6071361028"
       },
       {
         "name": "Wind Cylinder",
-        "id": "75091409530712",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "75091409530712"
       },
       {
         "name": "Wind Donut Thingy",
-        "id": "6026280687",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6026280687"
       },
       {
         "name": "Wind Explosion",
-        "id": "6553027596",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6553027596"
       },
       {
         "name": "Wind Ring + Expand",
-        "id": "103125833009427",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "103125833009427"
       },
       {
         "name": "Wind Spiral 2",
-        "id": "6494560271",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6494560271"
       },
       {
         "name": "Whirl/Expand Wind",
-        "id": "88967728564361",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "88967728564361"
       },
       {
         "name": "Wind Slash",
-        "id": "5769820604",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5769820604"
       }
     ]
   },
@@ -2986,80 +2898,47 @@
     "items": [
       {
         "name": "Actual Fire 1",
-        "id": "128078205854357",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "128078205854357"
       },
       {
         "name": "Actual Fire 2",
-        "id": "81076311684691",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "81076311684691"
       },
       {
         "name": "Ice Crystal",
-        "id": "13935758133",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "13935758133"
       },
       {
         "name": "Lightning 1",
-        "id": "6553232712",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6553232712"
       },
       {
         "name": "Lightning 2",
-        "id": "95250863538914",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "95250863538914"
       },
       {
         "name": "Lightning 3",
-        "id": "108307634365729",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "108307634365729"
       },
       {
         "name": "Pixel Expand",
-        "id": "6553021063",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6553021063"
       },
       {
         "name": "Tidal Wave",
-        "id": "133117825746566",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "133117825746566"
       },
       {
         "name": "Water Splash 1",
-        "id": "5139788115",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5139788115"
       },
       {
         "name": "Water Splash 2",
-        "id": "4681344912",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4681344912"
       },
       {
         "name": "Water Splash 3",
-        "id": "85924952814205",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "85924952814205"
       }
     ]
   },
@@ -3068,17 +2947,11 @@
     "items": [
       {
         "name": "3D Shatter 1",
-        "id": "113421944353034",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "113421944353034"
       },
       {
         "name": "3D Shatter 2",
-        "id": "75696003362443",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "75696003362443"
       }
     ]
   },
@@ -3087,38 +2960,23 @@
     "items": [
       {
         "name": "3D Star",
-        "id": "4886514859",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4886514859"
       },
       {
         "name": "Better Slash",
-        "id": "4117531521",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4117531521"
       },
       {
         "name": "Spherical Slashes",
-        "id": "881809484",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "881809484"
       },
       {
         "name": "Domain Bubble",
-        "id": "117911529005204",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "117911529005204"
       },
       {
         "name": "10 Point Star",
-        "id": "117225846540468",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "117225846540468"
       }
     ]
   },
@@ -3126,18 +2984,12 @@
     "category": "Rock Mesh:",
     "items": [
       {
-        "name": "",
-        "id": "131124000870627",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "name": "Rock Mesh",
+        "id": "131124000870627"
       },
       {
         "name": "Texture",
-        "id": "94174948173086",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "94174948173086"
       }
     ]
   },
@@ -3145,18 +2997,12 @@
     "category": "Earth/Rock Pillar:",
     "items": [
       {
-        "name": "",
-        "id": "107445878955927",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "name": "Rock Pillar",
+        "id": "107445878955927"
       },
       {
         "name": "Texture",
-        "id": "74184791526286",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "74184791526286"
       }
     ]
   },
@@ -3165,157 +3011,91 @@
     "items": [
       {
         "name": "smear 1",
-        "id": "14583112535",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583112535"
       },
       {
         "name": "smear 2",
-        "id": "14583128741",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583128741"
       },
       {
         "name": "smear 3",
-        "id": "14404934289",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14404934289"
       },
       {
         "name": "smear 5",
-        "id": "14583995210",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583995210"
       },
       {
         "name": "smear 6",
-        "id": "14583594233",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583594233"
       },
       {
         "name": "smear 7",
-        "id": "14583986149",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583986149"
       },
       {
         "name": "smear 8",
-        "id": "14583585859",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583585859"
       },
       {
         "name": "smear 9",
-        "id": "14583674768",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583674768"
       },
       {
         "name": "smear 10",
-        "id": "14583906882",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583906882"
       },
       {
         "name": "smear 11",
-        "id": "14583836659",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583836659"
       },
       {
         "name": "smear 12",
-        "id": "14583218918",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583218918"
       },
       {
         "name": "smear 14",
-        "id": "14583935845",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583935845"
       },
       {
         "name": "smear 15",
-        "id": "14583893021",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583893021"
       },
       {
         "name": "smear 16",
-        "id": "14584061315",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14584061315"
       },
       {
         "name": "smear 17",
-        "id": "14583532172",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14583532172"
       },
       {
         "name": "smear 18",
-        "id": "14405093858",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405093858"
       },
       {
         "name": "smear 20",
-        "id": "1440528864",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "1440528864"
       },
       {
         "name": "smear 21",
-        "id": "14405288645",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405288645"
       },
       {
         "name": "smear 22",
-        "id": "14405059966",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405059966"
       },
       {
         "name": "smear 23",
-        "id": "14405139635",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405139635"
       },
       {
         "name": "smear 25",
-        "id": "14405029402",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405029402"
       },
       {
         "name": "smear 26",
-        "id": "14405286795",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "14405286795"
       }
     ]
   },
@@ -3324,115 +3104,67 @@
     "items": [
       {
         "name": "Shockwave",
-        "id": "4316118084",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4316118084"
       },
       {
         "name": "Air Spikes Mesh",
-        "id": "4592891897",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4592891897"
       },
       {
         "name": "Ground Spike Mesh",
-        "id": "13166436960",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "13166436960"
       },
       {
         "name": "Ground Spike 2 Mesh",
-        "id": "13683716085",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "13683716085"
       },
       {
         "name": "Ground Spikes Mesh",
-        "id": "102331666346863",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "102331666346863"
       },
       {
-        "name": "Ice Spikes Mesh  | Texture  967645205",
-        "id": "967645224",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "name": "Ice Spikes Mesh",
+        "id": "967645224"
       },
       {
         "name": "Inside-Out Spikes Mesh",
-        "id": "118419556171077",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "118419556171077"
       },
       {
         "name": "Long Pointy Spike Mesh",
-        "id": "8020518345",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "8020518345"
       },
       {
         "name": "Outside-In Spikes Mesh",
-        "id": "114687814957343",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "114687814957343"
       },
       {
         "name": "Spike1",
-        "id": "1254390558",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "1254390558"
       },
       {
         "name": "Spike Ball Mesh",
-        "id": "11117677059",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "11117677059"
       },
       {
         "name": "Spike Circle Mesh",
-        "id": "102626405197522",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "102626405197522"
       },
       {
-        "name": "Stretched Spike Mesh  | Texture  71164611875825",
-        "id": "17813810283",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "name": "Stretched Spike Mesh",
+        "id": "17813810283"
       },
       {
         "name": "Tall Spike With Mini Spikes Mesh",
-        "id": "11259688082",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "11259688082"
       },
       {
         "name": "Tall Triangular Spike With Mini Spikes Mesh",
-        "id": "80523044279359",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "80523044279359"
       },
       {
         "name": "Wide Stretched Spike Mesh",
-        "id": "128545415398613",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "128545415398613"
       }
     ]
   },
@@ -3441,73 +3173,43 @@
     "items": [
       {
         "name": "Explosion Mesh",
-        "id": "5583137004",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5583137004"
       },
       {
         "name": "Explosion1",
-        "id": "4933939707",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4933939707"
       },
       {
         "name": "Impact1",
-        "id": "437347603",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "437347603"
       },
       {
         "name": "Impact2",
-        "id": "2689837482",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "2689837482"
       },
       {
         "name": "Impact3",
-        "id": "452960473",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "452960473"
       },
       {
         "name": "Impact4",
-        "id": "489415286",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "489415286"
       },
       {
         "name": "Impact5",
-        "id": "5696416905",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5696416905"
       },
       {
         "name": "Shockwave1",
-        "id": "5694662220",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5694662220"
       },
       {
         "name": "Wave1",
-        "id": "4901270068",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4901270068"
       },
       {
         "name": "Wave2",
-        "id": "2788580235",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "2788580235"
       }
     ]
   },
@@ -3516,101 +3218,59 @@
     "items": [
       {
         "name": "Circle1",
-        "id": "1474874211",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "1474874211"
       },
       {
         "name": "Circle2",
-        "id": "1726537151",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "1726537151"
       },
       {
         "name": "Circle3",
-        "id": "3354830324",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "3354830324"
       },
       {
         "name": "Cylinder1",
-        "id": "16606212",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "16606212"
       },
       {
         "name": "Cylinder2",
-        "id": "4631767253",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4631767253"
       },
       {
         "name": "Cylinder3",
-        "id": "4558726590",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4558726590"
       },
       {
         "name": "Cylinder4",
-        "id": "6063631009",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6063631009"
       },
       {
         "name": "Sphere1",
-        "id": "4313233873",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4313233873"
       },
       {
         "name": "Sphere2",
-        "id": "5703278366",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5703278366"
       },
       {
         "name": "Sphere3",
-        "id": "4933939521",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4933939521"
       },
       {
         "name": "Sphere4",
-        "id": "5747850601",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5747850601"
       },
       {
         "name": "Sphere5",
-        "id": "4933939180",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4933939180"
       },
       {
         "name": "Spiral1",
-        "id": "6092662636",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "6092662636"
       },
       {
         "name": "Spiral2",
-        "id": "4461104675",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "4461104675"
       }
     ]
   },
@@ -3619,17 +3279,11 @@
     "items": [
       {
         "name": "Square Shape id",
-        "id": "101545907173523",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "101545907173523"
       },
       {
         "name": "Circular Shape id",
-        "id": "130763753620610",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "130763753620610"
       }
     ]
   },
@@ -3638,45 +3292,27 @@
     "items": [
       {
         "name": "Ice Cylinder Platform id",
-        "id": "109908512382585",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "109908512382585"
       },
       {
         "name": "Uraume Ice Cube id",
-        "id": "90377362422490",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "90377362422490"
       },
       {
         "name": "Uraume Ice Wall id",
-        "id": "132835000105696",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "132835000105696"
       },
       {
         "name": "Uraume Ice Platform id",
-        "id": "139777065947837",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "139777065947837"
       },
       {
         "name": "Uraume Ice Stick id",
-        "id": "97533592775425",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "97533592775425"
       },
       {
         "name": "Uraume Ice Hammer Part id",
-        "id": "74071767193243",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "74071767193243"
       }
     ]
   },
@@ -3685,10 +3321,7 @@
     "items": [
       {
         "name": "mesh id",
-        "id": "120019728658249",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "120019728658249"
       }
     ]
   },
@@ -3697,17 +3330,11 @@
     "items": [
       {
         "name": "Spike Sun / Large Impact",
-        "id": "5866232076",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5866232076"
       },
       {
         "name": "Conical Web Tornado",
-        "id": "5543986905",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
+        "id": "5543986905"
       }
     ]
   }

@@ -1,3341 +1,3193 @@
 [
-  {
-    "category": "JJBA MESHES",
-    "items": [
-      {
-        "name": "Opened Umbrella",
-        "id": "119526479223967"
-      },
-      {
-        "name": "Texture",
-        "id": "93739083322389"
-      }
-    ]
-  },
-  {
-    "category": "Closed Umbrella",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "18787300269"
-      },
-      {
-        "name": "Texture",
-        "id": "18787300356"
-      }
-    ]
-  },
-  {
-    "category": "Mandom Stand",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "125427739083942"
-      },
-      {
-        "name": "Texture",
-        "id": "91577431320888"
-      }
-    ]
-  },
-  {
-    "category": "Revolver",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "868958273"
-      },
-      {
-        "name": "Texture",
-        "id": "868958290"
-      }
-    ]
-  },
-  {
-    "category": "Steel Ball",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "82862864603421"
-      },
-      {
-        "name": "Texture",
-        "id": "102382645560187"
-      }
-    ]
-  },
-  {
-    "category": "Golden Rotation",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "116474057173043"
-      }
-    ]
-  },
-  {
-    "category": "Ball Breaker",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "18449529697"
-      },
-      {
-        "name": "Texture",
-        "id": "18449533684"
-      }
-    ]
-  },
-  {
-    "category": "Dash Echo",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "86697622117212"
-      },
-      {
-        "name": "Texture",
-        "id": "137851479881042"
-      }
-    ]
-  },
-  {
-    "category": "Echo Beatdown Attack 1",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "110789859261693"
-      },
-      {
-        "name": "Texture",
-        "id": "137851479881042"
-      }
-    ]
-  },
-  {
-    "category": "Echo Beatdown Attack 2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "100883918684512"
-      },
-      {
-        "name": "Texture",
-        "id": "137851479881042"
-      }
-    ]
-  },
-  {
-    "category": "Echo Downslam Attack 1",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "116902541119604"
-      },
-      {
-        "name": "Texture",
-        "id": "137851479881042"
-      }
-    ]
-  },
-  {
-    "category": "Echo Downslam Attack 2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "76879671718079"
-      },
-      {
-        "name": "Texture",
-        "id": "137851479881042"
-      }
-    ]
-  },
-  {
-    "category": "Act 2",
-    "items": [
-      {
-        "name": "Basic Echo Stance",
-        "id": "139208219835039"
-      },
-      {
-        "name": "Texture",
-        "id": "107408175639169"
-      }
-    ]
-  },
-  {
-    "category": "Echo Attack 1",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "121741099614364"
-      },
-      {
-        "name": "Texture",
-        "id": "107408175639169"
-      }
-    ]
-  },
-  {
-    "category": "Echo Attack 2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "88074934405004"
-      },
-      {
-        "name": "Texture",
-        "id": "107408175639169"
-      }
-    ]
-  },
-  {
-    "category": "Echo Attack 3",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "93719703705723"
-      },
-      {
-        "name": "Texture",
-        "id": "107408175639169"
-      }
-    ]
-  },
-  {
-    "category": "Basic Echo Stance",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "94385115620463"
-      },
-      {
-        "name": "Texture",
-        "id": "96951810992877"
-      }
-    ]
-  },
-  {
-    "category": "November Rain Basic Stance",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "73145116929217"
-      },
-      {
-        "name": "Texture",
-        "id": "82448305490246"
-      }
-    ]
-  },
-  {
-    "category": "Changeable color",
-    "items": [
-      {
-        "name": "Water Droplet",
-        "id": "13569393651"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Head",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "125029039917749"
-      },
-      {
-        "name": "Texture",
-        "id": "85337610046047"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Torso",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "137346942704188"
-      },
-      {
-        "name": "Texture",
-        "id": "76086889531550"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Right Arm",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "84845345205849"
-      },
-      {
-        "name": "Texture",
-        "id": "76394581738096"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Left Arm",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "114952464769627"
-      },
-      {
-        "name": "Texture",
-        "id": "76394581738096"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Right Leg",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "101247861501234"
-      },
-      {
-        "name": "Texture",
-        "id": "76394581738096"
-      }
-    ]
-  },
-  {
-    "category": "Soft & Wet Left Leg",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "97639671491401"
-      },
-      {
-        "name": "Texture",
-        "id": "76394581738096"
-      }
-    ]
-  },
-  {
-    "category": "Bubble",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "18748850768"
-      },
-      {
-        "name": "Texture",
-        "id": "18748851166"
-      }
-    ]
-  },
-  {
-    "category": "Color Changeable",
-    "items": [
-      {
-        "name": "Star",
-        "id": "6123743241"
-      }
-    ]
-  },
-  {
-    "category": "TUSK ACT 2",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "97737141353300"
-      },
-      {
-        "name": "Texture",
-        "id": "132989542307433"
-      }
-    ]
-  },
-  {
-    "category": "Hollow Wicker Basket",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "5065466321"
-      }
-    ]
-  },
-  {
-    "category": "Womb Profusion",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "74408379982837"
-      },
-      {
-        "name": "Texture",
-        "id": "112025978181868"
-      }
-    ]
-  },
-  {
-    "category": "Naoya Frame",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "113222925767682"
-      },
-      {
-        "name": "Textura",
-        "id": "89189103674405"
-      }
-    ]
-  },
-  {
-    "category": "Ganesha",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "131750866672815"
-      },
-      {
-        "name": "Textura",
-        "id": "76791310992880"
-      }
-    ]
-  },
-  {
-    "category": "Ganesha JJS Style",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "81133659792021"
-      },
-      {
-        "name": "Textura",
-        "id": "112048711127570"
-      }
-    ]
-  },
-  {
-    "category": "Rushing Ox",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "102678081371850"
-      },
-      {
-        "name": "Textura",
-        "id": "97044826568383"
-      }
-    ]
-  },
-  {
-    "category": "Piercing Ox 2",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "93746949448317"
-      },
-      {
-        "name": "Textura",
-        "id": "130139262922796"
-      }
-    ]
-  },
-  {
-    "category": "Festering Life Sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "115597874985905"
-      },
-      {
-        "name": "Textura",
-        "id": "82427804163347"
-      }
-    ]
-  },
-  {
-    "category": "Festering Life Sword (CANON)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "138364698137777"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "105487940796690"
-      }
-    ]
-  },
-  {
-    "category": "Inumaki Troat Spray",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "120724342406648"
-      },
-      {
-        "name": "Textura",
-        "id": "140218415406533"
-      }
-    ]
-  },
-  {
-    "category": "Dragão Arco-Íris",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "122337778593902"
-      },
-      {
-        "name": "Mesh Boca Aberta",
-        "id": "101217903019962"
-      },
-      {
-        "name": "Textura",
-        "id": "84015591905677"
-      }
-    ]
-  },
-  {
-    "category": "Funeral do Tigre (Tiger Funeral)",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "99722225653192"
-      },
-      {
-        "name": "Textura Pelagem Laranja",
-        "id": "72330323981945"
-      },
-      {
-        "name": "Textura Pelagem Branca",
-        "id": "103187475421515"
-      }
-    ]
-  },
-  {
-    "category": "Machado da Mei Mei",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "89174111406172"
-      },
-      {
-        "name": "Textura",
-        "id": "97253098912094"
-      }
-    ]
-  },
-  {
-    "category": "Bolha Expansão De Dominio 1",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "110647293556307"
-      }
-    ]
-  },
-  {
-    "category": "JJS Basic Shrine",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "133516790387596"
-      },
-      {
-        "name": "Texture ID",
-        "id": "92128437510622"
-      }
-    ]
-  },
-  {
-    "category": "Executioners Sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "115239234792618"
-      },
-      {
-        "name": "Texture",
-        "id": "114270493916905"
-      }
-    ]
-  },
-  {
-    "category": "Todo Vibraslap",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "73103282872272"
-      },
-      {
-        "name": "Texture",
-        "id": "113492790086560"
-      }
-    ]
-  },
-  {
-    "category": "Crow",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "112396516576819"
-      },
-      {
-        "name": "Texture",
-        "id": "78149127019253"
-      }
-    ]
-  },
-  {
-    "category": "Fish",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "116265628923818"
-      },
-      {
-        "name": "Texture",
-        "id": "129835025833675"
-      }
-    ]
-  },
-  {
-    "category": "Fish 2",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "123345011286957"
-      },
-      {
-        "name": "Texture",
-        "id": "129835025833675"
-      }
-    ]
-  },
-  {
-    "category": "Geto Squid",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "118113074232265"
-      },
-      {
-        "name": "Texture",
-        "id": "87303586730398"
-      }
-    ]
-  },
-  {
-    "category": "Geto Worm",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "97647548302046"
-      },
-      {
-        "name": "Texture",
-        "id": "115152074156075"
-      }
-    ]
-  },
-  {
-    "category": "MAHITO STITCHES",
-    "items": [
-      {
-        "name": "Right Arm",
-        "id": "111891424778284"
-      },
-      {
-        "name": "Left Arm",
-        "id": "126650039966026"
-      },
-      {
-        "name": "Texture",
-        "id": "120183962471200"
-      },
-      {
-        "name": "Torso",
-        "id": "130327890312035"
-      },
-      {
-        "name": "Texture",
-        "id": "80985178136037"
-      },
-      {
-        "name": "Head",
-        "id": "78005067600127"
-      },
-      {
-        "name": "Texture",
-        "id": "86385401008596"
-      }
-    ]
-  },
-  {
-    "category": "Mahito clothes",
-    "items": [
-      {
-        "name": "Torso Mesh",
-        "id": "109550766319096"
-      },
-      {
-        "name": "Texture",
-        "id": "116304328907167"
-      },
-      {
-        "name": "Left Arm Mesh",
-        "id": "93463270309979"
-      },
-      {
-        "name": "Texture",
-        "id": "115476362892393"
-      },
-      {
-        "name": "Right Arm Mesh",
-        "id": "121312968062679"
-      },
-      {
-        "name": "Texture",
-        "id": "89671631782344"
-      }
-    ]
-  },
-  {
-    "category": "Reggie Motorcycle",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "134797509390942"
-      },
-      {
-        "name": "Texture ID",
-        "id": "115210872798441"
-      }
-    ]
-  },
-  {
-    "category": "TAKABA FIT",
-    "items": [
-      {
-        "name": "• TEXTURE",
-        "id": "71740149199366"
-      },
-      {
-        "name": "• TORSO",
-        "id": "106539377292068"
-      },
-      {
-        "name": "• LEFTARM",
-        "id": "116641356535928"
-      },
-      {
-        "name": "• LEFTLEG",
-        "id": "139268055889474"
-      },
-      {
-        "name": "• RIGHTARM",
-        "id": "91052053283864"
-      },
-      {
-        "name": "• RIGHTLEG",
-        "id": "128424194934526"
-      }
-    ]
-  },
-  {
-    "category": "Earthen Insect",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "130095414731793"
-      },
-      {
-        "name": "Texture ID",
-        "id": "87988345453684"
-      }
-    ]
-  },
-  {
-    "category": "Garuda",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "109488484179901"
-      },
-      {
-        "name": "Texture",
-        "id": "131476727384639"
-      },
-      {
-        "name": "Amount",
-        "id": "102442119028994"
-      },
-      {
-        "name": "Texture",
-        "id": "77264076857501"
-      },
-      {
-        "name": "Amount",
-        "id": "102442119028994"
-      },
-      {
-        "name": "Texture",
-        "id": "76356174676092"
-      }
-    ]
-  },
-  {
-    "category": "Hanami Flower",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "101636126969096"
-      },
-      {
-        "name": "Texture ID",
-        "id": "124790100790454"
-      }
-    ]
-  },
-  {
-    "category": "Toad",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "100784740089834"
-      },
-      {
-        "name": "Texture",
-        "id": "90386878109426"
-      }
-    ]
-  },
-  {
-    "category": "Texture With closed mouth",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "90386878109426"
-      },
-      {
-        "name": "Texture",
-        "id": "90386878109426"
-      }
-    ]
-  },
-  {
-    "category": "Tongue and twisted tongue",
-    "items": [
-      {
-        "name": "Tongue",
-        "id": "87030497202578"
-      },
-      {
-        "name": "Twisted Tongue",
-        "id": "73145349058655"
-      }
-    ]
-  },
-  {
-    "category": "Remi's Hair",
-    "items": [
-      {
-        "name": "Mesh id",
-        "id": "85710308515380"
-      },
-      {
-        "name": "Texture id",
-        "id": "79043970276887"
-      }
-    ]
-  },
-  {
-    "category": "Round Deer",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "82782156279549"
-      },
-      {
-        "name": "Texture ID",
-        "id": "73883875350661"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "111061721708931"
-      },
-      {
-        "name": "Texture ID",
-        "id": "127201557146623"
-      }
-    ]
-  },
-  {
-    "category": "Heian Sukuna Eyes",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "89790806821657"
-      },
-      {
-        "name": "Texture ID",
-        "id": "86094485444844"
-      }
-    ]
-  },
-  {
-    "category": "Max Elephant",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "131977178498259"
-      },
-      {
-        "name": "Texture",
-        "id": "78775520980282"
-      }
-    ]
-  },
-  {
-    "category": "Megumi Rabbit",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "107313299455571"
-      },
-      {
-        "name": "Texture",
-        "id": "92444826467717"
-      }
-    ]
-  },
-  {
-    "category": "Manta Ray VFX",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "89962256593568"
-      },
-      {
-        "name": "Texture ID",
-        "id": "132524185890060"
-      }
-    ]
-  },
-  {
-    "category": "Panda Wristband (Blue)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "113806259434811"
-      },
-      {
-        "name": "Texture ID",
-        "id": "100895389061438"
-      }
-    ]
-  },
-  {
-    "category": "Nue: Totality (Orochi)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "72907606381080"
-      },
-      {
-        "name": "Texture",
-        "id": "103939500537151"
-      }
-    ]
-  },
-  {
-    "category": "Shutter Doors",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "88806605554096"
-      },
-      {
-        "name": "Texture ID",
-        "id": "123005971649098"
-      }
-    ]
-  },
-  {
-    "category": "Heian Sukuna Eye Thingy",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "89790806821657"
-      },
-      {
-        "name": "Texture ID",
-        "id": "86094485444844"
-      }
-    ]
-  },
-  {
-    "category": "Shadow Hound 1",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "92811935862421"
-      }
-    ]
-  },
-  {
-    "category": "Shadow Hound 2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "119688921818050"
-      }
-    ]
-  },
-  {
-    "category": "Shadow Hound 3",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "100827834033271"
-      }
-    ]
-  },
-  {
-    "category": "Shadow Hound 4",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "74781308229591"
-      }
-    ]
-  },
-  {
-    "category": "Texture",
-    "items": [
-      {
-        "name": "Texture",
-        "id": "122006790369496"
-      }
-    ]
-  },
-  {
-    "category": "Roach",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "71798430613591"
-      },
-      {
-        "name": "Texture ID",
-        "id": "131676941752942"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "85629027165178"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "77086612152052"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "88496318019125"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "130183703124173"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "125660710197954"
-      }
-    ]
-  },
-  {
-    "category": "Blood Bag",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "76028609716112"
-      },
-      {
-        "name": "Texture ID",
-        "id": "114485201339717"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "85692166616506"
-      },
-      {
-        "name": "Texture ID",
-        "id": "126376926247661"
-      }
-    ]
-  },
-  {
-    "category": "Sukuna Finger (2.0)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "139310525568911"
-      },
-      {
-        "name": "Texture ID",
-        "id": "70471000263013"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "91301625826653"
-      }
-    ]
-  },
-  {
-    "category": "Megumi Toad (closed mouth)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "117209267242097"
-      },
-      {
-        "name": "Texture ID",
-        "id": "89797145263418"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "101806424790912"
-      },
-      {
-        "name": "Texture ID",
-        "id": "89797145263418"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "121895760673619"
-      },
-      {
-        "name": "Texture ID",
-        "id": "89797145263418"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "130300682169984"
-      },
-      {
-        "name": "Texture ID",
-        "id": "102061283887064"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "134816268033905"
-      },
-      {
-        "name": "Texture ID",
-        "id": "102061283887064"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "109093023491016"
-      },
-      {
-        "name": "Texture ID",
-        "id": "138089778444328"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "135055876929478"
-      },
-      {
-        "name": "Texture ID",
-        "id": "112824227115271"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "81336528285294"
-      },
-      {
-        "name": "Texture ID",
-        "id": "139920375843828"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "130258839377159"
-      },
-      {
-        "name": "Texture ID",
-        "id": "77523860492582"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "93940481055430"
-      },
-      {
-        "name": "Texture ID",
-        "id": "76835617220784"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "89635674946828"
-      },
-      {
-        "name": "Texture ID",
-        "id": "124743953799555"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "88684020777041"
-      },
-      {
-        "name": "Texture ID",
-        "id": "96964871566671"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "71048953855805"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "89962256593568"
-      },
-      {
-        "name": "Texture ID",
-        "id": "112713650708845"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "89962256593568"
-      },
-      {
-        "name": "Texture ID",
-        "id": "89714681000364"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "89962256593568"
-      },
-      {
-        "name": "Texture ID",
-        "id": "132524185890060"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "76304304149554"
-      },
-      {
-        "name": "Texture ID",
-        "id": "77316784560372"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "117000718413471"
-      },
-      {
-        "name": "Texture ID",
-        "id": "132568061038593"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "97812896605637"
-      },
-      {
-        "name": "Texture ID",
-        "id": "132054051418760"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "130386701055679"
-      },
-      {
-        "name": "Texture ID",
-        "id": "118319379290439"
-      }
-    ]
-  },
-  {
-    "category": "Hanami Arm",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "103975337248586"
-      },
-      {
-        "name": "Texture ID",
-        "id": "100776427830358"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "105944442826297"
-      },
-      {
-        "name": "Texture ID",
-        "id": "100725931881764"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "116308790717297"
-      },
-      {
-        "name": "Texture ID",
-        "id": "134369510507486"
-      },
-      {
-        "name": "Thin Ice Breaker Stage",
-        "id": "1"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "88240922077754"
-      },
-      {
-        "name": "Texture ID",
-        "id": "84272871288137"
-      },
-      {
-        "name": "Thin Ice Breaker Stage",
-        "id": "2"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "108332859803176"
-      },
-      {
-        "name": "Texture ID",
-        "id": "84272871288137"
-      },
-      {
-        "name": "Thin Ice Breaker Stage",
-        "id": "3"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "117877027996918"
-      },
-      {
-        "name": "Texture ID",
-        "id": "84272871288137"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "87343868022816"
-      },
-      {
-        "name": "Texture ID",
-        "id": "84016704055607"
-      },
-      {
-        "name": "Yorozu Liquid",
-        "id": "1"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "73381070320760"
-      },
-      {
-        "name": "​Yorozu Liquid",
-        "id": "2"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "102798458392304"
-      },
-      {
-        "name": "​Yorozu Liquid",
-        "id": "3"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "94010075431654"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "75835610534092"
-      }
-    ]
-  },
-  {
-    "category": "Circle Hit Area Indicator",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "135934852515645"
-      },
-      {
-        "name": "Mesh id",
-        "id": "89174111406172"
-      },
-      {
-        "name": "Texture",
-        "id": "97253098912094"
-      }
-    ]
-  },
-  {
-    "category": "Split Soul Katana",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "80942406858623"
-      },
-      {
-        "name": "Texture",
-        "id": "110693186487525"
-      }
-    ]
-  },
-  {
-    "category": "Inverted Spear of Heaven",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "102105989219593"
-      },
-      {
-        "name": "Texture",
-        "id": "131973336159513"
-      }
-    ]
-  },
-  {
-    "category": "Dragon Bone",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "127402484936932"
-      },
-      {
-        "name": "Texture",
-        "id": "1296535608794151"
-      }
-    ]
-  },
-  {
-    "category": "Slaughter Demon",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "127402484936932"
-      },
-      {
-        "name": "Texture",
-        "id": "109027168346097"
-      }
-    ]
-  },
-  {
-    "category": "Haruta’s Hand Sword",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "88809915286757"
-      },
-      {
-        "name": "Texture",
-        "id": "101994849646738"
-      }
-    ]
-  },
-  {
-    "category": "Hiten",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "98433652204411"
-      },
-      {
-        "name": "Texture",
-        "id": "98460862343978"
-      }
-    ]
-  },
-  {
-    "category": "Playful cloud segment",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "129089147916643"
-      },
-      {
-        "name": "Texture ID",
-        "id": "92718709151482"
-      }
-    ]
-  },
-  {
-    "category": "G-War Staff",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "97777828041928"
-      },
-      {
-        "name": "Texture ID",
-        "id": "130177522506782"
-      }
-    ]
-  },
-  {
-    "category": "Miwa Katana",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "122708361089753"
-      },
-      {
-        "name": "Texture",
-        "id": "129811377352181"
-      }
-    ]
-  },
-  {
-    "category": "Miwa Katana Sheath",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "112033763487170"
-      },
-      {
-        "name": "Texture",
-        "id": "115833628478260"
-      }
-    ]
-  },
-  {
-    "category": "Dragon Bone",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "127402484936932"
-      },
-      {
-        "name": "Texture ID",
-        "id": "129653560879415"
-      }
-    ]
-  },
-  {
-    "category": "Slaughter Demon",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "127275111980811"
-      },
-      {
-        "name": "Texture ID",
-        "id": "109027168346097"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "96992182691691"
-      },
-      {
-        "name": "Texture ID",
-        "id": "73860260770089"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "114975150009770"
-      },
-      {
-        "name": "Texture ID",
-        "id": "117730319981339"
-      }
-    ]
-  },
-  {
-    "category": "Kamutoke",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "91597777009641"
-      },
-      {
-        "name": "Texture ID",
-        "id": "133722274903165"
-      }
-    ]
-  },
-  {
-    "category": "Hiten",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "109884625534934"
-      },
-      {
-        "name": "Texture ID",
-        "id": "107642154536749"
-      }
-    ]
-  },
-  {
-    "category": "Higuruma's gavel",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "120545876937090"
-      },
-      {
-        "name": "Texture",
-        "id": "121702386941389"
-      }
-    ]
-  },
-  {
-    "category": "Higuruma Sledgehammer",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "86058909971708"
-      },
-      {
-        "name": "Texture",
-        "id": "75126452065743"
-      }
-    ]
-  },
-  {
-    "category": "Higuruma Big Hammer",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "127208449235789"
-      },
-      {
-        "name": "Texture",
-        "id": "88454858437941"
-      }
-    ]
-  },
-  {
-    "category": "Higuruma Giant Hammer",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "108837123921990"
-      },
-      {
-        "name": "Texture",
-        "id": "72422758837580"
-      }
-    ]
-  },
-  {
-    "category": "Kashimo's Nyoi Staff v1",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "18649396643"
-      },
-      {
-        "name": "Texture ID",
-        "id": "18649396442"
-      }
-    ]
-  },
-  {
-    "category": "Kashimo's Nyoi Staff v2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "123713349501705"
-      },
-      {
-        "name": "Texture ID",
-        "id": "95325238460371"
-      }
-    ]
-  },
-  {
-    "category": "Yuta's Accurate Katana",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "87432200902531"
-      },
-      {
-        "name": "Texture ID",
-        "id": "83359618997134"
-      }
-    ]
-  },
-  {
-    "category": "Cursed Speech Megaphone",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "107668740368266"
-      },
-      {
-        "name": "Texture ID",
-        "id": "117279713886263"
-      }
-    ]
-  },
-  {
-    "category": "Adaptation Wheel",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "18619784828"
-      },
-      {
-        "name": "Texture ID",
-        "id": "18619793887"
-      }
-    ]
-  },
-  {
-    "category": "Festering Life Sword",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "115597874985905"
-      },
-      {
-        "name": "Texture ID",
-        "id": "82427804163347"
-      }
-    ]
-  },
-  {
-    "category": "Yuta Metal Arm v2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "72863427912686"
-      },
-      {
-        "name": "Texture",
-        "id": "80945609073651"
-      }
-    ]
-  },
-  {
-    "category": "Megumi's Sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "112002616335541"
-      },
-      {
-        "name": "Texture",
-        "id": "118658377145717"
-      }
-    ]
-  },
-  {
-    "category": "Sword of Extermination",
-    "items": [
-      {
-        "name": "Amount",
-        "id": "95937581477264"
-      },
-      {
-        "name": "Texture",
-        "id": "78244817483175"
-      }
-    ]
-  },
-  {
-    "category": "Claws of Calamity V2",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "106192357013600"
-      },
-      {
-        "name": "Texture",
-        "id": "132269272192329"
-      }
-    ]
-  },
-  {
-    "category": "Todo vibraslap",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "73103282872272"
-      },
-      {
-        "name": "Texture",
-        "id": "113492790086560"
-      }
-    ]
-  },
-  {
-    "category": "YUJI SCISSOR CIRCLE",
-    "items": [
-      {
-        "name": "MESH",
-        "id": "119120915866308"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      },
-      {
-        "name": "MESH",
-        "id": "92983814376314"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      }
-    ]
-  },
-  {
-    "category": "SCISSOR FRAME 2",
-    "items": [
-      {
-        "name": "MESH",
-        "id": "110241368576270"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      }
-    ]
-  },
-  {
-    "category": "SCISSOR FRAME 3",
-    "items": [
-      {
-        "name": "MESH",
-        "id": "85725922155688"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      },
-      {
-        "name": "MESH",
-        "id": "105780788822798"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      }
-    ]
-  },
-  {
-    "category": "LEFT SCISSOR PIECE",
-    "items": [
-      {
-        "name": "MESH",
-        "id": "91443475956592"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      },
-      {
-        "name": "MESH",
-        "id": "73022986599511"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      }
-    ]
-  },
-  {
-    "category": "THE CUTTING LINE IN FRONT OF THE SCISSOR",
-    "items": [
-      {
-        "name": "MESH",
-        "id": "89034663636945"
-      },
-      {
-        "name": "TEXTURE",
-        "id": "135306623680271"
-      }
-    ]
-  },
-  {
-    "category": "Mini Rika Shikigami's",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "99826796083644"
-      },
-      {
-        "name": "Texture",
-        "id": "129332089407532"
-      }
-    ]
-  },
-  {
-    "category": "Nobara's Strawdoll",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "91066090472201"
-      },
-      {
-        "name": "Texture",
-        "id": "128959392238817"
-      }
-    ]
-  },
-  {
-    "category": "Nobara's Nail",
-    "items": [
-      {
-        "name": "Texture",
-        "id": "103035845746945"
-      }
-    ]
-  },
-  {
-    "category": "Hazenoki Pack",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "90940505102566"
-      },
-      {
-        "name": "Texture",
-        "id": "101879136379030"
-      }
-    ]
-  },
-  {
-    "category": "Big Tooth (blood)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "97729565330047"
-      },
-      {
-        "name": "Texture",
-        "id": "73714287796087"
-      }
-    ]
-  },
-  {
-    "category": "Small Tooth (no blood)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "135668461960107"
-      },
-      {
-        "name": "Texture",
-        "id": "99703675319068"
-      }
-    ]
-  },
-  {
-    "category": "Small Tooth (blood)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "136841138739961"
-      },
-      {
-        "name": "Texture",
-        "id": "97362392494002"
-      }
-    ]
-  },
-  {
-    "category": "Eye (no blood)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "139911878174368"
-      },
-      {
-        "name": "Texture",
-        "id": "91168820265285"
-      }
-    ]
-  },
-  {
-    "category": "Eye (blood)",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "78300751714557"
-      },
-      {
-        "name": "Texture",
-        "id": "73237139150539"
-      },
-      {
-        "name": "Kamo bow position",
-        "id": "1"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "111134293129599"
-      },
-      {
-        "name": "Texture ID",
-        "id": "129491214994471"
-      },
-      {
-        "name": "Kamo bow position",
-        "id": "2"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "128018609746758"
-      },
-      {
-        "name": "Texture ID",
-        "id": "102750949444969"
-      },
-      {
-        "name": "Kamo bow position",
-        "id": "3"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "114299020501282"
-      },
-      {
-        "name": "Texture ID",
-        "id": "107537871142223"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "88286489236003"
-      },
-      {
-        "name": "Texture ID",
-        "id": "116332480367654"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "135339813169898"
-      },
-      {
-        "name": "Texture ID",
-        "id": "79166676506346"
-      }
-    ]
-  },
-  {
-    "category": "Executioners Sword",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "82078113930362"
-      },
-      {
-        "name": "Texture ID",
-        "id": "110220402952083"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "82078113930362"
-      }
-    ]
-  },
-  {
-    "category": "Naginata",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "131816849144345"
-      },
-      {
-        "name": "Texture ID",
-        "id": "111287877206031"
-      }
-    ]
-  },
-  {
-    "category": "Nanami Blunt Knife",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "93867750494427"
-      },
-      {
-        "name": "texture",
-        "id": "122781637890503"
-      }
-    ]
-  },
-  {
-    "category": "Nanami Ties",
-    "items": [
-      {
-        "name": "Tie (overtime/wrap) amount",
-        "id": "104153216035650"
-      },
-      {
-        "name": "Tie (regular) amount",
-        "id": "117841349294239"
-      },
-      {
-        "name": "Texture (both)",
-        "id": "128056001940854"
-      }
-    ]
-  },
-  {
-    "category": "Others",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "100423137743603"
-      },
-      {
-        "name": "Texture",
-        "id": "109350061361929"
-      }
-    ]
-  },
-  {
-    "category": "Aki's Nail Katana",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "128215374868953"
-      },
-      {
-        "name": "Texture",
-        "id": "123600075330771"
-      }
-    ]
-  },
-  {
-    "category": "Frieren Staff",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "111735928688739"
-      },
-      {
-        "name": "Texture",
-        "id": "81707432434452"
-      }
-    ]
-  },
-  {
-    "category": "Stark Battle Axe",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "92064522402128"
-      },
-      {
-        "name": "Texture",
-        "id": "105235082092845"
-      }
-    ]
-  },
-  {
-    "category": "Gun",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "126190481742323"
-      },
-      {
-        "name": "Texture",
-        "id": "126190481742323"
-      }
-    ]
-  },
-  {
-    "category": "Staff 1",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "77084488500410"
-      },
-      {
-        "name": "Textura",
-        "id": "133954040051098"
-      }
-    ]
-  },
-  {
-    "category": "Staff 2",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "591079842"
-      },
-      {
-        "name": "Textura",
-        "id": "591079849"
-      }
-    ]
-  },
-  {
-    "category": "Staff 3",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "591069337"
-      },
-      {
-        "name": "Textura",
-        "id": "591069349"
-      }
-    ]
-  },
-  {
-    "category": "Staff 4",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "591065615"
-      },
-      {
-        "name": "Textura",
-        "id": "591065632"
-      }
-    ]
-  },
-  {
-    "category": "3 Point Staff",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "867595059"
-      },
-      {
-        "name": "Textura",
-        "id": "867595087"
-      }
-    ]
-  },
-  {
-    "category": "Half Moon Staff",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "15156470949"
-      },
-      {
-        "name": "Textura",
-        "id": "15156471571"
-      }
-    ]
-  },
-  {
-    "category": "Anime Sword 1",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "432834974"
-      },
-      {
-        "name": "Textura",
-        "id": "432834982"
-      }
-    ]
-  },
-  {
-    "category": "Broadsword 1",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "1427969333"
-      },
-      {
-        "name": "Textura",
-        "id": "1427969483"
-      }
-    ]
-  },
-  {
-    "category": "Ichigo Sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "111215968596244"
-      },
-      {
-        "name": "Textura",
-        "id": "90209903586999"
-      }
-    ]
-  },
-  {
-    "category": "Scythe",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "14918455750"
-      },
-      {
-        "name": "Textura",
-        "id": "14918455908"
-      }
-    ]
-  },
-  {
-    "category": "Tanjiro Nichirin",
-    "items": [
-      {
-        "name": "Texture",
-        "id": "134450434275717"
-      }
-    ]
-  },
-  {
-    "category": "Inosuke Nichirin",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "96148003657239"
-      },
-      {
-        "name": "Texture",
-        "id": "116079118552551"
-      }
-    ]
-  },
-  {
-    "category": "Tomioka Nichirin",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "94640914693111"
-      },
-      {
-        "name": "Texture",
-        "id": "94255000080357"
-      }
-    ]
-  },
-  {
-    "category": "Tokito Nichirin",
-    "items": [
-      {
-        "name": "Texture",
-        "id": "127844790437207"
-      }
-    ]
-  },
-  {
-    "category": "Tengen Nichirin",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "123126372131386"
-      },
-      {
-        "name": "Texture",
-        "id": "100687001441618"
-      }
-    ]
-  },
-  {
-    "category": "Katakuri Spear",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "130640099210762"
-      },
-      {
-        "name": "Texture",
-        "id": "123812719380897"
-      }
-    ]
-  },
-  {
-    "category": "Kisuke sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "111922697999908"
-      },
-      {
-        "name": "Texture",
-        "id": "86594202956495"
-      }
-    ]
-  },
-  {
-    "category": "Grimmjow sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "119008038207562"
-      },
-      {
-        "name": "Texture",
-        "id": "101361547006027"
-      }
-    ]
-  },
-  {
-    "category": "Rukia sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "86330504232988"
-      },
-      {
-        "name": "Texture",
-        "id": "94621364048837"
-      }
-    ]
-  },
-  {
-    "category": "Aizen Sword",
-    "items": [
-      {
-        "name": "mesh",
-        "id": "118178437160764"
-      },
-      {
-        "name": "texture",
-        "id": "121320499635193"
-      }
-    ]
-  },
-  {
-    "category": "Ichigo big funny sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "95851622499686"
-      },
-      {
-        "name": "Texture",
-        "id": "81362822074947"
-      }
-    ]
-  },
-  {
-    "category": "Ichigo katana",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "134247097480661"
-      },
-      {
-        "name": "Texture",
-        "id": "13679012490415"
-      }
-    ]
-  },
-  {
-    "category": "Battle Beast's mace",
-    "items": [
-      {
-        "name": "Mesh id",
-        "id": "117652008187020"
-      },
-      {
-        "name": "Texture id",
-        "id": "120348930477103"
-      }
-    ]
-  },
-  {
-    "category": "Spinal Cord Sword",
-    "items": [
-      {
-        "name": "Mesh",
-        "id": "87305273432148"
-      },
-      {
-        "name": "Texture",
-        "id": "112386837640742"
-      }
-    ]
-  },
-  {
-    "category": "JABBER GLOVES",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "86762368878009"
-      },
-      {
-        "name": "Texture ID",
-        "id": "80008580759055"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "81193181852233"
-      },
-      {
-        "name": "Texture ID",
-        "id": "80008580759055"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "113161547681257"
-      },
-      {
-        "name": "Texture ID",
-        "id": "81206271708972"
-      },
-      {
-        "name": "Mesh ID",
-        "id": "100994548015747"
-      },
-      {
-        "name": "Texture ID",
-        "id": "81206271708972"
-      }
-    ]
-  },
-  {
-    "category": "Deadpool Sword",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "443853663"
-      },
-      {
-        "name": "Texture ID",
-        "id": "443853675"
-      },
-      {
-        "name": "Mesh",
-        "id": "81777326026140"
-      },
-      {
-        "name": "Texture",
-        "id": "72062146049275"
-      },
-      {
-        "name": "Mesh",
-        "id": "77159326707337"
-      },
-      {
-        "name": "Texture",
-        "id": "95809801142891"
-      }
-    ]
-  },
-  {
-    "category": "Mesh Ids",
-    "items": [
-      {
-        "name": "Arm ID",
-        "id": "90573290461936"
-      },
-      {
-        "name": "Arm Texture",
-        "id": "74819414202819"
-      }
-    ]
-  },
-  {
-    "category": "Pants id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "87774541860365"
-      },
-      {
-        "name": "Texture",
-        "id": "133512467267449"
-      }
-    ]
-  },
-  {
-    "category": "Torso id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "82510223168566"
-      },
-      {
-        "name": "Texture",
-        "id": "88511784905184"
-      }
-    ]
-  },
-  {
-    "category": "Arm ids",
-    "items": [
-      {
-        "name": "Arm id",
-        "id": "75436189660387"
-      },
-      {
-        "name": "Texture id",
-        "id": "104590628011461"
-      }
-    ]
-  },
-  {
-    "category": "Leg id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "104912763700914"
-      },
-      {
-        "name": "Leg Texture",
-        "id": "92166242786171"
-      }
-    ]
-  },
-  {
-    "category": "Torso id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "119558893143116"
-      },
-      {
-        "name": "Torso Texture",
-        "id": "116690170862013"
-      }
-    ]
-  },
-  {
-    "category": "Collar id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "101570802734884"
-      },
-      {
-        "name": "Collar Texture",
-        "id": "106045890135808"
-      }
-    ]
-  },
-  {
-    "category": "Sword ids",
-    "items": [
-      {
-        "name": "Sword out id",
-        "id": "88467361956441"
-      },
-      {
-        "name": "Sword out Texture",
-        "id": "103950142291932"
-      },
-      {
-        "name": "Sword in id",
-        "id": "101125315891972"
-      },
-      {
-        "name": "Sword in texture",
-        "id": "96281924559127"
-      }
-    ]
-  },
-  {
-    "category": "Torso Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "71597989794216"
-      },
-      {
-        "name": "Torso Texture",
-        "id": "129246242979365"
-      }
-    ]
-  },
-  {
-    "category": "Arms Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "73791329550450"
-      },
-      {
-        "name": "Arms Texture",
-        "id": "123311326346369"
-      }
-    ]
-  },
-  {
-    "category": "Pants id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "139280897841894"
-      },
-      {
-        "name": "Pants Texture",
-        "id": "114084514388282"
-      }
-    ]
-  },
-  {
-    "category": "Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "116590153216550"
-      },
-      {
-        "name": "Texture",
-        "id": "103449089122557"
-      }
-    ]
-  },
-  {
-    "category": "Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "126571663380516"
-      }
-    ]
-  },
-  {
-    "category": "id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "96068059666929"
-      },
-      {
-        "name": "Texture",
-        "id": "114439762931728"
-      }
-    ]
-  },
-  {
-    "category": "Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "76921749838208"
-      },
-      {
-        "name": "Texture",
-        "id": "120827420151991"
-      }
-    ]
-  },
-  {
-    "category": "Id",
-    "items": [
-      {
-        "name": "Mesh ID",
-        "id": "131198944498843"
-      },
-      {
-        "name": "Texture",
-        "id": "78670180877453"
-      }
-    ]
-  },
-  {
-    "category": "Extras",
-    "items": [
-      {
-        "name": "Id",
-        "id": "85394567533599"
-      }
-    ]
-  },
-  {
-    "category": "Colorable Constrelation",
-    "items": [
-      {
-        "name": "Id",
-        "id": "102121803454525"
-      }
-    ]
-  },
-  {
-    "category": "Metal Arms",
-    "items": [
-      {
-        "name": "Left Id",
-        "id": "113387576270123"
-      },
-      {
-        "name": "Texture",
-        "id": "86717821300275"
-      },
-      {
-        "name": "Right id",
-        "id": "139201024322062"
-      }
-    ]
-  },
-  {
-    "category": "Yuta ring",
-    "items": [
-      {
-        "name": "Id",
-        "id": "139201024322062"
-      },
-      {
-        "name": "Texture",
-        "id": "86717821300275"
-      }
-    ]
-  },
-  {
-    "category": "Colorable Claws",
-    "items": [
-      {
-        "name": "Id",
-        "id": "106795849757434"
-      }
-    ]
-  },
-  {
-    "category": "Cyberpunk Meshes",
-    "items": [
-      {
-        "name": "Mantis Arm",
-        "id": "97129993736888"
-      }
-    ]
-  },
-  {
-    "category": "VFX Meshes:",
-    "items": []
-  },
-  {
-    "category": "Wind & Dash VFX",
-    "items": [
-      {
-        "name": "Explosion Effect",
-        "id": "1826588507"
-      },
-      {
-        "name": "Alt Wind Expand",
-        "id": "95714443790578"
-      },
-      {
-        "name": "Better Wind Ring 1",
-        "id": "3454554153"
-      },
-      {
-        "name": "Better Wind Ring 2",
-        "id": "6026279643"
-      },
-      {
-        "name": "Better Wind Ring 3",
-        "id": "5769820098"
-      },
-      {
-        "name": "Better Wind Ring 4",
-        "id": "93903129600437"
-      },
-      {
-        "name": "Curved Dash (Alt)",
-        "id": "5697180926"
-      },
-      {
-        "name": "Curved Dash (Part A)",
-        "id": "5697180112"
-      },
-      {
-        "name": "Curved Dash (Part B)",
-        "id": "5697180531"
-      },
-      {
-        "name": "Dash Effect",
-        "id": "5697179963"
-      },
-      {
-        "name": "Semi-Curved Dash",
-        "id": "117053766456109"
-      },
-      {
-        "name": "Spring-Shaped Wind 1",
-        "id": "104176020262494"
-      },
-      {
-        "name": "Spring-Shaped Wind 2",
-        "id": "84332797157724"
-      },
-      {
-        "name": "Tornado/Lightning",
-        "id": "5926727378"
-      },
-      {
-        "name": "Whirl Slash + Expand",
-        "id": "82909834540741"
-      },
-      {
-        "name": "Whirlwind 1",
-        "id": "5188651386"
-      },
-      {
-        "name": "Wind Cyclone Thingy",
-        "id": "6071361028"
-      },
-      {
-        "name": "Wind Cylinder",
-        "id": "75091409530712"
-      },
-      {
-        "name": "Wind Donut Thingy",
-        "id": "6026280687"
-      },
-      {
-        "name": "Wind Explosion",
-        "id": "6553027596"
-      },
-      {
-        "name": "Wind Ring + Expand",
-        "id": "103125833009427"
-      },
-      {
-        "name": "Wind Spiral 2",
-        "id": "6494560271"
-      },
-      {
-        "name": "Whirl/Expand Wind",
-        "id": "88967728564361"
-      },
-      {
-        "name": "Wind Slash",
-        "id": "5769820604"
-      }
-    ]
-  },
-  {
-    "category": "Elemental VFX:",
-    "items": [
-      {
-        "name": "Actual Fire 1",
-        "id": "128078205854357"
-      },
-      {
-        "name": "Actual Fire 2",
-        "id": "81076311684691"
-      },
-      {
-        "name": "Ice Crystal",
-        "id": "13935758133"
-      },
-      {
-        "name": "Lightning 1",
-        "id": "6553232712"
-      },
-      {
-        "name": "Lightning 2",
-        "id": "95250863538914"
-      },
-      {
-        "name": "Lightning 3",
-        "id": "108307634365729"
-      },
-      {
-        "name": "Pixel Expand",
-        "id": "6553021063"
-      },
-      {
-        "name": "Tidal Wave",
-        "id": "133117825746566"
-      },
-      {
-        "name": "Water Splash 1",
-        "id": "5139788115"
-      },
-      {
-        "name": "Water Splash 2",
-        "id": "4681344912"
-      },
-      {
-        "name": "Water Splash 3",
-        "id": "85924952814205"
-      }
-    ]
-  },
-  {
-    "category": "Earth & Physical",
-    "items": [
-      {
-        "name": "3D Shatter 1",
-        "id": "113421944353034"
-      },
-      {
-        "name": "3D Shatter 2",
-        "id": "75696003362443"
-      }
-    ]
-  },
-  {
-    "category": "Slashes & Specials",
-    "items": [
-      {
-        "name": "3D Star",
-        "id": "4886514859"
-      },
-      {
-        "name": "Better Slash",
-        "id": "4117531521"
-      },
-      {
-        "name": "Spherical Slashes",
-        "id": "881809484"
-      },
-      {
-        "name": "Domain Bubble",
-        "id": "117911529005204"
-      },
-      {
-        "name": "10 Point Star",
-        "id": "117225846540468"
-      }
-    ]
-  },
-  {
-    "category": "Rock Mesh:",
-    "items": [
-      {
-        "name": "Rock Mesh",
-        "id": "131124000870627"
-      },
-      {
-        "name": "Texture",
-        "id": "94174948173086"
-      }
-    ]
-  },
-  {
-    "category": "Earth/Rock Pillar:",
-    "items": [
-      {
-        "name": "Rock Pillar",
-        "id": "107445878955927"
-      },
-      {
-        "name": "Texture",
-        "id": "74184791526286"
-      }
-    ]
-  },
-  {
-    "category": "Smears:",
-    "items": [
-      {
-        "name": "smear 1",
-        "id": "14583112535"
-      },
-      {
-        "name": "smear 2",
-        "id": "14583128741"
-      },
-      {
-        "name": "smear 3",
-        "id": "14404934289"
-      },
-      {
-        "name": "smear 5",
-        "id": "14583995210"
-      },
-      {
-        "name": "smear 6",
-        "id": "14583594233"
-      },
-      {
-        "name": "smear 7",
-        "id": "14583986149"
-      },
-      {
-        "name": "smear 8",
-        "id": "14583585859"
-      },
-      {
-        "name": "smear 9",
-        "id": "14583674768"
-      },
-      {
-        "name": "smear 10",
-        "id": "14583906882"
-      },
-      {
-        "name": "smear 11",
-        "id": "14583836659"
-      },
-      {
-        "name": "smear 12",
-        "id": "14583218918"
-      },
-      {
-        "name": "smear 14",
-        "id": "14583935845"
-      },
-      {
-        "name": "smear 15",
-        "id": "14583893021"
-      },
-      {
-        "name": "smear 16",
-        "id": "14584061315"
-      },
-      {
-        "name": "smear 17",
-        "id": "14583532172"
-      },
-      {
-        "name": "smear 18",
-        "id": "14405093858"
-      },
-      {
-        "name": "smear 20",
-        "id": "1440528864"
-      },
-      {
-        "name": "smear 21",
-        "id": "14405288645"
-      },
-      {
-        "name": "smear 22",
-        "id": "14405059966"
-      },
-      {
-        "name": "smear 23",
-        "id": "14405139635"
-      },
-      {
-        "name": "smear 25",
-        "id": "14405029402"
-      },
-      {
-        "name": "smear 26",
-        "id": "14405286795"
-      }
-    ]
-  },
-  {
-    "category": "Spikes & Ground Effects:",
-    "items": [
-      {
-        "name": "Shockwave",
-        "id": "4316118084"
-      },
-      {
-        "name": "Air Spikes Mesh",
-        "id": "4592891897"
-      },
-      {
-        "name": "Ground Spike Mesh",
-        "id": "13166436960"
-      },
-      {
-        "name": "Ground Spike 2 Mesh",
-        "id": "13683716085"
-      },
-      {
-        "name": "Ground Spikes Mesh",
-        "id": "102331666346863"
-      },
-      {
-        "name": "Ice Spikes Mesh",
-        "id": "967645224"
-      },
-      {
-        "name": "Inside-Out Spikes Mesh",
-        "id": "118419556171077"
-      },
-      {
-        "name": "Long Pointy Spike Mesh",
-        "id": "8020518345"
-      },
-      {
-        "name": "Outside-In Spikes Mesh",
-        "id": "114687814957343"
-      },
-      {
-        "name": "Spike1",
-        "id": "1254390558"
-      },
-      {
-        "name": "Spike Ball Mesh",
-        "id": "11117677059"
-      },
-      {
-        "name": "Spike Circle Mesh",
-        "id": "102626405197522"
-      },
-      {
-        "name": "Stretched Spike Mesh",
-        "id": "17813810283"
-      },
-      {
-        "name": "Tall Spike With Mini Spikes Mesh",
-        "id": "11259688082"
-      },
-      {
-        "name": "Tall Triangular Spike With Mini Spikes Mesh",
-        "id": "80523044279359"
-      },
-      {
-        "name": "Wide Stretched Spike Mesh",
-        "id": "128545415398613"
-      }
-    ]
-  },
-  {
-    "category": "Impacts, Explosions & Waves:",
-    "items": [
-      {
-        "name": "Explosion Mesh",
-        "id": "5583137004"
-      },
-      {
-        "name": "Explosion1",
-        "id": "4933939707"
-      },
-      {
-        "name": "Impact1",
-        "id": "437347603"
-      },
-      {
-        "name": "Impact2",
-        "id": "2689837482"
-      },
-      {
-        "name": "Impact3",
-        "id": "452960473"
-      },
-      {
-        "name": "Impact4",
-        "id": "489415286"
-      },
-      {
-        "name": "Impact5",
-        "id": "5696416905"
-      },
-      {
-        "name": "Shockwave1",
-        "id": "5694662220"
-      },
-      {
-        "name": "Wave1",
-        "id": "4901270068"
-      },
-      {
-        "name": "Wave2",
-        "id": "2788580235"
-      }
-    ]
-  },
-  {
-    "category": "Shapes & Geometry:",
-    "items": [
-      {
-        "name": "Circle1",
-        "id": "1474874211"
-      },
-      {
-        "name": "Circle2",
-        "id": "1726537151"
-      },
-      {
-        "name": "Circle3",
-        "id": "3354830324"
-      },
-      {
-        "name": "Cylinder1",
-        "id": "16606212"
-      },
-      {
-        "name": "Cylinder2",
-        "id": "4631767253"
-      },
-      {
-        "name": "Cylinder3",
-        "id": "4558726590"
-      },
-      {
-        "name": "Cylinder4",
-        "id": "6063631009"
-      },
-      {
-        "name": "Sphere1",
-        "id": "4313233873"
-      },
-      {
-        "name": "Sphere2",
-        "id": "5703278366"
-      },
-      {
-        "name": "Sphere3",
-        "id": "4933939521"
-      },
-      {
-        "name": "Sphere4",
-        "id": "5747850601"
-      },
-      {
-        "name": "Sphere5",
-        "id": "4933939180"
-      },
-      {
-        "name": "Spiral1",
-        "id": "6092662636"
-      },
-      {
-        "name": "Spiral2",
-        "id": "4461104675"
-      }
-    ]
-  },
-  {
-    "category": "Basic Objects and Shapes",
-    "items": [
-      {
-        "name": "Square Shape id",
-        "id": "101545907173523"
-      },
-      {
-        "name": "Circular Shape id",
-        "id": "130763753620610"
-      }
-    ]
-  },
-  {
-    "category": "Uraume Pack:",
-    "items": [
-      {
-        "name": "Ice Cylinder Platform id",
-        "id": "109908512382585"
-      },
-      {
-        "name": "Uraume Ice Cube id",
-        "id": "90377362422490"
-      },
-      {
-        "name": "Uraume Ice Wall id",
-        "id": "132835000105696"
-      },
-      {
-        "name": "Uraume Ice Platform id",
-        "id": "139777065947837"
-      },
-      {
-        "name": "Uraume Ice Stick id",
-        "id": "97533592775425"
-      },
-      {
-        "name": "Uraume Ice Hammer Part id",
-        "id": "74071767193243"
-      }
-    ]
-  },
-  {
-    "category": "Hanami Spike",
-    "items": [
-      {
-        "name": "mesh id",
-        "id": "120019728658249"
-      }
-    ]
-  },
-  {
-    "category": "Spiky Auras and Wind Rings:",
-    "items": [
-      {
-        "name": "Spike Sun / Large Impact",
-        "id": "5866232076"
-      },
-      {
-        "name": "Conical Web Tornado",
-        "id": "5543986905"
-      }
-    ]
-  }
+{
+  "category": "Varied:",
+  "items": [
+    {
+      "name": "Cool Wings",
+      "id": "430351106",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Circle Highlighter",
+      "id": "16807912164",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Flat Circle",
+      "id": "989468093",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike Ball",
+      "id": "990753566",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "TSB Rock Line Debris",
+      "id": "89836677395756",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Miss Circle Thing:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "18524848399",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "18524848453",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "JJK MESHES:",
+  "items": []
+},
+{
+  "category": "Hollow Wicker Basket",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "5065466321",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Womb Profusion",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "74408379982837",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "112025978181868",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Naoya Frame",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "113222925767682",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "89189103674405",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ganesha",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "131750866672815",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "76791310992880",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ganesha JJS Style",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "81133659792021",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "112048711127570",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Rushing Ox",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "102678081371850",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "97044826568383",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Piercing Ox 2",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "93746949448317",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "130139262922796",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Festering Life Sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "115597874985905",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "82427804163347",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Festering Life Sword (CANON)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "138364698137777",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "TEXTURE",
+      "id": "105487940796690",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Inumaki Troat Spray",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "120724342406648",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "140218415406533",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Rainbow Dragon 1:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "122337778593902",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "84015591905677",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Rainbow Dragon 2:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "101217903019962",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tiger Funeral:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "99722225653192",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Orange Fur",
+      "id": "72330323981945",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "White Fur",
+      "id": "103187475421515",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Machado da Mei Mei",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "89174111406172",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "97253098912094",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Domain Bubble 1:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "110647293556307",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "JJS Basic Shrine",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "133516790387596",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "92128437510622",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Executioners Sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "115239234792618",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "114270493916905",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Todo Vibraslap",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "73103282872272",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "113492790086560",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Crow",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "112396516576819",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "78149127019253",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Fish:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "116265628923818",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "129835025833675",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Fish 2:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "123345011286957",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Geto Squid",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "118113074232265",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "87303586730398",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Geto Worm",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "97647548302046",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "115152074156075",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Reggie Motorcycle",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "134797509390942",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "115210872798441",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Earthen Insect",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "130095414731793",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "87988345453684",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Hanami Flower",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "101636126969096",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "124790100790454",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Toad",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "100784740089834",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "90386878109426",
+      "texture": "",
+      "namet1": "",
+      "altt1": [
+        "Texture With closed mouth"
+      ]
+    }
+  ]
+},
+{
+  "category": "Tongue and twisted tongue",
+  "items": [
+    {
+      "name": "Tongue",
+      "id": "87030497202578",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Twisted Tongue",
+      "id": "73145349058655",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Remi's Hair",
+  "items": [
+    {
+      "name": "Mesh id",
+      "id": "85710308515380",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture id",
+      "id": "79043970276887",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Round Deer",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "82782156279549",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "73883875350661",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Heian Sukuna Eyes",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "89790806821657",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "86094485444844",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Max Elephant",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "131977178498259",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "78775520980282",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Megumi Rabbit",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "107313299455571",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "92444826467717",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Manta Ray VFX",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "89962256593568",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "132524185890060",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Panda Wristband (Blue)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "113806259434811",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "100895389061438",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Nue: Totality (Orochi)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "72907606381080",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "103939500537151",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Shutter Doors",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "88806605554096",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "123005971649098",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Heian Sukuna Eye Thingy",
+  "items": []
+},
+{
+  "category": "Shadow Hound 1",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "92811935862421",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "122006790369496",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Shadow Hound 2",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "119688921818050",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Shadow Hound 3",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "100827834033271",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Shadow Hound 4",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "74781308229591",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Roach",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "71798430613591",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "131676941752942",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Blood Bag",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "76028609716112",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "114485201339717",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Sukuna Finger (2.0)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "139310525568911",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "70471000263013",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Hanami Arm",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "103975337248586",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "100776427830358",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Thin Ice Breaker Stage 1:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "88240922077754",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "84272871288137",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Thin Ice Breaker Stage 2:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "108332859803176",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Thin Ice Breaker Stage 3:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "117877027996918",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Yorozu Pack:",
+  "items": [
+    {
+      "name": "Mercury Trap",
+      "id": "81407411704372",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spikes (Front)",
+      "id": "100846463518890",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Surrounding Spikes",
+      "id": "100137275875011",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Insect Wings (Inner)",
+      "id": "96045759835782",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Insect Wings (Outer)",
+      "id": "75561325186836",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mercury Fist",
+      "id": "140037162362148",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mercury Debris",
+      "id": "110474614683320",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Liquid Metal Disc",
+      "id": "93258230696330",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Javelin",
+      "id": "115573586621627",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Mahito Transfiguration's:",
+  "items": [
+    {
+      "name": "Mid Transfig",
+      "id": "100946084449394",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "JJS-Blade",
+      "id": "98993696218974",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "JJS-Club",
+      "id": "128377279477343",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spiked Club",
+      "id": "118684898504289",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Fist1",
+      "id": "70646614088387",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Fist2",
+      "id": "125063503241016",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "SmallDrill",
+      "id": "99650763726777",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Big Club Left",
+      "id": "130219838306432",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Big Club Right",
+      "id": "120775139592801",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "360 Spike Frame 1",
+      "id": "131859227173012",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "360 Spike Frame 2",
+      "id": "98503382266791",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike Club Arm Frame 1",
+      "id": "113012572274130",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike Club Arm Frame 2",
+      "id": "87481387627373",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike Club Arm Frame 3 (w/ spikes)",
+      "id": "128972701692015",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Horse Leg:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "94192399229850",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "111617360497392",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tentacle's Pack:",
+  "items": [
+    {
+      "name": "Spikes Back",
+      "id": "124219726764311",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Large Spike",
+      "id": "117743985103379",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tentacles for stab/animation:",
+  "items": [
+    {
+      "name": "Spike 1",
+      "id": "136180632440669",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike 2",
+      "id": "120542969720702",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Spike 4",
+      "id": "128728648087123",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Uraume:",
+  "items": []
+},
+{
+  "category": "Frost Calm:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "113075009000913",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "88848259988614",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Frost Calm (Front):",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "120320249157827",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "93848653414844",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Split Soul Katana",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "80942406858623",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "110693186487525",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Inverted Spear of Heaven",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "102105989219593",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "131973336159513",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Dragon Bone",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "127402484936932",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "1296535608794151",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Slaughter Demon",
+  "items": [
+    {
+      "name": "Texture",
+      "id": "109027168346097",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Haruta’s Hand Sword",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "88809915286757",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "101994849646738",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Hiten",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "98433652204411",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "98460862343978",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Playful cloud segment",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "129089147916643",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "92718709151482",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "G-War Staff",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "97777828041928",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "130177522506782",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Miwa Katana",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "122708361089753",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "129811377352181",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Miwa Katana Sheath",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "112033763487170",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "115833628478260",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Dragon Bone",
+  "items": [
+    {
+      "name": "Texture ID",
+      "id": "129653560879415",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Slaughter Demon",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "127275111980811",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kamutoke",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "91597777009641",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "133722274903165",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Hiten",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "109884625534934",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "107642154536749",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Higuruma's gavel",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "120545876937090",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "121702386941389",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Higuruma Sledgehammer",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "86058909971708",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "75126452065743",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Higuruma Big Hammer",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "127208449235789",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "88454858437941",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Higuruma Giant Hammer",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "108837123921990",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "72422758837580",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kashimo's Nyoi Staff v1",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "18649396643",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "18649396442",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kashimo's Nyoi Staff v2",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "123713349501705",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "95325238460371",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Yuta's Accurate Katana",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "87432200902531",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "83359618997134",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Cursed Speech Megaphone",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "107668740368266",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "117279713886263",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Adaptation Wheel",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "18619784828",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "18619793887",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Festering Life Sword",
+  "items": []
+},
+{
+  "category": "Yuta Metal Arm v2",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "72863427912686",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "80945609073651",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Megumi's Sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "112002616335541",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "118658377145717",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Sword of Extermination",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "95937581477264",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "78244817483175",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Claws of Calamity V2",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "106192357013600",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "132269272192329",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Mini Rika Shikigami's",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "99826796083644",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "129332089407532",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Nobara's Strawdoll",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "91066090472201",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "128959392238817",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Nobara's Nail",
+  "items": [
+    {
+      "name": "Texture",
+      "id": "103035845746945",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Hazenoki Pack",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "90940505102566",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "101879136379030",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Big Tooth (blood)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "97729565330047",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "73714287796087",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Small Tooth (no blood)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "135668461960107",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "99703675319068",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Small Tooth (blood)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "136841138739961",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "97362392494002",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Eye (no blood)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "139911878174368",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "91168820265285",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Eye (blood)",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "78300751714557",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "73237139150539",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kamo bow position: 1",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "111134293129599",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "129491214994471",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kamo bow position: 2",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "128018609746758",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "102750949444969",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kamo bow position: 3",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "114299020501282",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "107537871142223",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Executioners Sword",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "82078113930362",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "110220402952083",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Naginata",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "131816849144345",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture ID",
+      "id": "111287877206031",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Nanami Blunt Knife",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "93867750494427",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "texture",
+      "id": "122781637890503",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Nanami Ties",
+  "items": [
+    {
+      "name": "Tie (overtime/wrap) amount",
+      "id": "104153216035650",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Tie (regular) amount",
+      "id": "117841349294239",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture (both)",
+      "id": "128056001940854",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Others",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "100423137743603",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "109350061361929",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Aki's Nail Katana",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "128215374868953",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "123600075330771",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Frieren Staff",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "111735928688739",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "81707432434452",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Stark Battle Axe",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "92064522402128",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "105235082092845",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Gun",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "126190481742323",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Staff 1",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "77084488500410",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "133954040051098",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Staff 2",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "591079842",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "591079849",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Staff 3",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "591069337",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "591069349",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Staff 4",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "591065615",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "591065632",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "3 Point Staff",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "867595059",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "867595087",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Half Moon Staff",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "15156470949",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "15156471571",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Anime Sword 1",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "432834974",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "432834982",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Broadsword 1",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "1427969333",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "1427969483",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ichigo Sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "111215968596244",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "90209903586999",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Scythe",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "14918455750",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "14918455908",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tanjiro Nichirin",
+  "items": [
+    {
+      "name": "Texture",
+      "id": "134450434275717",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Inosuke Nichirin",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "96148003657239",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "116079118552551",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tomioka Nichirin",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "94640914693111",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "94255000080357",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tokito Nichirin",
+  "items": [
+    {
+      "name": "Texture",
+      "id": "127844790437207",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Tengen Nichirin",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "123126372131386",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "100687001441618",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Katakuri Spear",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "130640099210762",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "123812719380897",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Kisuke sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "111922697999908",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "86594202956495",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Grimmjow sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "119008038207562",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "101361547006027",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Rukia sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "86330504232988",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "94621364048837",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Aizen Sword",
+  "items": [
+    {
+      "name": "mesh",
+      "id": "118178437160764",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "texture",
+      "id": "121320499635193",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ichigo big funny sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "95851622499686",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "81362822074947",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ichigo katana",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "134247097480661",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "13679012490415",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Battle Beast's mace",
+  "items": [
+    {
+      "name": "Mesh id",
+      "id": "117652008187020",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture id",
+      "id": "120348930477103",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Spinal Cord Sword",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "87305273432148",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "112386837640742",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Colorable Constrelation:",
+  "items": [
+    {
+      "name": "Id",
+      "id": "102121803454525",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Metal Arms",
+  "items": [
+    {
+      "name": "Left Id",
+      "id": "113387576270123",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Right id",
+      "id": "139201024322062",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "86717821300275",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Yuta ring",
+  "items": []
+},
+{
+  "category": "Cyberpunk Meshes",
+  "items": [
+    {
+      "name": "Mantis Arm",
+      "id": "97129993736888",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "JJBA MESHES:",
+  "items": []
+},
+{
+  "category": "Opened Umbrella:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "119526479223967",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "93739083322389",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Closed Umbrella",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "18787300269",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "18787300356",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Mandom Stand",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "125427739083942",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "91577431320888",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Revolver:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "868958273",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "868958290",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Steel Ball:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "82862864603421",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "102382645560187",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Golden Rotation:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "116474057173043",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Ball Breaker:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "18449529697",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "18449533684",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Dash Echo:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "86697622117212",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "137851479881042",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Beatdown Attack 1:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "110789859261693",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Beatdown Attack 2:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "100883918684512",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Downslam Attack 1:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "116902541119604",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Downslam Attack 2:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "76879671718079",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Act 2:",
+  "items": [
+    {
+      "name": "Basic Echo Stance",
+      "id": "139208219835039",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "107408175639169",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Attack 1:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "121741099614364",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Attack 2:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "88074934405004",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Echo Attack 3:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "93719703705723",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Basic Echo Stance:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "94385115620463",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "96951810992877",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "November Rain Basic Stance:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "73145116929217",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "82448305490246",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Water Droplet:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "13569393651",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Head:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "125029039917749",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "85337610046047",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Torso:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "137346942704188",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "76086889531550",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Right Arm:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "84845345205849",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "76394581738096",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Left Arm:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "114952464769627",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Right Leg:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "101247861501234",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Soft & Wet Left Leg:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "97639671491401",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Bubble:",
+  "items": [
+    {
+      "name": "Mesh ID",
+      "id": "18748850768",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "18748851166",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Color Changeable Star:",
+  "items": [
+    {
+      "name": "Mesh",
+      "id": "6123743241",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "TUSK ACT 2:",
+  "items": [
+    {
+      "name": "Amount",
+      "id": "97737141353300",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Texture",
+      "id": "132989542307433",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Katakuri pack:",
+  "items": [
+    {
+      "name": "BLUE TEXTURE",
+      "id": "102429291764422",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "WHITE TEXTURE",
+      "id": "100259268516996",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Items For Him:",
+  "items": [
+    {
+      "name": "Spear",
+      "id": "91840740837225",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi Donut",
+      "id": "113395964957455",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Leg",
+      "id": "110860759334750",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi Spike Tower",
+      "id": "88334146792657",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi ball1",
+      "id": "91953838830035",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi ball2",
+      "id": "117348131708196",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi ball3",
+      "id": "127857949047938",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Mochi Puddle",
+      "id": "113684259516192",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Non-Haki:",
+  "items": [
+    {
+      "name": "Short",
+      "id": "101235661068219",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Medium",
+      "id": "84110445564541",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Long",
+      "id": "95239562923437",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Hand1",
+      "id": "119990987288645",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Hand2",
+      "id": "127858116894251",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+},
+{
+  "category": "Haki:",
+  "items": [
+    {
+      "name": "Short",
+      "id": "99133709601948",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Medium",
+      "id": "118432892776695",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Long",
+      "id": "100640539491441",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Hand1",
+      "id": "79316130329463",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    },
+    {
+      "name": "Hand2",
+      "id": "122516718902953",
+      "texture": "",
+      "namet1": "",
+      "altt1": []
+    }
+  ]
+}
 ]

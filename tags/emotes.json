@@ -1,0 +1,393 @@
+[
+  {
+    "category": "Conga:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "1840682726",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Murder:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "718585968",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "More:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "16785843693",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Objection:",
+    "items": [
+      {
+        "name": "Point",
+        "id": "330859085",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Places:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "17177481815",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Jackpot:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "1841425177",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Popipo:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "84361522293297",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Teto:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "14118577963",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "-- New from 1.0.3.2",
+    "items": []
+  },
+  {
+    "category": "Caramelldansen:",
+    "items": [
+      {
+        "name": "",
+        "id": "109327078849301",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Clap:",
+    "items": [
+      {
+        "name": "",
+        "id": "6892830182",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Popcorn:",
+    "items": [
+      {
+        "name": "",
+        "id": "4511723890",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Potentials:",
+    "items": [
+      {
+        "name": "Charge",
+        "id": "17046377464",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Stance",
+        "id": "17725419051",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Potion:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "35930009",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Specialist:",
+    "items": [
+      {
+        "name": "",
+        "id": "107770724427582",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Bird:",
+    "items": [
+      {
+        "name": "Birdbrain",
+        "id": "14287482730",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Chirumiru:",
+    "items": [
+      {
+        "name": "",
+        "id": "81817470019988",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Flow:",
+    "items": [
+      {
+        "name": "",
+        "id": "116614879374541",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Hugo:",
+    "items": [
+      {
+        "name": "",
+        "id": "81631848409725",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Tired:",
+    "items": [
+      {
+        "name": "Thud",
+        "id": "9113475440",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Ringtone:",
+    "items": [
+      {
+        "name": "Ring",
+        "id": "9113751345",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Pick",
+        "id": "9125397823",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Paradise:",
+    "items": [
+      {
+        "name": "",
+        "id": "125515503762033",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Facepalm:",
+    "items": [
+      {
+        "name": "Sad",
+        "id": "159102636",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Slap",
+        "id": "105571364162396",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Kickback:",
+    "items": [
+      {
+        "name": "Bam",
+        "id": "95827480090371",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Music",
+        "id": "109349834174062",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Power:",
+    "items": [
+      {
+        "name": "",
+        "id": "96632806833838",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Lying Rage:",
+    "items": [
+      {
+        "name": "Stomp",
+        "id": "91623319512088",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Aura",
+        "id": "3518168170",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Loop",
+        "id": "102911733949287",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Music",
+        "id": "72975253717108",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Thunder:",
+    "items": [
+      {
+        "name": "Shock",
+        "id": "6994934244",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Lightning",
+        "id": "6458307118",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Boom",
+        "id": "7147349812",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Cursed Child:",
+    "items": [
+      {
+        "name": "Music",
+        "id": "109314500910458",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  }
+]

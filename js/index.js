@@ -5,9 +5,8 @@ let pasteListenerColorPicker = null;
 const ARQUIVOS_TAGS = [
   'audios', 
   'mesh', 
-  'Voicelines', 
-  { mae: 'Assets', filhas: ['audios', 'mesh', 'decals'] },
-  { mae: 'jjs', filhas: ['chars', 'items', 'emotes', 'ui', 'taunts'] },
+  'Voicelines',
+  { mae: 'jjs', filhas: ['chars', 'items', 'emotes', 'taunts'] },
   { mae: 'decals', filhas: ['part', 'decals'] }
 ];
 

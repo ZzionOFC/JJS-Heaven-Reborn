@@ -558,6 +558,58 @@ h2 {
   transform: translateY(-1px); 
 }
 
+/* INICIO estilo tags maes e filhas e otimizacoes */
+.child-tags-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px dashed #333;
+  border-radius: 4px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.child-tags-container::-webkit-scrollbar { 
+  display: none; 
+}
+
+.tag-pill.has-children::after {
+  content: " ▼";
+  font-size: 9px;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+.child-pill {
+  background: #2a2a2a;
+  border-color: #444;
+}
+
+body.light-mode .child-tags-container {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: #ccc;
+}
+
+body.light-mode .child-pill {
+  background: #f3f4f6;
+  border-color: #ccc;
+}
+
+/* Otimizações visuais e de renderização gerais do site */
+.item-wrapper, .code-btn, .floating-btn {
+  will-change: transform; 
+}
+
+main#conteudo {
+  content-visibility: auto; 
+}
+/* FIM estilo tags maes e filhas e otimizacoes */
+
 /* 9. FERRAMENTAS (TOOLS) E GERADOR DE DEGRADÊ */
 .tools-container {
   max-width: 600px;
@@ -782,48 +834,4 @@ body.light-mode .reset-pill {
 body.light-mode .reset-pill:hover { 
   background-color: #ccc !important; 
   transform: translateY(-1px); 
-}
-
-body.light-mode .social-link.ttk { 
-  background-color: #fff; 
-  color: #000 !important; 
-  border-color: #d1d5db; 
-}
-
-/* Light Mode em Tools */
-body.light-mode .tool-card { 
-  background: #ffffff !important; 
-  border-color: #d1d5db !important; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
-}
-
-body.light-mode .tool-card h3 { 
-  border-bottom-color: #d1d5db !important; 
-}
-
-body.light-mode .tool-card input[type="number"],
-body.light-mode .tool-card input[type="text"],
-body.light-mode .tool-card textarea { 
-  background: #f9fafb !important; 
-  color: #1a1a1a !important; 
-  border-color: #d1d5db !important; 
-}
-
-body.light-mode .tool-box { 
-  background: #f9fafb !important; 
-  border-color: #d1d5db !important; 
-  color: #1a1a1a !important; 
-}
-
-body.light-mode .gradient-preview-square {
-  border-color: #d1d5db !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-body.light-mode .gradient-card {
-  border-color: #d1d5db !important;
-}
-
-body.light-mode #intervalResult { 
-  color: #2e7d32 !important; 
 }

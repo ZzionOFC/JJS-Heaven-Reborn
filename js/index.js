@@ -1,7 +1,17 @@
 let audioCtx = null;
 let pasteListenerColorPicker = null;
 
-const ARQUIVOS_TAGS = ['jjs', 'audios', 'mesh', 'decals','Voicelines'];
+// { mae: "NomeDaMae", filhas: ["filha1", "filha2"] }
+const ARQUIVOS_TAGS = [
+  'audios', 
+  'mesh', 
+  'Voicelines', 
+  { mae: 'Assets', filhas: ['audios', 'mesh', 'decals'] },
+  { mae: 'jjs', filhas: ['chars', 'items', 'emotes', 'ui', 'taunts'] },
+  { mae: 'decals', filhas: ['part', 'decals'] }
+];
+
+// FIM tags maes e filhas config
 
 // INICIO: tocarSomClique
 function tocarSomClique() {
@@ -175,8 +185,13 @@ function extrairListaRGB(texto) {
   return matches.map(m => m.replace(/\s+/g, ''));
 }
 
-// INICIO: renderizarTools (Aba Tools: Calculadora, Gerador Font e Gerador de Degradê RGB)
+// INICIO: renderizarTools
 function renderizarTools(btn) {
+  // INICIO esconder tags filhas ao mudar aba
+  const childContainer = document.getElementById("childTagsContainer");
+  if(childContainer) childContainer.classList.add("hidden");
+  // FIM esconder tags filhas ao mudar aba
+
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
     pasteListenerColorPicker = null;
@@ -255,7 +270,6 @@ function renderizarTools(btn) {
     </div>
   `;
 
-  // Lógica da Calculadora de Intervalo
   document.getElementById("btnCalcInterval").addEventListener("click", () => {
     const startVal = document.getElementById("intervalStart").value.replace(',', '.');
     const endVal = document.getElementById("intervalEnd").value.replace(',', '.');
@@ -273,7 +287,6 @@ function renderizarTools(btn) {
     }
   });
 
-  // Limpa o contêiner do seletor antes de recriar
   const pickerContainer = document.getElementById("fontColorPicker");
   pickerContainer.innerHTML = "";
 
@@ -320,7 +333,6 @@ function renderizarTools(btn) {
     }
   });
 
-  // Lógica do GERADOR DE DEGRADÊ RGB
   const gradientRgbInput = document.getElementById("gradientRgbInput");
   const gradientSquarePreview = document.getElementById("gradientSquarePreview");
   const btnCopyGradient = document.getElementById("btnCopyGradient");
@@ -338,7 +350,6 @@ function renderizarTools(btn) {
       gradientSquarePreview.style.borderStyle = "solid";
     } else {
       const colorsCss = rgbs.map(c => `rgb(${c})`).join(", ");
-      // linear-gradient(to top, ...) faz com que as primeiras cores fiquem embaixo e as últimas no topo
       gradientSquarePreview.style.background = `linear-gradient(to top, ${colorsCss})`;
       gradientSquarePreview.style.borderStyle = "solid";
     }
@@ -439,6 +450,11 @@ function renderizarTools(btn) {
 
 // INICIO: renderizarColorPicker (Cores Otimizado)
 function renderizarColorPicker(btn) {
+  // INICIO esconder tags filhas ao mudar aba
+  const childContainer = document.getElementById("childTagsContainer");
+  if(childContainer) childContainer.classList.add("hidden");
+  // FIM esconder tags filhas ao mudar aba
+
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
     pasteListenerColorPicker = null;
@@ -576,7 +592,6 @@ function renderizarColorPicker(btn) {
     };
   });
 
-  // Renderização otimizada com DocumentFragment
   function renderizarFavoritos() {
     savedColorsGrid.innerHTML = "";
     if (savedColors.length === 0) {
@@ -742,6 +757,11 @@ function renderizarColorPicker(btn) {
 
 // INICIO: carregarPresets
 function carregarPresets(url, btn) {
+  // INICIO esconder tags filhas ao mudar aba
+  const childContainer = document.getElementById("childTagsContainer");
+  if(childContainer) childContainer.classList.add("hidden");
+  // FIM esconder tags filhas ao mudar aba
+
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
     pasteListenerColorPicker = null;
@@ -928,6 +948,11 @@ function carregarDados(url, btn) {
   if (btn) {
     document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
     btn.classList.add("ativo");
+    
+    // INICIO esconder tags filhas ao mudar aba
+    const childContainer = document.getElementById("childTagsContainer");
+    if(childContainer) childContainer.classList.add("hidden");
+    // FIM esconder tags filhas ao mudar aba
   }
 
   conteudo.innerHTML = '<div class="status-msg">Loading data...</div>';
@@ -1159,6 +1184,11 @@ function renderizarItens(data, isCodes, termo) {
 }
 
 function carregarLogs(url, btn) {
+  // INICIO esconder tags filhas ao mudar aba
+  const childContainer = document.getElementById("childTagsContainer");
+  if(childContainer) childContainer.classList.add("hidden");
+  // FIM esconder tags filhas ao mudar aba
+
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
     pasteListenerColorPicker = null;
@@ -1245,11 +1275,18 @@ function dispararPesquisaAtual(valor) {
   }
 }
 
-// INICIO: renderizarPillsTags
+// INICIO renderizarPillsTags com maes e filhas
 function renderizarPillsTags() {
   const container = document.getElementById("tagsContainer");
+  const childContainer = document.getElementById("childTagsContainer");
+  
   container.innerHTML = "";
   container.classList.remove("hidden");
+  
+  if (childContainer) {
+    childContainer.innerHTML = "";
+    childContainer.classList.add("hidden");
+  }
 
   const resetPill = document.createElement("button");
   resetPill.className = "tag-pill reset-pill";
@@ -1257,30 +1294,54 @@ function renderizarPillsTags() {
   resetPill.onclick = () => {
     document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
     document.getElementById('campoPesquisa').value = "";
+    if (childContainer) childContainer.classList.add("hidden");
     carregarDados('json/dados.json', document.querySelector("nav button:first-child"));
   };
   container.appendChild(resetPill);
 
   if (ARQUIVOS_TAGS && ARQUIVOS_TAGS.length > 0) {
-    ARQUIVOS_TAGS.forEach(tagName => {
+    ARQUIVOS_TAGS.forEach(tagObj => {
+      const isMae = typeof tagObj === 'object' && tagObj.mae && tagObj.filhas;
+      const tagName = isMae ? tagObj.mae : tagObj;
+
       const pill = document.createElement("button");
-      pill.className = "tag-pill";
+      pill.className = "tag-pill" + (isMae ? " has-children" : "");
       pill.textContent = tagName;
 
       pill.onclick = () => {
-        document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('#tagsContainer .tag-pill').forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
-        document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
-        carregarDados(`tags/${tagName}.json`, null);
+        
+        if (isMae) {
+          if (childContainer) {
+            childContainer.innerHTML = "";
+            tagObj.filhas.forEach(filha => {
+              const childPill = document.createElement("button");
+              childPill.className = "tag-pill child-pill";
+              childPill.textContent = filha;
+              childPill.onclick = () => {
+                document.querySelectorAll('.child-pill').forEach(p => p.classList.remove('active'));
+                childPill.classList.add('active');
+                document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
+                carregarDados(`tags/${filha}.json`, null);
+              };
+              childContainer.appendChild(childPill);
+            });
+            childContainer.classList.remove("hidden");
+          }
+        } else {
+          if (childContainer) childContainer.classList.add("hidden");
+          document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
+          carregarDados(`tags/${tagName}.json`, null);
+        }
       };
 
       container.appendChild(pill);
     });
   }
 }
-// FIM: renderizarPillsTags
+// FIM renderizarPillsTags com maes e filhas
 
-// Debounce na busca para melhorar performance geral do site
 let timerPesquisa = null;
 campoPesquisa.addEventListener("input", (e) => {
   const val = e.target.value.trim();
@@ -1332,6 +1393,11 @@ window.addEventListener("keydown", (e) => {
   if (keyLower === "[") {
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.toggle("hidden");
+  // INICIO atalho popup
+  } else if (keyLower === "]") {
+    e.preventDefault();
+    window.open(window.location.href, "JJS_Popup", "width=420,height=650,resizable=yes,scrollbars=yes");
+  // FIM atalho popup
   } else if (keyLower === "-" || keyLower === "_") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
     const currentIndex = navButtons.findIndex((btn) => btn.classList.contains("ativo"));

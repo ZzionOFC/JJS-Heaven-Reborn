@@ -1,0 +1,364 @@
+[
+  {
+    "category": "Coin:",
+    "items": [
+      {
+        "name": "Parry",
+        "id": "81202220081219",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Coin",
+        "id": "136124980150792",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Naginata:",
+    "items": [
+      {
+        "name": "Hit1",
+        "id": "94107281648467",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit2 and Hit3",
+        "id": "103563218704266",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Gun:",
+    "items": [
+      {
+        "name": "GunFire",
+        "id": "5735280081",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit",
+        "id": "3932141920",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "GunBreak",
+        "id": "1358442317",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "CROWBAR(FINALLY!!!!!!)",
+    "items": [
+      {
+        "name": "Start",
+        "id": "113373990352365",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Start(plays alongside the first)",
+        "id": "111213038660342",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Swing",
+        "id": "114235921050731",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit(0.05 start)",
+        "id": "95443546571326",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Arayashiki",
+    "items": [
+      {
+        "name": "SlashFX",
+        "id": "88813089730068",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit",
+        "id": "86812684303392",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Music",
+        "id": "81029444709032",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "TNT:",
+    "items": [
+      {
+        "name": "TNT",
+        "id": "4633141679",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Explode",
+        "id": "90854697257230",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Jet Black:",
+    "items": [
+      {
+        "name": "Swing",
+        "id": "4085938599",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit",
+        "id": "3932145123",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Soda:",
+    "items": [
+      {
+        "name": "Open (1.3x)",
+        "id": "6315580910",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Drink (1.3x)",
+        "id": "2245190929",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Banana Peel:",
+    "items": [
+      {
+        "name": "Peel",
+        "id": "1606631241",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Slip",
+        "id": "129432532096499",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Hazenoki's Eye:",
+    "items": [
+      {
+        "name": "EyeExplode",
+        "id": "83364996869460",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Voice Recorder:",
+    "items": [
+      {
+        "name": "Switch",
+        "id": "90506072322224",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Voice (thing that has in all modes)",
+        "id": "88080590196375",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Crush",
+        "id": "128573990774413",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "DontMove",
+        "id": "117637019344223",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "BlastAway",
+        "id": "81923105628397",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Transfigured Flesh:",
+    "items": [
+      {
+        "name": "Wall",
+        "id": "134228799555671",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Playful Cloud:",
+    "items": [
+      {
+        "name": "Swing1",
+        "id": "116901112122156",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Swing2",
+        "id": "97228090794267",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Swing3",
+        "id": "103222009007167",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Swing2 (0.9x)",
+        "id": "3755636825",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Swing",
+        "id": "7978512114",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Sever",
+        "id": "134273082284707",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Sniper:",
+    "items": [
+      {
+        "name": "Fire",
+        "id": "136523485",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Recharge",
+        "id": "131265718595511",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Explode (Finisher)",
+        "id": "2227416952",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Explode (finisher)",
+        "id": "4459572763",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Bowling ball:",
+    "items": [
+      {
+        "name": "Loop",
+        "id": "96331415600436",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hit",
+        "id": "79710336574311",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  }
+]

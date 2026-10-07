@@ -43,7 +43,7 @@
   { "name": "Monkey Kid", "color": "255,0,0" },
   { "name": "Mokou", "color": "255,170,0" },
   { "name": "Chara", "color": "255,0,0" },
-  { "name": "JJS YUJI CE", "colors": ["154,207,237", "0,125,255"] }
+  { "name": "JJS YUJI CE", "colors": ["154,207,237", "0,125,255"] },
   { "cat": "Nature:", "color": ["0,255,0"] },
   { "mcat": "Grass And Plants:", "color": ["65,152,10"] },
   { "name": "Grass", "rgb": "rgb(114,203,59)" },

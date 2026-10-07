@@ -1,5 +1,52 @@
 [
   {
+    "category": "Static Texture:",
+    "items": [
+      {
+        "name": "Square",
+        "id": "6802519891",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Diamond",
+        "id": "18450717315",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Square",
+        "id": "14657415531",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Gradient Square",
+        "id": "8697780388",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Rounded Square",
+        "id": "5825681337",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Hollow Square",
+        "id": "87931162085473",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
     "category": "2X2 Flipbooks:",
     "items": [
       {
@@ -52,6 +99,13 @@
       {
         "name": "Bats",
         "id": "117267873734624",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Flames",
+        "id": "13388204057",
         "texture": "",
         "namet1": "",
         "altt1": []

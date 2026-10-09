@@ -7,7 +7,7 @@ const ARQUIVOS_TAGS = [
   'mesh', 
   'Voicelines',
   { mae: 'Meshes', filhas: ['meshes', 'chars', 'items', { submae: 'Weapons', filhas: ['varied', 'anime'] }, { submae: 'JJK', filhas: ['jjkweapons', 'jjkmeshes', 'jjkclothes'] }] },
-  { submae: 'Bleach', filhas: ['bleachweapons', 'bleachclothes',"bleachvolls"] },
+  { submae: 'Bleach', filhas: ['bleachweapons', 'bleachclothes','bleachvolls'] },
   { mae: 'decals', filhas: ['part', 'decals'] }
 ];
 

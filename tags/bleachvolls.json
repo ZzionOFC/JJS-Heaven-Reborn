@@ -1,0 +1,400 @@
+[
+  {
+    "category": "Giselle Gewelle's Vollständig Skeletons:",
+    "items": [
+      {
+        "name": "Left Arm",
+        "id": "89429779236073",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Arm",
+        "id": "114378087427916",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Ribs/Torso",
+        "id": "112249038863154",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Left Leg",
+        "id": "133167440226208",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Leg",
+        "id": "116516462284463",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Skull (Upwards)",
+        "id": "77056406769129",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Skull (Downwards)",
+        "id": "87535508608705",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "114677095563015",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Zombified Bambietta Basterbine's Vollständig:",
+    "items": [
+      {
+        "name": "Vollständig Wings",
+        "id": "128018337903871",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Reishi Bombs",
+        "id": "126894273005374",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "127217053862458",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Candice Catnipp's Vollständig:",
+    "items": [
+      {
+        "name": "Vollstandig",
+        "id": "76299738023331",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Vollstandig Leg Right",
+        "id": "72191038433534",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Vollstandig Leg Left",
+        "id": "113349301647989",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture ID",
+        "id": "114183597605221",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Zombified Candice Catnipp's Vollständig:",
+    "items": [
+      {
+        "name": "Left Blade Thingy",
+        "id": "84992049827272",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Blade Thingy",
+        "id": "80896952652581",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Left Skull Thingy",
+        "id": "105281400124669",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Skull Thingy",
+        "id": "93061745327199",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Horns",
+        "id": "133325364680496",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "90077681948628",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Meninas McAllon Vollständig:",
+    "items": [
+      {
+        "name": "Left Arm",
+        "id": "123017104088355",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Arm",
+        "id": "123035519082712",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Chest Heart Thingy",
+        "id": "105452886923486",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Wings",
+        "id": "92394857420497",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Left Leg",
+        "id": "90815757396949",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Leg",
+        "id": "115297415064249",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "140560545090727",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Zombified Meninas McAllon's Vollständig:",
+    "items": [
+      {
+        "name": "Left Blade Thingy",
+        "id": "124113745156410",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Blade Thingy",
+        "id": "138239834796646",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Left Skull Thingy",
+        "id": "103010846589617",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Skull Thingy",
+        "id": "122272727796401",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Horns",
+        "id": "84742989328583",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "126169393948719",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "As Nodt Vollständig:",
+    "items": [
+      {
+        "name": "Left Arm",
+        "id": "77225751666739",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Arm",
+        "id": "135598552122963",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Vollständig",
+        "id": "90943477801815",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Clothes/Torso",
+        "id": "113779427969290",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Left Leg",
+        "id": "133971106374310",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Right Leg",
+        "id": "123084092583759",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "106679312495888",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "\"The Fear\" Wall Of Eyes:",
+    "items": [
+      {
+        "name": "MeshID",
+        "id": "138108156654370",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture (Eyes Open)",
+        "id": "116692783142259",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture (Eyes Closed)",
+        "id": "76660415564188",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Candice's Vollständig Cross:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "121182100900189",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture",
+        "id": "97847607691428",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Bambi's Vollständig Cross:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "87497720907659",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture",
+        "id": "95007168268215",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "As Nodt Vollständig Cross:",
+    "items": [
+      {
+        "name": "Mesh",
+        "id": "98034162429538",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  }
+]

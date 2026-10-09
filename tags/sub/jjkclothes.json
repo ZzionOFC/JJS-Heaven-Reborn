@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Kirara Outfit:",
+    "items": [
+      {
+        "name": "Torso",
+        "id": "109633090089157",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Arms",
+        "id": "116847180757888",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Legs",
+        "id": "84446639254878",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "75050942681415",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  },
+  {
+    "category": "Yorozu Outfit:",
+    "items": [
+      {
+        "name": "Torso",
+        "id": "119701374642192",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Arms",
+        "id": "110970956477415",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Legs",
+        "id": "126083229336494",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      },
+      {
+        "name": "Texture For All",
+        "id": "93174697078313",
+        "texture": "",
+        "namet1": "",
+        "altt1": []
+      }
+    ]
+  }
+]

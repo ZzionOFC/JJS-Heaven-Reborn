@@ -60,6 +60,20 @@
     ]
   },
   {
+    "category": "Festering Life Sword:",
+    "items": [
+      { "name": "Mesh", "id": "115597874985905", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "82427804163347", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Festering Life Sword (CANON):",
+    "items": [
+      { "name": "Mesh ID", "id": "138364698137777", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "TEXTURE", "id": "105487940796690", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
     "category": "Yuji Gauntlet:",
     "items": [
       { "name": "Mesh", "id": "97659224471548", "texture": "", "namet1": "", "altt1": [] },

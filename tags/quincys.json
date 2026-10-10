@@ -1,0 +1,259 @@
+[
+  {
+    "category": "Giselle Gewelle:",
+    "items": [
+      { "name": "Left Arm", "id": "97143016970734", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "81165005314063", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso", "id": "133090847104667", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "81188821457708", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "111571323727057", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollständig", "id": "99108496124901", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "114677095563015", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "BG9:",
+    "items": [
+      { "name": "Left Arm", "id": "70445226420869", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "114319818437488", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Head", "id": "87221773329220", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso", "id": "111173850828900", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "81758969097115", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "139325379819744", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "117434242963188", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Meninas McAllon Body And Clothes:",
+    "items": [
+      { "name": "Left Arm", "id": "102446724921661", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "119104703118965", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hat", "id": "109256600839387", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Clothes/Torso", "id": "94571254578193", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "87981624334861", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "97959781165391", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "140560545090727", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Bambietta Basterbine:",
+    "items": [
+      { "name": "Left Arm", "id": "102102419388111", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "135707025602707", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hat", "id": "140371175294704", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Clothes/Torso", "id": "117256070364915", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Boot", "id": "108899961129997", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Boot", "id": "72677259661440", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollstandig", "id": "139822711902006", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "117256070364915", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Candice Catnipp:",
+    "items": [
+      { "name": "Left Arm", "id": "106769401925018", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "85640536859999", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hat", "id": "137778231570119", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso", "id": "111848705617214", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "76567669301388", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "97673849444140", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "114183597605221", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Äs Nödt:",
+    "items": [
+      { "name": "Left Arm", "id": "138244286491226", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "87828775235915", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mask", "id": "140533808277239", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Clothes/Torso", "id": "95418537722953", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "82561488612414", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "81252359697061", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "TextureID", "id": "76768069612280", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Giselle Gewelle's Heilig Bogen:",
+    "items": [
+      { "name": "Bow 1", "id": "127536018958337", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 2", "id": "75356923858752", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 3", "id": "119595902192326", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 4", "id": "131024012441596", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arrow", "id": "128469992777281", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "133267738429066", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Meninas McAllon Heilig Bogen:",
+    "items": [
+      { "name": "Bow 1", "id": "111851812087799", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 2", "id": "91309815987326", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 3", "id": "101835755022915", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 4", "id": "114550010286037", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arrow", "id": "100126582461659", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "104046563018670", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Candice Catnipp's Heilig Bogen:",
+    "items": [
+      { "name": "Bow1", "id": "125000660513075", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow2", "id": "83110363778380", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow3", "id": "96958425575836", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow4", "id": "89989481153633", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arrow", "id": "126529248270823", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "114414451458541", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Meninas McAllon Weapons:",
+    "items": [
+      { "name": "Dumbbell Duster: Baton Beat - Left", "id": "77921984752964", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dumbbell Duster: Baton Beat - Right", "id": "77513438017982", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dumbbell Duster: Halteres - Left", "id": "94682381770483", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dumbbell Duster: Halteres - Right", "id": "97274863413159", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollständig Awakening", "id": "83133045760023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "140560545090727", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Bambietta Basterbine's Reishi Sword:",
+    "items": [
+      { "name": "Mesh", "id": "82130081586338", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "96576707529946", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Bambietta Basterbine's Reishi Bombs:",
+    "items": [
+      { "name": "Mesh", "id": "122937237839421", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "114414451458541", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Candice Catnipp's Bolt Blade:",
+    "items": [
+      { "name": "Mesh", "id": "122076078708643", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "121182100900189", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "As Nodt Reishi Spears:",
+    "items": [
+      { "name": "Mesh", "id": "113031907499533", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "70899033472244", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Giselle Gewelle's Vollständig Skeletons:",
+    "items": [
+      { "name": "Left Arm", "id": "89429779236073", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "114378087427916", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ribs/Torso", "id": "112249038863154", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "133167440226208", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "116516462284463", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Skull (Upwards)", "id": "77056406769129", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Skull (Downwards)", "id": "87535508608705", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "114677095563015", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Zombified Bambietta Basterbine's Vollständig:",
+    "items": [
+      { "name": "Vollständig Wings", "id": "128018337903871", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Reishi Bombs", "id": "126894273005374", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "127217053862458", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Candice Catnipp's Vollständig:",
+    "items": [
+      { "name": "Vollstandig", "id": "76299738023331", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollstandig Leg Right", "id": "72191038433534", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollstandig Leg Left", "id": "113349301647989", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "114183597605221", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Zombified Candice Catnipp's Vollständig:",
+    "items": [
+      { "name": "Left Blade Thingy", "id": "84992049827272", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Blade Thingy", "id": "80896952652581", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Skull Thingy", "id": "105281400124669", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Skull Thingy", "id": "93061745327199", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Horns", "id": "133325364680496", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "90077681948628", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Meninas McAllon Vollständig:",
+    "items": [
+      { "name": "Left Arm", "id": "123017104088355", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "123035519082712", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Chest Heart Thingy", "id": "105452886923486", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Wings", "id": "92394857420497", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "90815757396949", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "115297415064249", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "140560545090727", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Zombified Meninas McAllon's Vollständig:",
+    "items": [
+      { "name": "Left Blade Thingy", "id": "124113745156410", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Blade Thingy", "id": "138239834796646", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Skull Thingy", "id": "103010846589617", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Skull Thingy", "id": "122272727796401", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Horns", "id": "84742989328583", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "126169393948719", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "As Nodt Vollständig:",
+    "items": [
+      { "name": "Left Arm", "id": "77225751666739", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "135598552122963", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vollständig", "id": "90943477801815", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Clothes/Torso", "id": "113779427969290", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Leg", "id": "133971106374310", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Leg", "id": "123084092583759", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "106679312495888", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "\"The Fear\" Wall Of Eyes:",
+    "items": [
+      { "name": "MeshID", "id": "138108156654370", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture (Eyes Open)", "id": "116692783142259", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture (Eyes Closed)", "id": "76660415564188", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Candice's Vollständig Cross:",
+    "items": [
+      { "name": "Mesh", "id": "121182100900189", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "97847607691428", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Bambi's Vollständig Cross:",
+    "items": [
+      { "name": "Mesh", "id": "87497720907659", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "95007168268215", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "As Nodt Vollständig Cross:",
+    "items": [
+      { "name": "Mesh", "id": "98034162429538", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "106679312495888", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Meninas Vollständig Cross:",
+    "items": [
+      { "name": "Mesh", "id": "83133045760023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "140560545090727", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

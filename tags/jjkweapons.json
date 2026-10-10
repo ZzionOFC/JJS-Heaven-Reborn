@@ -1,0 +1,277 @@
+[
+  {
+    "category": "Split-Soul Katana:",
+    "items": [
+      { "name": "Mesh Id", "id": "109521107428117", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "109421123332088", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "SSK Handle:",
+    "items": [
+      { "name": "Mesh Id", "id": "132205971262758", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Reggie's bat:",
+    "items": [
+      { "name": "Mesh ID", "id": "132063935450781", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "109065534385862", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Kashimo Staff:",
+    "items": [
+      { "name": "Mesh id", "id": "129907864102913", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture id", "id": "103263964356771", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Kashimo staff 2:",
+    "items": [
+      { "name": "Mesh id", "id": "111957903719940", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "101484540782059", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Dragon Bone:",
+    "items": [
+      { "name": "Mesh id", "id": "119731945708752", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "132733849793142", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Maki's Naginata:",
+    "items": [
+      { "name": "Mesh id", "id": "74386582657512", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "119214835110979", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Higuruma's Gavel:",
+    "items": [
+      { "name": "1", "id": "78875279585656", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "2", "id": "125349793048570", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "3", "id": "79563932208569", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "4", "id": "100569499946048", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "5", "id": "105721842315152", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "6", "id": "103361454301239", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "137591280768318", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Yuji Gauntlet:",
+    "items": [
+      { "name": "Mesh", "id": "97659224471548", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "95404619697269", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Kamo's Bow:",
+    "items": [
+      { "name": "Bow 1 (idle)", "id": "116114386834226", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 2", "id": "138552199994685", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 3", "id": "71976749135083", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bow 4", "id": "138676628777871", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Quiver", "id": "80411098435414", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arrow", "id": "91571526963080", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "107616177677158", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Mei Mei's Axe:",
+    "items": [
+      { "name": "Mesh", "id": "89174111406172", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "97253098912094", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Executioners Sword:",
+    "items": [
+      { "name": "Mesh", "id": "115239234792618", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "114270493916905", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Todo Vibraslap:",
+    "items": [
+      { "name": "Mesh", "id": "73103282872272", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "113492790086560", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Panda Wristband:",
+    "items": [
+      { "name": "Mesh ID", "id": "113806259434811", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "100895389061438", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Shutter Doors:",
+    "items": [
+      { "name": "Mesh ID", "id": "88806605554096", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "123005971649098", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Kaichi",
+    "items": [
+      { "name": "Mesh ID", "id": "97812896605637", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "132054051418760", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Inverted Spear of Heaven:",
+    "items": [
+      { "name": "Amount", "id": "102105989219593", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "131973336159513", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Haruta’s Hand Sword:",
+    "items": [
+      { "name": "Amount", "id": "88809915286757", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "101994849646738", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Hiten:",
+    "items": [
+      { "name": "Amount", "id": "98433652204411", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "98460862343978", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Hiten 2:",
+    "items": [
+      { "name": "Mesh ID", "id": "109884625534934", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "107642154536749", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Playful cloud segment:",
+    "items": [
+      { "name": "Mesh ID", "id": "129089147916643", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "92718709151482", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "G-War Staff:",
+    "items": [
+      { "name": "Mesh ID", "id": "97777828041928", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "130177522506782", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Miwa Katana:",
+    "items": [
+      { "name": "Amount", "id": "122708361089753", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "129811377352181", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Miwa Katana Sheath:",
+    "items": [
+      { "name": "Amount", "id": "112033763487170", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "115833628478260", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Nobara's Hammer:",
+    "items": [
+      { "name": "Mesh ID", "id": "96992182691691", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "73860260770089", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Jet Black:",
+    "items": [
+      { "name": "Mesh ID", "id": "114975150009770", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "117730319981339", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Kamutoke:",
+    "items": [
+      { "name": "Mesh ID", "id": "91597777009641", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "133722274903165", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Yuta's Accurate Katana:",
+    "items": [
+      { "name": "Mesh ID", "id": "87432200902531", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "83359618997134", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Cursed Speech Megaphone:",
+    "items": [
+      { "name": "Mesh ID", "id": "107668740368266", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "117279713886263", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Yuta Metal Arm v2:",
+    "items": [
+      { "name": "Mesh ID", "id": "72863427912686", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "80945609073651", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Megumi's Sword:",
+    "items": [
+      { "name": "Mesh", "id": "112002616335541", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "118658377145717", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Sword of Extermination:",
+    "items": [
+      { "name": "Amount", "id": "95937581477264", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "78244817483175", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Claws of Calamity V2:",
+    "items": [
+      { "name": "Mesh ID", "id": "106192357013600", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "132269272192329", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Nobara's Strawdoll:",
+    "items": [
+      { "name": "Mesh ID", "id": "91066090472201", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "128959392238817", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Nobara's Nail:",
+    "items": [
+      { "name": "Mesh ID 71D", "id": "555914704210", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "103035845746945", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Choso Blood Edge",
+    "items": [
+      { "name": "Mesh ID", "id": "135339813169898", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "79166676506346", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Executioners Sword",
+    "items": [
+      { "name": "Mesh ID", "id": "82078113930362", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture ID", "id": "110220402952083", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Nanami Blunt Knife:",
+    "items": [
+      { "name": "Mesh ID", "id": "93867750494427", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "texture", "id": "122781637890503", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

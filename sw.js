@@ -5,17 +5,30 @@ const ASSETS_TO_CACHE = [
   './css/index.css',
   './js/index.js',
   './manifest.json',
-  './json/dados.json',
-  './tags/audios.json',
-  './tags/mesh.json',
+  './sw.js',
+  './README.md',
+  // Imagens
+  './grass.png',
+  './img.png',
+  './wood.png',
+  // Pasta json
   './json/codes.json',
-  './json/log.txt',
   './json/colors.json',
-  './json/tags.json',
-  './json/part.json',
+  './json/dados.json',
+  './json/log.txt',
+  // Pasta tags
+  './tags/audios.json',
+  './tags/chars.json',
+  './tags/decals.json',
+  './tags/emotes.json',
+  './tags/items.json',
+  './tags/mesh.json',
   './tags/musics.json',
+  './tags/part.json',
+  './tags/taunts.json',
   './tags/Voicelines.json',
-  './tags/jjs.json'
+  // Pasta txt
+  './txt/Build Coloring Tutorial.txt'
 ];
 
 // Instalação do Service Worker e cache inicial

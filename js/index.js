@@ -1,18 +1,13 @@
 let audioCtx = null;
 let pasteListenerColorPicker = null;
 
-// Exemplo de uso: { submae: 'nome', filhas: ['subfilha1', 'subfilha2'] }
 const ARQUIVOS_TAGS = [
-  'audios', 
-  'mesh', 
-  'Voicelines',
-  { mae: 'Meshes', filhas: ['meshes', 'chars', 'items', { submae: 'Weapons', filhas: ['varied', 'anime'] }, { submae: 'JJK', filhas: ['jjkweapons', 'jjkmeshes', 'jjkclothes'] }] },
-  { submae: 'Bleach', filhas: ['bleachweapons', 'bleachclothes','bleachvolls'] },
-  { mae: 'decals', filhas: ['part', 'decals'] }
+  'audios',
+  { arquivo: 'mesh', nome: 'Meshes' },
+  'musics',
+  { mae: 'JJS',filhas: ['chars','emotes','taunts']},
+  { mae: 'Decals',filhas: ['decals',{ arquivo: 'part', nome: 'Particles' }]},
 ];
-
-// FIM tags maes e filhas config
-
 // INICIO: tocarSomClique
 function tocarSomClique() {
   try {
@@ -187,10 +182,8 @@ function extrairListaRGB(texto) {
 
 // INICIO: renderizarTools
 function renderizarTools(btn) {
-  // INICIO esconder tags filhas ao mudar aba
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
-  // FIM esconder tags filhas ao mudar aba
 
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
@@ -450,10 +443,8 @@ function renderizarTools(btn) {
 
 // INICIO: renderizarColorPicker (Cores Otimizado)
 function renderizarColorPicker(btn) {
-  // INICIO esconder tags filhas ao mudar aba
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
-  // FIM esconder tags filhas ao mudar aba
 
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
@@ -757,10 +748,8 @@ function renderizarColorPicker(btn) {
 
 // INICIO: carregarPresets
 function carregarPresets(url, btn) {
-  // INICIO esconder tags filhas ao mudar aba
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
-  // FIM esconder tags filhas ao mudar aba
 
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
@@ -949,10 +938,8 @@ function carregarDados(url, btn) {
     document.querySelectorAll(".tag-pill").forEach((p) => p.classList.remove("active"));
     btn.classList.add("ativo");
     
-    // INICIO esconder tags filhas ao mudar aba
     const childContainer = document.getElementById("childTagsContainer");
     if(childContainer) childContainer.classList.add("hidden");
-    // FIM esconder tags filhas ao mudar aba
   }
 
   conteudo.innerHTML = '<div class="status-msg">Loading data...</div>';
@@ -1184,10 +1171,8 @@ function renderizarItens(data, isCodes, termo) {
 }
 
 function carregarLogs(url, btn) {
-  // INICIO esconder tags filhas ao mudar aba
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
-  // FIM esconder tags filhas ao mudar aba
 
   if (pasteListenerColorPicker) {
     window.removeEventListener("paste", pasteListenerColorPicker);
@@ -1275,7 +1260,7 @@ function dispararPesquisaAtual(valor) {
   }
 }
 
-// INICIO renderizarPillsTags com maes e filhas (E SUBMÃES + TOGGLE)
+// INICIO: renderizarPillsTags (Com Dropdown de Grupos e Nomes Customizados)
 function renderizarPillsTags() {
   const container = document.getElementById("tagsContainer");
   const childContainer = document.getElementById("childTagsContainer");
@@ -1295,109 +1280,73 @@ function renderizarPillsTags() {
     document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
     document.getElementById('campoPesquisa').value = "";
     if (childContainer) {
-        childContainer.classList.add("hidden");
-        childContainer.innerHTML = "";
+      childContainer.classList.add("hidden");
+      childContainer.innerHTML = "";
     }
     carregarDados('json/dados.json', document.querySelector("nav button:first-child"));
   };
   container.appendChild(resetPill);
 
   if (ARQUIVOS_TAGS && ARQUIVOS_TAGS.length > 0) {
-    ARQUIVOS_TAGS.forEach(tagObj => {
-      const isMae = typeof tagObj === 'object' && tagObj.mae && tagObj.filhas;
-      const tagName = isMae ? tagObj.mae : tagObj;
+    ARQUIVOS_TAGS.forEach(tagItem => {
+      const isGroup = typeof tagItem === 'object' && tagItem !== null && tagItem.mae && tagItem.filhas;
+      const isCustomObj = !isGroup && typeof tagItem === 'object' && tagItem !== null;
+
+      const nomeExibicao = isGroup ? tagItem.mae : (isCustomObj ? tagItem.nome : tagItem);
+      const nomeArquivo = isCustomObj ? tagItem.arquivo : tagItem;
 
       const pill = document.createElement("button");
-      pill.className = "tag-pill" + (isMae ? " has-children" : "");
-      pill.textContent = tagName;
+      pill.className = "tag-pill" + (isGroup ? " has-children" : "");
+      pill.textContent = nomeExibicao;
 
       pill.onclick = () => {
         const isAlreadyActive = pill.classList.contains('active');
 
-        // Desativa todas as mães
         document.querySelectorAll('#tagsContainer .tag-pill').forEach(p => p.classList.remove('active'));
 
-        // Se clicou na que já estava aberta, apenas fecha (return)
-        if (isAlreadyActive) {
-            if (childContainer) {
-                childContainer.classList.add("hidden");
-                childContainer.innerHTML = "";
-            }
-            return;
+        if (isAlreadyActive && isGroup) {
+          if (childContainer) {
+            childContainer.classList.add("hidden");
+            childContainer.innerHTML = "";
+          }
+          return;
         }
 
         pill.classList.add('active');
-        
-        if (isMae) {
+
+        if (isGroup) {
           if (childContainer) {
             childContainer.innerHTML = "";
-            
-            // Container embutido para submães
-            const subChildContainer = document.createElement("div");
-            subChildContainer.id = "subChildTagsContainer";
-            subChildContainer.className = "hidden";
-            subChildContainer.style.marginTop = "10px";
-            subChildContainer.style.width = "100%";
-            subChildContainer.style.display = "flex";
-            subChildContainer.style.flexWrap = "wrap";
-            subChildContainer.style.gap = "8px";
+            childContainer.classList.remove("hidden");
 
-            tagObj.filhas.forEach(filhaObj => {
-              const isSubMae = typeof filhaObj === 'object' && filhaObj.submae && filhaObj.filhas;
-              const filhaName = isSubMae ? filhaObj.submae : filhaObj;
+            tagItem.filhas.forEach(filhaItem => {
+              const isFilhaObj = typeof filhaItem === 'object' && filhaItem !== null;
+              const filhaArquivo = isFilhaObj ? filhaItem.arquivo : filhaItem;
+              const filhaNome = isFilhaObj ? filhaItem.nome : filhaItem;
 
               const childPill = document.createElement("button");
-              childPill.className = "tag-pill child-pill" + (isSubMae ? " has-children" : "");
-              childPill.textContent = filhaName;
-              
-              childPill.onclick = () => {
-                const isSubAlreadyActive = childPill.classList.contains('active');
-                
-                // Desativa todas filhas irmãs
+              childPill.className = "tag-pill child-pill";
+              childPill.textContent = filhaNome;
+
+              childPill.onclick = (e) => {
+                e.stopPropagation();
                 document.querySelectorAll('.child-pill').forEach(p => p.classList.remove('active'));
-                
-                // Toggle de fechamento se já for uma submãe aberta
-                if (isSubAlreadyActive && isSubMae) {
-                    subChildContainer.classList.add("hidden");
-                    subChildContainer.innerHTML = "";
-                    return;
-                }
-                
                 childPill.classList.add('active');
-                
-                if (isSubMae) {
-                    subChildContainer.innerHTML = "";
-                    filhaObj.filhas.forEach(subFilha => {
-                        const subChildPill = document.createElement("button");
-                        subChildPill.className = "tag-pill sub-child-pill";
-                        subChildPill.textContent = subFilha;
-                        subChildPill.onclick = () => {
-                            document.querySelectorAll('.sub-child-pill').forEach(p => p.classList.remove('active'));
-                            subChildPill.classList.add('active');
-                            document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
-                            carregarDados(`tags/sub/${subFilha}.json`, null);
-                        };
-                        subChildContainer.appendChild(subChildPill);
-                    });
-                    subChildContainer.classList.remove("hidden");
-                } else {
-                    subChildContainer.classList.add("hidden");
-                    document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
-                    carregarDados(`tags/${filhaName}.json`, null);
-                }
+
+                document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
+                carregarDados(`tags/${filhaArquivo}.json`, null);
               };
+
               childContainer.appendChild(childPill);
             });
-            childContainer.appendChild(subChildContainer);
-            childContainer.classList.remove("hidden");
           }
         } else {
           if (childContainer) {
-              childContainer.classList.add("hidden");
-              childContainer.innerHTML = "";
+            childContainer.classList.add("hidden");
+            childContainer.innerHTML = "";
           }
           document.querySelectorAll("nav button").forEach(b => b.classList.remove("ativo"));
-          carregarDados(`tags/${tagName}.json`, null);
+          carregarDados(`tags/${nomeArquivo}.json`, null);
         }
       };
 
@@ -1405,7 +1354,7 @@ function renderizarPillsTags() {
     });
   }
 }
-// FIM renderizarPillsTags com maes e filhas
+// FIM: renderizarPillsTags
 
 let timerPesquisa = null;
 campoPesquisa.addEventListener("input", (e) => {
@@ -1433,6 +1382,7 @@ document.getElementById("btnTema").addEventListener("click", () => {
   document.getElementById("btnTema").textContent = document.body.classList.contains("light-mode") ? "🌙" : "☀️";
 });
 
+// INICIO: atalhos
 window.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     campoPesquisa.value = "";
@@ -1458,11 +1408,12 @@ window.addEventListener("keydown", (e) => {
   if (keyLower === "[") {
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.toggle("hidden");
-  // INICIO atalho popup
   } else if (keyLower === "]") {
     e.preventDefault();
     window.open(window.location.href, "JJS_Popup", "width=420,height=650,resizable=yes,scrollbars=yes");
-  // FIM atalho popup
+  } else if (keyLower === "r") {
+    e.preventDefault();
+    location.reload();
   } else if (keyLower === "-" || keyLower === "_") {
     const navButtons = Array.from(document.querySelectorAll("nav button"));
     const currentIndex = navButtons.findIndex((btn) => btn.classList.contains("ativo"));
@@ -1488,6 +1439,7 @@ window.addEventListener("keydown", (e) => {
     abrirNotepad();
   }
 });
+// FIM: atalhos
 
 // INICIO: LÓGICA DE NOTEPAD
 function abrirNotepad() {

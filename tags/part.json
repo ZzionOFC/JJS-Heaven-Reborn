@@ -2,114 +2,47 @@
   {
     "category": "Static Texture:",
     "items": [
-      {
-        "name": "Square",
-        "id": "6802519891",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Diamond",
-        "id": "18450717315",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Square",
-        "id": "14657415531",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Gradient Square",
-        "id": "8697780388",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rounded Square",
-        "id": "5825681337",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Hollow Square",
-        "id": "87931162085473",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Square", "id": "6802519891", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Diamond", "id": "18450717315", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Square", "id": "14657415531", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gradient Square", "id": "8697780388", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rounded Square", "id": "5825681337", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hollow Square", "id": "87931162085473", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Snowflake", "id": "4485122848", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Snowflake 2", "id": "14443362047", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fading Circle", "id": "464823491", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "2X2 Flipbooks:",
     "items": [
-      {
-        "name": "Creepy Laughter",
-        "id": "15948624211",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Creepy Laughter", "id": "15948624211", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightning", "id": "14642731087", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "2X3 Flipbooks:",
+    "items": [
+      { "name": "Slashes", "id": "140153491461740", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "4X4 Flipbooks:",
     "items": [
-      {
-        "name": "Pixel Star",
-        "id": "15268170416",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Pixel Sparkle",
-        "id": "13448020277",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Pixel Sparkle 2",
-        "id": "8733414465",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Transparent Smoke",
-        "id": "13346862770",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Minecraft Potion",
-        "id": "8733731095",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bats",
-        "id": "117267873734624",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Flames",
-        "id": "13388204057",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Pixel Star", "id": "15268170416", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pixel Sparkle", "id": "13448020277", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pixel Sparkle 2", "id": "8733414465", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Transparent Smoke", "id": "13346862770", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Minecraft Potion", "id": "8733731095", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bats", "id": "117267873734624", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Flames", "id": "13388204057", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy", "id": "17863944368", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 2", "id": "16142397363", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightning 2", "id": "15940571499", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning Robux", "id": "12859930047", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning Octagon", "id": "11349507100", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning Money", "id": "17451596749", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Swimming Fish", "id": "88495411157323", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

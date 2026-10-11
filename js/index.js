@@ -3,7 +3,7 @@ let pasteListenerColorPicker = null;
 
 const ARQUIVOS_TAGS = [
   { mae: 'Audios',filhas: ['audios','musics']},,
-  { mae: 'Meshes', filhas:['mesh','vfxmeshes']},
+  { mae: 'Meshes', filhas:['mesh',{ arquivo: 'vfxmeshes', nome: 'VFX Meshes' }]},
   { mae: 'JJS',filhas: ['chars','emotes','taunts']},
   { mae: 'Decals',filhas: ['decals',{ arquivo: 'part', nome: 'Particles' }]},
   { mae: 'Bleach',filhas: ['quincys']},

@@ -1,5 +1,20 @@
 [
   {
+    "category": "Debries:",
+    "items": [
+      { "name": "Crater", "id": "133690341312987", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Small Ring 1", "id": "75018914007437", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Small Ring 2", "id": "120920290281309", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Large Ring", "id": "112561665752362", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Tornado Shapes Debree", "id": "101771995469979", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Large Destruction Ball", "id": "127061835305790", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Small Destruction Ball", "id": "123096559320033", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ball Full", "id": "117328816165127", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ball Cracked", "id": "135333040253882", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ball split in 4", "id": "70895219191382", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
     "category": "Smears And More:",
     "items": [
       { "name": "smear 1", "id": "14583112535", "texture": "", "namet1": "", "altt1": [] },
@@ -35,7 +50,7 @@
       { "name": "Long Pointy Spike", "id": "8020518345", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Inside-Out Spikes", "id": "118419556171077", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Stone Wall", "id": "80521582420368", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Stretched Spike  | Texture 17813810283", "id": "71164611875825", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Stretched Spike  | Texture  71164611875825", "id": "17813810283", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Wide Stretched Spike", "id": "128545415398613", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Outside-In Spikes", "id": "114687814957343", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spike Circle", "id": "102626405197522", "texture": "", "namet1": "", "altt1": [] },

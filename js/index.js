@@ -7,7 +7,7 @@ const ARQUIVOS_TAGS = [
   { mae: 'JJS',filhas: ['chars','emotes','taunts']},
   { mae: 'Decals',filhas: ['decals',{ arquivo: 'part', nome: 'Particles' }]},
   { mae: 'Bleach',filhas: ['quincys']},
-  { mae: 'JJK',filhas: ['jjkweapons','jjktechniques']},
+  { mae: 'JJK',filhas: [{ arquivo : 'jjkweapons', nome: 'Weapons'},{ arquivo: 'jjktechniques', nome: 'Techniques' }]},
 ];
 // INICIO: tocarSomClique
 function tocarSomClique() {

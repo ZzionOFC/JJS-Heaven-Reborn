@@ -14,5 +14,8 @@
 3. Have fun! :D
 ---
 <div align="center">
-<i>The site supports both computers and phones.</i>
+<i>The site supports both computers and phones!</i>
+</div>
+<div align="center">
+<i style="color: rgba(255,0,0,0.6);">All Credits go for the original creators.</i>
 </div>

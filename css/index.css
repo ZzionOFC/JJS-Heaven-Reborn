@@ -1,18 +1,62 @@
-/* 1. RESET E ESTILOS GLOBAIS */
+/* Variáveis e tema escuro */
+:root {
+  --bg-main: #121212;
+  --bg-surface: #1a1a1a;
+  --bg-surface-alt: #1e1e1e;
+  --bg-hover: #333333;
+
+  --text-main: #e0e0e0;
+  --text-muted: #aaa;
+  --text-accent: #ffff7e;
+
+  --border-color: #333333;
+  --border-subtle: #2a2a2a;
+  --border-light: #555555;
+
+  --primary: #4caf50;
+  --primary-dark: #388e3c;
+  --primary-hover: #2e7d32;
+
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --grid-line: rgba(255, 255, 255, 0.03);
+
+  --pattern-size: clamp(20px, 4vw, 40px);
+}
+
+/* Tema claro */
+body.light-mode {
+  --bg-main: #f0f2f5;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #ffffff;
+  --bg-hover: #f3f4f6;
+
+  --text-main: #1a1a1a;
+  --text-muted: #555555;
+  --text-accent: #222222;
+
+  --border-color: #d1d5db;
+  --border-subtle: #d1d5db;
+  --border-light: #888888;
+
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --grid-line: rgba(0, 0, 0, 0.05);
+}
+
+/* Reset e globais */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: var(--bg-main);
+  color: var(--text-main);
   font-family: "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 5px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 5px, transparent 1px);
-  background-size: clamp(20px, 4vw, 40px) clamp(20px, 4vw, 40px);
+    linear-gradient(var(--grid-line) 5px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 5px, transparent 1px);
+  background-size: var(--pattern-size) var(--pattern-size);
   background-attachment: fixed;
 }
 
@@ -28,27 +72,28 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #121212;
+  background-color: var(--bg-main);
   padding: 6px 15px;
   width: 100%;
   box-sizing: border-box;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .hidden {
   display: none !important;
 }
 
-/* 2. CONTROLES, BUSCA E NAVEGAÇÃO */
+/* Controles, busca e nav */
 .toggle-btn {
   width: 100%;
   padding: 6px 10px;
-  background: #1e1e1e;
-  color: #fff;
-  border: 1px solid #333;
+  background: var(--bg-surface-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
   cursor: pointer;
   margin-bottom: 6px;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 nav {
@@ -60,10 +105,10 @@ nav {
 }
 
 nav button {
-  background-color: #1e1e1e;
-  color: #fff;
-  border: 1px solid #333;
-  padding: 6px 4px; /* Reduzido */
+  background-color: var(--bg-surface-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 6px 4px;
   font-size: clamp(10px, 1.3vw, 12px);
   line-height: 1.1;
   text-transform: uppercase;
@@ -72,7 +117,8 @@ nav button {
   border-radius: 2px;
   transition:
     background 0.2s,
-    transform 0.1s;
+    transform 0.1s,
+    border-color 0.2s;
   word-wrap: break-word;
   white-space: normal;
   display: flex;
@@ -83,22 +129,26 @@ nav button {
 }
 
 nav button:hover {
-  background-color: #333;
+  background-color: var(--bg-hover);
   transform: scale(1.02);
 }
 
 nav button.ativo {
-  background-color: #4caf50;
-  border-color: #388e3c;
+  background-color: var(--primary);
+  border-color: var(--primary-dark);
   color: #fff;
 }
 
-.search-input {
+.search-input,
+.tool-card input[type="number"],
+.tool-card input[type="text"],
+.tool-card textarea,
+.modal-input {
   width: 100%;
   padding: 8px 12px;
-  background-color: #1a1a1a;
-  color: #fff;
-  border: 1px solid #333;
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -115,11 +165,11 @@ nav button.ativo {
   flex: 1;
 }
 
-/* 3. TIPOGRAFIA E BOTÕES DE CÓDIGO */
+/* Tipografia e itens */
 h2 {
-  color: #ffff7e;
+  color: var(--text-accent);
   font-size: 20px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid var(--border-color);
   padding-bottom: 10px;
   margin-top: 30px;
   scroll-margin-top: 160px;
@@ -130,54 +180,46 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px dashed #555;
-  color: #ccc;
+  border-bottom: 1px dashed var(--border-light);
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.code-btn,
+.item-wrapper {
+  margin: 10px 0;
+  background: linear-gradient(
+    90deg,
+    var(--bg-surface) 0%,
+    rgba(26, 26, 26, 0.3) 100%
+  );
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--border-light);
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: var(--text-main);
+  transition: transform 0.1s;
+}
+
+body.light-mode .code-btn,
+body.light-mode .item-wrapper {
+  background: var(--bg-surface);
+  border-color: var(--border-color);
+  box-shadow: 0 1px 3px var(--shadow-color);
+}
+
+.code-btn:active,
+.item-wrapper:active {
+  transform: scale(0.99);
 }
 
 .code-btn {
   display: block;
   width: 100%;
   text-align: left;
-  background: linear-gradient(
-    90deg,
-    rgba(26, 26, 26, 1) 0%,
-    rgba(26, 26, 26, 0.3) 100%
-  );
-  color: #e0e0e0;
   padding: 15px 20px;
-  border: 1px solid #2a2a2a;
-  border-left: 4px solid #555;
   cursor: pointer;
-  margin: 10px 0;
-  border-radius: 2px;
-  box-sizing: border-box;
-  transition: transform 0.1s;
-}
-
-.code-btn:active {
-  transform: scale(0.99);
-}
-
-/* NAMET/ALTT */
-.item-wrapper {
-  margin: 10px 0;
-  background: linear-gradient(
-    90deg,
-    rgba(26, 26, 26, 1) 0%,
-    rgba(26, 26, 26, 0.3) 100%
-  );
-  border: 1px solid #2a2a2a;
-  border-left: 4px solid #555;
-  border-radius: 2px;
-  box-sizing: border-box;
-  color: #e0e0e0;
-  transition: transform 0.1s;
-}
-
-.item-wrapper:active {
-  transform: scale(0.99);
 }
 
 .item-main {
@@ -200,21 +242,23 @@ h2 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border-left: 1px solid #333;
+  border-left: 1px solid var(--border-color);
   background: rgba(255, 255, 255, 0.02);
   font-size: 14px;
-  color: #aaa;
-  transition: background 0.2s;
+  color: var(--text-muted);
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .item-toggle-area:hover {
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
+  background: var(--bg-hover);
+  color: var(--text-main);
 }
 
 .item-alts {
-  border-top: 1px solid #333;
-  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid var(--border-color);
+  background: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
 }
@@ -222,7 +266,7 @@ h2 {
 .alt-copy-area {
   padding: 12px 20px 12px 40px;
   cursor: pointer;
-  border-bottom: 1px dashed #333;
+  border-bottom: 1px dashed var(--border-color);
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -234,48 +278,48 @@ h2 {
 }
 
 .alt-copy-area:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-hover);
 }
 
 .alt-copy-area::before {
   content: "↳";
   margin-right: 10px;
-  color: #777;
+  color: var(--text-muted);
   font-weight: normal;
 }
 
-/* GERAL CLICADO */
 .btnClicado {
-  background: #2e7d32 !important;
-  border-color: #4caf50 !important;
-  border-left-color: #4caf50 !important;
+  background: var(--primary-hover) !important;
+  border-color: var(--primary) !important;
+  border-left-color: var(--primary) !important;
   color: #fff !important;
   text-align: center;
   font-weight: bold;
 }
 
 .action-btn {
-  background: #1e1e1e;
-  color: #fff;
-  border: 1px solid #333;
+  background: var(--bg-surface-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
   cursor: pointer;
   font-weight: bold;
   padding: 12px;
   border-radius: 2px;
   white-space: nowrap;
+  transition: background 0.2s;
 }
 
 .action-btn:hover {
-  background-color: #333;
+  background-color: var(--bg-hover);
 }
 
-/* Scroll e Tema */
+/* Botões flutuantes */
 .floating-btn {
   position: fixed;
   bottom: 15px;
-  background-color: rgba(30, 30, 30, 0.85);
-  color: #fff;
-  border: 1px solid #444;
+  background-color: var(--bg-surface-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border-light);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -289,22 +333,22 @@ h2 {
   transition:
     transform 0.2s ease,
     background 0.2s ease,
-    box-shadow 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  box-shadow: 0 4px 6px var(--shadow-color);
 }
 
 .floating-btn:hover {
   transform: translateY(-3px) scale(1.05);
-  background-color: #333;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-  border-color: #666;
+  background-color: var(--bg-hover);
+  box-shadow: 0 6px 12px var(--shadow-color);
+  border-color: var(--text-muted);
 }
 
 .theme-toggle {
   right: 15px;
 }
 
-/* Botões de rolagem unificados exatamente no mesmo local */
 .bottom-toggle,
 .top-toggle {
   right: 75px;
@@ -318,61 +362,54 @@ h2 {
   position: fixed;
   right: 75px;
   bottom: 15px;
-  background: conic-gradient(#4caf50 0%, rgba(51, 51, 51, 0.85) 0%);
+  background: conic-gradient(var(--primary) 0%, var(--border-color) 0%);
+}
+
+#btnTop::after,
+#btnBottom::after {
+  position: absolute;
+  inset: 4px;
+  background-color: var(--bg-surface-alt);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+  font-size: 18px;
+  transition: background 0.2s ease;
 }
 
 #btnTop::after {
   content: "↑";
-  position: absolute;
-  inset: 4px;
-  background-color: #1e1e1e;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  transition: background 0.2s ease;
 }
-
 #btnBottom::after {
   content: "↓";
-  position: absolute;
-  inset: 4px;
-  background-color: #1e1e1e;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  transition: background 0.2s ease;
 }
 
 #btnTop:hover::after,
 #btnBottom:hover::after {
-  background-color: #333;
+  background-color: var(--bg-hover);
 }
 
-/* 5. COMPONENTES VISUAIS E UTILITÁRIOS */
+/* Utilitários, logs e modais */
 #history-bar {
   font-size: 12px;
-  color: #ffff7e;
+  color: var(--text-accent);
   margin-top: 10px;
   padding: 5px;
-  border: 1px dashed #333;
+  border: 1px dashed var(--border-color);
   border-radius: 4px;
 }
 
 .status-msg {
-  color: rgba(255, 255, 126, 0.7);
+  color: var(--text-accent);
   text-decoration: underline;
 }
 
 .log-container {
   padding: 15px 20px;
-  background-color: #1a1a1a;
-  border: 1px solid #2a2a2a;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
   border-radius: 2px;
   margin: 10px 0;
   line-height: 1.6;
@@ -383,7 +420,7 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   display: block;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid var(--border-color);
   padding-bottom: 8px;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -412,7 +449,7 @@ h2 {
 .preset-card {
   aspect-ratio: 2;
   border-radius: 3px;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
   cursor: pointer;
   display: flex;
   align-items: flex-end;
@@ -433,9 +470,9 @@ h2 {
 }
 
 .admin-btn-small {
-  background: #1e1e1e;
+  background: var(--bg-surface-alt);
   color: #ff9800;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
   padding: 4px 8px;
   font-size: 11px;
   cursor: pointer;
@@ -445,10 +482,9 @@ h2 {
 }
 
 .admin-btn-small:hover {
-  background: #333;
+  background: var(--bg-hover);
 }
 
-/* 6. MODAIS */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -463,32 +499,20 @@ h2 {
 }
 
 .modal-content {
-  background: #1a1a1a;
+  background: var(--bg-surface);
   padding: 25px;
   border-radius: 4px;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
   width: 90%;
   max-width: 400px;
-  color: #e0e0e0;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.modal-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  background: #121212;
-  border: 1px solid #333;
-  color: #fff;
-  box-sizing: border-box;
-  border-radius: 2px;
+  color: var(--text-main);
+  box-shadow: 0 10px 30px var(--shadow-color);
 }
 
 .shortcut-key {
   color: #ff9800;
-  background: #121212;
-  border: 1px solid #333;
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
   padding: 2px 8px;
   border-radius: 4px;
   display: inline-block;
@@ -496,7 +520,7 @@ h2 {
   text-align: center;
 }
 
-/* 7. LINKS SOCIAIS */
+/* Links sociais */
 .social-link {
   display: inline-flex;
   align-items: center;
@@ -533,11 +557,12 @@ h2 {
 }
 .social-link.ttk {
   background-color: #000;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
 }
 
-/* 8. SISTEMA DE TAGS (Pílulas) */
-.tags-container {
+/* Tags / Pílulas */
+.tags-container,
+.child-tags-container {
   display: flex;
   flex-wrap: nowrap;
   gap: 8px;
@@ -545,19 +570,31 @@ h2 {
   margin-bottom: 10px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 5px;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.tags-container::-webkit-scrollbar {
+.tags-container::-webkit-scrollbar,
+.child-tags-container::-webkit-scrollbar {
   display: none;
 }
 
+.child-tags-container {
+  margin-top: 0px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px dashed var(--border-color);
+  border-radius: 4px;
+}
+
+body.light-mode .child-tags-container {
+  background: rgba(0, 0, 0, 0.03);
+}
+
 .tag-pill {
-  background: #1e1e1e;
-  color: #aaa;
-  border: 1px solid #333;
+  background: var(--bg-surface-alt);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 11px;
@@ -571,47 +608,16 @@ h2 {
 }
 
 .tag-pill:hover {
-  background: #333;
-  color: #fff;
-  border-color: #555;
+  background: var(--bg-hover);
+  color: var(--text-main);
+  border-color: var(--border-light);
   transform: translateY(-1px);
 }
 
 .tag-pill.active {
-  background: #4caf50;
+  background: var(--primary);
   color: #fff;
-  border-color: #388e3c;
-}
-
-.reset-pill {
-  background-color: #2e2e2e !important;
-  color: #bbb !important;
-  border-color: #777 !important;
-}
-
-.reset-pill:hover {
-  background-color: #3e3e3e !important;
-  transform: translateY(-1px);
-}
-
-/* INICIO estilo tags maes e filhas e otimizacoes */
-.child-tags-container {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 8px;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding: 8px 12px;
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px dashed #333;
-  border-radius: 4px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.child-tags-container::-webkit-scrollbar {
-  display: none;
+  border-color: var(--primary-dark);
 }
 
 .tag-pill.has-children::after {
@@ -622,33 +628,28 @@ h2 {
 }
 
 .child-pill {
-  background: #2a2a2a;
-  border-color: #444;
+  background: var(--bg-subtle, #2a2a2a);
+  border-color: var(--border-light);
 }
 
-body.light-mode .child-tags-container {
-  background: rgba(0, 0, 0, 0.03);
-  border-color: #ccc;
+.reset-pill {
+  background-color: #2e2e2e !important;
+  color: #bbb !important;
+  border-color: var(--border-light) !important;
 }
 
-body.light-mode .child-pill {
-  background: #f3f4f6;
-  border-color: #ccc;
+.reset-pill:hover {
+  background-color: #3e3e3e !important;
+  transform: translateY(-1px);
 }
 
-/* Otimizações visuais e de renderização gerais do site */
-.item-wrapper,
-.code-btn,
-.floating-btn {
-  will-change: transform;
+body.light-mode .reset-pill {
+  background-color: #e6e7eb !important;
+  color: #1e1e1e !important;
+  border-color: #ced0d7 !important;
 }
 
-main#conteudo {
-  content-visibility: auto;
-}
-/* FIM estilo tags maes e filhas e otimizacoes */
-
-/* 9. FERRAMENTAS (TOOLS) E GERADOR DE DEGRADÊ */
+/* Ferramentas e gerador de degradê */
 .tools-container {
   max-width: 600px;
   margin: 15px auto 0 auto;
@@ -658,33 +659,22 @@ main#conteudo {
 }
 
 .tool-card {
-  background: #1a1a1a;
+  background: var(--bg-surface);
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
   box-sizing: border-box;
 }
 
 .tool-card h3 {
   margin-top: 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 10px;
 }
 
-.tool-card input[type="number"],
-.tool-card input[type="text"],
-.tool-card textarea {
-  background: #121212;
-  color: #fff;
-  border: 1px solid #333;
-  border-radius: 4px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 .tool-box {
-  background: #121212;
-  border: 1px dashed #555;
+  background: var(--bg-main);
+  border: 1px dashed var(--border-light);
   border-radius: 4px;
   padding: 15px;
 }
@@ -694,8 +684,8 @@ main#conteudo {
   height: 180px;
   margin: 10px auto;
   border-radius: 8px;
-  border: 2px dashed #555;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 2px dashed var(--border-light);
+  box-shadow: 0 4px 12px var(--shadow-color);
   background: #111;
   transition:
     background 0.2s ease,
@@ -705,7 +695,7 @@ main#conteudo {
 .gradient-card {
   height: 70px;
   border-radius: 4px;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);
   cursor: pointer;
   display: flex;
   align-items: flex-end;
@@ -726,168 +716,13 @@ main#conteudo {
   border-color: #fff;
 }
 
-/* 10. TEMA: MODO CLARO (Light Mode Completo) */
-body.light-mode {
-  background-color: #f0f2f5;
-  color: #1a1a1a;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.05) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 2px, transparent 2px);
-  background-size: clamp(20px, 4vw, 40px) clamp(20px, 4vw, 40px);
-  background-attachment: fixed;
+/* Otimizações */
+.item-wrapper,
+.code-btn,
+.floating-btn {
+  will-change: transform;
 }
 
-body.light-mode .sticky-area {
-  background-color: #f0f2f5;
-  border-bottom-color: #d1d5db;
-}
-body.light-mode nav button {
-  background-color: #fff;
-  color: #333;
-  border-color: #d1d5db;
-}
-body.light-mode nav button:hover {
-  background-color: #f3f4f6;
-}
-body.light-mode nav button.ativo {
-  background-color: #4caf50;
-  border-color: #388e3c;
-  color: #fff;
-}
-
-body.light-mode .toggle-btn,
-body.light-mode .search-input {
-  background-color: #fff;
-  color: #1a1a1a;
-  border: 1px solid #d1d5db;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-
-body.light-mode .code-btn,
-body.light-mode .item-wrapper {
-  background: #ffffff;
-  color: #222;
-  border: 1px solid #d1d5db;
-  border-left: 4px solid #888;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-}
-
-body.light-mode .item-toggle-area {
-  border-left-color: #d1d5db;
-  background: rgba(0, 0, 0, 0.02);
-  color: #555;
-}
-
-body.light-mode .item-toggle-area:hover {
-  background: rgba(0, 0, 0, 0.05);
-  color: #111;
-}
-
-body.light-mode .item-alts {
-  border-top-color: #d1d5db;
-  background: #f9fafb;
-}
-
-body.light-mode .alt-copy-area {
-  border-bottom-color: #e5e7eb;
-}
-
-body.light-mode .alt-copy-area:hover {
-  background: rgba(0, 0, 0, 0.03);
-}
-
-body.light-mode h2,
-body.light-mode .mcat-title {
-  color: #222;
-  border-bottom-color: #d1d5db;
-}
-
-body.light-mode .floating-btn {
-  background-color: #fff;
-  color: #333;
-  border-color: #ccc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-body.light-mode .floating-btn:hover {
-  background-color: #f9f9f9;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-body.light-mode #btnTop,
-body.light-mode #btnBottom {
-  background: conic-gradient(#4caf50 0%, rgba(204, 204, 204, 0.9) 0%);
-}
-
-body.light-mode #btnTop::after,
-body.light-mode #btnBottom::after {
-  background-color: #fff;
-  color: #333;
-}
-
-body.light-mode .modal-content {
-  background: #fff;
-  color: #222;
-  border-color: #d1d5db;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-body.light-mode .modal-input,
-body.light-mode #notepadText {
-  background: #f9fafb !important;
-  color: #1a1a1a !important;
-  border: 1px solid #d1d5db !important;
-}
-
-body.light-mode .shortcut-key {
-  background: #f3f4f6;
-  border-color: #d1d5db;
-  color: #e65100;
-}
-
-body.light-mode .action-btn {
-  background-color: #fff;
-  color: #333;
-  border-color: #d1d5db;
-}
-
-body.light-mode .action-btn:hover {
-  background-color: #f3f4f6;
-}
-
-body.light-mode .log-container {
-  background-color: #fff;
-  border-color: #d1d5db;
-}
-
-body.light-mode .log-header {
-  border-bottom-color: #d1d5db;
-}
-
-body.light-mode .tag-pill {
-  background: #e5e7eb;
-  color: #374151;
-  border-color: #d1d5db;
-}
-
-body.light-mode .tag-pill:hover {
-  background: #d1d5db;
-  color: #111;
-}
-
-body.light-mode .tag-pill.active {
-  background: #4caf50;
-  color: #fff;
-  border-color: #388e3c;
-}
-
-body.light-mode .reset-pill {
-  background-color: #e6e7eb !important;
-  color: #1e1e1e !important;
-  border-color: #ced0d7 !important;
-}
-
-body.light-mode .reset-pill:hover {
-  background-color: #ccc !important;
-  transform: translateY(-1px);
+main#conteudo {
+  content-visibility: auto;
 }

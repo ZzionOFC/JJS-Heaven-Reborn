@@ -2,13 +2,13 @@ let audioCtx = null;
 let pasteListenerColorPicker = null;
 
 const ARQUIVOS_TAGS = [
-  { mae: 'Audios',filhas: ['audios','musics','Voicelines']},
-  { mae: 'Musics',filhas: ['musics',{arquivo: 'limbusm', nome: 'Limbus Musics'},{arquivo: 'jjkm', nome: 'JJK Musics'}]},
-  { mae: 'Meshes', filhas:['mesh',{ arquivo: 'vfxmeshes', nome: 'VFX Meshes' }]},
-  { mae: 'JJS',filhas: ['chars','emotes','taunts']},
-  { mae: 'Decals',filhas: ['decals',{ arquivo: 'part', nome: 'Particles' }]},
-  { mae: 'Bleach',filhas: ['quincys']},
-  { mae: 'JJK',filhas: [{ arquivo : 'jjkweapons', nome: 'Weapons'},{ arquivo: 'jjktechniques', nome: 'Techniques' }]},
+  { mae: 'Audios', filhas: ['audios', 'musics', 'Voicelines'] },
+  { mae: 'Musics', filhas: ['musics', { arquivo: 'limbusm', nome: 'Limbus Musics' }, { arquivo: 'jjkm', nome: 'JJK Musics' }] },
+  { mae: 'Meshes', filhas: ['mesh', { arquivo: 'vfxmeshes', nome: 'VFX Meshes' }] },
+  { mae: 'JJS', filhas: ['chars', 'emotes', 'taunts', 'items'] },
+  { mae: 'Decals', filhas: ['decals', { arquivo: 'part', nome: 'Particles' }] },
+  { mae: 'Bleach', filhas: ['quincys'] },
+  { mae: 'JJK', filhas: [{ arquivo: 'jjkweapons', nome: 'Weapons' }, { arquivo: 'jjktechniques', nome: 'Techniques' }, { arquivo: 'jjkm', nome: 'JJK Musics' }] },
 ];
 // INICIO: tocarSomClique
 function tocarSomClique() {

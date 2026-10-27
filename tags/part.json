@@ -18,13 +18,20 @@
     "items": [
       { "name": "Creepy Laughter", "id": "15948624211", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Lightning", "id": "14642731087", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Blue Spark", "id": "133917509093815", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Blue Spark", "id": "133917509093815", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Binary (1/0)", "id": "13283439452", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "2X3 Flipbooks",
     "items": [
       { "name": "Slashes", "id": "140153491461740", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "2X4 Flipbooks:",
+    "items": [
+      { "name": "Sanguine Slash", "id": "110335978417047", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -47,13 +54,25 @@
       { "name": "Glitch", "id": "82591599858696", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Prescript Petals", "id": "98663284278234", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Star Exploding", "id": "72996848348423", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Ember (JJS Fire)", "id": "15268357782", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Ember (JJS Fire)", "id": "15268357782", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Scribbles", "id": "73688100718094", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "White Scribbles", "id": "117970292308923", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vertical Flame", "id": "13344777062", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pink Slash", "id": "91767347892243", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "6X6 Flipbooks",
     "items": [
       { "name": "Minecraft Fire", "id": "80550525817355", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "8X8 Flipbooks",
+    "items": [
+      { "name": "Creepy Eye", "id": "110014286580744", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Recolorable Fire", "id": "17703243127", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fade IN/OUT Hearth", "id": "9293679454", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

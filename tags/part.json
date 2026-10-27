@@ -1,6 +1,6 @@
 [
   {
-    "category": "Static Texture:",
+    "category": "Static Texture",
     "items": [
       { "name": "Square", "id": "6802519891", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Diamond", "id": "18450717315", "texture": "", "namet1": "", "altt1": [] },
@@ -14,20 +14,21 @@
     ]
   },
   {
-    "category": "2X2 Flipbooks:",
+    "category": "2X2 Flipbooks",
     "items": [
       { "name": "Creepy Laughter", "id": "15948624211", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Lightning", "id": "14642731087", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Lightning", "id": "14642731087", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blue Spark", "id": "133917509093815", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
-    "category": "2X3 Flipbooks:",
+    "category": "2X3 Flipbooks",
     "items": [
       { "name": "Slashes", "id": "140153491461740", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
-    "category": "4X4 Flipbooks:",
+    "category": "4X4 Flipbooks",
     "items": [
       { "name": "Pixel Star", "id": "15268170416", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Pixel Sparkle", "id": "13448020277", "texture": "", "namet1": "", "altt1": [] },
@@ -42,7 +43,17 @@
       { "name": "Spinning Robux", "id": "12859930047", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spinning Octagon", "id": "11349507100", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spinning Money", "id": "17451596749", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Swimming Fish", "id": "88495411157323", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Swimming Fish", "id": "88495411157323", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glitch", "id": "82591599858696", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Prescript Petals", "id": "98663284278234", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Star Exploding", "id": "72996848348423", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ember (JJS Fire)", "id": "15268357782", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "6X6 Flipbooks",
+    "items": [
+      { "name": "Minecraft Fire", "id": "80550525817355", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

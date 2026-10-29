@@ -1,50 +1,75 @@
 [
   {
-    "category": "Limbus Company OST & Boss Themes",
+    "category": "Combat & Boss Themes",
     "items": [
-      { "name": "A Certain Sinclair", "id": "135597686248357", "texture": ""},
-      { "name": "Ring Apprentice Theme", "id": "99154704003183", "texture": ""},
-      { "name": "Matthias Battle Theme", "id": "89503266223024", "texture": ""},
-      { "name": "Limbus Menu Theme", "id": "75953230338784", "texture": ""},
-      { "name": "Gregor's Pass On", "id": "140571874970788", "texture": ""},
-      { "name": "Ryoshu's Pass On", "id": "79653299111301", "texture": ""},
-      { "name": "Muga Ryoshu Theme", "id": "84037797865526", "texture": ""},
-      { "name": "Roach Emperor Theme", "id": "115694024309784", "texture": ""},
-      { "name": "Run Bongy Run", "id": "89707765914199", "texture": ""},
-      { "name": "Index Apprentice Theme", "id": "105741057730658", "texture": ""},
-      { "name": "Mayor Theme", "id": "106622682425555", "texture": ""},
-      { "name": "Leviathan", "id": "101266623917319", "texture": ""}
+      { "name": "First Trumpet", "id": "80089353146928", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Second Trumpet", "id": "138336752698765", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Third Trumpet", "id": "84479141313194", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gebura Core Suppression", "id": "128399206386631", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Binah Core Suppression", "id": "90915111342622", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hokma Core Suppression", "id": "118993318774499", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Malkuth Core Suppression", "id": "114948160174481", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Yesod Core Suppression", "id": "100385070188854", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Tiphereth Core Suppression", "id": "84536586147483", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hod Core Suppression", "id": "93787914875429", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gebura Main Battle Theme (3 Stages)", "id": "107992728229480", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ring Apprentice Theme", "id": "99154704003183", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Matthias Battle Theme", "id": "89503266223024", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Roach Emperor Theme", "id": "115694024309784", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Index Apprentice Theme", "id": "105741057730658", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mayor Theme", "id": "106622682425555", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Intervallo V-2 Theme (Zilu)", "id": "104075422620005", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Erlking Fight", "id": "73239189740658", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Erlking Theme", "id": "108181978983070", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dulcinea", "id": "101079695692424", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "La Manchaland Entrance", "id": "83360819591334", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "La Manchaland Carnival", "id": "97293797130865", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Barber Theme", "id": "135896307920752", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pequod Trio", "id": "133197443205618", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bamboo Hatted Kim 1", "id": "102934793463361", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bamboo Hatted Kim 2", "id": "116239532565762", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jia Qiu Theme 1", "id": "117410698823274", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jia Qiu Theme 2", "id": "84327260239315", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lei Heng", "id": "77697982045200", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
-    "category": "Mili Songs",
+    "category": "Character Themes",
     "items": [
-      { "name": "Compass (Forsaken Remix)", "id": "80712503354465", "texture": ""},
-      { "name": "Fly Broken Wings", "id": "106202614688505", "texture": ""},
-      { "name": "Patches of Violet", "id": "77579718926500", "texture": ""},
-      { "name": "Through Patches of Violet (Male ver.)", "id": "113028859907598", "texture": ""},
-      { "name": "In Hell We Live Lament", "id": "78333589873620", "texture": ""},
-      { "name": "Between Two Worlds", "id": "112941516097536", "texture": ""},
-      { "name": "Hero", "id": "121052332073884", "texture": ""},
-      { "name": "SAIKAI", "id": "79262785467239", "texture": ""}
+      { "name": "Red Mist Theme", "id": "75987672523927", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heathcliff's Distortion Theme", "id": "90975018893583", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Philip", "id": "107876457918864", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "A Certain Sinclair", "id": "135597686248357", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gregor's Pass On", "id": "140571874970788", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ryoshu's Pass On", "id": "79653299111301", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Muga Ryoshu Theme", "id": "84037797865526", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sancho Theme", "id": "114038802940830", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
-    "category": "Canto & Intervallo Boss Themes",
+    "category": "Vocal & Mili Songs",
     "items": [
-      { "name": "Intervallo V-2 Theme (Zilu)", "id": "104075422620005", "texture": ""},
-      { "name": "Erlking Fight", "id": "73239189740658", "texture": ""},
-      { "name": "Erlking Theme", "id": "108181978983070", "texture": ""},
-      { "name": "Dulcinea", "id": "101079695692424", "texture": ""},
-      { "name": "La Manchaland Entrance", "id": "83360819591334", "texture": ""},
-      { "name": "La Manchaland Carnival", "id": "97293797130865", "texture": ""},
-      { "name": "Sancho Theme", "id": "114038802940830", "texture": ""},
-      { "name": "Barber Theme", "id": "135896307920752", "texture": ""},
-      { "name": "Pequod Trio", "id": "133197443205618", "texture": ""},
-      { "name": "Bamboo Hatted Kim  / 116239532565762", "id": "102934793463361", "texture": ""},
-      { "name": "Jia Qiu Theme 1", "id": "117410698823274", "texture": ""},
-      { "name": "Jia Qiu Theme 2", "id": "84327260239315", "texture": ""},
-      { "name": "Lei Heng", "id": "77697982045200", "texture": ""}
+      { "name": "Gone Angel", "id": "76763211904207", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Broken Wings", "id": "106202614688505", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Between Two Worlds", "id": "112941516097536", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Compass (Forsaken Remix)", "id": "80712503354465", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Patches of Violet", "id": "77579718926500", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Through Patches of Violet (Male ver.)", "id": "113028859907598", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "In Hell We Live Lament", "id": "78333589873620", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hero", "id": "121052332073884", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "SAIKAI", "id": "79262785467239", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Menus, Locations & Atmospheric OSTs",
+    "items": [
+      { "name": "Love Town", "id": "104225874242906", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Limbus Menu Theme", "id": "75953230338784", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Run Bongy Run", "id": "89707765914199", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Leviathan", "id": "101266623917319", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lobotomy Corporation Day 1 Theme", "id": "110116439883214", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Library of Ruina Lobby", "id": "105881717957264", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Children of the City", "id": "88682324714857", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

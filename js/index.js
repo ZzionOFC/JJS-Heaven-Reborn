@@ -8,7 +8,7 @@ const ARQUIVOS_TAGS = [
   { mae: 'Decals', filhas: ['decals', { arquivo: 'part', nome: 'Particles' }] },
   { mae: 'Bleach', filhas: ['quincys'] },
   { mae: 'JJK', filhas: [{ arquivo: 'jjkweapons', nome: 'Weapons' }, { arquivo: 'jjktechniques', nome: 'Techniques' }, { arquivo: 'jjkm', nome: 'JJK Musics' }] },
-  { mae: 'SFX', filhas: [{ arquivo: 'sfx', nome: 'ALL SFX' },{ arquivo: 'heavy & general impacts', nome: 'Impacts' },{ arquivo: 'windup, cast, & energy releases', nome: 'Windup, Casts and Energy.' },{ arquivo: 'jjk sound effects & cursed energy', nome: 'JJK SFX & CE' },{ arquivo: 'weapons & blades', nome: 'Weapons & Blades' },{ arquivo: 'blood, gore, & body fx', nome: 'Gore & Body' },{ arquivo: 'ice sfx', nome: 'Ice SFX' },{ arquivo: 'wind, wooshes, & movement', nome: 'Wind & Movement' },{ arquivo: 'magic & sci-fi extras', nome: 'Magic & Sci-Fi' },{ arquivo: 'materials, glass, & environment', nome: 'Materials & Environment' },{ arquivo: 'firearms & guns', nome: 'Firearms' }] }
+  { mae: 'SFX', filhas: [{ arquivo: 'sfx', nome: 'ALL SFX' },{ arquivo: 'heavy-general-impacts', nome: 'Impacts' },{ arquivo: 'windup-cast-and-energy', nome: 'Windup, Casts and Energy.' },{ arquivo: 'jjk-sound-effects-cursed-energy', nome: 'JJK SFX & CE' },{ arquivo: 'weapons-and-blades', nome: 'Weapons & Blades' },{ arquivo: 'gore-and-body', nome: 'Gore & Body' },{ arquivo: 'ice-sfx', nome: 'Ice SFX' },{ arquivo: 'wind-and-movement', nome: 'Wind & Movement' },{ arquivo: 'magic-and-sci-fi', nome: 'Magic & Sci-Fi' },{ arquivo: 'materials-and-environment', nome: 'Materials & Environment' },{ arquivo: 'firearms', nome: 'Firearms' }] }
 ];
 // INICIO: tocarSomClique
 function tocarSomClique() {

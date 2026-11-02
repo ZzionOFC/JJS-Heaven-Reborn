@@ -1,0 +1,12 @@
+[
+  {
+    "category": "Ice SFX",
+    "items": [
+      { "name": "Ice Explosion/Burst", "id": "112797079504478", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Break", "id": "122218831341898", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Shatter Impact", "id": "80067573243829", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Crush", "id": "123727968316364", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Breath W/ Fade out", "id": "103071991415279", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Weapons & Blades",
+    "items": [
+      { "name": "Axe Impact", "id": "9113225979", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Impact", "id": "7171761940", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Saw Blade Impact", "id": "233380645", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shield Impact", "id": "9119074309", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mace Impact", "id": "130613136581394", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slash & blood", "id": "74976004744038", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "140277245983305", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing 1", "id": "137017959711769", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Knife Quick", "id": "4681191260", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Knife", "id": "137951817204948", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning Slash Woosh", "id": "92525376068049", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "X slash", "id": "126203981639603", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blade Wind Spin", "id": "126297206149558", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swings", "id": "140492871204586", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Dash 1", "id": "81455919549480", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Dash 2", "id": "139994035606058", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Unsheath/M1 Sword Swing", "id": "114350721362906", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "JJS Sword Swing", "id": "134362189197913", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing 2", "id": "137628815514180", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing 3", "id": "137364752797787", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing 4", "id": "132278037003088", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing 5", "id": "131370398099954", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Super Sword", "id": "138168045092736", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Noise", "id": "137192158251109", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Crowbar Impact 1", "id": "139685206535254", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "category": "Blood, Gore, & Body FX",
+    "items": [
+      { "name": "Blood Pierce", "id": "140325083438865", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 1", "id": "104459296035253", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 2", "id": "73592014004829", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 3", "id": "137145949028887", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 4", "id": "114699200148510", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Gush", "id": "132080416777849", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Gush 1", "id": "119851057500597", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Explode", "id": "131946209631632", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Explode 2", "id": "136149509554333", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bloody Limb Dismember", "id": "137848807573884", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Gush 2", "id": "139131477132737", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cloth rustle", "id": "136224586361044", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cloth quick", "id": "121238985608899", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heartbeat", "id": "135454814111440", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Footstep", "id": "135712042029119", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Footstep ALT", "id": "96150396419499", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bone crack", "id": "124893077006041", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bloody Limb Destruction", "id": "95334158418742", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

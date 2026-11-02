@@ -1,0 +1,19 @@
+[
+  {
+    "category": "Firearms & Guns",
+    "items": [
+      { "name": "Blood/Bullet Hit Impact", "id": "4427231299", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bullet Hard Surface Impact", "id": "78578946566141", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bullet Metal Impact", "id": "81340193577891", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun click", "id": "139170625572709", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun load", "id": "127341644767895", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun fire", "id": "134693554186099", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shell casing eject", "id": "4223883783", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shell eject 1", "id": "86548525433119", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Reload", "id": "1778483724", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Handgun reload", "id": "5651440920", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightweight gun fire", "id": "6376004735", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Handgun Fire", "id": "139278950707917", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

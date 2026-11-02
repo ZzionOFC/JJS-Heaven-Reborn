@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Windup, Cast, & Energy Releases",
+    "items": [
+      { "name": "Magic Windup", "id": "138498992667102", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Twirl Windup", "id": "116607390360374", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Spell Cast", "id": "93989620006639", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Spell Cast 1", "id": "130293516985070", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Circle Warp", "id": "96643104586269", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Twirl Release", "id": "108306323478967", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fire Magic Burst", "id": "110758967492795", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Magic Burst", "id": "109148447880023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Magic Power Release", "id": "75127344844404", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Eletrical Magic Zap", "id": "120494941983036", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Short Water Magic Wave", "id": "7260423115", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Shoot", "id": "136881806991431", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap", "id": "140602821561280", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap 1", "id": "6875009415", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap 2", "id": "137200693534872", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact", "id": "117243786893013", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 1", "id": "131999546232546", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 2", "id": "129037248569146", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 3", "id": "113792860184500", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Burst", "id": "138190748214493", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Burst 1", "id": "131653988627020", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Big Magical Explosion", "id": "122258480286280", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bigger Magical Explosion", "id": "75300135616235", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

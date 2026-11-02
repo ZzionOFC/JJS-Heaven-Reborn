@@ -1,0 +1,39 @@
+[
+  {
+    "category": "JJK Sound Effects & Cursed Energy",
+    "items": [
+      { "name": "Death RCT", "id": "114987067570386", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Technique Burnout", "id": "86401133542921", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mahoraga Wheel Turn", "id": "112330950210072", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mahoraga Wheel Turn 1", "id": "138662381158713", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Critical Hit JJK", "id": "108823442252759", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Spark", "id": "9114251571", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Hit", "id": "124300768333968", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Sparks", "id": "88254490992405", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Reverse Cursed Technique", "id": "81169123566651", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Simple Domain", "id": "89507447627094", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Domain Amplification", "id": "106418161284861", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Curse Sound", "id": "89495884718996", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hidden Inventory Curse", "id": "124277180088599", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kashimo Staff Hits (1 SECOND APART FOR EACH HIT THERES 5 HERE)", "id": "119660816292394", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hit Into Stronger Hit", "id": "98857230038668", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ce and woosh", "id": "81501979274630", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jump", "id": "100461366816755", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rct", "id": "123318514305983", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle", "id": "136089993943230", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle 1", "id": "115085673921756", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle 2", "id": "119542884071193", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy", "id": "120714138513879", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 1", "id": "120458587618994", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 2", "id": "90739802998105", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 3", "id": "113186934265156", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 4", "id": "137480468339388", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 5", "id": "115298681629023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 6", "id": "129896512527003", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 7", "id": "94032205831374", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 8", "id": "113012976203051", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy Flare", "id": "90664148167227", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy Explosion", "id": "106071477740392", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

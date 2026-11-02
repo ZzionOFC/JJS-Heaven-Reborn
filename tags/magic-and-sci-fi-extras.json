@@ -1,0 +1,35 @@
+[
+  {
+    "category": "Magic & Sci-Fi Extras",
+    "items": [
+      { "name": "Magic Cluster", "id": "9116395089", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Cluster 1", "id": "9116394545", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Cluster 2", "id": "9116395085", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Crystal Sparkle", "id": "132381858621446", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Short Poof", "id": "9125640290", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Short Poof 1", "id": "9116406610", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fire Impact", "id": "139681553729333", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Laser Zap Impact", "id": "9119594928", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lighting Impact", "id": "4961088919", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Star Impact", "id": "4612384643", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shockwave Impact", "id": "107099176643351", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "RCT", "id": "119894975006068", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Soul Flare", "id": "129574185636266", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Windup 1", "id": "130326607016455", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightining Zap", "id": "8952019380", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magical Light Shimmer", "id": "130555533032517", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mediumium Lightning Sound", "id": "137661824521453", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion + Lightning (small startup)", "id": "120353476358106", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightning Strong Impact", "id": "81920739716196", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Plasma Lightning Sound", "id": "127435559395786", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shockwave Pulse 1", "id": "6883650972", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pulse With Light \"noise\" 1", "id": "111482598688792", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pulse With Light \"noise\" 2", "id": "135766244778996", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Energy Pass By/Pulse", "id": "97849925223786", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Synth Bass Drop", "id": "106271204257379", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Synth High Pitched Bell", "id": "9126073001", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cool Laser With FadeIn/Out", "id": "1841310201", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Windup Impact 1", "id": "74017040888390", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Materials, Glass, & Environment",
+    "items": [
+      { "name": "Glass break (swift)", "id": "128763165071133", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass break (impactful)", "id": "132535085898211", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock SlamMedium At Rocks", "id": "139818366003696", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Break", "id": "138817960173178", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Impact", "id": "9118614718", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Large impact", "id": "9118617342", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pool Splash Impact", "id": "9117822527", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Smash Impact", "id": "9125869505", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice/Glass Impact", "id": "107467482558699", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact", "id": "9113764330", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact 1", "id": "9116709512", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact 2", "id": "9116673944", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Harder Rock Impact", "id": "9118614717", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "SnowBall Impact", "id": "4518881974", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact", "id": "9118613455", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact 1", "id": "9118614058", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact 2", "id": "9118613457", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Pile Impact", "id": "8974095117", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Shatter", "id": "105792362821593", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rubble Settling", "id": "139161937936105", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Ting Sound", "id": "102143179165244", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Break (echo)", "id": "14096905948", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

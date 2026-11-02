@@ -1,0 +1,31 @@
+[
+  {
+    "category": "Heavy & General Impacts",
+    "items": [
+      { "name": "Hard Slam", "id": "99099006327211", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion/Sudden Impact", "id": "138533090376585", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Impact", "id": "128356543877971", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Impact", "id": "101408037150094", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Impact 1", "id": "17873732848", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle Impact", "id": "127747836286692", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Super Impact", "id": "3295664865", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rumble Impact", "id": "3923230963", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Impact", "id": "6324692247", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Smash Impact", "id": "7823511893", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Smash Impact", "id": "76841366761482", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Meteor Impact", "id": "5292846003", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Debris Slam Impact", "id": "139091089156450", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gorey Impact", "id": "84939824055200", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion", "id": "140244542853196", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slam", "id": "100457174196725", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Slam", "id": "87116080821971", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Impact 1", "id": "138491608174336", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Impact 2", "id": "124508619845222", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Impact 3", "id": "136296034626741", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact", "id": "5501600429", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact 1", "id": "126329843178617", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact 2", "id": "3105090678", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact 3", "id": "120935595628430", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  }
+]

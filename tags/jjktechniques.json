@@ -1,5 +1,112 @@
 [
   {
+    "category": "Divine Dog:  Totality:",
+    "items": [
+      { "name": "Head", "id": "115364998389069", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "133688486545996", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Body", "id": "102121464190917", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Armpart1", "id": "95763245713922", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arm Texture", "id": "85882096564731", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arm part2", "id": "115364083773415", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Arm 2 Texture", "id": "102753976926884", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Leg 1", "id": "140589860167930", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Leg 2", "id": "84356258259346", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Tail", "id": "132458098066491", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Max Elephant:",
+    "items": [
+      { "name": "Head", "id": "100235108501013", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Trunk", "id": "92640380146875", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso1", "id": "128835910985702", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso2", "id": "112438331801672", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Legpart1", "id": "100859510741068", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Legpart2", "id": "82550527899134", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "135369059765091", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Orochi (Great Serpent):",
+    "items": [
+      { "name": "Head", "id": "135249367897479", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jaw", "id": "128150353649522", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "body segment", "id": "101825206041234", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "119541989165940", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Toji Worm (Inventory Curse):",
+    "items": [
+      { "name": "Segment1", "id": "105151259235311", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Segment2", "id": "125405681676643", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Head", "id": "71943457125764", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Body Wrap", "id": "103588912399672", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Texture", "id": "80622490961069", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pale Texture", "id": "124864126072648", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Vibrant Texture", "id": "125857368240137", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Geto Centepede:",
+    "items": [
+      { "name": "Head", "id": "127240040497949", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Segment", "id": "111887851531127", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Red Texture", "id": "122082051275370", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Green Texture", "id": "72881888699985", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Geto's Squids:",
+    "items": [
+      { "name": "Brown Squid", "id": "89635674946828", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Brown Squid Texture", "id": "124743953799555", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "White Squid", "id": "88684020777041", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "White Squid Texture", "id": "96964871566671", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Partial Manifested Rika:",
+    "items": [
+      { "name": "Head", "id": "87343910502181", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jaw", "id": "117041412074089", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Upper Arm", "id": "133951147106926", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lower Arm", "id": "92993671380702", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hand", "id": "136292836270457", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Large Finger", "id": "93395504971257", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Small Finger", "id": "78009348331897", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "103302012441452", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Yorozus Insect Armor:",
+    "items": [
+      { "name": "Head", "id": "126885998195585", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Torso", "id": "71246583862535", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Left Arm", "id": "86810195533341", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Right Arm", "id": "108209868631090", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Legs", "id": "80614168936684", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "83996077508495", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Hana Pack:",
+    "items": [
+      { "name": "Wings", "id": "95076855959810", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Halo", "id": "77413980831506", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Hakaris Doors:",
+    "items": [
+      { "name": "Door", "id": "130664670776863", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "White Texture", "id": "117778313332768", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Red Texture", "id": "140578885863306", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Green Texture", "id": "101176047294994", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Yellow Texture", "id": "132089883384740", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
     "category": "Hanami Pack:",
     "items": [
       { "name": "Wooden thorn", "id": "71752192613302", "texture": "", "namet1": "", "altt1": [] },
@@ -19,14 +126,6 @@
     ]
   },
   {
-    "category": "Thin Ice Breaker:",
-    "items": [
-      { "name": "Stage 1", "id": "92677254964921", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Stage 2", "id": "76882343844186", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Stage 3", "id": "137314565910479", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
     "category": "Spiderweb Cleave:",
     "items": [
       { "name": "Mesh", "id": "519099625", "texture": "", "namet1": "", "altt1": [] }
@@ -43,13 +142,6 @@
     "items": [
       { "name": "Amount", "id": "74408379982837", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "112025978181868", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Naoya Frame:",
-    "items": [
-      { "name": "Mesh", "id": "113222925767682", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "89189103674405", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -83,17 +175,17 @@
   {
     "category": "Dragão Arco-Íris:",
     "items": [
-      { "name": "Mesh", "id": "122337778593902", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Mesh Boca Aberta", "id": "101217903019962", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "84015591905677", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Mouth", "id": "122337778593902", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Open Mouth", "id": "101217903019962", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture For All", "id": "84015591905677", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Tiger Funeral:",
     "items": [
       { "name": "Mesh", "id": "99722225653192", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture Pelagem Laranja", "id": "72330323981945", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture Pelagem Branca", "id": "103187475421515", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Orange Texture", "id": "72330323981945", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "White Texture", "id": "103187475421515", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -115,13 +207,6 @@
     "items": [
       { "name": "Mesh", "id": "116265628923818", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "129835025833675", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Geto Squid:",
-    "items": [
-      { "name": "Mesh", "id": "118113074232265", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "87303586730398", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -153,20 +238,6 @@
     ]
   },
   {
-    "category": "Toad:",
-    "items": [
-      { "name": "Amount", "id": "100784740089834", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "90386878109426", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Tongue and twisted tongue:",
-    "items": [
-      { "name": "Tongue", "id": "87030497202578", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Twisted Tongue", "id": "73145349058655", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
     "category": "Round Deer:",
     "items": [
       { "name": "Mesh", "id": "82782156279549", "texture": "", "namet1": "", "altt1": [] },
@@ -195,6 +266,13 @@
     ]
   },
   {
+    "category": "Max Elephant 2:",
+    "items": [
+      { "name": "Mesh", "id": "130258839377159", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Texture", "id": "77523860492582", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
     "category": "Megumi Rabbit:",
     "items": [
       { "name": "Mesh", "id": "107313299455571", "texture": "", "namet1": "", "altt1": [] },
@@ -202,24 +280,10 @@
     ]
   },
   {
-    "category": "Manta Ray VFX:",
+    "category": "Manta Ray:",
     "items": [
       { "name": "Mesh", "id": "89962256593568", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "132524185890060", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Nue: Totality (Orochi):",
-    "items": [
-      { "name": "Mesh", "id": "72907606381080", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "103939500537151", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Shutter Doors:",
-    "items": [
-      { "name": "Mesh", "id": "88806605554096", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "123005971649098", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -233,24 +297,19 @@
     ]
   },
   {
-    "category": "Roach",
+    "category": "Roach:",
     "items": [
       { "name": "Mesh", "id": "71798430613591", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "131676941752942", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
-    "category": "Blood Bag",
+    "category": "Kamo Pack:",
     "items": [
-      { "name": "Mesh", "id": "76028609716112", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "114485201339717", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Crimson Binding",
-    "items": [
-      { "name": "Mesh", "id": "85692166616506", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "126376926247661", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Blood Bag", "id": "76028609716112", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Bag Texture", "id": "114485201339717", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Crimson Binding", "id": "85692166616506", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Crimson Binding Texture", "id": "126376926247661", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -275,12 +334,7 @@
       { "name": "Toad Tongue", "id": "130300682169984", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "102061283887064", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Toad Tongue (wrapped around torso)", "id": "134816268033905", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture For All", "id": "89797145263418", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Pachinko Machine",
-    "items": [
+      { "name": "Texture For All", "id": "89797145263418", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Mesh", "id": "109093023491016", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Texture", "id": "138089778444328", "texture": "", "namet1": "", "altt1": [] }
     ]
@@ -300,13 +354,6 @@
     ]
   },
   {
-    "category": "Max Elephant",
-    "items": [
-      { "name": "Mesh", "id": "130258839377159", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "77523860492582", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
     "category": "Geto Daruma Doll",
     "items": [
       { "name": "Mesh", "id": "93940481055", "texture": "", "namet1": "", "altt1": [] },
@@ -314,37 +361,12 @@
     ]
   },
   {
-    "category": "Brown Squid",
+    "category": "Hookworm Curse:",
     "items": [
-      { "name": "Mesh", "id": "89635674946828", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "124743953799555", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "White Squid",
-    "items": [
-      { "name": "Mesh", "id": "88684020777041", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "96964871566671", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Uraume ice platform",
-    "items": [
-      { "name": "Mesh", "id": "71048953855805", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Hookworm Curse (Open Mouth)",
-    "items": [
-      { "name": "Mesh", "id": "76304304149554", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "77316784560372", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Hookworm Curse (Closed Mouth)",
-    "items": [
-      { "name": "Mesh", "id": "117000718413471", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "132568061038593", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Open Mouth", "id": "76304304149554", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Open Mouth Texture", "id": "77316784560372", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Closed Mouth", "id": "117000718413471", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Closed Mouth Texture", "id": "132568061038593", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -376,12 +398,15 @@
     ]
   },
   {
-    "category": "Thin Ince Breaker:",
+    "category": "Thin Ice Breaker:",
     "items": [
       { "name": "Stage 1", "id": "88240922077754", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Stage 2", "id": "108332859803176", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Stage 3", "id": "117877027996918", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture For All", "id": "84272871288137", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Texture For All", "id": "84272871288137", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "ALT Stage 1", "id": "92677254964921", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "ALT Stage 2", "id": "76882343844186", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "ALT Stage 3", "id": "137314565910479", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -405,7 +430,7 @@
   {
     "category": "Mahito Transfiguration's:",
     "items": [
-      { "name": "Mid Transfig", "id": "100946084449394", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "M Transfig", "id": "100946084449394", "texture": "", "namet1": "", "altt1": [] },
       { "name": "JJS-Blade", "id": "98993696218974", "texture": "", "namet1": "", "altt1": [] },
       { "name": "JJS-Club", "id": "128377279477343", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spiked Club", "id": "118684898504289", "texture": "", "namet1": "", "altt1": [] },
@@ -418,14 +443,9 @@
       { "name": "360 Spike Frame 2", "id": "98503382266791", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spike Club Arm Frame 1", "id": "113012572274130", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Spike Club Arm Frame 2", "id": "87481387627373", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Spike Club Arm Frame 3 (w/ spikes)", "id": "128972701692015", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Horse Leg:",
-    "items": [
-      { "name": "Mesh", "id": "94192399229850", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "111617360497392", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Spike Club Arm Frame 3 (w/ spikes)", "id": "128972701692015", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Horse Leg", "id": "94192399229850", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Horse Leg Texture", "id": "111617360497392", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -439,17 +459,13 @@
     ]
   },
   {
-    "category": "Frost Calm:",
+    "category": "Uraume Pack:",
     "items": [
-      { "name": "Mesh", "id": "113075009000913", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "88848259988614", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Frost Calm (Front):",
-    "items": [
-      { "name": "Mesh", "id": "120320249157827", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "93848653414844", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "AOE Frost Calm", "id": "113075009000913", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "AOE Frost Calm Texture", "id": "88848259988614", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Frost Calm Front", "id": "120320249157827", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Frost Calm Front Texture", "id": "93848653414844", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Platform", "id": "71048953855805", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -460,67 +476,12 @@
     ]
   },
   {
-    "category": "Nobara's Strawdoll:",
+    "category": "Nobara Pack:",
     "items": [
-      { "name": "Mesh", "id": "91066090472201", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "128959392238817", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Nobara's Nail:",
-    "items": [
-      { "name": "Mesh 71D", "id": "555914704210", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "103035845746945", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Big tooth (no blood):",
-    "items": [
-      { "name": "Mesh", "id": "90940505102566", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "101879136379030", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Big Tooth (blood):",
-    "items": [
-      { "name": "Mesh", "id": "97729565330047", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "73714287796087", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Small Tooth (no blood):",
-    "items": [
-      { "name": "Mesh", "id": "135668461960107", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "99703675319068", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Small Tooth (blood):",
-    "items": [
-      { "name": "Mesh", "id": "136841138739961", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "97362392494002", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Eye (no blood):",
-    "items": [
-      { "name": "Mesh", "id": "139911878174368", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "91168820265285", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Eye (blood):",
-    "items": [
-      { "name": "Mesh", "id": "78300751714557", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture", "id": "73237139150539", "texture": "", "namet1": "", "altt1": [] }
-    ]
-  },
-  {
-    "category": "Nanami Ties:",
-    "items": [
-      { "name": "Tie (overtime/wrap) amount", "id": "104153216035650", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Tie (regular) amount", "id": "117841349294239", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Texture (both)", "id": "128056001940854", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Strawdoll", "id": "91066090472201", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strawdoll Texture", "id": "128959392238817", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Nail", "id": "555914704210", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Nail Texture", "id": "103035845746945", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

@@ -11,14 +11,14 @@ const ARQUIVOS_TAGS = [
   { mae: 'SFX', filhas: [
     { arquivo: 'sfx', nome: 'ALL SFX' },
     { arquivo: 'heavy-general-impacts', nome: 'Impacts' },
-    { arquivo: 'windup-cast-and-energy', nome: 'Windup, Casts and Energy.' },
-    { arquivo: 'jjk-sound-effects-cursed-energy', nome: 'JJK SFX & CE' },
-    { arquivo: 'weapons-and-blades', nome: 'Weapons & Blades' },
-    { arquivo: 'gore-and-body', nome: 'Gore & Body' },
+    { arquivo: 'windup-cast-and-energy', nome: 'Windup, Casts and Energy' },
+    { arquivo: 'jjk-sound-effects-cursed-energy', nome: 'JJK SFX' },
+    { arquivo: 'weapons-and-blades', nome: 'Weapons' },
+    { arquivo: 'gore-and-body', nome: 'Gore' },
     { arquivo: 'ice-sfx', nome: 'Ice SFX' },
-    { arquivo: 'wind-and-movement', nome: 'Wind & Movement' },
+    { arquivo: 'wind-and-movement', nome: 'Movement' },
     { arquivo: 'magic-and-sci-fi', nome: 'Magic & Sci-Fi' },
-    { arquivo: 'materials-and-environment', nome: 'Materials & Environment' },
+    { arquivo: 'materials-and-environment', nome: 'Environment' },
     { arquivo: 'firearms', nome: 'Firearms' }
   ]}
 ];

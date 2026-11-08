@@ -39,7 +39,6 @@
 
 <div id="childTagsContainer" class="child-tags-container hidden"></div>
 
-
 <div id="history-bar">Recent: None</div>
 </div>
 
@@ -113,9 +112,7 @@
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; line-height: 2.2; font-size: 14px;">
 <div>
 <strong class="shortcut-key">[</strong> Toggle Cheat Sheet<br />
-<!-- INICIO atalho popup cheatsheet -->
 <strong class="shortcut-key">]</strong> Open as Popup<br />
-<!-- FIM atalho popup cheatsheet -->
 <strong class="shortcut-key">/</strong> Focus Search<br />
 <strong class="shortcut-key">Esc</strong> Clear / Close<br />
 <strong class="shortcut-key">-</strong> Previous Tab<br />
@@ -130,6 +127,36 @@
 </div>
 <button onclick="document.getElementById('cheatSheetModal').classList.add('hidden')" class="action-btn" style="width: 100%; margin-top: 20px">Close</button>
 </div>
+</div>
+
+<!-- MODAL DE TUTORIAL DE PRIMEIRA VISITA -->
+<div id="tutorialModal" class="modal-overlay hidden" onclick="if (event.target === this) fecharTutorial();">
+  <div class="modal-content tutorial-content">
+    <h2 style="margin-top: 0; color: #4caf50; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">👋 Welcome to JJS Heaven!</h2>
+    
+    <div style="font-size: 14px; line-height: 1.6; margin: 15px 0;">
+      <p style="margin-top: 0;">Everything you need to skillbuild is right here. Quick rundown on how to use it:</p>
+      
+      <ul style="padding-left: 20px; margin: 10px 0;">
+        <li><b>📋 Click to Copy:</b> Just click any item, code, or color to instantly copy it to your clipboard.</li>
+        <li><b>🔍 Search Bar:</b> Hit <span class="shortcut-key">/</span> anytime to quickly search by names, IDs, or categories.</li>
+        <li><b>🏷️ Tags & Filters:</b> Use the tag pills to browse specific categories like audio, meshes, VFX, and more.</li>
+        <li><b>🛠️ Tools:</b> Check out the top menu for a <i>Color Picker</i>, <i>RGB Gradients</i>, interval calculators, and more.</li>
+        <li><b>⌨️ Keyboard Shortcuts:</b> Press <span class="shortcut-key">[</span> to open the full list of quick shortcuts.</li>
+      </ul>
+      
+      <div style="background: rgba(76, 175, 80, 0.1); border-left: 3px solid #4caf50; padding: 10px; margin-top: 15px; border-radius: 2px;">
+        💡 </b> If you <i>search around</i> the search and browse the categories, you can find <b>pretty much anything</b> in here!
+      </div>
+    </div>
+
+    <button onclick="fecharTutorial()" class="action-btn" style="width: 100%; background: #2e7d32; border-color: #4caf50; font-size: 15px;">Got it, let's go! 🚀</button>
+  </div>
+</div>
+
+
+    <button onclick="fecharTutorial()" class="action-btn" style="width: 100%; background: #2e7d32; border-color: #4caf50; font-size: 15px;">Entendi, bora lá! 🚀</button>
+  </div>
 </div>
 
 <script src="js/index.js"></script>

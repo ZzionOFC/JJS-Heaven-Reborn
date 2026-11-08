@@ -22,7 +22,23 @@ const ARQUIVOS_TAGS = [
     { arquivo: 'firearms', nome: 'Firearms' }
   ]}
 ];
-// INICIO: tocarSomClique
+
+// INICIO: LÓGICA DO TUTORIAL
+function verificarTutorial() {
+  const tutorialVisto = localStorage.getItem("jjs_tutorial_seen");
+  if (!tutorialVisto) {
+    const modal = document.getElementById("tutorialModal");
+    if (modal) modal.classList.remove("hidden");
+  }
+}
+
+function fecharTutorial() {
+  const modal = document.getElementById("tutorialModal");
+  if (modal) modal.classList.add("hidden");
+  localStorage.setItem("jjs_tutorial_seen", "true");
+}
+// FIM: LÓGICA DO TUTORIAL
+
 function tocarSomClique() {
   try {
     if (!audioCtx) {
@@ -49,7 +65,6 @@ function tocarSomClique() {
     osc.stop(audioCtx.currentTime + 0.03);
   } catch (e) {}
 }
-// FIM: tocarSomClique
 
 async function copiarTexto(texto) {
   if (!texto) return false;
@@ -75,7 +90,6 @@ async function copiarTexto(texto) {
   }
 }
 
-// INICIO: visibilityOptimization
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
     if (audioCtx && audioCtx.state === "running") {
@@ -83,7 +97,6 @@ document.addEventListener("visibilitychange", () => {
     }
   }
 });
-// FIM: visibilityOptimization
 
 const conteudo = document.getElementById("conteudo"),
   campoPesquisa = document.getElementById("campoPesquisa"),
@@ -106,7 +119,6 @@ let presetsAtuais = [];
 let modoAdminAtivo = false;
 const SENHA_ADMIN = "admin123";
 
-// INICIO: eventosIniciais
 if (btnToggle) {
   btnToggle.addEventListener("click", () => menu.classList.toggle("hidden"));
 }
@@ -159,9 +171,7 @@ window.addEventListener("scroll", () => {
     scrollTicking = true;
   }
 }, { passive: true });
-// FIM: eventosIniciais
 
-// INICIO: renderizarHistorico
 function renderizarHistorico() {
   if (history.length === 0) {
     historyBar.innerHTML = "Recent: None";
@@ -176,7 +186,6 @@ function renderizarHistorico() {
         .join("|");
   }
 }
-// FIM: renderizarHistorico
 
 function updateHistory(val) {
   if (!history.includes(val)) {
@@ -194,7 +203,6 @@ function extrairListaRGB(texto) {
   return matches.map(m => m.replace(/\s+/g, ''));
 }
 
-// INICIO: renderizarTools
 function renderizarTools(btn) {
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
@@ -453,9 +461,7 @@ function renderizarTools(btn) {
     }
   };
 }
-// FIM: renderizarTools
 
-// INICIO: renderizarColorPicker (Cores Otimizado)
 function renderizarColorPicker(btn) {
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
@@ -758,9 +764,7 @@ function renderizarColorPicker(btn) {
     imgCanvas.releasePointerCapture(e.pointerId);
   });
 }
-// FIM: renderizarColorPicker
 
-// INICIO: carregarPresets
 function carregarPresets(url, btn) {
   const childContainer = document.getElementById("childTagsContainer");
   if(childContainer) childContainer.classList.add("hidden");
@@ -788,7 +792,6 @@ function carregarPresets(url, btn) {
     })
     .catch(() => { conteudo.innerHTML = '<div class="status-msg" style="color:red;">Error loading presets.</div>'; });
 }
-// FIM: carregarPresets
 
 function extrairNumerosRGB(val) {
   if (!val) return "";
@@ -1274,7 +1277,6 @@ function dispararPesquisaAtual(valor) {
   }
 }
 
-// INICIO: renderizarPillsTags (Com Dropdown de Grupos e Nomes Customizados)
 function renderizarPillsTags() {
   const container = document.getElementById("tagsContainer");
   const childContainer = document.getElementById("childTagsContainer");
@@ -1368,7 +1370,6 @@ function renderizarPillsTags() {
     });
   }
 }
-// FIM: renderizarPillsTags
 
 let timerPesquisa = null;
 campoPesquisa.addEventListener("input", (e) => {
@@ -1396,7 +1397,6 @@ document.getElementById("btnTema").addEventListener("click", () => {
   document.getElementById("btnTema").textContent = document.body.classList.contains("light-mode") ? "🌙" : "☀️";
 });
 
-// INICIO: atalhos
 window.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     campoPesquisa.value = "";
@@ -1406,6 +1406,7 @@ window.addEventListener("keydown", (e) => {
     fecharModalEdicao();
     fecharModalCategoria();
     fecharNotepad();
+    fecharTutorial();
     const cheatSheet = document.getElementById("cheatSheetModal");
     if (cheatSheet) cheatSheet.classList.add("hidden");
     return;
@@ -1453,9 +1454,7 @@ window.addEventListener("keydown", (e) => {
     abrirNotepad();
   }
 });
-// FIM: atalhos
 
-// INICIO: LÓGICA DE NOTEPAD
 function abrirNotepad() {
   const modal = document.getElementById("notepadModal");
   const noteContent = localStorage.getItem("jjs_notepad_data") || "";
@@ -1473,9 +1472,7 @@ function salvarNotepad() {
   localStorage.setItem("jjs_notepad_data", val);
   fecharNotepad();
 }
-// FIM: LÓGICA DE NOTEPAD
 
-// INICIO: LÓGICA DE CATEGORIA (ADMIN)
 function abrirModalCategoria() {
   document.getElementById("editCategoryName").value = "";
   document.getElementById("categoryModal").classList.remove("hidden");
@@ -1517,9 +1514,7 @@ function exportarJSON() {
   downloadAnchor.click();
   downloadAnchor.remove();
 }
-// FIM: LÓGICA DE CATEGORIA (ADMIN)
 
-// INICIO: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 let catEditandoId = null;
 let itemEditandoId = null;
 
@@ -1613,11 +1608,11 @@ function salvarItemEdicao() {
   fecharModalEdicao();
   renderizarItens(dadosAtuais, isCodesAtual, campoPesquisa.value);
 }
-// FIM: LÓGICA DE EDIÇÃO / ADIÇÃO DE ITEM
 
 window.onload = () => {
   carregarDados("json/dados.json", document.querySelector("nav button"));
   renderizarPillsTags();
+  verificarTutorial();
   const noteContent = localStorage.getItem("jjs_notepad_data");
   if (noteContent && document.getElementById("notepadText")) {
     document.getElementById("notepadText").value = noteContent;

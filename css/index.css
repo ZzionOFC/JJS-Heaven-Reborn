@@ -509,6 +509,11 @@ body.light-mode .item-wrapper {
   box-shadow: 0 10px 30px var(--shadow-color);
 }
 
+.tutorial-content {
+  max-width: 500px;
+  border-color: var(--primary-dark);
+}
+
 .shortcut-key {
   color: #ff9800;
   background: var(--bg-main);

@@ -2,1697 +2,360 @@
   {
     "category": "Punches:",
     "items": [
-      {
-        "name": "Strong Punch/Impact",
-        "id": "138507090524688",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Body Impact Hard",
-        "id": "5507830073",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Impact",
-        "id": "120787552999211",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch",
-        "id": "127347019383138",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Weak Punch",
-        "id": "8595980577",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT2",
-        "id": "9117969687",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT3",
-        "id": "9117969717",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT4",
-        "id": "8278630896",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT5",
-        "id": "98330897555423",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT6",
-        "id": "9117969584",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT7",
-        "id": "109316755832781",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT8",
-        "id": "9117969892",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT9",
-        "id": "128800126046142",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT10",
-        "id": "112520700932085",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT11",
-        "id": "87821280606182",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT12",
-        "id": "73650047389210",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT13",
-        "id": "92176894751328",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT14",
-        "id": "72225188465997",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT15",
-        "id": "130989811909727",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT16",
-        "id": "138589747810858",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT17",
-        "id": "123985356916053",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT18",
-        "id": "108903008437675",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT19",
-        "id": "77249485841875",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT21",
-        "id": "124571849561275",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT22",
-        "id": "86972601825871",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Punch ALT23",
-        "id": "9117970193",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Swift Punch",
-        "id": "72142112079276",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Strong Punch",
-        "id": "8595983255",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Strong Punch ALT2",
-        "id": "140139514810063",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blocked Punch",
-        "id": "132615624053575",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blocked Punch ALT2",
-        "id": "3546610106",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Critical Punch",
-        "id": "8595977193",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Punch",
-        "id": "99021683276237",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Punch ALT2",
-        "id": "6164853733",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Punch ALT3",
-        "id": "84612044277731",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Punch ALT4",
-        "id": "122822101119933",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Punch ALT5",
-        "id": "136390605758244",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Barrage",
-        "id": "75722719022420",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Barrage ALT2",
-        "id": "129299857571217",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Swing",
-        "id": "5835032207",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Swing ALT2",
-        "id": "101467914599270",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Swing ALT3",
-        "id": "74238153433253",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Swing ALT4",
-        "id": "121514852904179",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch Swing ALT5",
-        "id": "99595080052889",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch",
-        "id": "123675955398289",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Quick punch",
-        "id": "140549385369754",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Beatdown Windup",
-        "id": "95611427457014",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Beatdown Grab",
-        "id": "93176405761881",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Critical Hit",
-        "id": "8595984380",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Knockback",
-        "id": "116749249835197",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Strong Punch/Impact", "id": "138507090524688", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Body Impact Hard", "id": "5507830073", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Impact", "id": "120787552999211", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch", "id": "127347019383138", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Weak Punch", "id": "8595980577", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT2", "id": "9117969687", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT3", "id": "9117969717", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT4", "id": "8278630896", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT5", "id": "98330897555423", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT6", "id": "9117969584", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT7", "id": "109316755832781", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT8", "id": "9117969892", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT9", "id": "128800126046142", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT10", "id": "112520700932085", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT11", "id": "87821280606182", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT12", "id": "73650047389210", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT13", "id": "92176894751328", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT14", "id": "72225188465997", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT15", "id": "130989811909727", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT16", "id": "138589747810858", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT17", "id": "123985356916053", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT18", "id": "108903008437675", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT19", "id": "77249485841875", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT21", "id": "124571849561275", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT22", "id": "86972601825871", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Punch ALT23", "id": "9117970193", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Swift Punch", "id": "72142112079276", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Punch", "id": "8595983255", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Punch ALT2", "id": "140139514810063", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blocked Punch", "id": "132615624053575", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blocked Punch ALT2", "id": "3546610106", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Critical Punch", "id": "8595977193", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Punch", "id": "99021683276237", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Punch ALT2", "id": "6164853733", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Punch ALT3", "id": "84612044277731", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Punch ALT4", "id": "122822101119933", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Punch ALT5", "id": "136390605758244", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Barrage", "id": "75722719022420", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Barrage ALT2", "id": "129299857571217", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Swing", "id": "5835032207", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Swing ALT2", "id": "101467914599270", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Swing ALT3", "id": "74238153433253", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Swing ALT4", "id": "121514852904179", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch Swing ALT5", "id": "99595080052889", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch", "id": "123675955398289", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Quick punch", "id": "140549385369754", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Beatdown Windup", "id": "95611427457014", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Beatdown Grab", "id": "93176405761881", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Critical Hit", "id": "8595984380", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Knockback", "id": "116749249835197", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Kicks:",
     "items": [
-      {
-        "name": "Heavy Kick Impact",
-        "id": "3509669748",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Punch/Kick Impact",
-        "id": "119755305870451",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kick 1st Impact",
-        "id": "134363357074487",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kick 2nd Impact",
-        "id": "123458238003078",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Kick",
-        "id": "8595975458",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kick Swing",
-        "id": "114235921050731",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Kick ALT1",
-        "id": "86699600703335",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Basic Kick ALT2",
-        "id": "93662867657476",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Strong Kick",
-        "id": "101093315205711",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kicks",
-        "id": "100051240496994",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kick Woosh",
-        "id": "137359811336205",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Kick Woosh ALT1",
-        "id": "127819174075907",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Spin kick",
-        "id": "131969177643108",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Heavy Kick Impact", "id": "3509669748", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Punch/Kick Impact", "id": "119755305870451", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kick 1st Impact", "id": "134363357074487", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kick 2nd Impact", "id": "123458238003078", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Kick", "id": "8595975458", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kick Swing", "id": "114235921050731", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Kick ALT1", "id": "86699600703335", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Basic Kick ALT2", "id": "93662867657476", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Kick", "id": "101093315205711", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kicks", "id": "100051240496994", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kick Woosh", "id": "137359811336205", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kick Woosh ALT1", "id": "127819174075907", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spin kick", "id": "131969177643108", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Weapons & Blades:",
     "items": [
-      {
-        "name": "Axe Impact",
-        "id": "9113225979",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Impact",
-        "id": "7171761940",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Saw Blade Impact",
-        "id": "233380645",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Shield Impact",
-        "id": "9119074309",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Mace Impact",
-        "id": "130613136581394",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Slash & blood",
-        "id": "74976004744038",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing",
-        "id": "140277245983305",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing ALT",
-        "id": "137017959711769",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Knife Quick",
-        "id": "4681191260",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Knife",
-        "id": "137951817204948",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Spinning Slash Woosh",
-        "id": "92525376068049",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "X slash",
-        "id": "126203981639603",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blade Wind Spin",
-        "id": "126297206149558",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swings",
-        "id": "140492871204586",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Dash 1",
-        "id": "81455919549480",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Dash 2",
-        "id": "139994035606058",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Unsheath/M1 Sword Swing",
-        "id": "114350721362906",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "JJS Sword Swing",
-        "id": "134362189197913",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing",
-        "id": "137628815514180",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing",
-        "id": "137364752797787",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing",
-        "id": "132278037003088",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Swing",
-        "id": "131370398099954",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Super Sword",
-        "id": "138168045092736",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sword Noise",
-        "id": "137192158251109",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Crowbar Impact 1",
-        "id": "139685206535254",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Axe Impact", "id": "9113225979", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Impact", "id": "7171761940", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Saw Blade Impact", "id": "233380645", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shield Impact", "id": "9119074309", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mace Impact", "id": "130613136581394", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slash & blood", "id": "74976004744038", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "140277245983305", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing ALT", "id": "137017959711769", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Knife Quick", "id": "4681191260", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Knife", "id": "137951817204948", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning Slash Woosh", "id": "92525376068049", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "X slash", "id": "126203981639603", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blade Wind Spin", "id": "126297206149558", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swings", "id": "140492871204586", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Dash 1", "id": "81455919549480", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Dash 2", "id": "139994035606058", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Unsheath/M1 Sword Swing", "id": "114350721362906", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "JJS Sword Swing", "id": "134362189197913", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "137628815514180", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "137364752797787", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "132278037003088", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Swing", "id": "131370398099954", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Super Sword", "id": "138168045092736", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sword Noise", "id": "137192158251109", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Crowbar Impact 1", "id": "139685206535254", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Firearms & Guns:",
     "items": [
-      {
-        "name": "Blood/Bullet Hit Impact",
-        "id": "4427231299",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bullet Hard Surface Impact",
-        "id": "78578946566141",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bullet Metal Impact",
-        "id": "81340193577891",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Gun click",
-        "id": "139170625572709",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Gun load",
-        "id": "127341644767895",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Gun fire",
-        "id": "134693554186099",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Shell casing eject",
-        "id": "4223883783",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Shell eject 2",
-        "id": "86548525433119",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Reload",
-        "id": "1778483724",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Handgun reload",
-        "id": "5651440920",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Lightweight gun fire",
-        "id": "6376004735",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Handgun Fire",
-        "id": "139278950707917",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Blood/Bullet Hit Impact", "id": "4427231299", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bullet Hard Surface Impact", "id": "78578946566141", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bullet Metal Impact", "id": "81340193577891", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun click", "id": "139170625572709", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun load", "id": "127341644767895", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gun fire", "id": "134693554186099", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shell casing eject", "id": "4223883783", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shell eject 2", "id": "86548525433119", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Reload", "id": "1778483724", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Handgun reload", "id": "5651440920", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightweight gun fire", "id": "6376004735", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Handgun Fire", "id": "139278950707917", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Heavy Impacts:",
     "items": [
-      {
-        "name": "Hard Slam",
-        "id": "99099006327211",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Explosion/Sudden Impact",
-        "id": "138533090376585",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Strong Impact",
-        "id": "128356543877971",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Black Flash Impact",
-        "id": "101408037150094",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Black Flash Impact ALT1",
-        "id": "17873732848",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Dismantle Impact",
-        "id": "127747836286692",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Super Impact",
-        "id": "3295664865",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rumble Impact",
-        "id": "3923230963",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Impact",
-        "id": "6324692247",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Smash Impact",
-        "id": "7823511893",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heavy Smash Impact",
-        "id": "76841366761482",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Meteor Impact",
-        "id": "5292846003",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Debris Slam Impact",
-        "id": "139091089156450",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Gorey Impact",
-        "id": "84939824055200",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Explosion",
-        "id": "140244542853196",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Slam",
-        "id": "100457174196725",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Strong Slam",
-        "id": "87116080821971",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Hard Slam", "id": "99099006327211", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion/Sudden Impact", "id": "138533090376585", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Impact", "id": "128356543877971", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Impact", "id": "101408037150094", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Impact ALT1", "id": "17873732848", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle Impact", "id": "127747836286692", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Super Impact", "id": "3295664865", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rumble Impact", "id": "3923230963", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Impact", "id": "6324692247", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Smash Impact", "id": "7823511893", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy Smash Impact", "id": "76841366761482", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Meteor Impact", "id": "5292846003", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Debris Slam Impact", "id": "139091089156450", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Gorey Impact", "id": "84939824055200", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion", "id": "140244542853196", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slam", "id": "100457174196725", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Strong Slam", "id": "87116080821971", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Materials And Ambient:",
     "items": [
-      {
-        "name": "Rock Slammed At Rocks",
-        "id": "139818366003696",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Glass Break",
-        "id": "138817960173178",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rock Impact",
-        "id": "9118614718",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rock Large impact",
-        "id": "9118617342",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Pool Splash Impact",
-        "id": "9117822527",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rock Smash Impact",
-        "id": "9125869505",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Ice/Glass Impact",
-        "id": "107467482558699",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Metal Impact",
-        "id": "9113764330",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Metal Impact 2",
-        "id": "9116709512",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Metal Impact 3",
-        "id": "9116673944",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Harder Rock Impact",
-        "id": "9118614717",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "SnowBall Impact",
-        "id": "4518881974",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Normal Rock Impact",
-        "id": "9118613455",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Normal Rock Impact ALT2",
-        "id": "9118614058",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Normal Rock Impact ALT3",
-        "id": "9118613457",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rock Pile Impact",
-        "id": "8974095117",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Glass Shatter",
-        "id": "105792362821593",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Rubble Settling",
-        "id": "139161937936105",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Metal Ting Sound",
-        "id": "102143179165244",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Glass Break (echo)",
-        "id": "14096905948",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Rock Slammed At Rocks", "id": "139818366003696", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Break", "id": "138817960173178", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Impact", "id": "9118614718", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Large impact", "id": "9118617342", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pool Splash Impact", "id": "9117822527", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Smash Impact", "id": "9125869505", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice/Glass Impact", "id": "107467482558699", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact", "id": "9113764330", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact 2", "id": "9116709512", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Impact 3", "id": "9116673944", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Harder Rock Impact", "id": "9118614717", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "SnowBall Impact", "id": "4518881974", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact", "id": "9118613455", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact ALT2", "id": "9118614058", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Normal Rock Impact ALT3", "id": "9118613457", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rock Pile Impact", "id": "8974095117", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Shatter", "id": "105792362821593", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rubble Settling", "id": "139161937936105", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Metal Ting Sound", "id": "102143179165244", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Break (echo)", "id": "14096905948", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass break (swift)", "id": "128763165071133", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass break (impactful)", "id": "132535085898211", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Magic & Sci-Fi:",
     "items": [
-      {
-        "name": "Fire Impact",
-        "id": "139681553729333",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Laser Zap Impact",
-        "id": "9119594928",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Lighting Impact",
-        "id": "4961088919",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Star Impact",
-        "id": "4612384643",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Shockwave Impact",
-        "id": "107099176643351",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "RCT",
-        "id": "119894975006068",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Soul Flare",
-        "id": "129574185636266",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Magic Windup",
-        "id": "130326607016455",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Lightining Zap",
-        "id": "8952019380",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Magical Light Shimmer",
-        "id": "130555533032517",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Medium Lightning Sound",
-        "id": "137661824521453",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Explosion + Lightning (small starup)",
-        "id": "120353476358106",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Lightning Strong Impact",
-        "id": "81920739716196",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Plasma Lightning Sound",
-        "id": "127435559395786",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Shockwave Pulse 1",
-        "id": "6883650972",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Pulse With Light \"noise\" 1",
-        "id": "111482598688792",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Pulse With Light \"noise\" 2",
-        "id": "135766244778996",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Energy Pass By/Pulse",
-        "id": "97849925223786",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Synth Bass Drop",
-        "id": "106271204257379",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Synth High Pitched Bell",
-        "id": "9126073001",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cool Laser With FadeIn/Out",
-        "id": "1841310201",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Magic Windup Impact 2",
-        "id": "74017040888390",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Laser Zap Impact", "id": "9119594928", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Star Impact", "id": "4612384643", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shockwave Impact", "id": "107099176643351", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Windup", "id": "130326607016455", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightining Zap", "id": "8952019380", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magical Light Shimmer", "id": "130555533032517", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Medium Lightning Sound", "id": "137661824521453", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Explosion + Lightning (small starup)", "id": "120353476358106", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lightning Strong Impact", "id": "81920739716196", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Plasma Lightning Sound", "id": "127435559395786", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Shockwave Pulse 1", "id": "6883650972", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pulse With Light \"noise\" 1", "id": "111482598688792", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pulse With Light \"noise\" 2", "id": "135766244778996", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Energy Pass By/Pulse", "id": "97849925223786", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Synth Bass Drop", "id": "106271204257379", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Synth High Pitched Bell", "id": "9126073001", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cool Laser With FadeIn/Out", "id": "1841310201", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Windup Impact 2", "id": "74017040888390", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Windup", "id": "138498992667102", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Twirl Windup", "id": "116607390360374", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Spell Cast", "id": "93989620006639", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Spell Cast 1", "id": "130293516985070", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Circle Warp", "id": "96643104586269", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Twirl Release", "id": "108306323478967", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Shoot", "id": "136881806991431", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap", "id": "140602821561280", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap 1", "id": "6875009415", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Zap 2", "id": "137200693534872", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact", "id": "117243786893013", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 1", "id": "131999546232546", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 2", "id": "129037248569146", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Impact 3", "id": "113792860184500", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Burst", "id": "138190748214493", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Burst 1", "id": "131653988627020", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Big Magical Explosion", "id": "122258480286280", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bigger Magical Explosion", "id": "75300135616235", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Cluster", "id": "9116395089", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Cluster 1", "id": "9116394545", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Cluster 2", "id": "9116395085", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Crystal Sparkle", "id": "132381858621446", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Short Poof", "id": "9125640290", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Magic Short Poof 1", "id": "9116406610", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Movement & Teleport:",
     "items": [
-      {
-        "name": "Air Breaking Dash",
-        "id": "74307696685477",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Dash + Thunder",
-        "id": "111412627816301",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blox Fruits Air Jump",
-        "id": "100028253760589",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Warp Dash",
-        "id": "79833203443837",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Air Warp/Dash",
-        "id": "138833862023778",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Light Dash",
-        "id": "115478367022991",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Light Dash 2",
-        "id": "109264260607772",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "3 Light Dashes",
-        "id": "136067997395459",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Warp Endup",
-        "id": "107204350408563",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Slide",
-        "id": "119551515364349",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Warp Sound With StartUp",
-        "id": "114129417539712",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Air Breaking Dash", "id": "74307696685477", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dash + Thunder", "id": "111412627816301", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blox Fruits Air Jump", "id": "100028253760589", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Warp Dash", "id": "79833203443837", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Air Warp/Dash", "id": "138833862023778", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Light Dash", "id": "115478367022991", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Light Dash 2", "id": "109264260607772", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "3 Light Dashes", "id": "136067997395459", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Warp Endup", "id": "107204350408563", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slide", "id": "119551515364349", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Warp Sound With StartUp", "id": "114129417539712", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Wind & Wooshes:",
     "items": [
-      {
-        "name": "High speed woosh",
-        "id": "125815824381597",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Spin Woosh",
-        "id": "138269694368715",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Anticipation Wind",
-        "id": "137887511526908",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "3 Part Woosh",
-        "id": "139481160035471",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Swish Woosh",
-        "id": "104835897489348",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Spinning",
-        "id": "138968344237450",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Woosh",
-        "id": "124745828565304",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Fast Spin Woosh",
-        "id": "79436225943098",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Faster Spin Woosh",
-        "id": "120970073153190",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Slow Woosh",
-        "id": "119611082558157",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Spin",
-        "id": "112270144568260",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Swing",
-        "id": "97257125551026",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Base Wind Spin",
-        "id": "123673490166393",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Sharp Wind",
-        "id": "85437334014853",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "High speed woosh", "id": "125815824381597", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spin Woosh", "id": "138269694368715", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Anticipation Wind", "id": "137887511526908", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "3 Part Woosh", "id": "139481160035471", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Swish Woosh", "id": "104835897489348", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning", "id": "138968344237450", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Woosh", "id": "124745828565304", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fast Spin Woosh", "id": "79436225943098", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Faster Spin Woosh", "id": "120970073153190", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Slow Woosh", "id": "119611082558157", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spin", "id": "112270144568260", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Swing", "id": "97257125551026", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Base Wind Spin", "id": "123673490166393", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Sharp Wind", "id": "85437334014853", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Wind Impact 1 (swift)", "id": "108175404911538", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Wind impact 2 (swift)", "id": "9120769331", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Woosh", "id": "91564952321873", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heavy woosh", "id": "82131389361395", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Medium hit", "id": "93765528848377", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Medium hit 1", "id": "131610593017101", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Medium hit 2", "id": "120733625500061", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Medium hit 3", "id": "89315755890441", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hard hit", "id": "127019226037608", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hard hit 1", "id": "74714713399832", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hard hit 2", "id": "102075295279575", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Spinning loop sound", "id": "94231818422629", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Gore & Foley:",
     "items": [
-      {
-        "name": "Blood Gush",
-        "id": "139131477132737",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cloth rustle",
-        "id": "136224586361044",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cloth quick",
-        "id": "121238985608899",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Heartbeat",
-        "id": "135454814111440",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Footstep",
-        "id": "135712042029119",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Footstep ALT",
-        "id": "96150396419499",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bone crack",
-        "id": "124893077006041",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Pierce",
-        "id": "140325083438865",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Pierce 2",
-        "id": "104459296035253",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Pierce 3",
-        "id": "73592014004829",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Pierce 4",
-        "id": "137145949028887",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Pierce 5",
-        "id": "114699200148510",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Gush",
-        "id": "132080416777849",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Gush 2",
-        "id": "119851057500597",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Explode",
-        "id": "131946209631632",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Blood Explode 2",
-        "id": "136149509554333",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bloody Limb Dismember",
-        "id": "137848807573884",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Bloody Limb Destruction",
-        "id": "95334158418742",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Blood Gush", "id": "139131477132737", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cloth rustle", "id": "136224586361044", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cloth quick", "id": "121238985608899", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heartbeat", "id": "135454814111440", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Footstep", "id": "135712042029119", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Footstep ALT", "id": "96150396419499", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bone crack", "id": "124893077006041", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce", "id": "140325083438865", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 2", "id": "104459296035253", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 3", "id": "73592014004829", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 4", "id": "137145949028887", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Pierce 5", "id": "114699200148510", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Gush", "id": "132080416777849", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Gush 2", "id": "119851057500597", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Explode", "id": "131946209631632", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Blood Explode 2", "id": "136149509554333", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bloody Limb Dismember", "id": "137848807573884", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Bloody Limb Destruction", "id": "95334158418742", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "General Impacts:",
     "items": [
-      {
-        "name": "Impact 1",
-        "id": "138491608174336",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Impact 2",
-        "id": "124508619845222",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Impact 3",
-        "id": "136296034626741",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Random Impact",
-        "id": "5501600429",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Random Impact ALT2",
-        "id": "126329843178617",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Random Impact ALT3",
-        "id": "3105090678",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Random Impact ALT4",
-        "id": "120935595628430",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Impact 1", "id": "138491608174336", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Impact 2", "id": "124508619845222", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Impact 3", "id": "136296034626741", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact", "id": "5501600429", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact ALT2", "id": "126329843178617", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact ALT3", "id": "3105090678", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Random Impact ALT4", "id": "120935595628430", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "JJK Sound Effects:",
     "items": [
-      {
-        "name": "Death RCT",
-        "id": "114987067570386",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Technique Burnout",
-        "id": "86401133542921",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Mahoraga Wheel Turn",
-        "id": "112330950210072",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Mahoraga Wheel Turn ALT",
-        "id": "138662381158713",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Critical Hit JJK",
-        "id": "108823442252759",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Black Flash Spark",
-        "id": "9114251571",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Black Flash Hit",
-        "id": "124300768333968",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Black Flash Sparks",
-        "id": "88254490992405",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Reverse Cursed Technique",
-        "id": "81169123566651",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Simple Domain",
-        "id": "89507447627094",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Domain Amplification",
-        "id": "106418161284861",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Curse Sound",
-        "id": "89495884718996",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Hidden Inventory Curse",
-        "id": "124277180088599",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Death RCT", "id": "114987067570386", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Technique Burnout", "id": "86401133542921", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mahoraga Wheel Turn", "id": "112330950210072", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Mahoraga Wheel Turn ALT", "id": "138662381158713", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Critical Hit JJK", "id": "108823442252759", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Spark", "id": "9114251571", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Hit", "id": "124300768333968", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Black Flash Sparks", "id": "88254490992405", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Reverse Cursed Technique", "id": "81169123566651", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Simple Domain", "id": "89507447627094", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Domain Amplification", "id": "106418161284861", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Curse Sound", "id": "89495884718996", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hidden Inventory Curse", "id": "124277180088599", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Kashimo Staff Hits (1 SECOND APART FOR EACH HIT THERES 5 HERE)", "id": "119660816292394", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Hit Into Stronger Hit", "id": "98857230038668", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ce and woosh", "id": "81501979274630", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Jump", "id": "100461366816755", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Rct", "id": "123318514305983", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle", "id": "136089993943230", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle 1", "id": "115085673921756", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Dismantle 2", "id": "119542884071193", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "RCT", "id": "119894975006068", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Soul Flare", "id": "129574185636266", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
     "category": "Cursed Energy Sounds:",
     "items": [
-      {
-        "name": "Cursed Energy",
-        "id": "120714138513879",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 2",
-        "id": "120458587618994",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 3",
-        "id": "90739802998105",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 4",
-        "id": "113186934265156",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 5",
-        "id": "137480468339388",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 6",
-        "id": "115298681629023",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 7",
-        "id": "129896512527003",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 8",
-        "id": "94032205831374",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy 9",
-        "id": "113012976203051",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy Flare",
-        "id": "90664148167227",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      },
-      {
-        "name": "Cursed Energy Explosion",
-        "id": "106071477740392",
-        "texture": "",
-        "namet1": "",
-        "altt1": []
-      }
+      { "name": "Cursed Energy", "id": "120714138513879", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 2", "id": "120458587618994", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 3", "id": "90739802998105", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 4", "id": "113186934265156", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 5", "id": "137480468339388", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 6", "id": "115298681629023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 7", "id": "129896512527003", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 8", "id": "94032205831374", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy 9", "id": "113012976203051", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy Flare", "id": "90664148167227", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Cursed Energy Explosion", "id": "106071477740392", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
+    "category": "Elemental SFX:",
+    "items": [
+      { "name": "Ice Explosion/Burst", "id": "112797079504478", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Break", "id": "122218831341898", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Shatter Impact", "id": "80067573243829", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Crush", "id": "123727968316364", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Breath W/ Fade out", "id": "103071991415279", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fire Magic Burst", "id": "110758967492795", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Magic Burst", "id": "109148447880023", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Ice Magic Power Release", "id": "75127344844404", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Eletrical Magic Zap", "id": "120494941983036", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Short Water Magic Wave", "id": "7260423115", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Fire Impact", "id": "139681553729333", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Lighting Impact", "id": "4961088919", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

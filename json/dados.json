@@ -1981,5 +1981,9 @@
       { "name": "Mesh", "id": "967645205"},
       { "name": "Texture", "id": "967645224"}
     ]
+  },
+  { "category": "Cyberpunk Meshes:",
+    "items": [
+    {"name": "Mantis Arm","id": "97129993736888","namet": "White, Black, Gray, Light Green, Purple, Yellow, Red","altt": "80763611425443, 96038686983774, 93981643294873, 93884245741258, 93884245741258, 131827358421352, 119483292161981"}]
   }
 ]

@@ -11,7 +11,13 @@
       { "name": "Snowflake", "id": "4485122848", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Snowflake 2", "id": "14443362047", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Fading Circle", "id": "464823491", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "JJS Clash Wind", "id": "128574519544409", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "JJS Clash Wind", "id": "128574519544409", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Heart", "id": "9563941378", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Musical Note 1", "id": "6337277439", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Musical Note 2", "id": "6337281108", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Star Ring", "id": "89704970568687", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pixel Circle", "id": "11817698226", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Pink petals", "id": "134028844190194", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -20,7 +26,8 @@
       { "name": "Creepy Laughter", "id": "15948624211", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Lightning", "id": "14642731087", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Blue Spark", "id": "133917509093815", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Binary (1/0)", "id": "13283439452", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Binary (1/0)", "id": "13283439452", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "JJS Block Break", "id": "128190955929402", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -32,7 +39,8 @@
   {
     "category": "2X4 Flipbooks:",
     "items": [
-      { "name": "Sanguine Slash", "id": "110335978417047", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Sanguine Slash", "id": "110335978417047", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Glass Shards", "id": "115584485648847", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -59,7 +67,9 @@
       { "name": "Scribbles", "id": "73688100718094", "texture": "", "namet1": "", "altt1": [] },
       { "name": "White Scribbles", "id": "117970292308923", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Vertical Flame", "id": "13344777062", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Pink Slash", "id": "91767347892243", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Pink Slash", "id": "91767347892243", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Minecraft Smoke", "id": "8733226116", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Star  44", "id": "12156297119", "texture": "", "namet1": "", "altt1": [] }
     ]
   },
   {
@@ -69,11 +79,18 @@
     ]
   },
   {
+    "category": "6X7 Flipbooks:",
+    "items": [
+      { "name": "Irregular Circle", "id": "97642427480729", "texture": "", "namet1": "", "altt1": [] }
+    ]
+  },
+  {
     "category": "8X8 Flipbooks",
     "items": [
       { "name": "Creepy Eye", "id": "110014286580744", "texture": "", "namet1": "", "altt1": [] },
       { "name": "Recolorable Fire", "id": "17703243127", "texture": "", "namet1": "", "altt1": [] },
-      { "name": "Fade IN/OUT Hearth", "id": "9293679454", "texture": "", "namet1": "", "altt1": [] }
+      { "name": "Fade IN/OUT Hearth", "id": "9293679454", "texture": "", "namet1": "", "altt1": [] },
+      { "name": "Minecraft Explosion", "id": "8734114950", "texture": "", "namet1": "", "altt1": [] }
     ]
   }
 ]

@@ -1644,3 +1644,23 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch((err) => console.log(err));
   });
 }
+
+// scroll tags
+
+function habilitarScrollHorizontalRoda(el) {
+  if (!el) return;
+  el.addEventListener(
+    "wheel",
+    (e) => {
+      if (e.deltaY === 0) return;
+      if (el.scrollWidth > el.clientWidth) {
+        e.preventDefault();
+        el.scrollLeft += e.deltaY;
+      }
+    },
+    { passive: false }
+  );
+}
+
+habilitarScrollHorizontalRoda(document.getElementById("tagsContainer"));
+habilitarScrollHorizontalRoda(document.getElementById("childTagsContainer"));
